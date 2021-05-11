@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: 'https://xmartlabs.com'
 url_team: 'https://xmartlabs.com/#our_team'
-url_blog: 'https://blog.xmartlabs.com'
+url_blog: 'https://blog-staging.xmartlabs.com'
 twitter_username: xmartlabs
 github_username: xmartlabs
 plugins: []
@@ -48,3 +48,6 @@ exclude:
   - README.md
   - vendor/
   - docker-compose.yml
+
+future: true
+
