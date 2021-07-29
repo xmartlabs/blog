@@ -146,3 +146,8 @@ robert:
   image: members/robert.png
   github: xl-rsosa
   profile_url: https://github.com/xl-rsosa
+sante:
+  display_name: Agustín Santellán
+  image: members/sante.png
+  github: sante
+  profile_url: https://github.com/sante
