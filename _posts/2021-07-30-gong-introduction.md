@@ -35,7 +35,7 @@ Also, you can optionally provide a Git remote URL so the project can be set up p
 You can see how easy it is here:
 
 <p style="text-align:center;">
-<img src="../images/gong-introduction/howto.gif" alt="How to start using it">
+<img src="/images/gong-introduction/howto.gif" alt="How to start using it">
 </p>
 
 # What do you get when running the script?
@@ -43,7 +43,7 @@ The script gives you a well-constructed package structure to organize your files
 Also, you get common build variants predefined and available to use (dev, prod).
 
 <p style="text-align:center;">
-<img src="../images/gong-introduction/projectTree.png" alt="Generated project tree"/>
+<img src="/images/gong-introduction/projectTree.png" alt="Generated project tree"/>
 </p>
 
 - Data: This should be the place for all your models and data sources (local or remote), making sure to organize the related ones inside a package to keep the structure clean and understandable.
