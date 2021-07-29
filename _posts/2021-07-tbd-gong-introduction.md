@@ -5,7 +5,7 @@ date: 2021-07-30 10:00:00
 tags: [Jetpack Compose, Android, Android Base Project, MVI, Kotlin, Android Development, Declarative Toolkit, Base Project, Template]
 category: development
 author_id: sante
-show: false
+show: true
 featured_image: /images/gong-introduction/banner.png
 social_image: /images/gong-introduction/banner.png
 twitter_image: /images/gong-introduction/banner.png
