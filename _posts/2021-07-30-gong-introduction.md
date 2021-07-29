@@ -49,7 +49,7 @@ Also, you get common build variants predefined and available to use (dev, prod).
 - Data: This should be the place for all your models and data sources (local or remote), making sure to organize the related ones inside a package to keep the structure clean and understandable.
 Gong uses the Repository pattern to provide data to where it's needed.
 
-- Device: Here you get a base definition for dependency injection using Koin where you can place all your modules, a place for Kotlin extensions and a logger definition.
+- Device: Here you get a base definition for dependency injection using [Koin][koin] where you can place all your modules, a place for Kotlin extensions and a logger definition.
 Also, as the project uses Compose's declarative approach for UI, you get a definition of a template class called `ProcessState` which is used to manage the state required by the Model-View-Intent (MVI) architecture that's used.
 
 - Domain: In this package you get the aforementioned repositories as well as a template use case definition accompanied by a few implementation examples.
@@ -67,3 +67,4 @@ Of course, we are also open to contributions and opinions so feel free to create
 [mirland]: https://blog.xmartlabs.com/blog/extending-material-theme-in-jetpack-compose/
 [kotlin]: https://kotlinlang.org/
 [java]: https://java.com
+[koin]: https://insert-koin.io/
