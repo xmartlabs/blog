@@ -7,7 +7,10 @@ tags: [Xmartlabs, PagerTabStrip, SwiftUI, XLPagertabStrip]
 author_id: mtnBarreto
 show: true
 category: development
-permalink: /:year/:month/:day/:title/
+featured_image: /images/extending-material-theme-in-jetpack-compose/banner.jpeg
+social_image: /images/extending-material-theme-in-jetpack-compose/banner_social.jpeg
+twitter_image: /images/extending-material-theme-in-jetpack-compose/banner_twitter.jpeg
+permalink: /blog/:title/
 ---
 
 We're incredibly thrilled to announce PagerTabStrip, the most powerful pager view fully written in SwiftUI.
