@@ -63,8 +63,14 @@ For more information about this, our team released another [blogpost][mirland] a
 If you liked what's presented in this blogpost, head to its [GitHub site][gong] to learn more about it from the documentation and, why not, start your Android project using Gong, reaping all of its benefits.
 Of course, we are also open to contributions and opinions so feel free to create issues with proposals or improvements!
 
+# Final thoughts
+We hope using Gong gives you a great boost in your app creation process. Don't hesitate to contact our team for any help or if you have a new idea!
+
+Finally, we want to say thank you to [everyone][contributors] who helped create and maintain this project!
+
 [gong]: https://github.com/xmartlabs/gong
 [mirland]: https://blog.xmartlabs.com/blog/extending-material-theme-in-jetpack-compose/
 [kotlin]: https://kotlinlang.org/
 [java]: https://java.com
 [koin]: https://insert-koin.io/
+[contributors]: https://github.com/xmartlabs/gong/graphs/contributors
