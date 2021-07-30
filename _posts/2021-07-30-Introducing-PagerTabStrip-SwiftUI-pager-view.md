@@ -21,6 +21,40 @@ What if I told you that with the PagerTabStrip you can create those pagers in a 
 
 Let's move on and see how you can build a sophisticated pager view in terms of seconds, a code snippet worth more than a thousand words 😂.
 
+<img align="right" width="30%" src="/images/pager-swiftui/LogOutExample.gif"/>
+
+```swift
+struct MyPagerView: View {
+	...
+	..
+	.
+	var body: some View {
+        PagerTabStripView() {
+            MyHomeView(model: $homeModel).pagerTabItem {
+                MyNavBarItem(title: "Home", imageName: "home")
+            }.onPageAppear {
+                homeModel.reloadData()
+            }
+
+            MyTrendingView(model: $trendingModel).pagerTabItem {
+                MyNavBarItem(title: "Trending", imageName: "trending")
+            }
+            .onPageAppear {
+                trendingModel.reloadData()
+            }
+            if user.isLoggedIn {
+                MyProfileView().pagerTabItem {
+                    MyNavBarItem(title: "Account", imageName: "account")
+                }
+            }
+        }
+        .pagerTabStripViewStyle(PagerTabViewStyle(tabItemSpacing: 0, 
+                                                  tabItemHeight: 70, 
+                                                  indicatorBarHeight: 7, 
+                                                  indicatorBarColor: selectedColor))
+    }
+}
+```
 
 ### Why we built PagerTabStrip!
 
