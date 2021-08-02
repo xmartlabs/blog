@@ -12,6 +12,10 @@ twitter_image: /images/gong-introduction/bannerTwitter.png
 permalink: /blog/kickstart-your-new-android-project-with-gong-base-project/
 ---
 
+<p style="text-align:center;">
+<img src="/images/gong-introduction/bannerInterno.png" alt="Project banner">
+</p>
+
 # What's Gong?
 
 Starting a software project is not an easy task and Android is no exception, there's a lot of boilerplate code to write and decisions to make about the architecture of the app.
