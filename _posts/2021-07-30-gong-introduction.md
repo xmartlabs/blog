@@ -7,8 +7,8 @@ category: development
 author_id: sante
 show: true
 featured_image: /images/gong-introduction/banner.png
-social_image: /images/gong-introduction/banner.png
-twitter_image: /images/gong-introduction/banner.png
+social_image: /images/gong-introduction/bannerSocial.png
+twitter_image: /images/gong-introduction/bannerTwitter.png
 permalink: /blog/kickstart-your-new-android-project-with-gong-base-project/
 ---
 
