@@ -48,9 +48,9 @@ struct MyPagerView: View {
                 }
             }
         }
-        .pagerTabStripViewStyle(PagerTabViewStyle(tabItemSpacing: 0, 
-                                                  tabItemHeight: 70, 
-                                                  indicatorBarHeight: 7, 
+        .pagerTabStripViewStyle(PagerTabViewStyle(tabItemSpacing: 0,
+                                                  tabItemHeight: 70,
+                                                  indicatorBarHeight: 7,
                                                   indicatorBarColor: selectedColor))
     }
 }
@@ -58,9 +58,13 @@ struct MyPagerView: View {
 
 ### Why we built PagerTabStrip!
 
-Nowadays almost every popular iOS app contains a pager view, the benefits are clear, often the app information architecture works best with a pager since it's simple to switch among these "equally relevant" information. Apps like Youtube, Instagram, Spotify, and Twitter use pager views to bring better UX but none of these pagers can be created using the native TabView. Sad, really?
+Nowadays almost every popular iOS app contains a pager view, the benefits are clear, often the app information architecture works best with a pager since it's simple to switch among these "equally relevant" information. Apps like YouTube, Instagram, Spotify, and Twitter use pager views to bring better UX but none of these pagers can be created using the native TabView. It's a very sad thing but it's true.
 
 On top of that, we are the creators of XLPagerTabStrip, the most popular pager view in UIKit with almost 7k stars in Github. We also noticed the apple community is constantly asking for a powerful SwiftUI pager view that leverages SwiftUI capabilities such as declarative syntax and the state-driven way to update the UI. Let's be honest, it's hard to find reusable SwiftUI components apart from these developed by Apple, so we embrace the challenge to raise the state of community components and PagerTabStrip is our first step.
+
+### What does "In Pure SwiftUI" means?
+
+1. 
 
 ### First step with PagerTabStrip
 
