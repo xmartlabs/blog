@@ -39,7 +39,7 @@ In short, Gong is a base project which gives you a good structure, well-construc
 
 Creating your app base code using Gong is super simple. You just have to run one command that fetches and executes a script that asks for your project information, such as project and package name. That's all!
 
-The command is available on Gong's Github readme page, along with instructions to do the setup manually if you prefer to do so.
+The command is available on [Gong's Github readme page][setup], along with instructions to do the setup manually if you prefer to do so.
 
 Once you provide the project's information, Gong automatically renames and refactors the package and class names containing `Gong` replacing it for your project name (you don't need to do any manual refactoring).  
 You can even provide your Git remote URL to set up your project pointing to your remote repository.
@@ -88,3 +88,4 @@ Finally, we want to thank [everyone][contributors] who helped create and maintai
 [koin]: https://insert-koin.io/
 [contributors]: https://github.com/xmartlabs/gong/graphs/contributors
 [compose]: https://developer.android.com/jetpack/compose
+[setup]: https://github.com/xmartlabs/gong#setup
