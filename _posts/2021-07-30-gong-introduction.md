@@ -33,7 +33,7 @@ By using Gong, in a matter of seconds, you can create the base project for your 
 You only have to clone the repo and run a provided script to set up the project name, namespace, and few extra data about your particular app.
 
 Gong is entirely written in [Kotlin][kotlin], and it leverages the language's capabilities and modern syntax (if you're still programming Android apps in [Java][Java], give Kotlin a try, you won't regret it 😉).
-It also uses [Jetpack Compose][compose]: the new declarative toolkit for creating UI in Android.
+It also uses [Jetpack Compose][compose], the new declarative toolkit for creating UI in Android.
 
 Apart from providing a top-notch architecture and several out-of-the-box app solutions to speed up Android development, it enforces the usage of the same code conventions and project structure, the adoption of the platform best practices, and third-party libraries throughout the Android team.
 Gong aims to help Android teams to adopt elegant, clean, and maintainable Android code, use state-of-the-art components and libraries, and quickly get into coding valuable app functionality with virtually no effort and in no time.
@@ -91,3 +91,4 @@ Finally, we want to thank [everyone][contributors] who helped create and maintai
 [java]: https://java.com
 [koin]: https://insert-koin.io/
 [contributors]: https://github.com/xmartlabs/gong/graphs/contributors
+[compose]: https://developer.android.com/jetpack/compose
