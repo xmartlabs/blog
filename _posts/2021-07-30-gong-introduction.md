@@ -12,7 +12,7 @@ twitter_image: /images/gong-introduction/bannerTwitter.png
 permalink: /blog/kickstart-your-new-android-project-with-gong-base-project/
 ---
 
-<p style="text-center;">
+<p style="text-align:center;">
 <img src="/images/gong-introduction/bannerInterno.png" alt="Project banner">
 </p>
 
