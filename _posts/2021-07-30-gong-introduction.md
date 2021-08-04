@@ -37,7 +37,7 @@ In short, Gong is a base project which gives you a good structure, well-construc
 
 # Kickstarting your project using Gong
 
-Creating your app base code using Gong is super simple. You just have to run a command to fetch and execute a script that asks for your project information, such as project and package name. That's all!
+Creating your app base code using Gong is super simple. You just have to run one command that fetches and executes a script that asks for your project information, such as project and package name. That's all!
 
 The command is available on Gong's Github readme page, along with instructions to do the setup manually if you prefer to do so.
 
