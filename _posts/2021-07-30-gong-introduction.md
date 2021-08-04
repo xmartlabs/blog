@@ -18,7 +18,7 @@ permalink: /blog/kickstart-your-new-android-project-with-gong-base-project/
 
 Starting a software project is not an easy task, and Android is no exception.
 There's a bunch of complex decisions to make, such as code conventions, libraries, continuous integrations, environments management, app architecture, and best practices, to mention a few.
-That's why we created [Gong][gong], to consolidate all our discussions and discoveries in one base project that we could use to give a boost to our productivity, and give other teams a solid base from which to start their projects.
+That's why we created [Gong][gong], to consolidate all our discussions and research in one base project that we could use to give a boost to our productivity, and give other teams a solid base from which to start their projects.
 
 This blog post introduces Gong, the Android App Template we use to kickstart every Android app we build.
 Gong results from years of experience in creating well-written and maintainable Android code using Kotlin and, recently, Jetpack Compose, and our Android team actively maintains it.
