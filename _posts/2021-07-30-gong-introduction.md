@@ -2,7 +2,7 @@
 layout: post
 title: Kickstart your Android Project with Gong Base Project
 date: 2021-08-04 10:00:00
-tags: [Android App Template, Android Base project, Android Compose Base Project, Xmartlabs Android App, Jetpack Compose App Template, Jetpack Compose Base Project, Android Development, Kotlin Development]
+tags: [Android App Template, Android Base project, Android Compose Base Project, Xmartlabs Android App, Jetpack Compose App Template, Jetpack Compose Base Project, Android Development, Kotlin Development, Jetpack Compose, Android, Kotlin]
 category: development
 author_id: sante
 show: true
@@ -32,7 +32,7 @@ Gong results from years of experience in creating well-written and maintainable 
 By using Gong, in a matter of seconds, you can create the base project for your android app, the same base project we use at Xmartlabs.
 You only have to clone the repo and run a provided script to set up the project name, namespace, and few extra data about your particular app.
 
-Gong is entirely written in [Kotlin][kotlin], and it leverages the language's capabilities and modern syntax (if you're still programming Android apps in [Java][Java], give Kotlin a try, you won't regret it 😜).
+Gong is entirely written in [Kotlin][kotlin], and it leverages the language's capabilities and modern syntax (if you're still programming Android apps in [Java][Java], give Kotlin a try, you won't regret it 😉).
 It also uses [Jetpack Compose][compose]: the new declarative toolkit for creating UI in Android.
 
 Apart from providing a top-notch architecture and several out-of-the-box app solutions to speed up Android development, it enforces the usage of the same code conventions and project structure, the adoption of the platform best practices, and third-party libraries throughout the Android team.
@@ -64,13 +64,14 @@ Checking out the generated project, you can find a well-constructed package stru
 <img src="/images/gong-introduction/projectTree.png" alt="Generated project tree"/>
 </p>
 
-- **Data:** The package for all your models and data sources (local or remote). Make sure you organize your models and data sources according to its relation to keep the structure clean and understandable. Gong uses the Repository pattern to provide data to where it's needed.
+- **Data:** The package for all your models and data sources (local or remote). Make sure to organize your models and data sources according to its relation to keep the structure clean and understandable. Gong uses the Repository pattern to provide data to where it's needed.
 
 - **Device:** Here, you get a base definition for dependency injection using [Koin][koin] where you can place all your modules, Kotlin extensions, and logger definitions. Also, as Gong uses Compose's UI declarative approach, it provides a template class called `ProcessState`, which manages the state required by the Model-View-Intent (MVI) architecture.
 
 - **Domain:** In this package you get the aforementioned repositories as well as a template use case definition accompanied by a few implementation examples.
 
-- **UI:** This package is meant to have all your user interface-related elements such as composables, classic views, fragments, and activities. Besides, we provide an extension to Compose's proposed theme management, which gives you more flexibility to manage all your color palettes, fonts, and shapes. It also gives you an easy way to add more elements to fit your definition of theme. For more information about this, our team released another [blog post][mirland] about this some time ago.
+- **UI:** This package is meant to have all your user interface-related elements such as composables, classic views, fragments, and activities. 
+Besides, we provide an extension to Compose's proposed theme management, which gives you more flexibility to manage all your color palettes, fonts, and shapes. It also gives you an easy way to add more elements to fit your definition of theme. For more information about this, our team released another [blog post][mirland] about this some time ago.
 
 
 # Final thoughts
