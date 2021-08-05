@@ -7,13 +7,17 @@ tags: [Xmartlabs, PagerTabStrip, SwiftUI PagerView, XLPagertabStrip]
 author_id: mtnBarreto
 show: true
 category: development
-featured_image: /images/extending-material-theme-in-jetpack-compose/banner.jpeg
-social_image: /images/extending-material-theme-in-jetpack-compose/banner_social.jpeg
-twitter_image: /images/extending-material-theme-in-jetpack-compose/banner_twitter.jpeg
+featured_image: /images/pager-swiftui/social-tw.png
+social_image: /images/pager-swiftui/social-tw.png
+twitter_image: /images/pager-swiftui/social-tw.png
 permalink: /blog/:title/
 ---
 
 We're incredibly thrilled to announce PagerTabStrip, the most powerful pager view entirely written in SwiftUI.
+
+<p style="text-align:left;width:80%">
+<img src="/images/pager-swiftui/social-tw.png" alt="Project banner">
+</p>
 
 Creating a production-ready pager view could take several hours, even days, for an engineering team. Apple recently introduced a pager version on top of its native TabView, trying to address the growing demand for pager views, but it lacks flexibility. It is pretty much the TabView with swipe gestures. Its customization level is so limited that it ends up not working in most cases.
 
@@ -66,7 +70,7 @@ On top of that, we are the creators of XLPagerTabStrip, the most popular pager v
 
 From the beginning, we designed the library to provide the same development experience as using a native Apple component such as TabView. So if you're familiar with TabView, PagerTabStrip will seem super straightforward to use; just add the child views and provide the tabBarInfo view for each one.
 
-**PagerTabStrip defines de UI using SwiftUI declarative approach.** From day one, we banned collections of views to updates de UI.
+**PagerTabStrip defines the UI using the elegant SwiftUI declarative approach.** From day one, we banned collections of views to updates the UI.
 
 ```swift
 PagerTabStripView() {
