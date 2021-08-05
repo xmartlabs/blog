@@ -56,13 +56,13 @@ struct MyPagerView: View {
 }
 ```
 
-### Why we built PagerTabStrip?
+# Why we built PagerTabStrip?
 
 Nowadays, almost every popular iOS app contains a pager view, the benefits are clear. Often, the app information architecture works best with a pager since it's simple to switch among these "equally relevant" information. Apps like YouTube, Instagram, Spotify, and Twitter use pager views to bring better UX, but none of these pagers can be created using the native TabView. It's an unfortunate thing, but it's true.
 
 On top of that, we are the creators of XLPagerTabStrip, the most popular pager view in UIKit with almost 7k stars in Github. We also noticed the apple community is constantly looking for a powerful SwiftUI pager view that leverages SwiftUI capabilities such as declarative syntax and the state-driven way to update the UI. Let's be honest, it's hard to find reusable SwiftUI components apart from these developed by Apple, so we embrace the challenge to raise the state of community components, and PagerTabStrip is our first step.
 
-### What does "In Pure SwiftUI" mean?
+# What does "In Pure SwiftUI" mean?
 
 From the beginning, we designed the library to provide the same development experience as using a native Apple component such as TabView. So if you're familiar with TabView, PagerTabStrip will seem super straightforward to use; just add the child views and provide the tabBarInfo view for each one.
 
@@ -79,11 +79,11 @@ From the beginning, we designed the library to provide the same development expe
 And many more you will figure out down the road!
 
 
-### And we're planning much more...
+# And we're planning much more...
 
 We believe that PagerTabStrip's first release is super capable, but we plan to further enhance it. We have plans to integrate every XLPagerTabStrip [style](https://github.com/xmartlabs/XLPagerTabStrip#pager-types), among other functionalities.
 
-As this post is just intended to announce the library, if you're interested in using the PagerTabStrip, I suggest you look at its [github repository readme]. You can also run the example project, contained in the PagerTabStrip workspace, which showcases many use cases.
+As this post is just intended to announce the library, if you're interested in using the PagerTabStrip, I suggest you look at its [github repository readme]. You can also run the example project, contained in the PagerTabStrip workspace, which showcases different pager views.
 
 <table>
   <tr>
