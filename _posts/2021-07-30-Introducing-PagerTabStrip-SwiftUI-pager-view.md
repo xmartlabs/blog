@@ -66,17 +66,65 @@ On top of that, we are the creators of XLPagerTabStrip, the most popular pager v
 
 From the beginning, we designed the library to provide the same development experience as using a native Apple component such as TabView. So if you're familiar with TabView, PagerTabStrip will seem super straightforward to use; just add the child views and provide the tabBarInfo view for each one.
 
-1. PagerTabStrip defines de UI using SwiftUI declarative approach. From day one, we banned collections of views to updates de UI.
+**PagerTabStrip defines de UI using SwiftUI declarative approach.** From day one, we banned collections of views to updates de UI.
 
-2. We never interface with UIKit, which means we don't import UIKit anywhere. No usage of UIViewRepresentable and UIViewControllerRepresentable protocols.
+```swift
+PagerTabStripView() {
+    MyFirstView()
+        .pagerTabItem {
+            TitleNavBarItem(title: "Tab 1")
+        }
+    MySecondView()
+        .pagerTabItem {
+            TitleNavBarItem(title: "Tab 2")
+        }
+    if User.isLoggedIn {
+        MyProfileView()
+            .pagerTabItem {
+                TitleNavBarItem(title: "Profile")
+            }
+    }
+}
+```
 
-3. PagerTabStrip developer interface works like native SwiftUI components. It uses pretty much the same syntax and approach to customize the pager view as native TabView.
+**We never interface with UIKit, which means we don't import UIKit anywhere.** No usage of `UIViewRepresentable` and `UIViewControllerRepresentable` protocols.
 
-4. Developers use state variables and conditional blocks to declaratively update the shown pages of the pager view. Of course, you can also use SwiftUI ForEach to provide child views on demand from an underlying collection if you wish so.
+**PagerTabStrip interface looks like native component SwiftUI interfaces.** It uses pretty much the same syntax and approach to customize the pager view as native TabView.
 
-5. Associated views to select a page by tap gesture are declaratively defined using a View Modifier on each child page view.
+```swift
+PagerTabStripView(selection: $selection) {
+    ForEach(1...10, id: \.self){
+        MyPagerChildView()
+            .pagerTabItem {
+                TabInfoView(title: "Page Info Title \($0)")
+            }
+    }
+}
+```
 
-And many more you will figure out down the road!
+**State variables and conditional blocks are used to declaratively update the shown pages of the pager view.** Of course, you can also use SwiftUI `ForEach` (as example above shown) to provide child views on demand from an underlying collection if you wish so.
+
+**Associated views to select a page by tap gesture are declaratively defined using a View Modifier on each child page view.**
+
+```swift
+PagerTabStripView(selection: $selection) {
+    ForEach(1...10, id: \.self){
+        MyPagerChildView()
+            .pagerTabItem {
+                VStack {
+                    Text("Page \($0)")
+                    .foregroundColor(theme.textColor)
+                    .font(.subheadline)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.white)
+            }
+    }
+}
+```
+
+
+And many more you will figure out down the road 😜! 
 
 
 # And we're planning much more...
