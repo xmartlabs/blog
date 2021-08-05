@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Introducing PagerTabStrip! - Finally a PagerView in pure SwiftUI
-date: '2021-08-02T10:00:00.000-03:00'
+date: '2021-08-05T10:00:00.000-03:00'
 author: Martin Barreto
-tags: [Xmartlabs, PagerTabStrip, SwiftUI, XLPagertabStrip]
+tags: [Xmartlabs, PagerTabStrip, SwiftUI PagerView, XLPagertabStrip]
 author_id: mtnBarreto
 show: true
 category: development
@@ -13,11 +13,11 @@ twitter_image: /images/extending-material-theme-in-jetpack-compose/banner_twitte
 permalink: /blog/:title/
 ---
 
-We're incredibly thrilled to announce PagerTabStrip, the most powerful pager view fully written in SwiftUI.
+We're incredibly thrilled to announce PagerTabStrip, the most powerful pager view entirely written in SwiftUI.
 
-Creating a production-ready pager view could take several hours, even days of an engineering team. Such is the demand for pager views that Apple introduced a pager version on top of its native TabView recently but it lacks flexibility, its customization level is so limited that ends up not working in most cases.
+Creating a production-ready pager view could take several hours, even days, for an engineering team. Apple recently introduced a pager version on top of its native TabView, trying to address the growing demand for pager views, but it lacks flexibility. It is pretty much the TabView with swipe gestures. Its customization level is so limited that it ends up not working in most cases.
 
-What if I told you that with the PagerTabStrip you can create those pagers in a matter of minutes and not days. This exactly was our vision when we started to build this flexible yet powerful library.
+What if I told you that with the PagerTabStrip, you can create those pagers in a matter of minutes and not days. This exactly was our vision when we started to build this flexible yet powerful library.
 
 Let's move on and see how you can build a sophisticated pager view in terms of seconds, a code snippet worth more than a thousand words 😂.
 
@@ -56,27 +56,46 @@ struct MyPagerView: View {
 }
 ```
 
-### Why we built PagerTabStrip!
+### Why we built PagerTabStrip?
 
-Nowadays almost every popular iOS app contains a pager view, the benefits are clear, often the app information architecture works best with a pager since it's simple to switch among these "equally relevant" information. Apps like YouTube, Instagram, Spotify, and Twitter use pager views to bring better UX but none of these pagers can be created using the native TabView. It's a very sad thing but it's true.
+Nowadays, almost every popular iOS app contains a pager view, the benefits are clear. Often, the app information architecture works best with a pager since it's simple to switch among these "equally relevant" information. Apps like YouTube, Instagram, Spotify, and Twitter use pager views to bring better UX, but none of these pagers can be created using the native TabView. It's an unfortunate thing, but it's true.
 
-On top of that, we are the creators of XLPagerTabStrip, the most popular pager view in UIKit with almost 7k stars in Github. We also noticed the apple community is constantly asking for a powerful SwiftUI pager view that leverages SwiftUI capabilities such as declarative syntax and the state-driven way to update the UI. Let's be honest, it's hard to find reusable SwiftUI components apart from these developed by Apple, so we embrace the challenge to raise the state of community components and PagerTabStrip is our first step.
+On top of that, we are the creators of XLPagerTabStrip, the most popular pager view in UIKit with almost 7k stars in Github. We also noticed the apple community is constantly looking for a powerful SwiftUI pager view that leverages SwiftUI capabilities such as declarative syntax and the state-driven way to update the UI. Let's be honest, it's hard to find reusable SwiftUI components apart from these developed by Apple, so we embrace the challenge to raise the state of community components, and PagerTabStrip is our first step.
 
-### What does "In Pure SwiftUI" means?
+### What does "In Pure SwiftUI" mean?
 
-1. 
+From the beginning, we designed the library to provide the same development experience as using a native Apple component such as TabView. So if you're familiar with TabView, PagerTabStrip will seem super straightforward to use; just add the child views and provide the tabBarInfo view for each one.
 
-### First step with PagerTabStrip
+1. PagerTabStrip defines de UI using SwiftUI declarative approach. From day one, we banned collections of views to updates de UI.
 
-From the beginning, we designed the library to provide the same development experience as using a native Apple component such as TabView. So if you're familiar with TabView, PagerTabStrip will seem super straightforward to use, you just need to add the child view and provide the tabBarInfo view for each one.
+2. We never interface with UIKit, which means we don't import UIKit anywhere. No usage of UIViewRepresentable and UIViewControllerRepresentable protocols.
 
-This post is just intended to provide a brief introduction about the library so if you're interested in how to use PagerTabStrip I would suggest you take a look at its [github repository readme], you can also run the example project that is contained in PagerTabStrip workspace.
+3. PagerTabStrip developer interface works like native SwiftUI components. It uses pretty much the same syntax and approach to customize the pager view as native TabView.
+
+4. Developers use state variables and conditional blocks to declaratively update the shown pages of the pager view. Of course, you can also use SwiftUI ForEach to provide child views on demand from an underlying collection if you wish so.
+
+5. Associated views to select a page by tap gesture are declaratively defined using a View Modifier on each child page view.
+
+And many more you will figure out down the road!
+
 
 ### And we're planning much more...
 
-We believe that PagerTabStrip's first release is very capable and powerful but we plan to enhance it even further. We have plans to integrate every XLPagerTabStrip style among other functionalities. Check out the list of upcoming features in the github repository.
+We believe that PagerTabStrip's first release is super capable, but we plan to further enhance it. We have plans to integrate every XLPagerTabStrip [style](https://github.com/xmartlabs/XLPagerTabStrip#pager-types), among other functionalities.
 
-If you liked the library, want to suggest some feature, contribute to the project, or need some help on how to use it please drop us a line on [twitter].
+As this post is just intended to announce the library, if you're interested in using the PagerTabStrip, I suggest you look at its [github repository readme]. You can also run the example project, contained in the PagerTabStrip workspace, which showcases many use cases.
+
+<table>
+  <tr>
+    <th><img src="/images/pager-swiftui/twitterStyleExample.gif" width="90%"/></th>
+		<th><img src="/images/pager-swiftui/LogOutExample.gif" width="90%"/></th>
+    <th><img src="/images/pager-swiftui/instagramStyleExample.gif" width="90%"/></th>
+  </tr>
+</table>
+
+If you liked the library, want to contribute to the project, or need some help using it, please drop us a line on [twitter], comment down below, or open an issue or a pull request.
+
+That's all, folks! Hope the library saves you the day sometime! See you in the next post!
 
 [github repository readme]: https://github.com/xmartlabs/PagerTabStrip
 [twitter]: https://twitter.com/xmartlabs
