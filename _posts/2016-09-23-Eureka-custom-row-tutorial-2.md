@@ -7,7 +7,7 @@ tags: [Xmartlabs, Swift, iOS, Eureka]
 author_id: dernst
 markdown: redcarpet
 show: true
-category: development
+category: ios-development
 permalink: /:year/:month/:day/:title/
 ---
 

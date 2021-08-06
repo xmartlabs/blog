@@ -5,7 +5,7 @@ excerpt: "In this blogpost we talk about the benefits of providing Sign in with 
 date: 2020-05-04 10:00:00
 author: Cecilia Pirotto
 tags: [Xmartlabs, iOS, Apple, Swift, Sign in with Apple]
-category: development
+category: ios-development
 author_id: ceci
 featured_image: /images/apple-sign-in/signInWithApple.jpg
 show: true

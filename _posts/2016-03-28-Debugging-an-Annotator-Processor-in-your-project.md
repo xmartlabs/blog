@@ -7,7 +7,7 @@ tags: [Xmartlabs, Android, Annotation Processing, Android Studio, Debug]
 author_id: santiago
 markdown: redcarpet
 show: true
-category: development
+category: android-development
 permalink: /:year/:month/:day/:title/
 ---
 

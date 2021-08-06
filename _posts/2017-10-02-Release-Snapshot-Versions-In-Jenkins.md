@@ -6,7 +6,7 @@ author: Matías Irland
 tags: [Xmartlabs, Android, Server, CI, Jenkins, Fabric]
 author_id: mirland
 show: true
-category: development
+category: android-development
 permalink: /:year/:month/:day/:title/
 ---
 

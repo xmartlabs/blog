@@ -3,7 +3,7 @@ layout: post
 title: Kickstart your Android Project with Gong Base Project
 date: 2021-08-04 10:00:00
 tags: [Android App Template, Android Base project, Android Compose Base Project, Xmartlabs Android App, Jetpack Compose App Template, Jetpack Compose Base Project, Android Development, Kotlin Development, Jetpack Compose, Android, Kotlin]
-category: development
+category: android-development
 author_id: sante
 show: true
 featured_image: /images/gong-introduction/banner.png
@@ -66,7 +66,7 @@ Checking out the generated project, you can find a well-constructed package stru
 
 - **Domain:** In this package you get the aforementioned repositories as well as a template use case definition accompanied by a few implementation examples.
 
-- **UI:** This package is meant to have all your user interface-related elements such as composables, classic views, fragments, and activities. 
+- **UI:** This package is meant to have all your user interface-related elements such as composables, classic views, fragments, and activities.
 Besides, we provide an extension to Compose's proposed theme management, which gives you more flexibility to manage all your color palettes, fonts, and shapes. It also gives you an easy way to add more elements to fit your definition of theme. For more information about this, our team released another [blog post][mirland] about this some time ago.
 
 

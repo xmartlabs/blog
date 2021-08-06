@@ -8,3 +8,7 @@ development:
   display_name: Development
 machine-learning:
   display_name: Machine Learning
+ios-development:
+  display_name: iOS Development
+android-development:
+  display_name: Android Development  

@@ -7,7 +7,7 @@ author_id: xl
 tags: [Xmartlabs, Swift, iOS, Tutorial, network]
 markdown: redcarpet
 show: true
-category: development
+category: ios-development
 permalink: /:year/:month/:day/:title/
 ---
 
