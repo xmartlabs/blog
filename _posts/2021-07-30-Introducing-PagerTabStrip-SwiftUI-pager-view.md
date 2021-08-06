@@ -68,7 +68,7 @@ On top of that, we are the creators of XLPagerTabStrip, the most popular pager v
 
 # What does "In Pure SwiftUI" mean?
 
-From the beginning, we designed the library to provide the same development experience as using a native Apple component such as TabView. So if you're familiar with TabView, PagerTabStripView will seem super straightforward to use; just add the child views and provide the tabBarInfo view for each one.
+From the beginning, we designed the library to provide the same development experience as using a native Apple component such as TabView. So if you're familiar with TabView, PagerTabStripView will seem super straightforward to use; just add the child views and provide the pagerTabItem view for each one.
 
 **PagerTabStripView defines the UI using the elegant SwiftUI declarative approach.** From day one, we banned collections of views to updates the UI.
 
