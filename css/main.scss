@@ -32,12 +32,13 @@ $grey-color-dark:  darken($grey-color, 25%);
 $content-width:    950px;
 $md-content-width: 728px;
 
+$on-device:        620px;
 $on-palm:          620px;
 $on-laptop:        800px;
 $md-width:         992px;
 
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
+@mixin media-query($on-device) {
+    @media screen and (max-width: $on-device) {
         @content;
     }
 }
