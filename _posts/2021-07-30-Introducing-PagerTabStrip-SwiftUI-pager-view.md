@@ -23,7 +23,7 @@ Creating a production-ready pager view could take several hours, even days, for 
 
 What if I told you that with the PagerTabStripView, you can create those pagers in a matter of minutes and not days. This exactly was our vision when we started to build this flexible yet powerful library.
 
-Let's move on and see how you can build a sophisticated pager view in terms of seconds, a code snippet is worth more than a thousand words 😂.
+Let's move on and see how you can build a sophisticated pager view in matters of seconds, a code snippet is worth more than a thousand words 😂.
 
 <img align="right" width="30%" src="/images/pager-swiftui/LogOutExample.gif"/>
 
