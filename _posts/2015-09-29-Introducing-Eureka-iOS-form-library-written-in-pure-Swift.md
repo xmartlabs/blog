@@ -6,7 +6,7 @@ author: Martin Barreto
 tags: [Xmartlabs, Eureka, Forms]
 author_id: mtnBarreto
 show: true
-category: development
+category: ios-development
 permalink: /:year/:month/:day/:title/
 ---
 

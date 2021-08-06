@@ -5,7 +5,7 @@ date: 2018-08-20 09:00:00
 author: Matías Irland
 tags: [Xmartlabs, Android, Android Jetpack, Android Paging Library, Live Data, Android Architecture Components, RxJava, Retrofit, Fountain]
 author_id: mirland
-category: development
+category: android-development
 show: true
 permalink: /:year/:month/:day/:title/
 ---
