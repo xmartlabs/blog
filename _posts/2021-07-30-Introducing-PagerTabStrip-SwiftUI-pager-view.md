@@ -7,17 +7,17 @@ tags: [Xmartlabs, PagerTabStripView, SwiftUI PagerView, XLPagertabStrip]
 author_id: mtnBarreto
 show: true
 category: development
-featured_image: /images/pager-swiftui/social-tw.png
-social_image: /images/pager-swiftui/social-tw.png
-twitter_image: /images/pager-swiftui/social-tw.png
+featured_image: /images/pager-swiftui/Twitter-1.png
+social_image: /images/pager-swiftui/Twitter-1.png
+twitter_image: /images/pager-swiftui/Twitter-1.png
 permalink: /blog/:title/
 ---
 
-We're incredibly thrilled to announce PagerTabStrip, the most powerful pager view entirely written in SwiftUI.
+We're incredibly thrilled to announce PagerTabStripView, the most powerful pager view entirely written in SwiftUI.
 
-<p style="text-align:left;width:80%">
-<img src="/images/pager-swiftui/social-tw.png" alt="Project banner">
-</p>
+<!-- <p style="text-align:left;width:80%">
+<img src="/images/pager-swiftui/Twitter-1.png" alt="Project banner">
+</p> -->
 
 Creating a production-ready pager view could take several hours, even days, for an engineering team. Apple recently introduced a pager version on top of its native TabView, trying to address the growing demand for pager views, but it lacks flexibility. It is pretty much the TabView with swipe gestures. Its customization level is so limited that it ends up not working in most cases.
 
