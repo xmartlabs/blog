@@ -292,7 +292,7 @@ a.blog-category {
   letter-spacing: normal;
   margin-top: 10px;
   @include media-query($on-palm) {
-    font-size: 20px;
+    font-size: 23px;
     letter-spacing: 2px;
     margin-top: 0;
   }
@@ -595,6 +595,12 @@ article.post-item {
     margin-bottom: 23px;
     @include media-query($on-laptop) {
       font-size: 39px;
+    }
+    @include media-query($on-device) {
+      font-size: 22px !important;
+      margin-top: 10px !important;
+      margin-bottom: 15px !important;
+      line-height: 27px !important;
     }
   }
   h2 {
