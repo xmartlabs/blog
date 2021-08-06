@@ -10,7 +10,7 @@ category: development
 featured_image: /images/pager-swiftui/Twitter-1.png
 social_image: /images/pager-swiftui/Twitter-1.png
 twitter_image: /images/pager-swiftui/Twitter-1.png
-permalink: /blog/:title/
+permalink: /blog/Introducing-PagerTabStripView-PagerView-in-SwiftUI/
 ---
 
 We're incredibly thrilled to announce PagerTabStripView, the most powerful pager view entirely written in SwiftUI.
