@@ -151,3 +151,8 @@ sante:
   image: members/sante.png
   github: sante
   profile_url: https://github.com/sante
+edu:
+  display_name: Eduardo Ferreira
+  image: members/edu.png
+  github: EduQA
+  profile_url: https://github.com/EduQA
