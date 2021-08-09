@@ -17,7 +17,7 @@ permalink: /blog/Introducing-PagerTabStripView-PagerView-in-SwiftUI/
 <img src="/images/pager-swiftui/Blog-skinny.png" alt="Project banner">
 </p>
 
-We're incredibly thrilled to announce PagerTabStripView, the most powerful pager view entirely written in SwiftUI.
+We're incredibly thrilled to announce [PagerTabStripView](https://github.com/xmartlabs/PagerTabStripView), the most powerful pager view entirely written in SwiftUI.
 
 Creating a production-ready pager view could take several hours, even days, for an engineering team. Apple recently introduced a pager version on top of its native TabView, trying to address the growing demand for pager views, but it lacks flexibility. It is pretty much the TabView with swipe gestures. Its customization level is so limited that it ends up not working in most cases.
 
