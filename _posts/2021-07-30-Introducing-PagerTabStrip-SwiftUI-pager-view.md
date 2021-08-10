@@ -23,7 +23,7 @@ Creating a production-ready pager view could take several hours, even days, for 
 
 What if I told you that with the PagerTabStripView, you can create those pagers in a matter of minutes and not days. This exactly was our vision when we started to build this flexible yet powerful library.
 
-Let's move on and see how you can build a sophisticated pager view in matters of seconds, a code snippet is worth more than a thousand words 😂.
+Let's move on and see how you can build a sophisticated pager view in a matter of seconds, a code snippet is worth more than a thousand words 😂.
 
 <img align="right" width="30%" src="/images/pager-swiftui/LogOutExample.gif"/>
 
@@ -106,7 +106,7 @@ PagerTabStripView(selection: $selection) {
 }
 ```
 
-**State variables and conditional blocks are used to declaratively update the shown pages of the pager view.** Of course, you can also use SwiftUI `ForEach` (as example above shown) to provide child views on demand from an underlying collection if you wish so.
+**State variables and conditional blocks are used to declaratively update the shown pages of the pager view.** Of course, you can also use SwiftUI `ForEach` (as the example above shown) to provide child views on demand from an underlying collection if you wish so.
 
 **Associated views to select a page by tap gesture are declaratively defined using a View Modifier on each child page view.**
 
