@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our take on Testing UY 2021
-date: '2021-08-11T10:00:00.000-03:00'
+date: '2021-08-11T09:00:00.000-03:00'
 author: Martin Barreto
 tags: [Xmartlabs, TestingUY, QA, Testing Event]
 author_id: edu
