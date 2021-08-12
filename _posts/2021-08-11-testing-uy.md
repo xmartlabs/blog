@@ -18,7 +18,7 @@ Each year, Testing UY offers a variety of talks, workshops, and lightning talks 
 For this edition, Xmartlabs is a Bronze Sponsor.
 
 <p style="text-align:center;">
-<img style="width: 100%" src="/images/our-take-on-testing-uy/testing-uy-Antel.png" alt="Testing UY 2109">
+<img style="width: 100%" src="/images/our-take-on-testing-uy/testing-uy-sala-antel.png" alt="Testing UY 2109">
 </p>
 > Janet Gregory in the 2019 Testing UY edition.
 
@@ -29,7 +29,7 @@ In this edition, Testing UY added a Challenge. It consisted in having a system u
 The system under test was provided by Abstracta, a channel via Discord was available during the event to ask questions to the Product Owner, and all the documentation was shared via Google Drive. We were able to perform Functional, Usability, and Accessibility testing while other testing techniques such as Performance (load, spike, soak) were not allowed due to the number of teams interacting with the system.
 
 <p style="text-align:center;">
-<img style="width: 100%" src="/images/our-take-on-testing-uy/Testing_UY.jpeg" alt="Testing UY">
+<img style="width: 100%" src="/images/our-take-on-testing-uy/testing-uy.jpeg" alt="Testing UY">
 </p>
 
 
