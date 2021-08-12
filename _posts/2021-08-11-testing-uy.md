@@ -1,21 +1,17 @@
 ---
 layout: post
 title: Our take on Testing UY 2021
-date: '2021-08-11T09:00:00.000-03:00'
+date: '2021-08-12T09:00:00.000-03:00'
 author: Martin Barreto
 tags: [Xmartlabs, TestingUY, QA, Testing Event]
 author_id: edu
 show: true
 category: people-events
-featured_image: /images/pager-swiftui/Twitter-1.png
-social_image: /images/pager-swiftui/Twitter-1.png
-twitter_image: /images/pager-swiftui/Twitter-1.png
+featured_image: /images/our-take-on-testing-uy/blogpost3.png
+social_image: /images/our-take-on-testing-uy/testing-uy-twitter.png
+twitter_image: /images/our-take-on-testing-uy/testing-uy-twitter.png
 permalink: /blog/:title/
 ---
-
-<p style="text-align:left;width:100%">
-<img src="/images/pager-swiftui/Blog-skinny.png" alt="Project banner">
-</p>
 
 [Testing UY](https://testinguy.org/) emerges in the year 2014 as a way to promote Testing in Uruguay and the region. The conference is 100% free and gathers groups of experts in different areas of knowledge, such as SQA, UI/UX, Management, among others. The main focus is, share experience, acquire new tools and have a great time.
 Each year, Testing UY offers a variety of talks, workshops, and lightning talks (15 minutes duration). Due to the pandemic, this year is the first year where the event is 100% remote, but the good spirit and collaboration have been the same as in previous editions.
@@ -28,9 +24,9 @@ For this edition, Xmartlabs is a Bronze Sponsor.
 
 ## Talks, Workshops, and Challenge
 
-In this edition, Testing UY added a Challenge. It consisted in having a system under test for 24 hours, teams of three people had the task of delivering a PDF with the test report and use GitHub to report the encountered Bugs. 144 teams signed up for the Challenge, the first 100 teams will have the opportunity to be reviewed by the judges and they will determine 3 winning teams. Those winner teams will access several prices and mentions, the results will be available by the end of August.
+In this edition, Testing UY added a Challenge. It consisted in having a system under test for 24 hours, teams of three people had the task of delivering a PDF with the test report and use GitHub to report the encountered Bugs. 144 teams signed up for the Challenge, the first 100 teams will have the opportunity to be reviewed by the judges, and they will determine 3 winning teams. Those winner teams will access several prices and mentions, the results will be available by the end of August.
 
-The system under test was provided by Abstracta, a channel via Discord was available during the event to ask questions to the Product Owner and all the documentation was shared via Google Drive. We were able to perform Functional, Usability, and Accessibility testing while other testing techniques such as Performance (load, spike, soak) were not allowed due to the number of teams interacting with the system.
+The system under test was provided by Abstracta, a channel via Discord was available during the event to ask questions to the Product Owner, and all the documentation was shared via Google Drive. We were able to perform Functional, Usability, and Accessibility testing while other testing techniques such as Performance (load, spike, soak) were not allowed due to the number of teams interacting with the system.
 
 <p style="text-align:center;">
 <img style="width: 100%" src="/images/Our-take-on-Testing-UY/Testing_UY.jpeg" alt="Testing UY">
@@ -57,7 +53,7 @@ When building a new system, the UX comes first along with quality, having the in
 
 **Critical Thinking as a Testing Tool (Paula Castro):**
 
-Soft skills are essential (and many believe primordial) parts of SQAs. Good communication, critical thinking, adaptation to change, are just some fundamental skills to be able to have a standout performance in the area.
+Soft skills are essential (and many believe primordial) parts of SQAs. Good communication, critical thinking, adaptation to change are just some fundamental skills to have a standout performance in the area.
 Unlike other more technical workshops, this one had soft skills as its axis, and how these are fundamental for the job as an SQA and how to work on improving them.
 
 ### Worthy of Mention
@@ -69,7 +65,7 @@ All the Talks, Workshops, and Lightning talks will be available on the [Testing 
 
 ## Xmartlabs, a part of the community
 
-We believe in sharing knowledge and contribute to the community, there are not many options to start acquiring technical skills to develop as SQA. Therefore, our QA team created XL-School, the first two modules are live on our [YouTube channel](https://www.youtube.com/watch?v=tE4nGOdPVJ0&list=PLo5J3hFGDd9bwh1oyoHfheV6EKEHivNyV) 100% free in Spanish content and more modules are yet to come to take you from 0 to 100 in no time.
+We believe in sharing knowledge and contribute to the community. There are not many options to start acquiring technical skills to develop as SQA, therefore, our QA team created XL-School, the first two modules are live on our [YouTube channel](https://www.youtube.com/watch?v=tE4nGOdPVJ0&list=PLo5J3hFGDd9bwh1oyoHfheV6EKEHivNyV) 100% free in Spanish content and more modules are yet to come to take you from 0 to 100 in no time.
 
 Any thoughts? Which subjects do you believe we should include in the next modules? Leave us a comment and we will be happy to get back to you.
 We have an integral and dedicated team of Quality Engineers ready to partner and build awesome software together. You're interested? [Let's talk!](https://xmartlabs.com/)
