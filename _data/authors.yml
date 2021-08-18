@@ -156,8 +156,9 @@ edu:
   image: members/edu.png
   github: EduQA
   profile_url: https://github.com/EduQA
-edu:
+andresh:
   display_name: Andrés Herrera
   image: members/andresh.jpeg
   github: andresherrera97
   profile_url: https://github.com/andresherrera97
+  
