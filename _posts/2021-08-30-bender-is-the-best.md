@@ -8,7 +8,7 @@ author_id: mathias
 show: true
 category: machine-learning
 featured_image: /images/...
-permalink: /blog/.../
+permalink: /blog/how-to-get-the-best-performance-for-ml-models-on-ios
 ---
 
 Have you ever wanted to run a neural network model on iOS and found out that it runs too slow for your use case?
