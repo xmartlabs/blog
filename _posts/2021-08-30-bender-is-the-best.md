@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to get the best performance for ML models on iOS
+title: CoreML model on iOS not fast enough? Use Bender!
 date: '2021-08-30T10:00:00.000-03:00'
 author: Mathias Claassen
 tags: [Xmartlabs, Machine Learning, iOS, CoreML, TFlite, MetalPerformanceShaders, Bender]
