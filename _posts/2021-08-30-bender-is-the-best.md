@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CoreML model on iOS not fast enough? Use Bender!
+title: CoreML not fast enough? Use Bender!
 date: '2021-08-30T10:00:00.000-03:00'
 author: Mathias Claassen
 tags: [Xmartlabs, Machine Learning, iOS, CoreML, TFlite, MetalPerformanceShaders, Bender]
@@ -14,7 +14,7 @@ permalink: /blog/how-to-get-the-best-performance-for-ml-models-on-ios
 Have you ever wanted to run a neural network model on iOS and found out that it runs too slow for your use case?
 We faced this problem and have gone through several options to reduce model inference time. We found out that CoreML or TFlite are not always the best options performance-wise, but that in some cases, using MetalPerformanceShaders (MPS) or Bender is the way to go.
 
-In this post, we will go through our journey on deciding which framework to use, show performance comparisons and hopefully help you decide which one to use.
+In this post, we'll go through the journey of choosing a framework, showing performance comparisons, and, hopefully helping you decide which one to use.
 
 > Note: in this post, we will not consider MLKit, but its performance should be similar to using TFlite directly.
 
@@ -66,7 +66,7 @@ If you were to use only MPS, then you would need to rebuild the NN graph using M
 All of this is resolved by Bender's `TFConverter`.
 The drawback is that Bender supports a limited subset of layers, so if you want to use it for other models, chances are you will need to add support for extra layers.
 
-### Testing on Bender
+### Bender vs CoreML vs TFlite
 We haven't been maintaining Bender a lot since CoreML was released. However, we figured it was still worth a shot.
 We had to add support for a few new layers, but then running the model was straightforward.
 And to our surprise, we were able to almost double the FPS we got from CoreML, achieving over 30 FPS.
