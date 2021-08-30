@@ -72,13 +72,11 @@ We had to add support for a few new layers, but then running the model was strai
 And to our surprise, we were able to almost double the FPS we got from CoreML, achieving over 30 FPS.
 This improvement is possible because Bender uses only the GPU and therefore will run much quicker than running most parts on CPU.
 
-| Framework           | 1 thread        | 2 threads       | Notes |
-|---------------------|-----------------|-----------------|-------|
-| TFlite (CPU only)   | 360ms (3 FPS)   | 430ms (2 FPS)   | Images of 384x384 |
-| CoreML (.cpuOnly)   | 230ms (4.3 FPS) | 215ms (4.6 FPS) |       |
-| CoreML (.cpuAndGPU) | 233ms (4.3 FPS) | 224ms (4.5 FPS) |       |
-| CoreML (.all)       | 100ms (10 FPS)  | 60ms (16.7 FPS) |       |
-| Bender              | 70ms (14 FPS)   | **33ms (30 FPS)**   |       |
+<p style="text-align:center;">
+    <img style="width: 100%" src="/images/bender-is-the-best/benchmarks.jpg" alt="benchmarks">
+</p>
+
+> All tests performed with images of 384x384
 
 This table shows the performance comparison running each framework using 1 or 2 concurrent threads, processing 384x768 images on iPhone 12.
 There doesn't seem to be a big advantage for using multiple threads on models that run mainly on CPU.
