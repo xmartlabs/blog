@@ -7,7 +7,7 @@ tags: [Xmartlabs, Machine Learning, iOS, CoreML, TFlite, MetalPerformanceShaders
 author_id: mathias
 show: true
 category: machine-learning
-featured_image: /images/...
+featured_image: /images/bender-is-the-best/featured.jpg
 permalink: /blog/how-to-get-the-best-performance-for-ml-models-on-ios
 ---
 
