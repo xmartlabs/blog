@@ -16,8 +16,6 @@ We faced this problem and have gone through several options to reduce model infe
 
 In this post, we'll go through the journey of choosing a framework, showing performance comparisons, and, hopefully helping you decide which one to use.
 
-> Note: in this post, we will not consider MLKit, but its performance should be similar to using TFlite directly.
-
 ## Running style transfer on realtime video in iOS
 A few years ago, before the release of CoreML and TFlite on iOS, we built [DreamSnap], an app that runs style transfer on camera input in real-time and lets users take stylized photos or videos.
 We decided we wanted to update the app with newer models and found a Magenta model hosted on [TFHub] and available for download as TFlite or TensorFlow model.
@@ -29,6 +27,8 @@ The [magenta repo] also includes source code to retrain the model with different
 We wanted to measure how fast it was, so we took the float16 version of the TFlite model and ran it on an iPhone 12.
 Running on CPU only, the model takes 360ms to process a 384x384 image, translating to less than 3 FPS.
 We tried to use the Metal or CoreML delegates to run this model on the GPU, but the TFlite Interpreter failed to build the model for the GPU, which meant the best we could get out of the TFlite model was 3 FPS.
+
+> Note: in this post, we did not consider MLKit, but its performance should be similar to using TFlite directly.
 
 ### Converting to CoreML
 Converting a TFlite model to CoreML [is not easy].
