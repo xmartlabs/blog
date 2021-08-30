@@ -233,5 +233,6 @@ Need help with ML tasks like converting models to CoreML? We're glad to help!
 Get in touch at hi@xmartlabs.com
 
 We have also written other posts about ML topics.
-If you want to check out the **latest updates from WWDC 2020** jump over to [this post](/blog/latest-updates-on-apple-machine-learning/).
+Is your CoreML or TFlite model not fast enough on iOS? Check out our post about [speeding up performance on iOS with MPS and Bender](https://blog.xmartlabs.com/2021/08/30/Bender-the-best).
+
 And if you'd like to know `5 Practical Ways to Speed Up your Deep Learning Model` check it out [here](/2020/06/01/how-to-speed-up-inference-in-your-deep-learning-model/).
