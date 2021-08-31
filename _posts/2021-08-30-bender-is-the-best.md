@@ -76,9 +76,7 @@ This improvement is possible because Bender uses only the GPU and therefore will
     <img style="width: 100%" src="/images/bender-is-the-best/benchmarks.jpg" alt="benchmarks">
 </p>
 
-> All tests performed with images of 384x384
-
-This table shows the performance comparison running each framework using 1 or 2 concurrent threads, processing 384x768 images on iPhone 12.
+This table shows the performance comparison running each framework using 1 or 2 concurrent threads, processing 384x768 images on iPhone 12 (the TFlite model was run on 384x384 images).
 There doesn't seem to be a big advantage for using multiple threads on models that run mainly on CPU.
 
 However, there's a catch.
