@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What TechCrunch Disrupt 2021 Taught Us About the Startup Landscape
-date: '2021-10-8T10:00:00.000-03:00'
+date: '2021-10-11T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [TechCrunch Disrupt 2021, Startups, Venture Capital, TC Disrupt Recap]
 author_id: vale
