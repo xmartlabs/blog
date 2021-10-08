@@ -144,7 +144,7 @@ It's crucial to squirrel away some money for a rainy day (a.k.a emergencies, lik
 
 On *[How to Accelerate Everything](https://techcrunch.com/video/how-to-accelerate-everything/)*, panelists prompted companies to build a brand foundation before turning on their growth efforts. This is key if you want to be a brand instead of simply a product company. [Nik Sharma](https://www.linkedin.com/in/mrniksharma/), CEO of Sharma Brands, said the best way was to think about marketing vs. advertising in the following terms: marketing is a digital image of your company, and advertising is when you enlarge the image, and you stretch it, and the more you stretch it, the more important is that the image is good quality; otherwise it will look blurry.
 
-[https://twitter.com/mrsharma/status/1413294546868346882?s=20](https://twitter.com/mrsharma/status/1413294546868346882?s=20)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Building brand equity in the early days is SO crucial for success.<br><br>You can’t just rely on ads. <a href="https://t.co/S6qi08Drvc">pic.twitter.com/S6qi08Drvc</a></p>&mdash; Nik Sharma (@mrsharma) <a href="https://twitter.com/mrsharma/status/1413294546868346882?ref_src=twsrc%5Etfw">July 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 A brand will most likely attract a community around it. You should build that from the beginning; if you have achieved product-market fit, your first customers should come organically because you're addressing a need.
 
@@ -213,7 +213,9 @@ As for the value a company delivers, in developing products, the focus needs to 
 
 Feinzaig shared her experience trying to raise capital in Silicon Valley and how the view that the place is a meritocracy is a myth entirely. Although it's an idea we all wanna believe in, it takes a certain amount of courage (or what she described as a "gaslit experience") to question that. In the early stages of a startup, you are not raising out on your idea, what matters is how you execute, and Leslie found that depends partly on your resources, and not everyone has the same amount. She mentioned connections were also crucial to get meetings in Sand Hill Road. Investors weren't always interested in founding women and risked them getting pregnant and quitting their business.
 
-[https://twitter.com/LeslieFeinzaig/status/1440439978182332417](https://twitter.com/LeslieFeinzaig/status/1440439978182332417)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Popular career advice doesn&#39;t work for women. I want to re-write all the books.<br><br>&quot;Rich mom, poor mom.&quot;<br>&quot;How to win friends &amp; influence people without playing dumb or being labeled a bitch&quot;<br>&quot;The 7 habits of highly effective people who don&#39;t have a housewife &amp; full time help&quot;</p>&mdash; Leslie Feinzaig 🎃 (@LeslieFeinzaig) <a href="https://twitter.com/LeslieFeinzaig/status/1440439978182332417?ref_src=twsrc%5Etfw">September 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 Bailey said that being an entrepreneur in a minority group sometimes means being asked for more proof from investors or business partners. It also implicates not always finding mentorship because people want to help those who look like them.
 
