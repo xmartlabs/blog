@@ -8,7 +8,7 @@ author_id: vale
 show: true
 category: people-events
 featured_image: /images/tcd21-startup-landscape/disrupt2021.jpg
-permalink: /blog/techcrunch-disrupt-2021-takeaways-for-entrepreneurs-and-founders
+permalink: /blog/techcrunch-disrupt-2021-takeaways-for-entrepreneurs-and-founders/
 ---
 
 Like in 2020, TC Disrupt took a digital format this year due to covid and the new delta variant hitting the US. However, the event managed to keep its essence: entrepreneurship, success stories, and alternative ways to adapt to this ever-changing environment (now with the bonus of a pandemic).
