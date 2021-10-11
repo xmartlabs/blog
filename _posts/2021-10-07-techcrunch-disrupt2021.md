@@ -7,7 +7,7 @@ tags: [TechCrunch Disrupt 2021, Startups, Venture Capital, TC Disrupt Recap]
 author_id: vale
 show: true
 category: people-events
-featured_image: /images/bender-is-the-best/featured.jpg
+featured_image: /images/tcd21-startup-landscape/disrupt2021.jpg
 permalink: /blog/techcrunch-disrupt-2021-takeaways-for-entrepreneurs-and-founders
 ---
 
@@ -240,4 +240,4 @@ Speakers also mentioned tokenism, the fake idea that things are changing and ste
 
 A lot was said about the startup landscape in the several panels we participated in. And although the challenges are many and vary according to who or where you are, we believe startups and founders should take away the following ideas. It has never been easier to start a business or get funding from various methods, and remote environments democratized access to funding. People are willing to invest and buy on business with vision.
 
-We hope you got major tips and takeaways from the 2021 TC Disrupt and please reach out if you wanna learn more about growing your business. Thanks for reading! 😊
+We hope you got major tips and takeaways from the 2021 TC Disrupt and please [reach out](https://xmartlabs.com/services) if you wanna learn more about growing your business. Thanks for reading! 😊
