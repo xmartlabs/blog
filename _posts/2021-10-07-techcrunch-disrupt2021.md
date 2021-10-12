@@ -236,7 +236,7 @@ With all these obstacles being thrown at you, it's easier for your confidence to
 
 Speakers also mentioned tokenism, the fake idea that things are changing and steps are being taken. However, they believed that this is not about minorities adapting but about systems and dynamics changing. For women, this means being comfortable to talk to each other about money and investing and starting a vicious circle by women founding women. But the best thing to bring about change is to be transparent and report; the more you hold the organizations accountable for what they do, the more they'll change.
 
-# Rounding up
+## Rounding up
 
 A lot was said about the startup landscape in the several panels we participated in. And although the challenges are many and vary according to who or where you are, we believe startups and founders should take away the following ideas. It has never been easier to start a business or get funding from various methods, and remote environments democratized access to funding. People are willing to invest and buy on business with vision.
 
