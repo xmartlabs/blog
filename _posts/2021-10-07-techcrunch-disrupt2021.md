@@ -170,7 +170,7 @@ Most companies are unsure about when it's time to go out and look for further fu
 Fundraising should be a catalyst to something happening that's already there, the business growing so fast you can't meet expectations without that money.
 
 > "Look at what you have to solve, understand the problem, and ask yourself if capital can accelerate what you have already validated and understood."
-*Tope Awotona*, Calendly 's CEO — Calendly, From Bootstrap to Billions
+*Tope Awotona, CEO of Calendly (Calendly, From Bootstrap to Billions)
 >
 
 However, be careful with the timing. As mentioned, most companies run on a year and a half to a two-year runway, but speakers stressed the importance of not waiting for the money to run out to go out and start raising. Negotiating with no liquidity will leave you with no leverage whatsoever, and you should avoid that at all costs.
