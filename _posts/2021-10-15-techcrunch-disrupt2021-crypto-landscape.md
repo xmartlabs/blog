@@ -1,17 +1,21 @@
 ---
 layout: post
 title: What's going on with crypto? (TC Disrupt 2021)
-date: '2021-10-15T10:00:00.000-03:00'
+date: '2021-10-19T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [TechCrunch Disrupt 2021, Crypto Landscape, Crypto 2021, TC Disrupt Recap]
 author_id: mtnBarreto
 show: true
 category: people-events
-featured_image: /images/tcd21-startup-landscape/disrupt2021.jpg
+featured_image: /images/tcd21-crypto-landscape/disrupt2021.png
 permalink: /blog/crypto-landscape-2021/
 ---
 
 [TechCrunch Disrupt](https://blog.xmartlabs.com/blog/techcrunch-disrupt-2021-takeaways-for-entrepreneurs-and-founders/) is synonymous with trends and innovation. Fintech is an industry with considerable excitement since blockchain evolution is creating opportunities that startups are trying to leverage daily, and investors are trying to get that significant return. This hype comes with a lot of capital availability that accelerates innovation even more.
+
+<p style="text-align:left;width:100%">
+<img src="/images/tcd21-crypto-landscape/disrupt2021.png" alt="Project banner">
+</p>
 
 This blog post covers the main insights shared around the crypto space, which were plenty since the crypto market resurfaced. Some of the topics were non-fungible tokens (NFT) and how they're reshaping the ownership of digital assets, decentralized finance (Defi) and its growth, and decentralized autonomous organizations (DAOs).
 
