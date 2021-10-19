@@ -188,4 +188,4 @@ He said we are so early that there's a lot of excitement regarding social media,
 
 Crypto positively impacts several industries, most directly fintech, and others such as games, investments, creators economy, games, etc. Blockchain is the foundation for all these innovations; it allows us to run Dapps by implementing smart contracts owned by shared networks, bringing transparency, trust, autonomy, ownership, and ultimately, gives the power back to people. Regulations around crypto play a central role in how fast these innovations can occur. NFTs, DeFi, and DAOs are just the tip of the iceberg for what's coming next.
 
-If you have a business idea around crypto, we'd love to learn more about it and help! Do reach out and thanks for reading! 😊
+If you have a business idea around crypto, we'd love to learn more about it and help! Do reach out and thanks for reading! 😊😊😊
