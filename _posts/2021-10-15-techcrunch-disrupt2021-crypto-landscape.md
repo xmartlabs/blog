@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's going on with crypto? (TC Disrupt 2021)
-date: '2021-10-19T10:00:00.000-03:00'
+date: '2021-10-20T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [TechCrunch Disrupt 2021, Crypto Landscape, Crypto 2021, TC Disrupt Recap]
 author_id: mtnBarreto
