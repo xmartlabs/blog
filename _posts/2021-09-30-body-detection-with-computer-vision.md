@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Body Detection using Computer Vision
-date: '2021-10-18T10:00:00.000-03:00'
+date: '2021-10-19T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [Pose Estimation, Body Segmentation, Human Detection, Machine Learning, Computer Vision]
 author_id: vale
