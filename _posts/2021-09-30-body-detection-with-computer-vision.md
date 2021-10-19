@@ -7,7 +7,7 @@ tags: [Pose Estimation, Body Segmentation, Human Detection, Machine Learning, Co
 author_id: vale
 show: true
 category: machine-learning
-featured_image: /images/bender-is-the-best/featured.jpg
+featured_image: /images/body-detection-with-computer-vision/body-detection-with-computer-vision.jpg
 permalink: /blog/computer-vision-techniques-for-body-detection/
 ---
 
