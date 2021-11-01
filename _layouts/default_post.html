@@ -4,14 +4,14 @@
   {% include head_post.html %}
 
   <body>
+    {% include GTM_body.html %}
     {% include header.html %}
 
     {{ content }}
 
     {% include footer.html %}
 
-    <!-- {% include google_analytics.html %}
-    {% include twitter_analytics.html %} -->
+    <!-- {% include twitter_analytics.html %} -->
     <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   </body>
 
