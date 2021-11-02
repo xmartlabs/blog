@@ -22,6 +22,10 @@ figure {
   padding: 0;
 }
 
+.no-pointer {
+  pointer-events: none;
+}
+
 em {
   font-style: italic;
 }
