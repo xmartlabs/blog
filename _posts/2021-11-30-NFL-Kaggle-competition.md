@@ -7,14 +7,13 @@ tags: [Kaggle Competition 2021, Computer Vision, NFL, Video Tracking, Machine Le
 author_id: andresh
 show: true
 category: machine-learning
-featured_image: /images/nfl-kaggle-competition.png
+featured_image: /images/nfl-kaggle-competition/nfl_cover.jpg
 permalink: /blog/kaggle-competition-2021/
 ---
-## Motivation
 
 Kaggle competitions attract thousands of data science and machine learning enthusiasts by providing access to various datasets and infrastructure with GPU availability and discussion forums to share ideas; this is very important for practitioners looking for a starting point.
 
-Here at XmartLabs, we're always looking for ways to contribute to real problems that have a genuine impact on people. Kaggle is an excellent example of this because it gives organizations a platform to present their issues so that savvy technical people can solve them. 
+Here at XmartLabs, we're always looking for ways to contribute to real problems that have a genuine impact on people. Kaggle is an excellent example of this because it gives organizations a platform to present their issues so that savvy technical people can solve them.
 
 For this competition, the NFL wanted to find a solution to a critical problem they have: Player's [Health & Safety](https://www.nfl.com/playerhealthandsafety/). This is not the first time they have cooperated with Kaggle; they set out to identify helmet impacts in a previous competition. This time around, they wanted to determine which helmet belongs to each player and keep track of their collisions through a match. Currently, the tracking is done by hand, but an automated algorithm would significantly reduce the time needed to do it manually, freeing more resources to do complex research about how to ensure players' safety in the field. In this [blog post](https://www.nfl.com/playerhealthandsafety/equipment-and-innovation/aws-partnership/nfl-and-aws-launch-artificial-intelligence-challenge-to-crowdsource-ways-to-auto), the NFL gives its statement on the importance of this competition.
 
@@ -24,16 +23,16 @@ The dataset has two sources of information, the videos, and the tracking informa
 
 The video training datasets consist of 60 short plays (around 10 seconds videos with 60 fps). Each play is filmed from two synchronized cameras, one located at the endzone and the other one at the sideline, concluding in a total of 120 videos in the training dataset.
 
-![Left image: Sideline View. Right image: Endzone view](../images/nfl-kaggle-competition/nfl_frame.png)
+![Left image: Sideline View. Right image: Endzone view](/nfl-kaggle-competition/nfl_frame.png)
 *Left image: SidelinView. Right image: Endzone view*
 
 The tracking information comes from a device located in the player's shoulder pad. It gives the relative position of each player on the field with other information about the player's movement at a 10Hz frequency. The tracking has the 'x' and 'y' positions described in the image below.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_field.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_field.png)
 
 Other supplementary information given in tracking is speed, acceleration, distance traveled from the last point, and orientation. Below, you can see an example of the player's position at the beginning of a game.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_trackingpositions.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_trackingpositions.png)
 
 Another file given at the start of the competition was the location of the helmets in a given frame, predicted by a baseline model. These predictions are not perfect; the reason for giving them is to provide competitors with a starting point independently from the detection of helmets to focus on the real problem. The training images are given so you can train your own helmet detector, and although we didn't take this approach, some top-scoring teams did. There's an interesting [discussion](https://www.kaggle.com/c/nfl-health-and-safety-helmet-assignment/discussion/285424) around this topic because top-scoring competitors tried the same solution but with the baseline helmet detector and found a 10% decrease in the score.
 
@@ -47,12 +46,12 @@ The central part of this problem is mapping the helmet's positions in a given fr
 
 In our case, we used the method proposed in the paper "Robust Point Set Registration Using Gaussian Mixture Models," which has its [code](https://github.com/bing-jian/gmmreg-python) available in Python. With some minor changes, we were able to include it in our solution.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_2dmatching.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_2dmatching.png)
 *Left: Example shown in code presentation, Right: Example of implementation in our solution.*
 
 When passed two normalized clouds of points, the algorithm can return a correspondence between those cloud points. There are some issues; for example, when both sets have 22 points, the algorithm works really well, but when the video has a frame with fewer helmets, the results might have some errors. Because of this, we decided only to do 2D matching when there are 15 helmets or more in the image frame. Later we'll explain how we propagate the labels to the frames that don't have enough helmets. Besides this, we didn't run the matching on all frames, as variations in consecutive frames were almost none.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_helmetsinframe.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_helmetsinframe.png)
 *Example of a low number of helmets in the frame.*
 
 ### 2. DeepSORT:
@@ -71,7 +70,7 @@ After fixing those simple errors, we matched each remaining frame with detectabl
 
 In some cases, this implementation gave impressive results. As seen in the following video, green bounding boxes are correctly labeled helmets and yellow when there is an impact (higher reward for the correct label while collision). The red bounding boxes are due to wrong labels during a collision.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_helmet.gif)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_helmet.gif)
 *Output of our solution applied to a Sideline video.*
 
 ### 4. Image Rotation:
@@ -84,7 +83,7 @@ As seen in the example of the two marked players, the bottom one appears to be m
 
 The rotation is done using the purple line, and the angle with the green one is the rotation angle.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_rotation.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_rotation.png)
 *Image rotation example*
 
 ### 5. Outfield players:
@@ -93,7 +92,7 @@ Another issue we saw and addressed was the presence of off-field players/helmets
 
 To solve this, we detected sideline lines to differentiate these two types of helmets. One difference with image rotation is that, in this case, we looked for wider lines, like the one shown in the image.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_sideline.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_sideline.png)
 
 Most of the detected helmets are field players, so considering all helmets as players gives a precision of 0.983. With our detector, precision was improved to 0.994.
 
@@ -101,7 +100,7 @@ Most of the detected helmets are field players, so considering all helmets as pl
 
 Each video was labeled "Sideline" or "Endzone," but it wasn't specified from which side or field end it was being recorded. There were two possibilities for each. Identifying this quickly and confidently can signify a correction before the matching, which facilitates it and means it needs fewer iterations.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_angle.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_angle.png)
 *Left: Endzone example. Right: Sideline example.*
 
 At the beginning of each video, we saw that the formations were very identifiable and easy to correlate with the tracking. In other words, with the correct view, the 2D matching should have a high rate of matches. So the implementation takes five frames distributed in the first 100 frames. In these selected frames, the 2D matching is done for each possible case; the one with the most matches is selected as correct; after doing it for all five frames, the correct side is selected and saved.
@@ -112,17 +111,17 @@ For different reasons, not everything we tried made it into the final solution. 
 
 Team clustering is the idea of separating the helmets by each team. The idea was that the 2D matching algorithm worked better if it had to match 11 helmets with 11 labels twice instead of 22 with 22 once. Our first idea was to use the helmet's color as the colors are very different most of the time. We run tests trying three color spaces: [RGB](https://en.wikipedia.org/wiki/RGB_color_model), [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV), and [CIELAB](https://en.wikipedia.org/wiki/CIELAB_color_space).
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_CIELAB.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_CIELAB.png)
 
 The use of HSV and CIELAB is to get values independent from illumination and other environmental phenomena. Some top scoring solutions did focus on team clustering but with different approaches, for example, using deep learning models.
 
 Although cameras were fixed in a position, they still could rotate and zoom in or out during a play. We tried to capture this information to leverage it in the solution because if we know how the image is moving, we can predict which players are leaving the frame and discard their tracking information. Next, we look at the difference between the first frame of a video and the last.
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_frame2.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_frame2.png)
 
 Calculating the size and number of the helmets in the frame, we can have a good approximation of how the zoom is going:
 
-![Screenshot from 2021-11-04 13-18-19.png](../images/nfl-kaggle-competition/nfl_endzone.png)
+![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_endzone.png)
 
 However, merging this information with our pipeline wasn't easy, as more processing had to be done, and at the time, it didn't seem relevant.
 
