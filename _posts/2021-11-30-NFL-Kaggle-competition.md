@@ -23,7 +23,7 @@ The dataset has two sources of information, the videos, and the tracking informa
 
 The video training datasets consist of 60 short plays (around 10 seconds videos with 60 fps). Each play is filmed from two synchronized cameras, one located at the endzone and the other one at the sideline, concluding in a total of 120 videos in the training dataset.
 
-![Left image: Sideline View. Right image: Endzone view](/nfl-kaggle-competition/nfl_frame.png)
+![Left image: Sideline View. Right image: Endzone view](/images/nfl-kaggle-competition/nfl_frame.png)
 *Left image: SidelinView. Right image: Endzone view*
 
 The tracking information comes from a device located in the player's shoulder pad. It gives the relative position of each player on the field with other information about the player's movement at a 10Hz frequency. The tracking has the 'x' and 'y' positions described in the image below.
