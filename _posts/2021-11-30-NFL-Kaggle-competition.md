@@ -52,6 +52,7 @@ In our case, we used the method proposed in the paper "Robust Point Set Registra
 When passed two normalized clouds of points, the algorithm can return a correspondence between those cloud points. There are some issues; for example, when both sets have 22 points, the algorithm works really well, but when the video has a frame with fewer helmets, the results might have some errors. Because of this, we decided only to do 2D matching when there are 15 helmets or more in the image frame. Later we'll explain how we propagate the labels to the frames that don't have enough helmets. Besides this, we didn't run the matching on all frames, as variations in consecutive frames were almost none.
 
 ![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_helmetsinframe.png)
+
 *Example of a low number of helmets in the frame.*
 
 ### 2. DeepSORT:
@@ -84,6 +85,7 @@ As seen in the example of the two marked players, the bottom one appears to be m
 The rotation is done using the purple line, and the angle with the green one is the rotation angle.
 
 ![Screenshot from 2021-11-04 13-18-19.png](/images/nfl-kaggle-competition/nfl_rotation.png)
+
 *Image rotation example*
 
 ### 5. Outfield players:
