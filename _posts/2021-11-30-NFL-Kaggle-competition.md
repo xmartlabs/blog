@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our Solution For the NFL Kaggle Competition
+title: Our Solution for the NFL Helmet Assignment Kaggle Competition
 date: '2021-11-30T10:00:00.000-03:00'
 author: Andrés Herrera
 tags: [Kaggle Competition 2021, Computer Vision, NFL, Video Tracking, Machine Learning]
