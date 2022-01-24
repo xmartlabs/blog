@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Object Detection use case: Occupancy Analytics
+title: Object Detection use case - Occupancy Analytics
 date: '2022-01-24T10:00:00.000-03:00'
 author: Pablo Grill
 tags: [Object Detection, Computer Vision, Video Tracking, Machine Learning]
