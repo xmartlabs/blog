@@ -1,19 +1,17 @@
 ---
 layout: post
-title: Object Detection use case - Occupancy Analytics
-date: '2022-01-24T10:00:00.000-03:00'
+title: Occupancy Analysis powered by Edge-AI & Object Detection Models
+date: '2022-01-26T10:00:00.000-03:00'
 author: Pablo Grill
 tags: [Object Detection, Computer Vision, Video Tracking, Machine Learning]
 author_id: andresh
 show: true
 category: machine-learning
-featured_image: /images/object-detection/ObjectDetecion_Blog.png
-permalink: /blog/object-dection/
+featured_image: /images/object-detection/ObjectDetecion_Blog.jpg
+permalink: /blog/computer-vision-and-object-detection-use-case/
 ---
 
-# Introduction
-
-In one of our previous [posts](https://blog.xmartlabs.com/blog/computer-vision-techniques-for-body-detection/), we talked about computer vision and its application to body detection. Today, we’ll go a little bit deeper into the object detection problem showing an actual use case scenario: [Lanthorn](https://lanthorn.ai/).
+In a previous [post](https://blog.xmartlabs.com/blog/computer-vision-techniques-for-body-detection/), we covered computer vision and its application to body detection. Today, we’ll go a little bit deeper into the object detection problem showing an actual use case scenario: [Lanthorn](https://lanthorn.ai/).
 
 # What's Lanthorn?
 
@@ -21,9 +19,10 @@ Lanthorn is an Occupancy Analytics product born during the Covid-19 pandemic as 
 
 Lanthorn's support of several devices and edge deployment that ensures data security and privacy compliance make it a perfect solution for several [use cases](https://lanthorn.ai/use-cases). This is why, after two years of constant development, and with the end of the pandemic nearing, we changed Lanthorn's product vision. We turned it into a complex occupancy analytics solution.
 
-![Image source: Lanrhorn.ai](/images/object-detection/Lanthorn.jpg)
-
-Image source: Lanrhorn.ai
+<figure>
+  <img style="width: 100%" src="/images/object-detection/Lanthorn.jpg" alt="Lanrhorn.ai dashboard view">
+  <figcaption>Image source: Lanrhorn.ai.</figcaption>
+</figure>
 
 To pivot the product, we included new metrics such as room occupancy, counter for people going in and out of a building, calculations for dwell time or amount of people in specific regions, etc.
 
@@ -182,10 +181,12 @@ Another fact to balance is the available resources required for each model. Look
 
 On this blog, we concluded (with an actual use case example) that it's possible to build complex analytics metrics using video inputs with no need to design new machine learning models. With an architecture similar to Lanthorn, you can obtain creative and innovative solutions using already-build models. Today we focused on object detection models and some uses case, but you can apply this pattern to other solutions.
 
-We can also conclude that choosing the model that better fits your circumstances is not a trivial decision. You can make multiple comparisons between two models, and it's essential to choose the right one to find the best. It's critical to have an in-depth understanding of the particularities of your use case before selecting a model. As was shown in the models' comparison sections, the best model can vary depending on your needs.
+We can also conclude that choosing the model that better fits your circumstances is not a trivial decision. You can make multiple comparisons between two models, but it's essential to choose the one that will find the best possible solution. It's critical to have an in-depth understanding of the particularities of your use case before selecting a model. As was shown in the models' comparison sections, the best model can vary depending on your needs.
 
 Finally, the machine learning models have improved a lot over the recent years, making it possible to execute video models in edge devices without sacrificing accuracy efficiently. This improvement facilitates the build of ML solutions without the need for expensive hardware, making possible the application of ML solutions in practical problems like [Lanthorn.ai](http://lanthorn.ai/), as well as many others. 
 
-ML solutions have been proven to solve different issues and optimize processes in an array of different industries, especially traditional ones. If you’d like to learn how our Machine Learning expertise might help you improve and optimize your business, whatever it is, contact us for a free discovery call with our experts. 
+ML solutions have been proven to solve different issues and optimize processes in an array of different industries, especially traditional ones. 
+
+If you’d like to learn how our Machine Learning [expertise](https://xmartlabs.com/services#ML) might help you improve and optimize your business, whatever it is, contact us for a free discovery call with our experts. 
 
 Thanks for reading 🙂

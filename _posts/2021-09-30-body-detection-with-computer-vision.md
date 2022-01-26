@@ -30,7 +30,7 @@ But if you think about it, what would those creations be if they couldn't see? S
 A sub-study or branch of AI, it aims to provide machines with the capacity not only to see but also to *look*. Its aim is for machines to extract valuable information from digital videos and images and use it to gain a deeper understanding, to think and act as we do.
 
 <figure>
-  <img style="width: 100%" src="/images/body-detection-with-computer-vision/intro.gif" alt="intro">
+  <img style="width: 100%" src="/images/body-detection-with-computer-vision/intro.gif" alt="intro" \>
   <figcaption>Image: Bicentennial Man (1999).</figcaption>
 </figure>
 
