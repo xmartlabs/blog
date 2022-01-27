@@ -9,7 +9,7 @@
         <a href="{{ post.url | prepend: site.baseurl }}"></a>
       </div>
       <article class="post-item">
-        <a href="" class="blog-category"># {{ category.display_name}}</a>
+        <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>
         <a href="{{ post.url | prepend: site.baseurl }}">
           <div class="post-info">
             <div class="post-time-info">
@@ -39,7 +39,7 @@
           </a>
         </div>
         <article class="post-item">
-          <a href="" class="blog-category"># {{ category.display_name}}</a>
+          <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-info">
               <div class="post-time-info">
@@ -68,7 +68,7 @@
           </a>
         </div>
         <article class="post-item">
-          <a href="" class="blog-category"># {{ category.display_name}}</a>
+          <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>
           <a href="{{ post.url | prepend: site.baseurl }}">
             <div class="post-info">
               <div class="post-time-info">

@@ -7,7 +7,7 @@ layout: default_post
   <div class="post-wrapper container">
     <div class="post-header">
       <div class="wrapper">
-        <a href="" class="blog-category"># {{ category.display_name}}</a>
+        <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>
         <h1 class="post-title">{{ page.title }}</h1>
         <div class="post-author-info">
           <div class="post-author-image">
