@@ -1,0 +1,126 @@
+{% assign category = site.data.categories[include.categoryText] %}
+{% assign displayPosts = site.posts | where: 'show', true | where: 'category', include.categoryText  %}
+{{category}}
+<div class="list-container">
+    <div class="header">
+      <div class="scrim-layer">
+        <h1 class="header-title">Xmartlabs Blog </h1>
+        <h4 class="subtitle header-subtitle">
+          {{ category.title }}
+        </h4>
+      </div>
+    </div>
+
+    <div class="featured-container">
+      {% for post in displayPosts limit:1 offset:0 %}
+      {% assign category = site.data.categories[post.category] %}
+      {% assign author = site.data.authors[post.author_id] %}
+        <div class="featured-column">
+          <div class="featured-post" style="background-image: url('{{ post.featured_image}}');">
+            <a href="{{ post.url | prepend: site.baseurl }}"></a>
+          </div>
+          <article class="post-item">
+            <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <div class="post-info">
+                <div class="post-time-info">
+                  <time class="post-meta" datetime="{{ post.date }}">
+                    {{ post.date | date: "%b %-d, %Y" }}
+                  </time>
+                </div>
+                <h1 class="post-title">
+                  {{ post.title }}
+                </h1>
+                <p class="paragraph">
+                  {{ post.content | truncatewords:40 | strip_html}}
+                </p>
+              </div>
+            </a>
+            <span class="author">By <a href="{{author.profile_url}}" class="author" target="_blank" >{{ author.display_name }}</a></span>
+          </article>
+        </div>
+      {% endfor %}
+      <div class="bottom-row">
+        {% for post in displayPosts limit:1 offset:1 %}
+        {% assign category = site.data.categories[post.category] %}
+        {% assign author = site.data.authors[post.author_id] %}
+          <div class="featured-column">
+            <div class="featured-post" style="background-image: url('{{ post.featured_image}}');">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+              </a>
+            </div>
+            <article class="post-item">
+              <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <div class="post-info">
+                  <div class="post-time-info">
+                    <time class="post-meta" datetime="{{ post.date }}">
+                      {{ post.date | date: "%b %-d, %Y" }}
+                    </time>
+                  </div>
+                  <h1 class="post-title">
+                    {{ post.title }}
+                  </h1>
+                  <p class="paragraph">
+                    {{ post.content | truncatewords:20 | strip_html}}
+                  </p>
+                </div>
+              </a>
+              <span class="author">By <a href="{{author.profile_url}}" class="author" target="_blank" >{{ author.display_name }}</a></span>
+            </article>
+          </div>
+        {% endfor %}
+        {% for post in displayPosts limit:1 offset:2 %}
+        {% assign category = site.data.categories[post.category] %}
+        {% assign author = site.data.authors[post.author_id] %}
+          <div class="featured-column">
+            <div class="featured-post" style="background-image: url('{{ post.featured_image}}');">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+              </a>
+            </div>
+            <article class="post-item">
+              <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <div class="post-info">
+                  <div class="post-time-info">
+                    <time class="post-meta" datetime="{{ post.date }}">
+                      {{ post.date | date: "%b %-d, %Y" }}
+                    </time>
+                  </div>
+                  <h1 class="post-title">
+                    {{ post.title }}
+                  </h1>
+                  <p class="paragraph">
+                    {{ post.content | truncatewords:20 | strip_html}}
+                  </p>
+                </div>
+              </a>
+              <span class="author">By <a href="{{author.profile_url}}" class="author" target="_blank" >{{ author.display_name }}</a></span>
+            </article>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  <!-- {% include featured.html %} -->
+
+  <div class="page-content">
+    <div class="container">
+      <div class="home">
+        <h1 class="page-heading">
+        </h1>
+        <section>
+          <ul class="post-list">
+            {% assign displayPosts = site.posts | where: 'show', true | where: 'category', include.categoryText %}
+            {% for post in displayPosts offset:3 %}
+              <li>
+                {% include post.html post=post %}
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+      <iframe src="https://xmartlabs.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+</div>
