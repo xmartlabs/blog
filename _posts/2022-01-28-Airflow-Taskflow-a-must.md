@@ -15,7 +15,7 @@ Airflow introduced several changes in its second version a year ago. Since then 
 
 ## First thing's first, What's TaskFlow?
 
-The Taskflow API is an abstraction built on top of XComs that allows developers to send messages between tasks in a DAG (Directed Acyclic Graph). It seems pretty straightforward, right? But it comes with several tools to make our life easier, especially if most of your DAGs are written as Python tasks. Let's dive into them with a simple example.
+The Taskflow API is an abstraction built on top of XComs that allows developers to send messages between tasks in a DAG (Directed Acyclic Graph). It seems pretty straightforward, right? But it also comes with several tools to make our life easier, primarily if most of your DAGs are written as Python tasks. Let's dive into them with an example.
 
 ## 1) Creating DAGs with ease
 
