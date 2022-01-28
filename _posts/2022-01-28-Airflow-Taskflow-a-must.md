@@ -11,7 +11,7 @@ featured_image: /images/object-detection/ObjectDetecion_Blog.jpg
 permalink: /blog/computer-vision-and-object-detection-use-case/
 ---
 
-Airflow introduced several changes in its second version a year ago. Since then, in Xmartlabs, we’ve had the opportunity to experience some of them. We especially had a good time working with its new [Taskflow API](https://airflow.apache.org/docs/apache-airflow/stable/concepts/taskflow.html). After deciding whether we should adopt this new feature, we finally decided to make Taskflow a part of our daily work. In this blog post, I will tell you why we think you should too.
+Airflow introduced several changes in its second version a year ago. Since then, in Xmartlabs, we’ve had the opportunity to experience some of them. We especially had a good time working with its new [Taskflow API](https://airflow.apache.org/docs/apache-airflow/stable/concepts/taskflow.html).After deciding whether we should adopt this new feature, we finally decided to make Taskflow a part of our daily work. In this blog post, I will tell you why we think you should too.
 
 ## First thing's first, What's TaskFlow?
 
@@ -267,3 +267,16 @@ Lastly, notice Taskflow is quickly evolving and we might see new features and im
 - Docker Taskflow decorator (v2.2)
 
 And there is more stuff in progress, you can find these in the [Airflow’s git repository](https://github.com/apache/airflow).
+
+Thanks for reading! ❤️
+
+Got stuck developing ETL solutions? We'd love to help! Get in touch to start leveraging the power of your data today! 
+
+<div>
+<a data-mode="popup" data-hide-footer="true" target="_blank" href="https://form.typeform.com/to/D1PhDJIR" class="button is-nav ipad-hidden typeform-share w-inline-block header-getintouch" style="opacity: 1;">
+  <div class="button-text no-pointer">Let's talk</div>
+</a>
+</div>
+<br />
+<br />
+
