@@ -7,7 +7,7 @@ tags: [ETL, Airflow, Taskflow]
 author_id: remer
 show: true
 category: data-engineering
-featured_image: /images/object-detection/ObjectDetecion_Blog.jpg
+featured_image: /images/object-detection/taskflow-blogpost.jpg
 permalink: /blog/computer-vision-and-object-detection-use-case/
 ---
 
