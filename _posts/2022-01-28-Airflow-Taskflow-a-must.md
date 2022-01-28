@@ -114,7 +114,7 @@ etl_dag = awesome_etl_v2()
 
 Let's see what's new in the code above:
 
-- **The `@task` decorator:** turning a python function into an Airflow `PythonOperator` task is as simple as annotating it with `@task`. Additionally, any value returned by one of these operators can be passed to another operator, making sending messages between tasks something really simple. We’ll dig into this in the next section.
+- **The `@task` decorator:** turning a python function into an Airflow `PythonOperator` task is as simple as annotating it with `@task`. Additionally, any value returned by one of these operators can be passed to another operator, making it really simple to send messages between tasks. We’ll dig into this in the next section.
 - **The `@dag` decorator**: in a similar way, we can turn a python function into a DAG generator using this decorator.
 - **Dependency inference**: notice we haven't used either one of Airflow's dependency operators (`<<`, `>>`).  With Taskflow, Airflow can infer the relationships among tasks based on how their names. In the example above, Airflow determines that `transform` depends on both `extract_from_api` and `extract_from_db`. Analogously, Airflow determines the `load` task depends on `transform`. And it’s done automatically, sweet! This is how our DAG would look in Airflow’s UI:
 
