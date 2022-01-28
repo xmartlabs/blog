@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 reasons why you should use Airflow’s Taskflow API
-date: '2022-01-28T10:00:00.000-03:00'
+date: '2022-02-01T10:00:00.000-03:00'
 author: Miguel Revetria
 tags: [ETL, Airflow, Taskflow]
 author_id: remer
