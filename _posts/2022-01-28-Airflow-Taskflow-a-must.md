@@ -27,7 +27,7 @@ Imagine you need to write an ETL process with Airflow to process sales informati
 
 ### The old way, DAG Definition before Taskflow 
 
-For our ETL process, we need to implement some tasks to get the data out of the sources, transform it, and load it into the persistent storage. Traditionally, we have written our DAGs following a structure similar to the one shown next:
+For our ETL process, we need to implement some tasks to get the data out of its source, transform it, and load it into the persistent storage. Traditionally, we'd write our DAGs following a structure similar to the one shown next:
 
 ```python
 def extract_from_api(**kwargs):
