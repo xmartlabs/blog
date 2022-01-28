@@ -266,7 +266,7 @@ Lastly, notice Taskflow is quickly evolving and we might see new features and im
 - Taskgroup decorator (v2.1)
 - Docker Taskflow decorator (v2.2)
 
-And there is more stuff in progress, you can find these in the [Airflow’s git repository](https://github.com/apache/airflow).
+The best part is there's much more to come, you can find these in the [Airflow’s git repository](https://github.com/apache/airflow).
 
 Thanks for reading! ❤️
 
