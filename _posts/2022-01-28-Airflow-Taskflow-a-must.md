@@ -237,7 +237,7 @@ with DAG('') as dag:
   transform(ext1_data, ext2.output)
 ```
 
-As `extract_from_api` is using the new Taskflow API we can get rid of the XComs functions it was using and just return its output and assign it to `ext1_data` variable, which then is passed as an argument to the `transform` task. On the other hand, `extract_from_db` is still using the old API, anyway, we can access the values it saves into XComs by accessing its `output` property without executing any of the XComs functions. 
+As `extract_from_api` is using the new Taskflow API we can get rid of the XComs functions it was using and just return its output and assign it to `ext1_data` variable, which then is passed as an argument to the `transform` task. On the other hand, `extract_from_db` is still using the old API, and we can access the values it saves into XComs by accessing its `output` property without executing any of the XComs functions. 
 
 | `output` is a property available for every operator, this means we can use it for every existing task in our DAGs.
 
