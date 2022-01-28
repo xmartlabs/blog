@@ -260,7 +260,6 @@ We've seen that the new Taskflow API available in Airflow version 2+ came with m
     All these Taskflow features cut off development, maintenance, and ETL pipeline understanding time. Not to mention that is less prone to error.  
     
 
-Lastly, notice Taskflow is quickly evolving and we might see new features and improvements soon. In fact, since Taskflow’s first version was out a few new decorators were added:
 
 - PythonVirtualenvDecorator (v2.1)
 - Taskgroup decorator (v2.1)
