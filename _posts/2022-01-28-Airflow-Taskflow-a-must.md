@@ -251,7 +251,7 @@ We've seen that the new Taskflow API available in Airflow version 2+ came with m
 
 - **sugerencia**
     
-    We have seen how simple is to implement a DAG by using Taskflow. 
+    We have seen the advantages of implementing a DAG by using Taskflow. 
     
     - It reduces boilerplate code.
     - Simplifies the tedious process of passing arguments among tasks.
