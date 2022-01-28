@@ -74,7 +74,7 @@ with DAG('awesome_etl_v1') as dag:
     [ext1, ext2] << trn << load
 ```
 
-Without Taskflow, we ended up writing a lot of repetitive code. And this was a toy example; imagine how much of this code there would be in a real-world pipeline!
+Without Taskflow, we ended up writing a lot of repetitive code. And this was an example; imagine how much of this code there would be in a real-life pipeline!
 
 ### The Taskflow way, DAG definition using Taskflow
 
