@@ -261,10 +261,6 @@ We've seen that the new Taskflow API available in Airflow version 2+ came with m
     
 
 
-- PythonVirtualenvDecorator (v2.1)
-- Taskgroup decorator (v2.1)
-- Docker Taskflow decorator (v2.2)
-
 The best part is there's much more to come, you can find these in the [Airflow’s git repository](https://github.com/apache/airflow).
 
 Thanks for reading! ❤️
