@@ -19,7 +19,7 @@ The Taskflow API is an abstraction built on top of XComs that allows developers 
 
 ## 1) Creating DAGs with ease
 
-Imagine having to write an ETL process with Airflow to process sales information about our customers. The data comes from two different sources: a third-party CRM via a RESTfull API and an owned relational database. We want to process the information we recover from those two sources to unify the data's schema and keep the most relevant information for us. Finally, we'd store the transformed data in a persistent storage to be later consumed by the analysis team.
+Imagine you need to write an ETL process with Airflow to process sales information about our customers. The data comes from two different sources: a third-party CRM via a RESTfull API and an owned relational database. We want to process the information we've recovered from those two sources, unify the data's schema, and keep relevant information for us. Finally, we'd store the transformed data in a persistent storage to be consumed later by the analysis team.
 
 > You can find the complete code on GitHub following [this link](https://github.com/m-revetria/airflow-v2-blogpost).
 
