@@ -246,18 +246,14 @@ As `extract_from_api` is using the new Taskflow API we can get rid of the XComs 
 By default, only Python's native types can be stored in XComs. On the other hand, those values are saved into Airflow's metadata database. This means we can't save different types like numpy objects, dates, pandas data frames, etc. We can't store values that are greater than 1 GB.
 
 ## Final thoughts
+    
+We have seen the advantages of implementing a DAG by using Taskflow. 
 
-We've seen that the new Taskflow API available in Airflow version 2+ came with many features, making DAGs implementation simple. It takes away many of the boilerplates you used to need. Our DAGs code is cleaner, easier to read, and reason about by adopting these features.
+- It reduces boilerplate code.
+- Simplifies the tedious process of passing arguments among tasks.
+- Infers task dependencies, and much more.
 
-- **sugerencia**
-    
-    We have seen the advantages of implementing a DAG by using Taskflow. 
-    
-    - It reduces boilerplate code.
-    - Simplifies the tedious process of passing arguments among tasks.
-    - Infers task dependencies, and much more.
-    
-    All these Taskflow features cut off development, maintenance, and ETL pipeline understanding time. Not to mention that is less prone to error.  
+All these Taskflow features cut off development, maintenance, and ETL pipeline understanding time. Not to mention that is less prone to error.  
     
 
 
