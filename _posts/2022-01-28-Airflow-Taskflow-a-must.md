@@ -11,7 +11,7 @@ featured_image: /images/taskflow/taskflow-blogpost.jpg
 permalink: /blog/computer-vision-and-object-detection-use-case/
 ---
 
-Airflow introduced several changes in its second version a year ago. Since then, in Xmartlabs, we’ve had the opportunity to experience some of them. We especially had a good time working with its new [Taskflow API](https://airflow.apache.org/docs/apache-airflow/stable/concepts/taskflow.html).After deciding whether we should adopt this new feature, we finally decided to make Taskflow a part of our daily work. In this blog post, I will tell you why we think you should too.
+Airflow introduced several changes in its second version a year ago. Since then we’ve had the opportunity to experience most of them. And we especially had a good time working with its new [Taskflow API](https://airflow.apache.org/docs/apache-airflow/stable/concepts/taskflow.html). After considering whether we should adopt this new feature, we finally decided to make Taskflow a part of our daily work. This blog post will show why you should too.
 
 ## First thing's first, What's TaskFlow?
 
