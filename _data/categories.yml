@@ -18,6 +18,10 @@ machine-learning:
   title: Machine Learning lessons learned on our journey.
   display_name: Machine Learning
   url: /category/machine-learning
+data-engineering:
+  title: Data Engineering lessons learned on our journey.
+  display_name: Data Engineering
+  url: /category/data-engineering
 ios-development:
   title: Swift d lessons learned on our journey.
   display_name: iOS Development
