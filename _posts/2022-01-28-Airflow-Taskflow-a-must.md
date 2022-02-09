@@ -5,7 +5,7 @@ date: '2022-01-31T10:00:00.000-03:00'
 author: Miguel Revetria
 tags: [ETL, Airflow, Taskflow]
 author_id: remer
-show: false
+show: true
 category: data-engineering
 featured_image: /images/taskflow/taskflow-blogpost.jpg
 permalink: /blog/computer-vision-and-object-detection-use-case/
