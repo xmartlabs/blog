@@ -28,7 +28,7 @@ A product recommendation engine is the software component that analyzes data abo
 Modern Recommendation engines use AI and Deep Learning to infer personalized and contextual recommendations **and** constantly evaluate and improve their model results.
 
 
-## Why your platform need a recommendation engine?
+## Why your platform needs a recommendation engine?
 
 Many businesses have quickly understood the value and importance of solid recommendation systems. Our Machine Learning team has seen this reflected in the number of clients looking for one, and no matter your industry, recommendations systems might be a game-changer for your business's online platforms.
 
