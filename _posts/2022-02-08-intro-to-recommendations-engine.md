@@ -241,7 +241,7 @@ If you read this far, you probably have a better understanding of how recommenda
 
 Each product is unique, and the challenges can diverge accordingly. All the challenges we presented were experienced during years of developing these solutions for our clients. 
 
-In the upcoming blog posts, we will be heading to details on how to implement them, different tools and approaches to solve each of the steps presented below, as well as code and practical examples.
+In the upcoming blog posts, we'll be going into details on how to implement them, different tools and approaches to solve each of the steps presented below, as well as code and practical examples.
 
 If you are considering leveraging recommendation engines...Don’t hesitate, get in touch to get a free consultation with our specialists. 
 
