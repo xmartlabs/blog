@@ -231,7 +231,7 @@ Taking Amazon as an example, several views show recommendations:
 
 - During checkout process
     
-    ![During checkout steps](/images/recommendation-engines/amazon-re-5.png)
+    ![During checkout process](/images/recommendation-engines/amazon-re-5.png)
     
 - Email
 
