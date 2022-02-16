@@ -226,7 +226,7 @@ Taking Amazon as an example, several views show recommendations:
     
 - When added a kindle item to the card
     
-    ![Added a kindle item to the card](/images/recommendation-engines/amazon-re-4.png)
+    ![Added a Kindle item to the card](/images/recommendation-engines/amazon-re-4.png)
     
 
 - During checkout steps
