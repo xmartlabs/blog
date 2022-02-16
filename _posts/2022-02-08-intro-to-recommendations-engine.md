@@ -15,7 +15,7 @@ permalink: /blog/intro-to-product-recommendations-engine/
 
 Recommendation engines can rapidly increase online business revenue and boost customer loyalty, both crucial for sustainable growth. In this blog post, we’ll go through the main challenges, and pros and cons we faced implementing and deploying such solutions for a big apparel brand, the different approaches to implement recommendation engines, and best practices.```
 
-First things first... what exactly is it?, and how can I take advantage of it and put it to work to drive those sales? Keep reading to find out.
+First things first... what exactly is a product recommendation engine? And how can I take advantage and put it to work so it drives those sales? Keep reading to find out.
 
 ## What's a product recommendation engine?
 
