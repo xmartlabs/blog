@@ -23,7 +23,7 @@ First things first... what exactly is a product recommendation engine? And how c
 You probably have Twitter, Netflix, or buy browse through Amazon. All these three platforms use recommendation engines intensively throughout every end-user application touchpoint. Twitter suggests who you should follow, content you might like, top trendings topics, etc.; Netflix recommends movies and series categorized by genre, top watched, Amazon shows related, and “Frequently bought together” items, and so on.
 
 
-A product recommendation engine is a software component that analyzes data about platform end-users to infer what types of products may be interesting to them. Basically, it considers user behavior, activity, preferences, user feedback, and products features to generate personalized recommendations.
+A product recommendation engine is the software component that analyzes data about a platform's end-users to infer what type of products they may be interested in. It considers the user's behavior, activity, preferences, feedback, and products features to generate personalized recommendations.
 
 Modern Recommendation engines use AI and Deep Learning to infer personalized and contextual recommendations apart from constantly being evaluating and improving their model results.
 
