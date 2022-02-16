@@ -237,7 +237,7 @@ Taking Amazon as an example, several views show recommendations:
 
 ## Closing thoughts
 
-If you read this far, you probably have a better understanding of how the recommendation system can boost your business. You would probably appreciate the complexity of building one that requires a wide range of specialists collaborating together. 
+If you read this far, you probably have a better understanding of how recommendation systems can boost your business. And you'd probably appreciate the complexity of building one that requires a wide range of specialists collaborating together. 
 
 Each product is unique, and the challenges can diverge accordingly. All the challenges we presented were experienced during years of developing these solutions for our clients. 
 
