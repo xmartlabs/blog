@@ -8,7 +8,7 @@ author_id: mtnBarreto
 show: true
 category: machine-learning
 featured_image: /images/taskflow/taskflow-blogpost.jpg
-permalink: /blog/intro-to-product-recommendations-engine
+permalink: /blog/intro-to-product-recommendations-engine/
 ---
 
 
