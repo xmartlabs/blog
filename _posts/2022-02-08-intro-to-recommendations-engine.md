@@ -190,16 +190,20 @@ Evaluating the business value of a recommender system mainly depends on the comp
 
 The most common metrics could be categorized in:
 
-**Click-throught rates**
+**Click-throught rates:**
+
 Basically, when an item is recommended and viewed.... Was it clicked? How often? Notice it strongly depends on where the recommended items are displayed, if there are more recommended items around, etc.
 
-**User behavior and engagement**
+**User behavior and engagement:**
+
 For a streaming platform, the recommended engine makes the audience spend more time watching series or movies?? Is there any increase in "Save to watch later" list? etc. 
 
-**Revenue Indicators**
+**Revenue Indicators:**
+
 Recommendations make users spend more money? Are users adding more items to the cart? Revenue indicators are great to measure overall RE performance. 
 
-**Adoption and conversion Rates**
+**Adoption and conversion Rates:**
+
 Click-through rates are okay, but we are also interested if these suggested items were purchased, added to the cart, or watched. This indicator reflects whether the recommendation engine is useful to the end-user or not. Otherwise, they can be interested in navigating to the recommendation item but never consume it. It's actually a waste of time for the user. 
 
 
