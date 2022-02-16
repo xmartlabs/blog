@@ -229,7 +229,7 @@ Taking Amazon as an example, several views show recommendations:
     ![Added a Kindle item to the card](/images/recommendation-engines/amazon-re-4.png)
     
 
-- During checkout steps
+- During checkout process
     
     ![During checkout steps](/images/recommendation-engines/amazon-re-5.png)
     
