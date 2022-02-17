@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 4 reasons why you should use Airflow’s Taskflow API
-date: '2022-01-31T10:00:00.000-03:00'
+date: '2022-02-25T10:00:00.000-03:00'
 author: Miguel Revetria
 tags: [ETL, Airflow, Taskflow]
 author_id: remer
@@ -22,7 +22,6 @@ The Taskflow API is an abstraction built on top of XComs that allows developers 
 Imagine you need to write an ETL process with Airflow to process sales information about our customers. The data comes from two different sources: a third-party CRM via a RESTfull API and an owned relational database. We want to process the information we've recovered from those two sources, unify the data's schema, and keep relevant information for us. Finally, we'd store the transformed data in a persistent storage to be consumed later by the analysis team.
 
 > You can find the complete code on GitHub following [this link](https://github.com/m-revetria/airflow-v2-blogpost).
-
 
 
 ### The old way, DAG Definition before Taskflow 

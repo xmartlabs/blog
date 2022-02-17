@@ -8,7 +8,8 @@ layout: null
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
-  {% for post in site.posts %}
+  {% assign displayPosts = site.posts | where: 'show', true %}
+  {% for post in displayPosts %}
   <url>
     <loc>{{ post.url | prepend: site.url_blog }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
