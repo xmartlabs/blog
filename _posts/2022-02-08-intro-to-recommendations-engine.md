@@ -1,11 +1,11 @@
 ---
 layout: post
 title: How recommendation engines boost your online business
-date: '2022-02-07T10:00:00.000-03:00'
+date: '2022-02-25T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [Recommendation Engine, Recommendation Systems, Recommendation engine challenges]
 author_id: mtnBarreto
-show: true
+show: false
 category: machine-learning
 featured_image: /images/taskflow/taskflow-blogpost.jpg
 permalink: /blog/intro-to-product-recommendations-engine/
