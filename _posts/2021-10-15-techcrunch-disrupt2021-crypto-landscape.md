@@ -48,8 +48,6 @@ We have to wait until mass adoption occurs or it draws down. What's genuine is t
 
 Another central topic around crypto was its regulation. There's an open dialogue around this issue as it's highly sensitive for the industry. Leading players expect clear direction around regulations so they can concentrate on innovating.
 
-Brian Armstrong, CEO of [Coinbase](https://www.coinbase.com/), told his story about talking with regulatory agencies. Recently he makes public a communication with the SEC ("Securities and Exchange Commission") after their negative to allow Coinbase to launch a new Defi product this year.
-
 Brian Armstrong, CEO of [Coinbase](https://www.coinbase.com/), spoke of his experience talking with regulatory agencies. Recently he made a conversation between him and the SEC ("Securities and Exchange Commission") public after they refused to allow Coinbase to launch a new Defi product this year.
 
 Check out Brian's tweet about SEC's response and his expectation around regulations.
