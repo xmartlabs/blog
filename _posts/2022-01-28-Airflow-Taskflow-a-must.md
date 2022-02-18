@@ -5,7 +5,7 @@ date: '2022-02-25T10:00:00.000-03:00'
 author: Miguel Revetria
 tags: [ETL, Airflow, Taskflow]
 author_id: remer
-show: false
+show: true
 category: data-engineering
 featured_image: /images/taskflow/taskflow-blogpost.jpg
 permalink: /blog/computer-vision-and-object-detection-use-case/
@@ -15,14 +15,13 @@ Airflow introduced several changes in its second version a year ago. Since then 
 
 ## First thing's first, What's TaskFlow?
 
-The Taskflow API is an abstraction built on top of XComs that allows developers to send messages between tasks in a DAG (Directed Acyclic Graph). It seems pretty straightforward, right? But it also comes with several tools to make our life easier, primarily if most of your DAGs are written as Python tasks. Let's dive into them with an example.
+The Taskflow API is an abstraction built on top of [XComs](https://airflow.apache.org/docs/apache-airflow/stable/concepts/xcoms.html) that allows developers to send messages between tasks in a DAG (Directed Acyclic Graph). It seems pretty straightforward, right? But it also comes with several tools to make our life easier, primarily if most of your DAGs are written as Python tasks. Let's dive into them with an example.
 
 ## 1) Creating DAGs with ease
 
 Imagine you need to write an ETL process with Airflow to process sales information about our customers. The data comes from two different sources: a third-party CRM via a RESTfull API and an owned relational database. We want to process the information we've recovered from those two sources, unify the data's schema, and keep relevant information for us. Finally, we'd store the transformed data in a persistent storage to be consumed later by the analysis team.
 
-> You can find the complete code on GitHub following [this link](https://github.com/m-revetria/airflow-v2-blogpost).
-
+> You can find the complete code on GitHub following [this link](https://github.com/xmartlabs/airflow-v2-blogpost).
 
 ### The old way, DAG Definition before Taskflow 
 
@@ -121,9 +120,9 @@ Let's see what's new in the code above:
 
 ## 2) Simplified tasks communication
 
-Tasks are isolated and can’t share data as we typically do in Python code. There’s a way we can share information between tasks via **XComs**.
+Tasks are isolated and can’t share data as we typically do in Python code. The only way we can share information between tasks, and it's using **XComs**.
 
-To continue with our example, let’s see how we can share data between tasks via XComs using the old API:
+To continue with our example, let’s see how we do this using the old API:
 
 ```python
 def extract_from_api(**kwargs):
@@ -159,11 +158,13 @@ with DAG('awesome_etl_v1') as dag:
   ext1 << trn << load
 ```
 
-To have access to XComs we always need a `task_instance`,  passed as an argument to the python functions referenced by the `PythonOperator` instances. With it, we can use XCom’s public API `xcom_pull` and `xcom_push` to read and write, respectively. 
+| In the example above, I intentionally left the `ext2` task out of the dependencies list of the `trn` task. And even the `trn` task is getting a value from XComs written by `ext2`, Airflow will correctly load this DAG. As there’s no dependency between `ext2` and `trn`, Airflow will execute `trn` as soon as `ext1` has finished, regardless of the state of `ext2`. You see the race condition, right?
 
-Reading from XComs a value written there by another task defines dependencies between tasks. However, they’re not explicit, which makes it hard to see them as we’d need to dive into the DAG’s implementation. Airflow won’t infer those dependencies either, and we can’t see them in the Graph view in Airflow UI. If we forgot to explicitly define it, either with `>>` or `<<`, Airflow won’t guarantee the tasks will run in the appropriate order. This may cause runtime errors in our pipeline that would be hard to debug. **This can be one of the most confusing parts of a DAG!**
+To have access to XComs we always need a `task_instance`,  passed as an argument to the python functions referenced by the `PythonOperator` instances. `task_instance` provides `xcom_pull` and `xcom_push` to read and write argument values, respectively. 
 
-In the example above, I intentionally left the `ext2` task out of the dependencies list of the `trn` task. And even the `trn` task is getting a value from XComs written by `ext2`. Airflow will correctly load this DAG. As there’s no dependency between `ext2` and `trn`, Airflow will execute `trn` as soon as `ext1` has finished, regardless of the state of `ext2`. You see the race condition, right? This is how this DAG would look in the Airflow Graph view:
+Reading from XComs a value written there by another task defines dependencies between tasks. However, they’re not explicit, which makes it hard to see them as we’d need to dive into the DAG’s implementation. Airflow won’t infer those dependencies either, and we can’t visualize them in the Graph view in Airflow UI. If we forgot to explicitly define it, either with `>>` or `<<`, Airflow won’t guarantee the tasks will run in the appropriate order. This may cause runtime errors in our pipeline that would be hard to debug. **This can be one of the most confusing parts of a DAG!**
+
+This is how this DAG would look in the Airflow Graph view:
 
 ![The dependency between `extract_from_db` and `transform`, based on XComs data sharing, is not expressed in terms of the graph.](/images/taskflow/DAG-2.png)
 
@@ -242,7 +243,71 @@ As `extract_from_api` is using the new Taskflow API we can get rid of the XComs 
 
 ## 4) XComs custom backends
 
-By default, only Python's native types can be stored in XComs. On the other hand, those values are saved into Airflow's metadata database. This means we can't save different types like numpy objects, dates, pandas data frames, etc. We can't store values that are greater than 1 GB.
+Even though [XComs](https://airflow.apache.org/docs/apache-airflow/stable/concepts/xcoms.html) is what powers Taskflow up, it has it's own limitations. One of them is that only JSON-serializable values can be stored in XComs, this prevent us from storing custom classes instances. On the other hand, those values are saved into Airflow's metadata database which limits the size of the data we can store. These two points mean we can't save different types like `numpy` objects, dates, `pandas` data frames, etc., and we can't store values that are greater than 1 GB either. 
+
+This imposes some limitations to the data we can pass through our DAG’s tasks. These limitations can be avoided in the new Airflow version using [XComs custom backends](https://airflow.apache.org/docs/apache-airflow/stable/concepts/xcoms.html#custom-backends). This allow us to implement serializers to encode any object we need and saving them to a destination of our preferences.
+
+For example we could save the XComs variables of our dags in a reliable and scalable low-cost cloud storage service as AWS S3. Additonally, we can save any python type tha we know how to encode and decode, like a `pandas` data frame. Let's see with an example how easy we can do both looking at the next code snippet:
+
+```python
+from airflow.models.xcom import BaseXCom
+from airflow.providers.amazon.aws.hooks.s3 import S3Hook
+
+import pandas as pd
+import uuid
+
+
+class PandasToS3XComBackend(BaseXCom):
+  DATA_SCHEMA = "awesome-etl-s3://"
+
+  @staticmethod
+  def serialize_value(value):
+    if isinstance(value, pd.DataFrame):
+      from airflow.models import Variable
+
+      bucket = Variable.get('awesome_etl_bucket')
+      hook = S3Hook(Variable.get('awesome_etl_aws_connection_id'))
+      file_name = f'data_{str(uuid.uuid4())}.json'
+      key = f'{AWS_BUCKET_PREFIX}/{file_name}'
+
+      with open(file_name, 'w') as file:
+        value.to_csv(file)
+      hook.load_file(file_name, key, bucket, replace=True)
+      
+      value = PandasToS3XComBackend.DATA_SCHEMA + key
+    
+    return BaseXCom.serialize_value(value)
+
+  @staticmethod
+  def deserialize_value(result):
+    result = BaseXCom.deserialize_value(result)
+    if isinstance(result, str) and result.startswith(PandasToS3XComBackend.DATA_SCHEMA):
+      from airflow.models import Variable
+      
+      bucket = Variable.get('awesome_etl_bucket')
+      hook = S3Hook(Variable.get('awesome_etl_aws_connection_id'))
+      key = result.replace(PandasToS3XComBackend.DATA_SCHEMA, "")
+      file_name = hook.download_file(key, bucket, "/tmp")
+      result = pd.read_csv(file_name)
+    
+    return result
+
+  def orm_deserialize_value(self):
+    result = BaseXCom.deserialize_value(self)
+    if isinstance(result, str) and result.startswith(PandasToS3XComBackend.DATA_SCHEMA):
+      return result
+    PandasToS3XComBackend.deserialize_value(self)
+```
+
+Let quickly explain the above code. We have to implement two main methods for our custom backend:
+
+1. `serialize` returns what's is stored in the XComs' backend. In our case we care about encoding only pandas `DataFrame` instances, otherwise delegate this responsibility to `BaseXCom`.
+2. on the other way around, `deserialize` takes a whatever `serialize` returned and returns back the original value. In our case, we determine whether the serialized value must be deserialized as a `pandas` `DataFrame` based on the custom URI schema we used in the serialization's result. Otherwise, we let `BaseXCom` do its job.
+3. finally, optionally we can implement `orm_deserialize_value` to change how the serialized values are shown in Airflow's UI. 
+
+> For use, not implementing `orm_deserialize_value` ended up in Airflow's UI crashing. 
+
+This give us a lot of extra freedom when we really need. Even though, in theory, we could save a big chunk of information this way, it’s not the idea to use XCom to support a data-driven pipeline. I mean, we should keep information backed up by XComs to small chunks as Airflow itself is not designed to move much information.
 
 ## Final thoughts
     
