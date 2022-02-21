@@ -295,17 +295,19 @@ class PandasToS3XComBackend(BaseXCom):
   def orm_deserialize_value(self):
     result = BaseXCom.deserialize_value(self)
     if isinstance(result, str) and result.startswith(PandasToS3XComBackend.DATA_SCHEMA):
-      return result
-    PandasToS3XComBackend.deserialize_value(self)
+      result = f'{result} (serialized by "PandasToS3XComBackend")'
+    return result
 ```
 
 Let quickly explain the above code. We have to implement two main methods for our custom backend:
 
-1. `serialize` returns what's is stored in the XComs' backend. In our case we care about encoding only pandas `DataFrame` instances, otherwise delegate this responsibility to `BaseXCom`.
-2. on the other way around, `deserialize` takes a whatever `serialize` returned and returns back the original value. In our case, we determine whether the serialized value must be deserialized as a `pandas` `DataFrame` based on the custom URI schema we used in the serialization's result. Otherwise, we let `BaseXCom` do its job.
+1. `serialize_value` returns what's stored in the XComs' database registry. In our example, we care only about encoding `pandas` `DataFrame` instances, in which case we serialize it as a CSV file and upload it to S3. Finally we return the path to that file in S3, so later, when we need to get the original value, we can download the appropriated file and deserialize its content as the original `pandas` `DataFrame`. Otherwise, we delegate the serialization job to `BaseXCom`.
+2. on the other way around, `deserialize_value` takes whatever `serialize_value` returned and returns back the original value. In our case, we determine whether the serialized value must be deserialized as a `pandas` `DataFrame` based on the custom URI schema we used in the serialization's result. Otherwise, we let `BaseXCom` do its job.
 3. finally, optionally we can implement `orm_deserialize_value` to change how the serialized values are shown in Airflow's UI. 
 
-> For use, not implementing `orm_deserialize_value` ended up in Airflow's UI crashing. 
+And this is how our custom XComs variables will look:
+
+![XComs custom variable](/images/taskflow/taskflow-xcoms.png)
 
 This give us a lot of extra freedom when we really need. Even though, in theory, we could save a big chunk of information this way, it’s not the idea to use XCom to support a data-driven pipeline. I mean, we should keep information backed up by XComs to small chunks as Airflow itself is not designed to move much information.
 
