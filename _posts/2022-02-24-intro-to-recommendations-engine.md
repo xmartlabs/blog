@@ -1,19 +1,17 @@
 ---
 layout: post
-title: How recommendation engines boost your online business
-date: '2022-02-25T10:00:00.000-03:00'
+title: Boost your online business with recommendation engines 
+date: '2022-02-24T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [Recommendation Engine, Recommendation Systems, Recommendation engine challenges]
 author_id: mtnBarreto
-show: false
+show: true
 category: machine-learning
 featured_image: /images/taskflow/taskflow-blogpost.jpg
 permalink: /blog/intro-to-product-recommendations-engine/
 ---
 
-
-
-Recommendation engines can rapidly increase online business revenue and boost customer loyalty, both crucial for sustainable growth. In this blog post, we’ll go through the main challenges, and pros and cons we faced implementing and deploying such solutions for a big apparel brand, the different approaches to implement recommendation engines, and best practices.```
+Recommendation engines can rapidly increase online business revenue and boost customer loyalty, both crucial for sustainable growth. In this blog post, we’ll go through the main challenges, and pros and cons we faced implementing and deploying such solutions for a big apparel brand, the different approaches to implement recommendation engines, and best practices.
 
 First things first... what exactly is a product recommendation engine? And how can I take advantage and put it to work so it drives those sales? Keep reading to find out.
 
@@ -25,7 +23,7 @@ You probably have Twitter, Netflix, or buy browse through Amazon. All these thre
 
 A product recommendation engine is the software component that analyzes data about a platform's end-users to infer what type of products they may be interested in. It considers the user's behavior, activity, preferences, feedback, and products features to generate personalized recommendations.
 
-Modern Recommendation engines use AI and Deep Learning to infer personalized and contextual recommendations **and** constantly evaluate and improve their model results.
+Modern Recommendation engines use AI and Deep Learning to infer personalized and contextual recommendations and constantly evaluate and improve their model results.
 
 
 ## Why your platform needs a recommendation engine?
@@ -34,8 +32,8 @@ Many businesses quickly understood the value and importance of solid recommendat
 
 The main reason to adopt a recommendation engine is simple: **increasing your revenue.**. However, there are other reasons such as:
 
-- Customer Loyalty: Recommendation systems enable a high level of personalization, which the user perceives as high value.
-- Platform engagement: Customers quickly discover new items to watch, interact and buy, making users spend more time on the platform and consume more.
+- **Customer Loyalty:** Recommendation systems enable a high level of personalization, which the user perceives as high value.
+- **Platform engagement:** Customers quickly discover new items to watch, interact and buy, making users spend more time on the platform and consume more.
 
 ![Don't take our word for it, trust the numbers.](/images/recommendation-engines/REC-SYSTEMS.png)
 Don't take our word for it, trust the numbers. 
@@ -72,17 +70,15 @@ The data collected will be different depending on the business domain. For examp
 
 Each platform and business is unique, so gathered data should be analyzed carefully to produce accurate predictions according to recommendation engine goals and metrics. 
 
-Luckily, there are several SaaS solutions out there to seamlessly gather end-user activity and preferences, such as [Segment](https://segment.com/) or [Firebase](https://firebase.google.com/). These tools don't require much effort to integrate since tracked events and data can be configured rather than coded. 
+Luckily, there are several SaaS solutions out there to seamlessly gather end-user activity and preferences, such as [Segment](https://segment.com/), [Firebase](https://firebase.google.com/) or [Google Enhanced Ecommerce](https://developers.google.com/analytics/devguides/collection/ua/gtm/enhanced-ecommerce). These tools don't require much effort to integrate since tracked events and data can be configured rather than coded. 
 
-**Imagen de segment (MATHI)**
+![Google Enhanced Ecommerce](/images/recommendation-engines/enhanced_ecommerce.png)
 
 ### Step 2. Making Data Available
 
 The vast amount of data collected needs to be accessible and consumed by ML models. There are experts dedicated to managing data at scale. Data Engineers build ETL systems that collect, manage, and transform raw data into useful information. Recommendation engines need to perform these processes constantly, so data is updated and can deliver accurate recommendations.
 
 [Airflow](https://airflow.apache.org/) is a popular ETL solution that allows to transform and structure data using data pipelines, but there are many others approaches to manage the data.
-
-**imagen de Airflow pipeline**
 
 ### **Step 3.** Build the engine
 
@@ -94,7 +90,7 @@ The Content-filtering approach uses information about people and things as conne
 
 For instance, if we're a streaming service, we could tag each movie by genre (drama, terror, action, comedy, etc.). Then each user has a numerical score indicating how much they like a genre. Finally, we connect and cross this information to recommend movies.
 
-Basically, this approach uses item features to suggest other items with similar characteristics as shown in the image below shows. 
+Basically, this approach uses item features to suggest other items with similar characteristics as shown in the image below. 
 
 ![Content-based Fitering](/images/recommendation-engines/content-filtering.png)
 
@@ -123,7 +119,8 @@ Recommendation systems that use deep-learning models normally outperform the app
 
 The model's input data might be a mix of domain-based data and deep learning, but typically the model by itself does everything or at least is capable of doing so. 
 
-It's essential to have a recurrent cycle of testing and evaluating with real users, retraining, and deploying the model. Typically, MLOps automatize these tasks and ensure the model keeps updated with recent data and enhances its results.   
+
+It's essential to have a recurrent cycle of testing and evaluating with real users, retraining, and deploying the model. Typically, you will apply DevOps best practices to your ML workflow, which is known as MLOps. This means automating these tasks and ensuring the model stays up-to-date with the latest data and its performance does not degrade over time.
 
 Unfortunately, the benefit of flexibility comes with a downside; it's more complex to design, train and deploy.  
 
@@ -131,7 +128,7 @@ Input data should be carefully analyzed since it impacts the accuracy significan
 
 There are no hard-coded rules in the most typical design; the deep learning model learns from the data; we just have to provide precise training data. However, to achieve better results, teams will mix hard-coded data with this approach.
 
-[TensorFlow recommenders](https://www.tensorflow.org/recommenders) is a pretty popular ML solution in the industry that's worth checking out.
+[TensorFlow recommenders](https://www.tensorflow.org/recommenders) is a pretty popular ML framework in the industry that's worth checking out.
 
 ## Challenges of building a Recommendation Engine (and how to address them)
 
@@ -154,9 +151,12 @@ A consultancy company like Xmartlabs will help you navigate these challenges, un
 
 People's tastes evolve, so solutions should adapt the RE to provide newer recommendations taking those changes into account. Sometimes the product catalog is constantly updated, but these newly released items have no reviews or ranking. However, all these items need to be discovered as they are new products or fresh content.  
 
-Its model should be constantly trained, evaluated, and deployed to improve the RE performance. It's likely some data preparation needs to be done too. MLOps, which are essentially DevOps for machine learning, could handle these tasks and automate most of, if not all, the process.
+Its model should be constantly trained, evaluated, and deployed to improve the RE performance. It's likely some data preparation needs to be done too. MLOps, which are essentially DevOps for machine learning, could handle these tasks and automate most of the process, if not all.
+
+![Diagram showing possible architecture for MLOps](/images/recommendation-engines/mlops-pipeline.png)
 
 According to the business domains and goals, the engineering team should decide when and how frequently the model needs to be updated. Having strategically chosen the metric to measure model performance is crucial to improve it. Strategically defining what metrics should be used to monitor and measure recommendations, accuracy is vital to redeploy a retrained model. The engineering team should know when changes improve the system and what's the cause.
+
 
 
 ### The product catalog is huge
@@ -167,11 +167,9 @@ This makes it difficult for the model to determine which items to recommend. A p
 
 ### First-time users
 
-Making recommendations for first-time users involves extra complexity. Not having their personal preferences or tracked activity yet makes show trending items and most purchased items the natural solution. The recommendations become more precise and personalized as the user activity is gathered. 
+Making recommendations for first-time users involves extra complexity. Not having their personal preferences or tracked activity yet, makes show trending items and most purchased items the natural solution. Another possibility is to recommend products that other **new** users have interacted with first in the past. For instance, an online IoT store could recommend a Raspberry Pi and others edge devices as the system infers new users are primarily looking for them, but for older users, it could recommend gadgets to the Pi the user already has.
 
-The more the user interacts with the platform, the better the recommendations the system will provide. It's an incremental and continuous improvement process that makes its recommendations increasingly accurate and personalized.
-
-Depending on the business domain, it could be okay to recommend the most popular items for other new users. 
+Regardless of the approach adopted, the recommendations become more precise and personalized as the user activity is gathered. The more the user interacts with the platform, the better the recommendations the system will provide. It's an incremental and continuous improvement process that makes its recommendations increasingly accurate and personalized.
 
 ### Not considering business insights
 
@@ -190,50 +188,64 @@ Evaluating the business value of a recommendation system depends mainly on the c
 
 The most common metrics can be categorized as:
 
-**Click-throught rate:**
+**Click-throught rate**
 
 When an item is recommended and viewed... Was it clicked? How often? This strongly depends on where the recommended items are displayed, if there are more recommended items around, etc.
 
-**User behavior and engagement:**
+**User behavior and engagement**
 
 For a streaming platform, these metrics should show if the recommendation engine makes the audience spend more time watching series or movies or if there's an increase in the "Save to watch later" list? etc. 
 
-**Revenue Indicators:**
+**Revenue Indicators**
 
 Recommendations make users spend more money? Are users adding more items to the cart? Revenue indicators are great to measure overall RE performance. 
 
-**Adoption and conversion Rates:**
+**Adoption and conversion Rates**
 
 Click-through rates are okay, but we are also interested to know if these suggested items were purchased, added to the cart, or watched. This indicator reflects whether the recommendation engine is useful to the end-user or not. Otherwise, they can be interested in navigating to the recommendation item but never consume it, which is a waste of time for the user.
-
+ 
 
 ### Not considering every end-user touchpoint
 
-Evaluating every change and benefit the end-user would experience by implementing the RE is crucial.
+Evaluating every change and its corresponding benefit the end-user would experience by implementing the RE is crucial.
 Taking Amazon as an example, several views show recommendations:
 
-- Top sellers and most popular items on the homepage - if the user is not logged in.
-- Several screen sections showing “More items to explore” - based on previous purchases, viewed items, etc.
-    
-    ![More items to explore](/images/recommendation-engines/amazon-re-1.png)
-    
-    ![“More items to explore 2](/images/recommendation-engines/amazon-re-2.png)
 
-- “Frequently bought together” section in the item view.
-    
-    ![Frequently bought together](/images/recommendation-engines/amazon-re-3.png)
-    
-    
-- When added a Kindle item to the card
-    
-    ![Added a Kindle item to the card](/images/recommendation-engines/amazon-re-4.png)
-    
+**Top sellers and most popular items on the homepage - if the user is not logged in**
 
-- During checkout process
+![More items to explore](/images/recommendation-engines/amazon-re-1.png)
+
+ <br />
+
+**Several screen sections showing “More items to explore” - based on previous purchases, viewed items, etc.**
+
+![“More items to explore 2](/images/recommendation-engines/amazon-re-2.png)
+
+ <br />
+
+**“Frequently bought together” section in the item view**
     
-    ![During checkout process](/images/recommendation-engines/amazon-re-5.png)
+![Frequently bought together](/images/recommendation-engines/amazon-re-3.png)
+
+ <br />
     
-- Email
+**When added a Kindle item to the card**
+    
+![Added a Kindle item to the card](/images/recommendation-engines/amazon-re-4.png)
+
+ <br />
+    
+**During checkout process**
+    
+![During checkout process](/images/recommendation-engines/amazon-re-5.png)
+
+ <br />
+    
+**Email**
+
+![Email](/images/recommendation-engines/amazon-re-6.png)
+
+ <br />
 
 ## Closing thoughts
 
