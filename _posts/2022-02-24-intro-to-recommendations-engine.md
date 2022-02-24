@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Boost your online business with recommendation engines 
+title: How To Get The Most Out Of A Recommendation Engine
 date: '2022-02-24T10:00:00.000-03:00'
 author: Martin Barreto
-tags: [Recommendation Engine, Recommendation Systems, Recommendation engine challenges]
+tags: [Recommendation Engine, Recommendation Systems, Recommendation engine challenges, How Recommendation system works]
 author_id: mtnBarreto
 show: true
 category: machine-learning
-featured_image: /images/taskflow/taskflow-blogpost.jpg
-permalink: /blog/intro-to-product-recommendations-engine/
+featured_image: /images/recommendation-engines/RecEngine.jpg
+permalink: /blog/recommendations-engines-what-they-do-and-why-they-are-useful/
 ---
 
 Recommendation engines can rapidly increase online business revenue and boost customer loyalty, both crucial for sustainable growth. In this blog post, we’ll go through the main challenges, and pros and cons we faced implementing and deploying such solutions for a big apparel brand, the different approaches to implement recommendation engines, and best practices.
@@ -34,6 +34,8 @@ The main reason to adopt a recommendation engine is simple: **increasing your re
 
 - **Customer Loyalty:** Recommendation systems enable a high level of personalization, which the user perceives as high value.
 - **Platform engagement:** Customers quickly discover new items to watch, interact and buy, making users spend more time on the platform and consume more.
+
+ <br />
 
 ![Don't take our word for it, trust the numbers.](/images/recommendation-engines/REC-SYSTEMS.png)
 Don't take our word for it, trust the numbers. 
