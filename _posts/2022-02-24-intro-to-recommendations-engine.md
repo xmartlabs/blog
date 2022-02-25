@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Get The Most Out Of A Recommendation Engine
-date: '2022-02-24T10:00:00.000-03:00'
+date: '2022-02-25T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [Recommendation Engine, Recommendation Systems, Recommendation engine challenges, How Recommendation system works]
 author_id: mtnBarreto
@@ -35,12 +35,18 @@ The main reason to adopt a recommendation engine is simple: **increasing your re
 - **Customer Loyalty:** Recommendation systems enable a high level of personalization, which the user perceives as high value.
 - **Platform engagement:** Customers quickly discover new items to watch, interact and buy, making users spend more time on the platform and consume more.
 
- <br />
 
-![Don't take our word for it, trust the numbers.](/images/recommendation-engines/REC-SYSTEMS.png)
-Don't take our word for it, trust the numbers. 
+
+<!-- ![Don't take our word for it, trust the numbers.](/images/recommendation-engines/REC-SYSTEMS.png) -->
 
 > Is it worth investing in a recommendation system for my business? How much time or money will it take? Will I be able to see results quickly? Our experts can answer these and many other questions for you. [Schedule a free consultation call](https://xmartlabs.com/) to learn more opportunities you might be missing.
+
+
+<figure>
+  <img style="width: 100%" src="/images/recommendation-engines/REC-SYSTEMS.png" alt="recommendation engines impact">
+  <figcaption>Don't take our word for it, trust the numbers.</figcaption>
+</figure>
+
 
 ## How does a product recommendation engine work?
 
@@ -74,7 +80,11 @@ Each platform and business is unique, so gathered data should be analyzed carefu
 
 Luckily, there are several SaaS solutions out there to seamlessly gather end-user activity and preferences, such as [Segment](https://segment.com/), [Firebase](https://firebase.google.com/) or [Google Enhanced Ecommerce](https://developers.google.com/analytics/devguides/collection/ua/gtm/enhanced-ecommerce). These tools don't require much effort to integrate since tracked events and data can be configured rather than coded. 
 
-![Google Enhanced Ecommerce](/images/recommendation-engines/enhanced_ecommerce.png)
+<figure>
+  <img style="width: 100%" src="/images/recommendation-engines/enhanced_ecommerce.png" alt="Google Enhanced Ecommerce">
+  <figcaption>Google Enhanced Ecommerce.</figcaption>
+</figure>
+
 
 ### Step 2. Making Data Available
 
@@ -94,7 +104,11 @@ For instance, if we're a streaming service, we could tag each movie by genre (dr
 
 Basically, this approach uses item features to suggest other items with similar characteristics as shown in the image below. 
 
-![Content-based Fitering](/images/recommendation-engines/content-filtering.png)
+
+<figure>
+  <img style="width: 80%" src="/images/recommendation-engines/content-filtering.png" alt="Content-based Fitering">
+  <figcaption>Content-based Fitering.</figcaption>
+</figure>
 
 In the illustration above, each row represents an app, and each column represents a feature (the app category). Knowing which apps were installed by the user and their categories allows the algorithm to provide recommendations. 
 
@@ -155,10 +169,13 @@ People's tastes evolve, so solutions should adapt the RE to provide newer recomm
 
 Its model should be constantly trained, evaluated, and deployed to improve the RE performance. It's likely some data preparation needs to be done too. MLOps, which are essentially DevOps for machine learning, could handle these tasks and automate most of the process, if not all.
 
-![Diagram showing possible architecture for MLOps](/images/recommendation-engines/mlops-pipeline.png)
+<figure>
+  <img style="width: 80%" src="/images/recommendation-engines/mlops-pipeline.jpg" alt="ML pipeline using Apache Airflow">
+  <figcaption>Recommendation Engine ML pipeline using Apache Airflow</figcaption>
+</figure>
+
 
 According to the business domains and goals, the engineering team should decide when and how frequently the model needs to be updated. Having strategically chosen the metric to measure model performance is crucial to improve it. Strategically defining what metrics should be used to monitor and measure recommendations, accuracy is vital to redeploy a retrained model. The engineering team should know when changes improve the system and what's the cause.
-
 
 
 ### The product catalog is huge
