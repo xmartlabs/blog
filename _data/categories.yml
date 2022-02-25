@@ -23,10 +23,10 @@ data-engineering:
   display_name: Data Engineering
   url: /category/data-engineering
 ios-development:
-  title: Swift d lessons learned on our journey.
+  title: Swift lessons learned on our journey.
   display_name: iOS Development
   url: /category/ios-development
 android-development:
-  title: Android learning lessons learned on our journey.
+  title: Android lessons learned on our journey.
   display_name: Android Development
   url: /category/android-development
