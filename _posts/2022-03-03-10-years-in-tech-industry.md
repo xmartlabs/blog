@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 Things We've Learned After 10 Years Running a Tech Agency
+title: 10 Lessons Learned from the Tech Industry
 date: '2022-03-02T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [Xmartlabs, 10 years Xmartlabs, 10 lessons learned in tech industry, 10 years in tech industry]
@@ -22,7 +22,7 @@ These are the lessons that stand out the most as we look back at our 10-year jou
 ## 1. Work Among Friends
 
 Since the beginning, the company needed to be people and relationship-oriented. It was not about a business transaction but an interpersonal relationship. And this approach had a lot to do with why we set out to build our own company.
-Although today it might be the norm, back in 2012, Uruguayan companies weren't that much people-oriented. We felt a disconformity with the employment sector not being flexible in terms of hours or suspicious of trust, responsibility, and autonomy. With Xmartlabs, we wanted to change that.
+Although today it might be the norm, back in 2012, Uruguayan companies weren't that much people-oriented. We felt there was a lot to do in the employment sector. At the time, it was not flexible in terms of hours or suspicion of trust, responsibility, and autonomy. With Xmartlabs, we wanted to change that.
 Staying close to your team, listening and being with them, not asking for things you wouldn't do; are all key to creating a horizontal work environment. Being intentional about it and bringing it up constantly, so it was on the team's top of mind made it easier to maintain a good working environment.
 This approach made Xmartlabs what we believe is a great place to work. Our turnover rate pre-pandemic was less than 5-1% (on an industry that then had a 13+% turnover rate). This is also reflected in the longevity of some of our team. Many of the old Xmartlabers themselves recommend new people for us to hire.
 
@@ -31,7 +31,10 @@ This approach made Xmartlabs what we believe is a great place to work. Our turno
   <img style="width: 40%" src="/images/10-lessons-in-tech-industry/xl-working-with-friends.jpg" alt="working among friends">
 </figure>
 
-## 2. Key Hirings First
+## 2. First team members set the company culture
+
+We always aim to create the best innovative team in South America, but we never compromise the team's human qualities. 
+Important things are accomplished by the team and not by an individual. Following that thought, we began to recruit (1 to 1) talented acquaintances and friends in the industry who also shared our values and principles. In this way, they would support Xmartlabs' vision and help lay the foundations of the culture we wanted in Xmartlabs.
 
 Different key roles were essential to put the company on its feet during those early stages:
 
@@ -41,9 +44,12 @@ Different key roles were essential to put the company on its feet during those e
 
 However, we did have to cover a considerable amount of roles simultaneously. On many of them, we had no background whatsoever (legal, marketing, sales, business management), which presented a huge opportunity to learn on the go.
 
+
 ## 3. Learn From Your Clients
 
-Anyone who started a company knows how much first clients teach you and how valuable those lessons are. They especially point you in the right direction by helping you understand what they value, pain points, and drivers they have. Negative feedback it's also crucial as it will eventually help you improve. Those first reviews and bits of advice have an enormous impact on you (even if they're small tips like "B*uy noise-canceling headsets"*).
+Anyone who started a company knows how much first clients teach you and how valuable those lessons are. They especially point you in the right direction by helping you understand what they value, pain points, and drivers they have. 
+
+Negative feedback it's also crucial as it will eventually help you improve. Those first reviews and bits of advice have an enormous impact on you (even if they're small tips like "B*uy noise-canceling headsets"*).
 
 Clients also helped us to adopt a *modus operandi* and a work ethic based on empathy and, just like with teammates, interpersonal bonds. They are also good to test yourself. In our case, we proved (to clients and ourselves) that we were up to any challenge and that being an offshore company was not a disadvantage or obstacle.
 
@@ -58,15 +64,15 @@ Clients also helped us to adopt a *modus operandi* and a work ethic based on e
 
 Showing empathy and integrity when things don't turn out as best as they could or as you expected them to will surely gain trust and cement those bonds. It's also amazing how clients and other collaborators can immediately perceive within the first few weeks despite not even starting a project. Transmitting empathy within the team and having people that shows it and promotes it is critical.
 
-## 5. He who strikes ~~first~~ *second*, hits twice
+## 5. Hard work and consistency pay off (and beats being first)
 
 First mover advantage (if someone did something first, then it must be successful) is widely accepted. But sometimes, slow and steady wins the race. Google was not the first search engine, just like MySpace came before Facebook (we are not implying we are like Google or Facebook 😅).
 
 When we launched our OSS library (XL Form), there was already one doing the same thing and being adopted by the community. However, we saw how its numbers grew, and when the time came, we were the first ones to improve it by migrating it to Swift. So, if not from us, learn from Google, Facebook, and other big players; sometimes second is best.
 
-## 6. There’s always time for improvements
+## 6. We are always in beta
 
-Our first website was honestly a bit embarrassing, but we needed to put it out there because there's always time to improve. If, in this case, the website was nice or not was not going to break it or make it, we needed it out, and that was it. Since the beginning, we were exposed to problems we needed to solve by yesterday, and being expedited became necessary.
+There’s always time for improvements. Our first website was honestly a bit embarrassing, but we needed to put it out there because there's always time to improve. If, in this case, the website was nice or not was not going to break it or make it, we needed it out, and that was it. Since the beginning, we were exposed to problems we needed to solve by yesterday, and being expedited became necessary. For us, perfect is late, most of the time!
 
 
 <figure>
@@ -76,7 +82,7 @@ Our first website was honestly a bit embarrassing, but we needed to put it out t
 
 
 
-## 7. Look to the community for support
+## 7. We're never alone
 
 Since our very beginning, we were made aware of the importance of weaving bonds with our surrounding community, this was mainly thanks to the accelerator we began in. Our first commercial mission and first move to an independent office was made together with other entrepreneurs we met there. 
 
@@ -98,3 +104,6 @@ Problems will come, it's inevitable, it will come a time (or several) where all 
 When we were looking to expand Xmartlabs, we found some internal reticence, especially because there was fear of becoming into that we didn't want to (pure, raw, corporate enterprise). We avoided this by making sure we maintained our essence and stayed true to ourselves. Every six months, the company changes, and that's ok, especially in the tech industry. What's important is to stay "the same" with a 10, 20, or 100 people team.
 
 How do we try every day to stay ourselves? We are willing to listen to each other and maintain integrity throughout the years, not thinking purely in economic terms (even if companies' ultimate goals are always to make a profit), prioritizing relationships and happiness, and building quality products with ethics.
+
+
+We hope these learned lessons help you in your tech business. We would love to know about your learned lessons. Please share in the comments section below. 
