@@ -77,7 +77,7 @@ There’s always time for improvements. Our first website was honestly a bit emb
 
 
 <figure>
-  <img style="width: 40%" src="/images/10-lessons-in-tech-industry/first-website.png" alt="Xmartlabs’ website during those first years.">
+  <img style="width: 100%" src="/images/10-lessons-in-tech-industry/first-website.png" alt="Xmartlabs’ website during those first years.">
   <figcaption>Xmartlabs’ website during those first years.</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ How do we try every day to stay ourselves? We are willing to listen to each othe
 
 
 <figure>
-  <img style="width: 40%" src="/images/10-lessons-in-tech-industry/team.png" alt="XL team">
+  <img style="width: 100%" src="/images/10-lessons-in-tech-industry/team.png" alt="XL team">
   <figcaption>XL team at the 2019 year-end retreat</figcaption>
 </figure>
 
