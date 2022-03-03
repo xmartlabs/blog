@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 Lessons Learned from the Tech Industry
+title: 10 Things We've Learned After 10 Years Running A Tech Agency
 date: '2022-03-02T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [Xmartlabs, 10 years Xmartlabs, 10 lessons learned in tech industry, 10 years in tech industry]
@@ -56,6 +56,7 @@ Clients also helped us to adopt a *modus operandi* and a work ethic based on e
 
 <figure>
   <img style="width: 40%" src="/images/10-lessons-in-tech-industry/Learn-From-Your-Clients.png" alt="Learn From Your Clients">
+  <figcaption>Soccer match along with client</figcaption>
 </figure>
 
 ## 4. Follow The Golden Rule
@@ -106,4 +107,10 @@ When we were looking to expand Xmartlabs, we found some internal reticence, espe
 How do we try every day to stay ourselves? We are willing to listen to each other and maintain integrity throughout the years, not thinking purely in economic terms (even if companies' ultimate goals are always to make a profit), prioritizing relationships and happiness, and building quality products with ethics.
 
 
-We hope these learned lessons help you in your tech business. We would love to know about your learned lessons. Please share in the comments section below. 
+<figure>
+  <img style="width: 40%" src="/images/team.png" alt="XL team">
+  <figcaption>XL team at the 2019 year-end retreat</figcaption>
+</figure>
+
+
+We hope our top learned lessons help you in your tech business. We would love to know about yours, please share in the comments section below. 
