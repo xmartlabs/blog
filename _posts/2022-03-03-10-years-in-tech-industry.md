@@ -22,7 +22,7 @@ These are the lessons that stand out the most as we look back at our 10-year jou
 ## 1. Work Among Friends
 
 Since the beginning, the company needed to be people and relationship-oriented. It was not about a business transaction but an interpersonal relationship. And this approach had a lot to do with why we set out to build our own company.
-Although today it might be the norm, back in 2012, Uruguayan companies weren't that much people-oriented. We felt there was a lot to do in the employment sector. At the time, it was not flexible in terms of hours or suspicion of trust, responsibility, and autonomy. With Xmartlabs, we wanted to change that.
+Although today it might be the norm, back in 2012, Uruguayan companies weren't that much people-oriented. We felt there was a lot to do in the employment sector. At the time, it was not flexible in terms of hours, which also touched on subjects like trust, responsibility, and autonomy. With Xmartlabs, we wanted to change that.
 Staying close to your team, listening and being with them, not asking for things you wouldn't do; are all key to creating a horizontal work environment. Being intentional about it and bringing it up constantly, so it was on the team's top of mind made it easier to maintain a good working environment.
 This approach made Xmartlabs what we believe is a great place to work. Our turnover rate pre-pandemic was less than 5-1% (on an industry that then had a 13+% turnover rate). This is also reflected in the longevity of some of our team. Many of the old Xmartlabers themselves recommend new people for us to hire.
 
