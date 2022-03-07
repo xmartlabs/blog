@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 10 Things We've Learned After 10 Years Running A Tech Agency
-date: '2022-03-02T10:00:00.000-03:00'
-author: Valentina Bianco
+date: '2022-03-07T10:00:00.000-03:00'
+author: Xmartlabs Team
 tags: [Xmartlabs, 10 years Xmartlabs, 10 lessons learned in tech industry, 10 years in tech industry]
-author_id: vale
+author_id: xl
 show: true
 category: people-events
-featured_image: /images/body-detection-with-computer-vision/body-detection-with-computer-vision.jpg
+featured_image: /images/10-lessons-in-tech-industry/10_things_cover.jpg
 permalink: /blog/10-years-in-the-tech-industry/
 ---
 
