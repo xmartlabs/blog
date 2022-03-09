@@ -23,7 +23,7 @@ These are the lessons that stand out the most as we look back at our 10-year jou
 
 Since the beginning, the company needed to be people and relationship-oriented. It was not about a business transaction but an interpersonal relationship. And this approach had a lot to do with why we set out to build our own company.
 Although today it might be the norm, back in 2012, Uruguayan companies weren't that much people-oriented. We felt there was a lot to do in the employment sector. At the time, it was not flexible in terms of hours, which also touched on subjects like trust, responsibility, and autonomy. With Xmartlabs, we wanted to change that.
-Staying close to your team, listening and being with them, not asking for things you wouldn't do; are all key to creating a horizontal work environment. Being intentional about it and bringing it up constantly, so it was on the team's top of mind made it easier to maintain a good working environment.
+Staying close to your team, listening and being with them, not asking for things you wouldn't do; are all key to creating a horizontal work environment. Being intentional about it and bringing it up constantly, so it was on the team's top of mind, made it easier to maintain a good working environment.
 This approach made Xmartlabs what we believe is a great place to work. Our turnover rate pre-pandemic was less than 5-1% (on an industry that then had a 13+% turnover rate). This is also reflected in the longevity of some of our team. Many of the old Xmartlabers themselves recommend new people for us to hire.
 
 
@@ -33,25 +33,25 @@ This approach made Xmartlabs what we believe is a great place to work. Our turno
 
 ## 2. First team members set the company culture
 
-We always aim to create the best innovative team in South America, but we never compromise the team's human qualities. 
-Important things are accomplished by the team and not by an individual. Following that thought, we began to recruit (1 to 1) talented acquaintances and friends in the industry who also shared our values and principles. In this way, they would support Xmartlabs' vision and help lay the foundations of the culture we wanted in Xmartlabs.
+We always aimed to create the best innovative team in South America, but we never compromised our team's human qualities. 
+Milestones are accomplished by teams and not by individuals on their own. With that in mind, we began recruiting (1 to 1) talented acquaintances and friends in the industry who shared our values and principles. This way we hoped they'd support Xmartlabs' vision and help lay the foundations of the culture we wanted in Xmartlabs.
 
 Different key roles were essential to put the company on its feet during those early stages:
 
-- A designer that pulió/dusted off our services (especially on our website) and added value and differentiation.
+- A designer that dusted off our services (especially on our website) and added value and differentiation.
 - Accounting roles helped us organize our finance and allowed us to leverage our growth without external investment.
-- HR people that helped us shape the recruiting and internal process.
+- HR specialists that helped us shape the recruiting and internal process.
 
-However, we did have to cover a considerable amount of roles simultaneously. On many of them, we had no background whatsoever (legal, marketing, sales, business management), which presented a huge opportunity to learn on the go.
+However, we did have to cover a considerable amount of roles simultaneously. We had no background whatsoever in legal, marketing, sales, or business management, which presented a huge opportunity for learning on the go.
 
 
 ## 3. Learn From Your Clients
 
 Anyone who started a company knows how much first clients teach you and how valuable those lessons are. They especially point you in the right direction by helping you understand what they value, pain points, and drivers they have. 
 
-Negative feedback it's also crucial as it will eventually help you improve. Those first reviews and bits of advice have an enormous impact on you (even if they're small tips like "B*uy noise-canceling headsets"*).
+Negative feedback it's also crucial as it will eventually help you improve. Those first reviews and bits of advice have an enormous impact on you (even if they're small tips like *"Buy noise-canceling headsets"*).
 
-Clients also helped us to adopt a *modus operandi* and a work ethic based on empathy and, just like with teammates, interpersonal bonds. They are also good to test yourself. In our case, we proved (to clients and ourselves) that we were up to any challenge and that being an offshore company was not a disadvantage or obstacle.
+Clients also helped us to adopt a *modus operandi* and a work ethic based on empathy and, just like with teammates, interpersonal bonds. They're also good to test yourself. In our case, we proved (to clients and ourselves) that we were up to any challenge and that being an offshore company was not a disadvantage or obstacle.
 
 
 <figure>
@@ -91,7 +91,7 @@ We also got involved by giving several talks in main events, even when our team 
 
 ## 8. Know who you don’t want to become
 
-We didn't have a completely clear vision of what we wanted to be. However, we did know what we didn't want to become: a colder, more transactional, and corporative business. Perhaps it's not the easiest way of carrying out a company because some things are left to luck, but it worked for us, especially at the outset. We always bet on organic growth and set up objectives based on the opportunities that came up or on aspects we need to improve.
+We didn't have a completely clear vision of what we wanted to be. However, we did know what we didn't want to become: a colder, more transactional, and corporative business. Perhaps it's not the easiest way of carrying out a company because some things are left to chance, but it worked for us, especially at the outset. We always bet on organic growth and set up objectives based on the opportunities that came up or on aspects we need to improve.
 
 Whether you prefer a more quantitative approach or not, it's equally as important to know where you don't want to be than where you do.
 
