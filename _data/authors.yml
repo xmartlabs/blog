@@ -166,9 +166,13 @@ vale:
   image: members/valentina-bianco.png
   github: ValentinaBianco
   profile_url: https://www.linkedin.com/in/valentina-bianco-scremini-a432a8130
+pablog:
+  display_name: Pablo Grill
+  image: members/pablog.png
+  github: pgrill
+  profile_url: https://github.com/pgrill
 lazaro:
   display_name: Lázaro
   image: members/lazaro.jpeg
   github: pgrill
   profile_url: https://github.com/LazaroM2019
-
