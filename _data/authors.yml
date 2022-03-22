@@ -171,3 +171,8 @@ pablog:
   image: members/pablog.png
   github: pgrill
   profile_url: https://github.com/pgrill
+lazaro:
+  display_name: Lázaro
+  image: members/lazaro.jpeg
+  github: pgrill
+  profile_url: https://github.com/LazaroM2019
