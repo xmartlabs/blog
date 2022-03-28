@@ -720,3 +720,12 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+.row-image {
+  display: flex;
+}
+
+.column-image {
+  flex: 50%;
+  padding: 5px;
+}
