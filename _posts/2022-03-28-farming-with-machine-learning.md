@@ -97,7 +97,7 @@ So no matter the dataset you choose (MS COCO, ImageNet, etc.), you won’t have 
 
 This model's main obstacle is that the landscape will invariably change. Trees, plants, and crops all grow; different lights, weather patterns, branches and other objects might come loose on the ground, mud, uniform terrain, etc. Furthermore, different regions have specific plant species and weeds, making it challenging to find a solution that works with similar results and efficiency everywhere. This is where a good dataset becomes key.
 
-An accurate dataset is possible by creating it with all possible scenarios in mind. This is done by altering the training images of the data set with random noise, rotating it, generating symmetric images, removing small patches of it, selecting patches and discarding the rest, changing color and light, etc., as well as domain-specific alterations such as day, night and rain simulations. This will improve the model’s performance in the changing landscapes.
+An accurate dataset is achieved by creating it with all possible scenarios in mind. This is done by altering the training images of the data set with random noise, rotating it, generating symmetric images, removing small patches of it, selecting patches and discarding the rest, changing color and light, etc., as well as domain-specific alterations such as day, night, and rain simulations. This will improve the model’s performance in the changing landscapes.
 
 ### Object Detection and Edge Computing for fast response
 
