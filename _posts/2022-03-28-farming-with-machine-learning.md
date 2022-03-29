@@ -63,7 +63,7 @@ Common treatment recommendations go from managing the intensity of glyphosate to
 
 The rise of deep learning algorithms and computer vision systems brought new possibilities to solve problems in an abundance of industries and fields of expertise. In this case, the design of DL models using image classification and object detection seems a natural answer to many of the problems troubling producers in agriculture.
 
-Solutions are coming in the shape of targeted spraying tractors based on deep learning methods that process live images locate, and classify different kinds of weeds on the soil, allowing the model to determine the best course of action for each specific case.
+Solutions are coming in the shape of targeted spraying tractors based on deep learning methods that process live images, locate, and classify different kinds of weeds on the soil, allowing the model to determine the best course of action for each specific case.
 
 This solution tackles each one of the three problems stated above:
 
