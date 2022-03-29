@@ -101,7 +101,7 @@ An accurate dataset is achieved by creating it with all possible scenarios in mi
 
 ### Object Detection and Edge Computing for fast response
 
-Because the ML model should perform on pre-existing software that’s on the tractor, edge computer comes as the organic alternative. It not only improves response time and saves bandwidth, but it’s also easier to install, cheaper, and can work without an internet connection, essential if you want it to work in remote farmlands. 
+Because the ML model should perform on pre-existing software on the tractor, edge computer comes as the organic alternative. It not only improves response time and saves bandwidth, but it’s also easier to install, cheaper, and can work without an internet connection (essential if you want it to work in remote farmlands).
 
 The advantages this solution presents are obvious, if you know exactly what weed it is you can select the best herbicide to spray depending on the weed’s resistance and save a considerable amount of herbicide by spraying it directly on the weed and not on the crop/tree. Not wasting herbicides on resistant weeds or spraying them on plants that don’t need it will invariably help save a considerable amount of costs in the long run. 
 
