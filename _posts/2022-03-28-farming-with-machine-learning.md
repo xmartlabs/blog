@@ -20,7 +20,7 @@ Machine Learning and [Computer Vision](https://blog.xmartlabs.com/blog/computer-
  
 
 <aside>
-👉 If you’re struggling with weed control and high production costs, contact our team, and let’s see how we can leverage our ML knowledge to find a solution for you.
+👉 If you’re struggling with high production costs, contact our team, and let’s see how we can leverage our ML knowledge to find a solution for you.
 
 </aside>
 
