@@ -36,7 +36,7 @@ Agricultural producers have to address three main problems when facing the issue
 
 Overuse or waste of herbicides has increased production costs considerably. According to the latest Cost of Crop estimation by the [Iowa State University](http://extension.iastate.edu/agdm/crops/pdf/a1-20.pdf), in 2022, herbicide will account for 25% of the total cost per acre of planting soybeans (a lot compared to the 8% it represented a decade earlier, in 2012, according to the same study). It’s also increasing faster than other production costs, having almost doubled in the last decade. However, its usage has not wavered; 3 billion pounds of herbicides are used yearly.
 
-Worst of all, the costly herbicide doesn’t always reach its target because broadcast-spraying (the most common weed control method) sometimes causes the chemical not to hit the targeted weed or land on soil and healthy plants.
+Worst of all, the costly herbicide doesn’t always reach its target because broadcast-spraying (the most common weed control method) sometimes causes the chemical not to hit the targeted weed, landing on soil and healthy plants.
 
 ### Impact of herbicides on soil
 
