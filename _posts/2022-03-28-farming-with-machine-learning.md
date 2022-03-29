@@ -48,7 +48,7 @@ Effects on food crops are another topic entirely and one that’s been widely di
 
 ### Glyphosate-resistant weeds
 
-Intense and continuous use of herbicide resulted in the constant evolution of herbicide-resistant weeds, increasing with time. There are about [266 weeds](https://www.weedscience.org/Home.aspx) that resist approximately 164 different herbicides throughout 71 countries.
+Intense and continuous use of herbicides resulted in the constant evolution of herbicide-resistant weeds, which are increasing with time. About [266 weeds](https://www.weedscience.org/Home.aspx) resist approximately 164 different herbicides throughout 71 countries.
 
 Glyphosate resistance is perhaps the newest and more widespread type of resistance, the introduction of Roundup Ready crops in the 90s and the constant decrease in its price made glyphosate the go-to-herbicide of the last decade ([although it has been put into question increasingly over the last years](https://www.carlsonattorneys.com/news-and-update/banning-roundup)). The flipside, however, is the increasing amount of glyphosate-resistant weeds.
 
