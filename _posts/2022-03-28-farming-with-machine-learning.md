@@ -26,7 +26,7 @@ Machine Learning and [Computer Vision](https://blog.xmartlabs.com/blog/computer-
 
 ## The problem with weed control in agriculture
 
-Agricultural producers have to address three main problems when facing the challenges of growing weed amongst their plantations:
+Agricultural producers have to address three main problems when facing the issue of weeds growing amongst their plantations:
 
 - The cost it infers.
 - The damage to the soil.
