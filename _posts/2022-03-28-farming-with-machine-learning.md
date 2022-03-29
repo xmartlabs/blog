@@ -30,7 +30,7 @@ Agricultural producers have to address three main problems when facing the chall
 
 - The cost it infers.
 - The damage to the soil.
-- Resistance of the weeds to certain herbicides (which means more fees).
+- Resistance of the weeds to certain herbicides (which means more costs).
 
 ### Rising costs of battling weeds
 
