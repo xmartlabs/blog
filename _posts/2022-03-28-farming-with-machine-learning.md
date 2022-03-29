@@ -3,7 +3,7 @@ layout: post
 title: Precision Agriculture And The Future of Farming with Machine Learning
 date: '2022-03-28T10:00:00.000-03:00'
 author: Valentina Bianco
-tags: [Machine Learning applied in agriculture industry, deep learning in agriculture industry]
+tags: [applied Machine Learning, Machine Learning in Agriculture, deep learning for agriculture, production costs]
 author_id: vale
 show: true
 category: machine-learning
