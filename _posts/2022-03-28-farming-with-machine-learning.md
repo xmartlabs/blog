@@ -42,7 +42,7 @@ Worst of all, the costly herbicide doesn’t always reach its target because bro
 
 Application of herbicides can disrupt earthworm ecology, inhibit soil [N-cycling](https://en.wikipedia.org/wiki/Nitrogen_cycle), and increase disease, altering soil function. And although impacts might be minor or temporary, herbicide application is still risky. It may be a “necessary evil”, but it’s worth mentioning some of the damage it’s been proven to cause, especially if these side effects can be reduced or remedied. 
 
-The truth is, there’s also a [lack of evidence of damage](http://sciencedirect.com/science/article/abs/pii/S0065211315001492) to the soil because there’s not a consistent framework for assessing it, there are other elements affecting soil such as management practices (crop rotation, tillage), and a limited amount of long term studies on the topic.
+The truth is, there’s also a [lack of evidence of damage](http://sciencedirect.com/science/article/abs/pii/S0065211315001492) to the soil because there’s not a consistent framework for assessing it, there are other elements affecting soil such as management practices (crop rotation, tillage), and there's a limited amount of long term studies on the topic.
 
 Effects on food crops are another topic entirely and one that’s been widely discussed. However, we’re focusing on side effects regarding the soil and not the plant itself.
 
