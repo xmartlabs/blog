@@ -15,7 +15,7 @@ Maintaining a plantation, whether it’s for forestry or crops, has never been m
 
 Weed detection and control in small and large farms has become a challenge. Herbicide usage has increased ([527 million pounds in the last 20 years](https://enveurope.springeropen.com/articles/10.1186/2190-4715-24-24#:~:text=Herbicide%2Dresistant%20crop%20technology%20has,kilograms%20(123%20million%20pounds).))), and although its price has not necessarily decreased, never have people spent more on it (a whopping $6.6 billion yearly in the US alone).
 
-Machine Learning and [Computer Vision](https://blog.xmartlabs.com/blog/computer-vision-techniques-for-body-detection/) have provided solutions to tackle the challenges producers face regarding weed control. In the following use case, we’ll discuss the critical problems around herbicides and irrigation and how ML tech has helped reduce its economic and environmental costs.
+Machine Learning and [Computer Vision](https://blog.xmartlabs.com/blog/computer-vision-techniques-for-body-detection/) have provided solutions to tackle the challenges producers face regarding weed control. In the following post, we’ll discuss the critical problems around herbicides and irrigation and how ML tech has helped reduce its economic and environmental costs.
 
  
 
