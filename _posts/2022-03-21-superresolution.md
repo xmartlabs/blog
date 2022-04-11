@@ -31,7 +31,7 @@ The metrics used for measuring image quality are vital. Although there are sever
 
 ## Image Quality Metrics
 
-**Peak signal-to-noise ratio (PSNR):** It's a qualitative measure of image quality compression, defined by the maximum pixel value and the mean square error between the reference image and the SR image, also known as the power of image distortion noise. A disadvantage of this method is that it doesn't consider the structural informa6tion within the image.
+**Peak signal-to-noise ratio (PSNR):** It's a qualitative measure of image quality compression, defined by the maximum pixel value and the mean square error between the reference image and the SR image, also known as the power of image distortion noise. A disadvantage of this method is that it doesn't consider the structural information within the image.
 
 
 ![Untitled2](/images/ml-superresolution/Untitled.png)
