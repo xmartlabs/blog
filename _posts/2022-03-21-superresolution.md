@@ -34,7 +34,7 @@ The metrics used for measuring image quality are vital. Although there are sever
 **Peak signal-to-noise ratio (PSNR):** It's a qualitative measure of image quality compression, defined by the maximum pixel value and the mean square error between the reference image and the SR image, also known as the power of image distortion noise. A disadvantage of this method is that it doesn't consider the structural informa6tion within the image.
 
 
-![Untitled2](/images/ml-superresolution//Untitled.png)
+![Untitled2](/images/ml-superresolution/Untitled.png)
 
 **Structural similarity index (SSIM):** This metric compares the reference image's contrast, luminescence, and structural details with the reference image. This method is unstable in cases where the variance or luminescence of the reference image is low; therefore, in medical imaging, for example, this metric could have inconsistent results.
 
