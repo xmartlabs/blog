@@ -9,8 +9,8 @@ date: '2022-05-06T10:00:00.000-03:00'
 category: product-design
 tags:
   - UX/UI
-author_id: vale
-author: Valentina Bianco
+author_id: alemachado
+author: Ale Machado
 show: true
 featured_image: /images/user-research-is-like-a-movie/image.jpg
 ---
