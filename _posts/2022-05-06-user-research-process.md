@@ -39,7 +39,7 @@ Grab a cup of coffee and join me for a brief look into why anticipation can be o
 
 > Driven by hunger, a fox tried to reach some grapes hanging high on the vine but was unable to, although it leaped with all its strength. As it went away, the fox remarked “Oh, you aren’t even ripe yet! I don’t need any sour grapes.”
 
-When the fox wasn’t able to reach the grapes, it ended up hating them out of spite, out of those conflicting thoughts of desire and frustration: a so-called cognitive dissonance.
+When the fox wasn’t able to reach the grapes, it ended up hating them out of spite, out of those conflicting thoughts of desire and frustration: a so-called [cognitive dissonance](https://vanseodesign.com/web-design/cognitive-dissonance/).
 
 In essence, cognitive dissonance is the psychological phenomenon in which differing thoughts or emotions collide, resulting in mixed or negative emotions and reactions as means to relieve the stress. We may, erroneously, think that hype is only a matter of marketing. Truth is, bells and whistles can come from anywhere, and users will remember this.
 
@@ -108,22 +108,3 @@ In my experience, you can mitigate this in pre-work meetings as we have the chan
 Never force the user into thinking what you or your stakeholders want them to think. Pick the most relevant information and let it be disclosed at suitable times in such a way that brings value to our discovery process. And remember...
 
 > *“The secret of being a bore is to tell everything.”* - Voltaire
-
-
----
-
-#### Credits Roll (or where to find more info)
-
-***[The Spoiler Effect](https://scholarscompass.vcu.edu/uresposters/38/)*** by Alex Falls
-
-***[The Spoiler Paradox](https://www.psychologytoday.com/us/blog/thriving101/201108/the-spoiler-paradox)*** by Adoree Durayappah-Harrison
-
-***[Design principle: Cognitive dissonance](https://uxplanet.org/design-principle-cognitive-dissonance-a01dffe81f58)*** by Anton Nikolov
-
-***[Cognitive Dissonance: How Contradictory Ideas Affect Design](https://vanseodesign.com/web-design/cognitive-dissonance/)*** by Steven Bradley
-
-***[Sponsor Users in Design Thinking](https://www.ibm.com/design/research/sponsor-user-program/overview/)*** by IBM Design
-
-***[This circular bridge in Uruguay was built for two very specific reasons](https://www.businessinsider.com/why-uruguay-has-a-circular-bridge-2016-1)*** by Chris Weller
-
-***[You Are Not the User: The False-Consensus Effect](https://www.nngroup.com/articles/false-consensus/)*** by Raluca Budiu
