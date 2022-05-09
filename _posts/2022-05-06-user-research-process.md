@@ -51,6 +51,7 @@ If we were to learn something from that, is that we must be cautious of how much
 > ”Not everyone needs to know everything, Newt.”
 >
 > <!--EndFragment-->
+
 ## Building... a bridge?
 
 As designers, we may feel the urge to ask users what they think of adding certain features to the experience and, if we are not timely, we may taint their entire thought process of how a product works and, with that, their expectations. Undeniably, even stakeholders may feel this eagerness and ‘spoil’ a long-term roadmap if they were to participate in co-creation sessions, focus groups, or interviews. Remember, people in business do not have the same sensibilities as people in design, and that’s the whole point.
@@ -58,6 +59,7 @@ As designers, we may feel the urge to ask users what they think of adding certai
 ![Laguna Garzón Bridge](/images/user-research-is-like-a-movie/04.jpg "Laguna Garzón Bridge")
 
 > Laguna Garzón Bridge
+
 As you may know, it’d be ideal to approach this carefully and in a rather abstract way. Instead of asking users directly if they would like a bridge to cross to the other side of the lake, we might ask about their ideal way of doing so. You’d be surprised to learn that, depending on the context, their least concern might be crossing. One such example is the rather known Laguna Garzón Bridge. If crossing was its foremost objective, would it be circular?
 
 While having a diverse ensemble for our ideation process is, in my opinion, a must, it may be troublesome if some of these people know ‘a little bit too much’ about the project. So, naturally, we must have this awkward conversation with our clients, and properly prepare them if they are participating in our activities.
@@ -90,7 +92,7 @@ In discovery activities, time and focus are key, that’s why some of the more s
 
 ### Do not bias your users.
 
-If we were to learn one thing about a skilled interviewer, like Kara Swisher, is how she treats heated topics. She always refers back, quotes, and mentions topics with little to no paraphrasing. She’s also clever enough to ask the interviewee to “talk a little bit more about” a topic. Learn to ask without any connotation of previous research, giving away details, or even your opinion. Keep your cool and remember that you are not the user™  
+If we were to learn one thing about a skilled interviewer, like Kara Swisher, is how she treats heated topics. She always refers back, quotes, and mentions topics with little to no paraphrasing. She’s also clever enough to ask the interviewee to “talk a little bit more about” a topic. Learn to ask without any connotation of previous research, giving away details, or even your opinion. Keep your cool and remember that [you are not the user™](https://www.nngroup.com/articles/false-consensus/).  
 
 ## In a nutshell...
 
