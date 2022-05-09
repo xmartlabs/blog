@@ -107,3 +107,22 @@ In my experience, you can mitigate this in pre-work meetings as we have the chan
 Never force the user into thinking what you or your stakeholders want them to think. Pick the most relevant information and let it be disclosed at suitable times in such a way that brings value to our discovery process. And remember...
 
 > *“The secret of being a bore is to tell everything.”* - Voltaire
+
+
+---
+
+#### Credits Roll (or where to find more info)
+
+***[The Spoiler Effect](https://scholarscompass.vcu.edu/uresposters/38/)*** by Alex Falls
+
+***[The Spoiler Paradox](https://www.psychologytoday.com/us/blog/thriving101/201108/the-spoiler-paradox)*** by Adoree Durayappah-Harrison
+
+***[Design principle: Cognitive dissonance](https://uxplanet.org/design-principle-cognitive-dissonance-a01dffe81f58)*** by Anton Nikolov
+
+***[Cognitive Dissonance: How Contradictory Ideas Affect Design](https://vanseodesign.com/web-design/cognitive-dissonance/)*** by Steven Bradley
+
+***[Sponsor Users in Design Thinking](https://www.ibm.com/design/research/sponsor-user-program/overview/)*** by IBM Design
+
+***[This circular bridge in Uruguay was built for two very specific reasons](https://www.businessinsider.com/why-uruguay-has-a-circular-bridge-2016-1)*** by Chris Weller
+
+***[You Are Not the User: The False-Consensus Effect](https://www.nngroup.com/articles/false-consensus/)*** by Raluca Budiu
