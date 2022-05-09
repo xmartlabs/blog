@@ -38,6 +38,7 @@ Grab a cup of coffee and join me for a brief look into why anticipation can be o
 ![> Driven by hunger, a fox tried to reach some grapes hanging high on the vine but was unable to, although it leaped with all its strength. As it went away, the fox remarked “Oh, you aren’t even ripe yet! I don’t need any sour grapes.”](/images/user-research-is-like-a-movie/02.jpg "The Fox and the Grapes")
 
 > Driven by hunger, a fox tried to reach some grapes hanging high on the vine but was unable to, although it leaped with all its strength. As it went away, the fox remarked “Oh, you aren’t even ripe yet! I don’t need any sour grapes.”
+
 When the fox wasn’t able to reach the grapes, it ended up hating them out of spite, out of those conflicting thoughts of desire and frustration: a so-called cognitive dissonance.
 
 In essence, cognitive dissonance is the psychological phenomenon in which differing thoughts or emotions collide, resulting in mixed or negative emotions and reactions as means to relieve the stress. We may, erroneously, think that hype is only a matter of marketing. Truth is, bells and whistles can come from anywhere, and users will remember this.
