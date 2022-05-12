@@ -12,13 +12,7 @@ show: true
 featured_image: /images/the-xl-way-closing-the-gender-gap/8m_cover.jpg
 ---
 
-# Building a Company Culture To Be Proud Of
-
----
-
-How Xmartlabs' women consolidated their group and started a process to visualize and formalize the experience of being a woman in an IT company.****
-
-## Introduction
+## Building a Company Culture To Be Proud Of
 
 All experience is subjective. However, many of the experiences that Xmartlabs' women shared on March 8 tended to sound similar to one another. With no intention of being cliché, it is not for nothing that the movement that began in 2017 on the occasion of the abuses perpetrated by men in the film industry was dubbed "me too.”
 
@@ -36,7 +30,7 @@ Xmartlabs’ women in an end-of-the-year retreat — December 2021
 
 As I mentioned, there have been some constant, although slow, improvements in the IT industry regarding gender equality:
 
-![Source: Analysis and 2021 and 2022 predictions based on published diversity reports from 20 large technology companies (with an average of more than 100,000 employees). [Deloitte](https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2022/statistics-show-women-in-technology-are-facing-new-headwinds.html)]((ENG)%20The%20XL%20Way%20%E2%80%94%20Closing%20the%20Gender%20Gap%2038d14f77ac7945e68bc076b575f8e90d/Untitled.png)
+![Source: Analysis and 2021 and 2022 predictions based on published diversity reports from 20 large technology companies (with an average of more than 100,000 employees). [Deloitte](https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2022/statistics-show-women-in-technology-are-facing-new-headwinds.html)](/images/the-xl-way-closing-the-gender-gap/Untitled.png)
 
 Source: Analysis and 2021 and 2022 predictions based on published diversity reports from 20 large technology companies (with an average of more than 100,000 employees). [Deloitte](https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2022/statistics-show-women-in-technology-are-facing-new-headwinds.html)
 
