@@ -42,7 +42,7 @@ However, there's still a lot of work to do. As shown below, women have continued
 - 20% of women over 35 continue to be in junior positions.
 - In 2016, female-led tech companies received a total of $1.46 billion in equity investment versus $58.2 billion received by those led by men.
 
-Although the talent search is an inherent problem in the IT industry, it should be noted that, compared to other sectors, it continues to lag behind in terms of female participation.****
+Although the talent search is an inherent problem in the IT industry, it should be noted that, compared to other sectors, it continues to lag behind in terms of female participation.
 
 ![Source: Future of Jobs Survey, World Economic Forum.](/images/the-xl-way-closing-the-gender-gap/Untitled%201.png)
 *Source: Future of Jobs Survey, World Economic Forum.*
