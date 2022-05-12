@@ -23,8 +23,7 @@ A process that strives towards a consolidated and formal network, with specific 
 We feel it's essential to show the changes and objectives and why they must occur. Although the IT industry has made certain advances towards gender equality, we believe it wouldn't be wise to risk stagnation because we've reached a relative "comfort.”
 
 ![Xmartlabs’ women in an end-of-the-year retreat — December 2021](/images/the-xl-way-closing-the-gender-gap/PHOTO-2021-12-10-15-24-03.jpg)
-
-Xmartlabs’ women in an end-of-the-year retreat — December 2021
+*Xmartlabs’ women in an end-of-the-year retreat — December 2021*
 
 ## Background — IT industry in numbers
 
@@ -32,7 +31,7 @@ As I mentioned, there have been some constant, although slow, improvements in th
 
 ![Source: Analysis and 2021 and 2022 predictions based on published diversity reports from 20 large technology companies (with an average of more than 100,000 employees). [Deloitte](https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2022/statistics-show-women-in-technology-are-facing-new-headwinds.html)](/images/the-xl-way-closing-the-gender-gap/Untitled.png)
 
-Source: Analysis and 2021 and 2022 predictions based on published diversity reports from 20 large technology companies (with an average of more than 100,000 employees). [Deloitte](https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2022/statistics-show-women-in-technology-are-facing-new-headwinds.html)
+*Source: Analysis and 2021 and 2022 predictions based on published diversity reports from 20 large technology companies (with an average of more than 100,000 employees). [Deloitte](https://www2.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2022/statistics-show-women-in-technology-are-facing-new-headwinds.html)*
 
 However, there's still a lot of work to do. As shown below, women have continued to be disadvantaged in comparison to their male counterparts:
 
@@ -46,8 +45,7 @@ However, there's still a lot of work to do. As shown below, women have continued
 Although the talent search is an inherent problem in the IT industry, it should be noted that, compared to other sectors, it continues to lag behind in terms of female participation.****
 
 ![Source: Future of Jobs Survey, World Economic Forum.](/images/the-xl-way-closing-the-gender-gap/Untitled%201.png)
-
-Source: Future of Jobs Survey, World Economic Forum.
+*Source: Future of Jobs Survey, World Economic Forum.*
 
 ## Beginnings — 8M 2022
 
@@ -65,8 +63,7 @@ After that first experience, we undertook specific actions. Some of them were:
 - Starting a process to solidify the women's group and start organizing next year's March 8 and think of it as a day in which we would carry out special activities.****
 
 ![An after office for Xmartlabs’ women  — September 2021.](/images/the-xl-way-closing-the-gender-gap/PHOTO-2021-09-10-21-25-34.jpg)
-
-An after office for Xmartlabs’ women  — September 2021.
+*An after office for Xmartlabs’ women  — September 2021.*
 
 ## 2022 — a more solid team
 
@@ -79,8 +76,7 @@ We also needed to let the clients know about our plans for the day and have them
 Every step of the way, Xmartlabs management also supported us and encouraged the activity.
 
 ![Xmartlabs' 10th-anniversary party.](/images/the-xl-way-closing-the-gender-gap/Xmartlabs_157.jpg)
-
-Xmartlabs' 10th-anniversary party.
+*Xmartlabs' 10th-anniversary party.*
 
 ### 8M 2022
 
@@ -88,16 +84,15 @@ Just like last year, we had the opportunity to get to know each other. Some 21 w
 
 Besides personal introductions, some of the questions and topics we worked around were:
 
-> The role we have at Xmartlabs and the industry as a whole
-What we want to give visibility to
-Is there something that doesn’t sit well with us or bothers us?
-> 
+* The role we have at Xmartlabs and the industry as a whole
+* What we want to give visibility to
+* Is there something that doesn’t sit well with us or bothers us?
+
 
 After sharing our stories and opinions with everyone, we started to think about how we could carry out specific actions to bring improvement opportunities. These would bring us closer to a more fair and healthy working environment. Some of them are detailed below:
 
 ![A purple flag waved over Xmartlabs’ offices during March, commemorating International Women’s Day on the 8th of that month.](/images/the-xl-way-closing-the-gender-gap/PHOTO-2022-03-07-14-56-11.jpg)
-
-A purple flag waved over Xmartlabs’ offices during March, commemorating International Women’s Day on the 8th of that month.
+*A purple flag waved over Xmartlabs’ offices during March, commemorating International Women’s Day on the 8th of that month.*
 
 ### Proposals that came up
 
@@ -112,6 +107,7 @@ To avoid the previous scenario, we believe the best course of action is to creat
 Additionally, having a gender commission is a requirement for companies participating in the Cuti Gender Commission.
 
 **Gender training for those in leadership roles.**
+
 Effective team management requires gender training to know how to deal with situations of discrimination, mansplaining, and harassment, among others.
 
 **Gender workshops focused on harassment for everyone in the company.**
@@ -119,6 +115,7 @@ Effective team management requires gender training to know how to deal with situ
 Although we held gender workshops in 2021, we believe that in many cases, harassment situations ensue because the people around them are not sure what constitutes harassment or how to respond to it.
 
 **The creation of a playbook that serves as a guide against harassment situations.**
+
 In line with the previous point, we believe it would be extremely useful to have a guide that helps people know how they should act if they find themselves in situations of harassment (either as victims or if they are witnessing it).
 
 **Standardization of the chaperoning process.**
