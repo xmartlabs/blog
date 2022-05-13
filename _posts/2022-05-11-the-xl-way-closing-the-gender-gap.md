@@ -47,7 +47,7 @@ Although the talent search is an inherent problem in the IT industry, it should 
 ![Source: Future of Jobs Survey, World Economic Forum.](/images/the-xl-way-closing-the-gender-gap/Untitled%201.png)
 *Source: Future of Jobs Survey, World Economic Forum.*
 
-## Beginnings — 8M 2022
+## Beginnings — 8M 2021
 
 ### What we did
 
