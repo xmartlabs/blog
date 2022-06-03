@@ -158,7 +158,7 @@ Is having more volume important? It depends. Higher volume indicates an interest
 
 Is TPS important? It depends on the NFT platform you want to build. If your NFT platform does not fall into the first category we covered previously (Very low transactions count), I would say yes.
 
-| Blockchain | Transactions per second |
+| **Blockchain** | **Transactions per second** |
 | --- | --- |
 | Ethereum | 15-20 tps |
 | Cardano | 250 tps |
@@ -172,7 +172,7 @@ Ethereum is not an option if you need high throughput, as the table above indica
 
 Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. In this subject, Avalanche is the king with a transaction finality of less than two seconds.
 
-| **Blockchain** | Transaction finality |
+| **Blockchain** | **Transaction finality** |
 | --- | --- |
 | Ethereum | ~6-14 min |
 | Cardano | ~ 10-60 min |
@@ -188,7 +188,7 @@ Transaction finality is vital to provide a great user experience in some apps. I
 
 Most blockchain developers are experts in EVM because Ethereum was the first blockchain with smart contract functionality. At the same time, EVM compatible blockchains share most developer tools and developers can easily build dapps in any of them. So if your concern is getting the right team, EVM compatible blockchains such as Avalanche, Polygon, and of course, Ethereum are better.
 
-| Blockchain | EVM compatible |
+| **Blockchain** | **EVM compatible** |
 | --- | --- |
 | Ethereum | :) |
 | Cardano | No |
