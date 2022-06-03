@@ -79,7 +79,7 @@ Polygon is a popular Ethereum Layer 2 blockchain solution. It handles transactio
 
 ### **Other ecosystems**
 
-There are also many other thrilling ecosystems I haven’t listed here and deservesw some attention such as [tron](https://tron.network/),  [algorand](https://www.algorand.com/), and many many others. I recommend you take a look at them too, some of them could be a good fit for your needs. 
+There are also many other thrilling ecosystems I haven’t listed here and deservesw some attention such as [tron](https://tron.network/),  [algorand](https://www.algorand.com/), [flow](https://www.onflow.org/) and many many others. I recommend you take a look at them too, some of them could be a good fit for your needs. 
 
 ## **Types of NFT Marketplaces**
 
@@ -214,6 +214,6 @@ Why would you list your NFT on a third party? Simple, more people will find your
 
 If you have read so far, you would have more understanding on the different NFT platforms and the characteristics of the most interesting blockchains to build them.
 
-In the end, the chosen blockchain will mostly depend on your NFT platform requirements. If you lack an experienced team or still feel lost or hesitating in which one fit best your requirements, please contact us and we gladly help you!
+In the end, the chosen blockchain will mostly depend on your NFT platform requirements. Creating a sucessfull NFT project requires being up to date with ecosystems, how NFT projects works and its tokenomics. If you lack an experienced team or still feel lost in designing NFT platforms or how to leverage blockchain technology, please contact us and we gladly help you!
 
-If you already have experience and have some blockchain you think is worth adding to the post, write down below in the comment section.
+If you already have experience building NFT platforms and you think is worth adding any missing blockchain to the post, let us know by writting down below in the comment section.
