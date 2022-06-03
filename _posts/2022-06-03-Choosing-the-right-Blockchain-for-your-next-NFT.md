@@ -136,7 +136,7 @@ Besides sending transactions to the blockchain, it needs to store (off or on-cha
 > *“We are very excited about the possibilities Ronin brings. Though it’s still in an early state, Ronin will continuously evolve over the years to serve the spirit and ethos of blockchain gaming. On the technical side, we are also looking into various solutions to further strengthen and scale Ronin. zKSyncs, for example, is looking promising, but it could take time until it’s production-ready — particularly for NFTs and games.”*
 > 
 
-[Another play-to-earn game, God Unchained](https://godsunchained.com/), uses [Immutable X](https://www.immutable.com/), an L2 EVM-compatible blockchain created with play-to-earn game requirements in mind. If you want to be part of their ecosystem, you need to get approved, so it's not totally permissionless.
+Another play-to-earn game, [God Unchained](https://godsunchained.com/), uses [Immutable X](https://www.immutable.com/), an L2 EVM-compatible blockchain created with play-to-earn game requirements in mind. If you want to be part of their ecosystem, you need to get approved, so it's not totally permissionless.
 
 Besides these two, other interesting blockchains for play-to-earn games are Solana and Polygon. Here you can check what was built on [Solana](https://cryptodaily.io/best-solana-games/) and [Polygon](https://gamingnews.cyou/best-play-to-earn-games-at-polygon/) regarding P2E (play-to-earn) games.
 
