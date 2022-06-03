@@ -140,9 +140,9 @@ Besides sending transactions to the blockchain, it needs to store (off or on-cha
 
 Besides these two, other interesting blockchains for play-to-earn games are Solana and Polygon. Here you can check what was built on [Solana](https://cryptodaily.io/best-solana-games/) and [Polygon](https://gamingnews.cyou/best-play-to-earn-games-at-polygon/) regarding P2E (play-to-earn) games.
 
-## **Let's review each blockchain's ecosystem.**
+## Let's review each blockchain's ecosystem.
 
-### **Volume**
+### Volume
 
 We have already shown the volume for each blockchain we covered, with Ethereum having the most significant volume. But Ethereum's dominance in the NFT space is slowly crumbling. 
 
@@ -154,7 +154,7 @@ Avalanche’s NFT ecosystem keeps growing according to [https://avaxnftstats.com
 
 Is having more volume important? It depends. Higher volume indicates an interesting ecosystem and many users, something everyone is looking at when launching a DApp. At the same time, maybe some blockchains whose ecosystem is growing fast but still don't have your NFT innovation may be willing to promote your NFT platform and help in the marketing strategy. In the end, both are pushing forward a blockchain ecosystem.
 
-### **Transactions per section**
+### Transactions per second
 
 Is TPS important? It depends on the NFT platform you want to build. If your NFT platform does not fall into the first category we covered previously (Very low transactions count), I would say yes.
 
@@ -168,7 +168,7 @@ Is TPS important? It depends on the NFT platform you want to build. If your NFT 
 
 Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability while improving security.
 
-**Transaction finality**
+### Transaction finality
 
 Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. In this subject, Avalanche is the king with a transaction finality of less than two seconds.
 
@@ -184,7 +184,7 @@ It's impressive how Avalanche can process up to 4500 tps with 2 sec finality tim
 
 Transaction finality is vital to provide a great user experience in some apps. Imagine a DeFi app that needs to notify the user the transaction was confirmed and irreversible in the network. Avax can accomplish that in less than 2 seconds, thanks to its [consensus mechanism](https://docs.avax.network/overview/getting-started/avalanche-consensus/) and Snowball algorithm.
 
-### **Finding DApp Engineers**
+### Finding DApp Engineers
 
 Most blockchain developers are experts in EVM because Ethereum was the first blockchain with smart contract functionality. At the same time, EVM compatible blockchains share most developer tools and developers can easily build dapps in any of them. So if your concern is getting the right team, EVM compatible blockchains such as Avalanche, Polygon, and of course, Ethereum are better.
 
@@ -198,7 +198,7 @@ Most blockchain developers are experts in EVM because Ethereum was the first blo
 
 Also, EVM-compatible blockchains typically have better interoperability with Ethereum. For example, $MATIC, the Polygon native cryptocurrency, is an [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token in the Ethereum network. The [Avalanche Bridge (AB)](https://bridge.avax.network/) can be used to transfer ERC20 tokens from Ethereum to Avalanche's C-Chain and vice versa and so on.
 
-### **NFT Marketplaces**
+### NFT Marketplaces
 
 NFT marketplaces are the place where people trade NFTs. You can list an NFT collection in your own developed marketplace, you can use a third-party marketplace such as OpenSea, or even list in your own and in multiple third-party marketplaces.
 
