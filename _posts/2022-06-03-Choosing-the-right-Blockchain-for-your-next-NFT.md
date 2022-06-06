@@ -118,7 +118,7 @@ These solutions need a super scalable solution and the cheapest gas fee to suppo
 
 Besides sending transactions to the blockchain, it needs to store (off or on-chain) all the user-generated data created during the game.
 
-[Axeinfinity](https://axieinfinity.com/), for instance, has developed "his own blockchain," [Ronin Ethereum Sidechain](https://whitepaper.axieinfinity.com/technology/ronin-ethereum-sidechain), which is a proprietary blockchain, so it's not permissionless (developers cannot deploy dApps).
+[Axeinfinity](https://axieinfinity.com/), for instance, has developed "his own blockchain," [Ronin Ethereum Sidechain](https://whitepaper.axieinfinity.com/technology/ronin-ethereum-sidechain), which is a proprietary blockchain, making it permissioned (developers cannot deploy dApps).
 
  
 
