@@ -74,7 +74,7 @@ Polygon is a popular Ethereum Layer 2 blockchain solution. It handles transactio
 ![Polygon Volumen](/images/choosing-the-right-blockchain/polygon_volumen.png)
 
 ### **Other ecosystems**
-There are also many other thrilling ecosystems I haven’t listed here and deservesw some attention such as [tron](https://tron.network/),  [algorand](https://www.algorand.com/), [flow](https://www.onflow.org/) and many many others. I recommend you take a look at them too, some of them could be a good fit for your needs. 
+There are also many other thrilling ecosystems I haven’t listed here but deserve attention nonetheless (such as [Tron](https://tron.network/),  [Algorand](https://www.algorand.com/), [flow](https://www.onflow.org/). I’d advise you to take a look at them as some might be a good fit for your needs.
 
 ## **What type of NFT marketplace is better**
 
