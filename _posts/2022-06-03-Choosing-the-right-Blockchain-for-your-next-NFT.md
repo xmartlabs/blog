@@ -24,7 +24,8 @@ In the following blog post, we’ll assess the different alternatives of blockch
 - Make sure the ecosystem and community around the blockchain are thriving. It's not all about good tech and solid fundamentals; the ecosystem and what it builds around it matter too.
 - A marketplace of their own is not a requirement for some NFT solutions. There are third-party marketplaces where NFTs can be bought and traded, such as [Open Sea](https://opensea.io/), which supports a few blockchains.
 
-## Blockchain alternatives
+## What Blockchain platforms to consider
+
 
 There are thousands of blockchains, but only a small percentage of them has smart contract which is needed to develop dApps (NFTs and their marketplaces). Bitcoin, XRP, and Dogecoin are blockchains that don't support smart contracts whereas Ethereum, Polygon, Avalanche have smart contract functionality. 
 
