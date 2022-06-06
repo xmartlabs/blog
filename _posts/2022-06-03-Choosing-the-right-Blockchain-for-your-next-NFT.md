@@ -100,9 +100,9 @@ These marketplaces are pretty much the same as the former (mining and NFT tradin
 
 **NFT staking** is a way to earn passive income in the crypto ecosystem. It lets NFT holders lock their assets in DeFi platforms to receive rewards. All without the need to sell their NFT collections. Often this kind of platform also launches its own ERC 20 token (or analog for non- EVM compatible blockchains) and uses them to reward NFT holders. 
 
-A common use case is buying an NFT, then staking it to earn custom tokens (ERC 20), to buy more NFTs, do something in the ecosystem, or eventually trade these earned tokens.
+A common use case is buying an NFT, then staking it to earn custom tokens (ERC 20), to either buy more NFTs, do something in the ecosystem, or trade these earned tokens.
 
-**NFT breeding**, as the name indicates, is the process of getting a new NFT from a previously owned NFT or a combination of them. Sometimes the process takes time, and the user must burn custom tokens (ERC 20) in order to produce a new NFT.
+**NFT breeding**, as the name indicates, is the process of getting a new NFT from an existing NFT or a combination of two of them. Sometimes the process takes time, and the user must burn custom tokens (ERC 20) in order to produce a new NFT.
 
 I won't get into the tokenomics of an NFT project, but this type of platform needs to carefully control the demand/supply balance to make sure the demand and the asset value rise over time. So creating new NFT from breeding should be controlled and performed according to the community's overall interest and growth to have a sustainable project.
 
