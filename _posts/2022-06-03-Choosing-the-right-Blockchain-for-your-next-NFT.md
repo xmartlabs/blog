@@ -54,7 +54,6 @@ Looking at the most popular Ethereum NFT collections at [dappradar](https://dap
 Smart contract capability was added recently (mid-2021 approx.), and the dApp ecosystem and NFT community are not fully developed yet. As of today, I wouldn't recommend it for an NFT project. Cardano has a great team but was late to the smart contracts game.
 
 ### **Solana**
-
 Solid [L1 blockchain](https://academy.binance.com/en/articles/what-is-layer-1-in-blockchain) with proprietary standards, smart contracts are written in C, C++, or Rust. It's super-fast, in theory, it supports up to 65k transactions per second and has a low-cost gas fee. Besides, it has an incredibly vibrant community and growing ecosystem.
 
 ![Solana NFT Volumen](/images/choosing-the-right-blockchain/solana_volumen.png)
@@ -71,12 +70,11 @@ Its ecosystem is growing fast but it’s not as big as Solana's or Polygon's eco
 ![Avalanche NFT Volumen](/images/choosing-the-right-blockchain/avalanche_volumen.png)
 
 ### **Polygon**
-Polygon is a popular Ethereum Layer 2 blockchain solution. It handles transactions off Ethereum while taking advantage of the robust decentralized and security provided by Ethereum (layer 1). Polygon is EVM compatible and runs dApps in its own network and communicates with Ethereum regularly to save a bunch of transactions simultaneously, minimizing transaction time and gas fees.
+Polygon is a popular Ethereum Layer 2 blockchain solution. It handles transactions off Ethereum while taking advantage of the robust decentralized security provided by Ethereum (layer 1). Polygon is EVM compatible and runs dApps on its own network, communicating regularly with Ethereum to save a bunch of transactions simultaneously, minimizing transaction time and gas fees.
 
 ![Polygon Volumen](/images/choosing-the-right-blockchain/polygon_volumen.png)
 
 ### **Other ecosystems**
-
 There are also many other thrilling ecosystems I haven’t listed here and deservesw some attention such as [tron](https://tron.network/),  [algorand](https://www.algorand.com/), [flow](https://www.onflow.org/) and many many others. I recommend you take a look at them too, some of them could be a good fit for your needs. 
 
 ## **Types of NFT Marketplaces**
