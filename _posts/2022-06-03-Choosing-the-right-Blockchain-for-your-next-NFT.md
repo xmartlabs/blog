@@ -163,8 +163,7 @@ Is TPS important? It depends on the NFT platform you want to build. If your NFT 
 Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability while improving security.
 
 ### Transaction finality
-
-Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. In this subject, Avalanche is the king with a transaction finality of less than two seconds.
+Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. Avalanche is the king with a transaction finality of fewer than two seconds in this subject.
 
 | **Blockchain** | **Transaction finality** |
 | --- | --- |
@@ -179,7 +178,7 @@ It's impressive how Avalanche can process up to 4500 transactions per second, wi
 Transaction finality is vital to provide a great user experience in some apps. Imagine a DeFi app that needs to notify the user the transaction was confirmed and irreversible in the network. Avax can accomplish that in less than 2 seconds, thanks to its [consensus mechanism](https://docs.avax.network/overview/getting-started/avalanche-consensus/) and Snowball algorithm.
 
 ### By availability of DApp Engineers
-Most blockchain developers are experts in EVM because Ethereum was the first blockchain with smart contract functionality. At the same time, EVM compatible blockchains share most developer tools and developers can easily build dapps in any of them. So if your concern is getting the right team, EVM compatible blockchains such as Avalanche, Polygon, and of course, Ethereum are better.
+Most blockchain developers are experts in EVM because Ethereum was the first blockchain with smart contract functionality. At the same time, EVM-compatible blockchains share most developer tools and developers can easily build dApps in any of them. So if your concern is getting the right team, EVM compatible blockchains such as Avalanche, Polygon, and Ethereum are better.
 
 | **Blockchain** | **EVM compatible** |
 | --- | --- |
@@ -191,7 +190,7 @@ Most blockchain developers are experts in EVM because Ethereum was the first blo
 
 Also, EVM-compatible blockchains typically have better interoperability with Ethereum. For example, $MATIC, the Polygon native cryptocurrency, is an [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token in the Ethereum network. The [Avalanche Bridge (AB)](https://bridge.avax.network/) can be used to transfer ERC20 tokens from Ethereum to Avalanche's C-Chain and vice versa and so on.
 
-### NFT Marketplaces
+### By NFT Marketplaces
 
 NFT marketplaces are the place where people trade NFTs. You can list an NFT collection in your own developed marketplace, you can use a third-party marketplace such as OpenSea, or even list in your own and in multiple third-party marketplaces.
 
