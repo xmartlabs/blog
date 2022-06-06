@@ -80,22 +80,21 @@ There are also many other thrilling ecosystems I haven’t listed here but deser
 
 NFT platforms have evolved quickly from nice digital art piece marketplaces to sophisticated play-to-earn games. Next, I covered three different NFT platform categories and the most suitable blockchain technologies for each one. Creatively around NFT platforms will continue to expand, there are many use cases to uncover yet. Soulbound Tokens, which are essentially non-transferable NFTs, will open plenty of innovation opportunities in the ecosystem. 
 
-### **Very low transactions count**
+### **Marketplaces with very low transactions count**
 
 Typically these NFT projects are high-priced NFTs of collectible art. Buyers speculate about the NFT’s future value, expecting to sell at a higher price. The artist and the art itself are crucial for the success of the project as well as a good marketing and launch strategy.
 
-These NFT projects are relatively simple to develop, in most cases just require a few smart contracts, if not only one. Minting and trading the NFTs are the only transactions. Mining is performed once per NFT in order to create it, while trading transactions are occasionally performed since the buyer is basically getting digital art.
+These NFT projects are relatively simple to develop. Mostly they just require a few smart contracts, if not only one. Minting and trading the NFTs are the only transactions. Mining is performed one time per NFT (to create it), while trading transactions are occasionally performed since the buyer is basically getting digital art.
 
-L1 solutions like Ethereum could be a good choice.  For these NFT platforms, Ethereum's gas fee is not a blocker, considering users are sporadically trading expensive NFT prices. Also, Ethereum is super reliable due to its decentralization and proof of work consensus mechanism, making it ideal for "storing" valuable assets.
+L1 solutions like Ethereum could be a good choice.  For these NFT platforms, Ethereum's gas fee is not a blocker, considering how sporadically users trade expensive NFT pieces. Also, Ethereum is super reliable due to its decentralization and proof of work consensus mechanism, making it ideal for "storing" valuable assets.
 
-[Border Ape](https://boredapeyachtclub.com/), for instance, uses the Ethereum blockchain. Current Ether price, a simple transaction of buying a Border Ape NFT, costs approximately 160 USD. Considering the floor price of these NFTs is 91 ETH (~182,000 USD when writing this blog post), the purchase fee doesn't look so bad.
+[Border Ape](https://boredapeyachtclub.com/), for instance, uses the Ethereum blockchain. With the current Ether price, a simple transaction of buying a Border Ape NFT costs approximately 160 USD. Considering the floor price of these NFTs is 91 ETH (~182,000 USD when writing this blog post), the purchase fee doesn't look so bad.
 
 ![Border Ape](/images/choosing-the-right-blockchain/border_ape.png)
 
 [Crypto Punks](https://www.larvalabs.com/cryptopunks) and [Lazy Lions](https://www.lazylionsnft.com/) are other popular NFT marketplaces in this category deployed on Ethereum. 
 
 ### **Few transactions count**
-
 These marketplaces are pretty much the same as the former (mining and NFT trading) but with staking & breeding mechanisms. Here, the NFT has some use besides the artistic aspect and its uniqueness.
 
 **NFT staking** is a way to earn passive income in the crypto ecosystem. It lets NFT holders lock their assets in DeFi platforms to receive rewards. All without the need to sell their NFT collections. Often this kind of platform also launches its own ERC 20 token (or analog for non- EVM compatible blockchains) and uses them to reward NFT holders. 
