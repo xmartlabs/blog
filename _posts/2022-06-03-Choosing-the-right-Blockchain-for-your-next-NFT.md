@@ -31,7 +31,7 @@ There are thousands of blockchains, but only a small percentage of them has smar
 
 [Coinmarketcap](https://coinmarketcap.com/) lists all blockchains by market capitalization, so let's see the most popular ones. Notice that ranking in the list evolves and changes quickly according to industry innovations. Unfortunately, many of the [top 10 cryptocurrencies in 2017](https://coinmarketcap.com/historical/20171217/) disappear or are no longer in the top 10.  
 
-Ethereum, Cardano, Solana, Polkadot, Avalanche, and Polygon are the most popular blockchains with smart contract support within the top 20 (at the moment of writing this blogpost).
+Here is [Coinmarketcap’s](https://coinmarketcap.com/) list of blockchains by market capitalization; Ethereum, Cardano, Solana, Polkadot, Avalanche, and Polygon are the most popular blockchains with smart contracts support within the top 20 (at the moment of writing this blogpost).
 
 ![Coinmarketcap top 20 blockchains with smart contract support](/images/choosing-the-right-blockchain/coinmarketcap.png)
 
