@@ -41,7 +41,7 @@ However, the advantage of you being the first in an ecosystem to launch some NFT
 ## Popular blockchain platforms
 
 ### **Ethereum**
-It's the mother of DApps and the first blockchain ever with smart contract capabilities. There is a massive community and many apps, but it suffers from a big issue. The gas fee is costly, and it lacks scalability. [L2 blockchain solutions](https://ethereum.org/en/layer-2/) arose trying to solve these problems while still benefiting from the security and decentralization level provided by Ethereum (more on that later).
+It's the mother of dApps and the first blockchain with smart contract capabilities. There is a massive community that includes many apps, but it suffers from two big issues: an expensive gas fee plus a lack of scalability. To address these issues but still benefit from the security and decentralization level provided by Ethereum, [L2 blockchain](https://ethereum.org/en/layer-2/) solutions were created, but more on that later.
 
 ![Ethereum NFT volumen](/images/choosing-the-right-blockchain/ethereum_volumen.png)
 
@@ -80,7 +80,7 @@ NFT platforms have evolved quickly from nice digital art piece marketplaces to s
 
 ### **Very low transactions count**
 
-Typically these NFT projects are collectible art NFTs which reach a high price. Buyers speculate about the future value of the NFT, expecting to sell at a higher price. The artist and the art itself are crucial for the success of the project as well as a good marketing and launch strategy.
+Typically these NFT projects are high-priced NFTs of collectible art. Buyers speculate about the NFT’s future value, expecting to sell at a higher price. The artist and the art itself are crucial for the success of the project as well as a good marketing and launch strategy.
 
 These NFT projects are relatively simple to develop, in most cases just require a few smart contracts, if not only one. Minting and trading the NFTs are the only transactions. Mining is performed once per NFT in order to create it, while trading transactions are occasionally performed since the buyer is basically getting digital art.
 
