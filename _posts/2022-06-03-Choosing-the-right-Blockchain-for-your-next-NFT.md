@@ -157,7 +157,7 @@ Is TPS important? It depends on the NFT platform you want to build. If your NFT 
 | Polygon | theoretically ~65,000 |
 | Avalanche | 4500 tps  (can scale even more by using subnets) |
 
-Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability while improving security.
+Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability while refining security.
 
 ### Transaction finality
 Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. Avalanche is the king with a transaction finality of fewer than two seconds in this subject.
@@ -188,8 +188,7 @@ Most blockchain developers are experts in EVM because Ethereum was the first blo
 Also, EVM-compatible blockchains typically have better interoperability with Ethereum. For example, $MATIC, the Polygon native cryptocurrency, is an [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token in the Ethereum network. The [Avalanche Bridge (AB)](https://bridge.avax.network/) can be used to transfer ERC20 tokens from Ethereum to Avalanche's C-Chain and vice versa and so on.
 
 ### By NFT Marketplaces
-
-NFT marketplaces are the place where people trade NFTs. You can list an NFT collection in your own developed marketplace, you can use a third-party marketplace such as OpenSea, or even list in your own and in multiple third-party marketplaces.
+You can either list an NFT collection in your own developed marketplace, use a third-party marketplace such as OpenSea, or even list NFTs on your own and in multiple third-party marketplaces.
 
 OpenSea is the biggest NFTs marketplace but it only supports Polygon, Ethereum, and Solana NFTs for now.  Also, almost every blockchain has its marketplace supporting its own ecosystem projects. 
 
