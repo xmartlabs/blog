@@ -95,9 +95,9 @@ L1 solutions like Ethereum could be a good choice.  For these NFT platforms, Eth
 [Crypto Punks](https://www.larvalabs.com/cryptopunks) and [Lazy Lions](https://www.lazylionsnft.com/) are other popular NFT marketplaces in this category deployed on Ethereum. 
 
 ### **Few transactions count**
-These marketplaces are pretty much the same as the former (mining and NFT trading) but with staking & breeding mechanisms. Here, the NFT has some use besides the artistic aspect and its uniqueness.
+These marketplaces are pretty much the same as the former (in terms of mining and NFT trading) but with staking and breeding mechanisms. Here, the NFTs have some use besides their artistic aspects.
 
-**NFT staking** is a way to earn passive income in the crypto ecosystem. It lets NFT holders lock their assets in DeFi platforms to receive rewards. All without the need to sell their NFT collections. Often this kind of platform also launches its own ERC 20 token (or analog for non- EVM compatible blockchains) and uses them to reward NFT holders. 
+**NFT staking** is a way to earn passive income in the crypto ecosystem. It lets NFT holders lock their assets in DeFi platforms to receive rewards, all without the need to sell their NFT collections. Often this kind of platform also launches its own ERC 20 token (or analog for non- EVM compatible blockchains) and uses them to reward NFT holders. 
 
 A common use case is buying an NFT, then staking it to earn custom tokens (ERC 20), to either buy more NFTs, do something in the ecosystem, or trade these earned tokens.
 
