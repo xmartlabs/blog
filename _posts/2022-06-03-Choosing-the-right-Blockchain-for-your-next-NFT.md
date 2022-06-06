@@ -105,15 +105,14 @@ A common use case is buying an NFT, then staking it to earn custom tokens (ERC 2
 
 I won't get into the tokenomics of an NFT project, but this type of platform needs to carefully control the demand/supply balance to make sure the demand and the asset value rise over time. So creating new NFT from breeding should be controlled and performed according to the community's overall interest and growth to have a sustainable project.
 
-One of the first projects to apply this mechanism was [cryptokitties](https://www.cryptokitties.co/). An owner can combine two kitties' attributes to get a new one that mixes the parents' characteristics and visual style.
+One of the first projects to apply this mechanism was [CryptoKitties](https://www.cryptokitties.co/). An owner can combine two kitties' attributes to get a new one that mixes the parents' characteristics and visual style.
 
 ![cryptokitties](/images/choosing-the-right-blockchain/cryptokitties.png)
 
-[Wizard & Dragons](https://wnd.game/) is another game that uses this kind of economic mechanism. It's a 100% on-chain, community-driven strategy game combining collectible utility-focused NFTs with DeFi mechanics. They initially used the Ethereum network, but after some scalability and mainly the expensive gas fee issues, they migrated to Polygon.
+[Wizard & Dragons](https://wnd.game/) is another game that uses this kind of economic mechanism. It's a 100% on-chain, community-driven strategy game combining collectible utility-focused NFTs with DeFi mechanics. They initially used the Ethereum network but migrated to Polygon after some scalability issues and the expensive gas fee.
 
 ### Huge transaction volume
-
-Everything that the previous category provides, plus active gameplay (play-to-earn platforms, active gameplay means players spend time playing a real game). These games have a blockchain connection, and players can buy, stake, and breed NFTs to use within the game. They can also spend coins (in the game) to gain some accomplishment.
+Everything that the previous category provides, plus active gameplay (meaning the game requires player interaction as opposed to idle gameplay). These games have a blockchain connection, and players can buy, stake, and breed NFTs to use within the game. They can also spend coins (in the game) to gain some prizes or recognition.
 
 These solutions need a super scalable solution and the cheapest gas fee to support thousands of users playing the game simultaneously (which strongly depends on the blockchain, NFTs, and other tokens).
 
