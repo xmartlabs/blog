@@ -55,24 +55,22 @@ Smart contract capability was added recently (mid-2021 approx.), and the dApp ec
 
 ### **Solana**
 
-Solid [L1 blockchain](https://academy.binance.com/en/articles/what-is-layer-1-in-blockchain) with proprietary standards, smart contracts are written in C, C++, or Rust. It's super-fast, theoretically supporting up to 65k transactions per second and having low-cost gas fees. Besides, it has an incredibly vibrant community and growing ecosystem.
+Solid [L1 blockchain](https://academy.binance.com/en/articles/what-is-layer-1-in-blockchain) with proprietary standards, smart contracts are written in C, C++, or Rust. It's super-fast, in theory, it supports up to 65k transactions per second and has a low-cost gas fee. Besides, it has an incredibly vibrant community and growing ecosystem.
 
 ![Solana NFT Volumen](/images/choosing-the-right-blockchain/solana_volumen.png)
 
 Solana volume is smaller than Ethereum. 
 
 ### **Avalanche**
+I really like the fundamentals of Avalanche. It's an eco-friendly, relatively fast, EVM-compatible blockchain, which means you can easily migrate an Ethereum dApp and run it on an Avalanche network.
 
-I really like the fundamentals of Avalanche. It's an eco-friendly, considerably fast, EVM-compatible blockchain, which means you can easily migrate an Ethereum dApp and run it on an Avalanche network.
+It's a great alternative to solve Ethereum’s scalability and high gas fees issues. Ethereum and Avalanche share most of their developer's tools, such as the Truffle and Solidity languages. Avalanche has its own crypto, **Avax**, whereas Ethereum's crypto is **Ether**.
 
-It's a great alternative to solve Ethereum’s scalability and high gas fees issues. Ethereum and Avalanche share most of their developer's tools, such as truffle and solidity language. Of course, Avalanche has its own crypto ***Avax***, whereas Ethereum's crypto is ***Ether***.
-
-Its ecosystem is growing fast but not as big as Solana's or Polygon's ecosystems yet. 
+Its ecosystem is growing fast but it’s not as big as Solana's or Polygon's ecosystems yet. 
 
 ![Avalanche NFT Volumen](/images/choosing-the-right-blockchain/avalanche_volumen.png)
 
 ### **Polygon**
-
 Polygon is a popular Ethereum Layer 2 blockchain solution. It handles transactions off Ethereum while taking advantage of the robust decentralized and security provided by Ethereum (layer 1). Polygon is EVM compatible and runs dApps in its own network and communicates with Ethereum regularly to save a bunch of transactions simultaneously, minimizing transaction time and gas fees.
 
 ![Polygon Volumen](/images/choosing-the-right-blockchain/polygon_volumen.png)
