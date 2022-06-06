@@ -10,7 +10,7 @@ tags:
 author_id: mtnBarreto
 author: Martin Barreto
 show: true
-featured_image: /images/the-xl-way-closing-the-gender-gap/8m_cover.jpg
+featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCHAIN.png
 ---
 
 Choosing the right blockchain for an NFT project is one of the smart moves in the early development stage. There are plenty of options, and the right one will depend on your project requirement, industry, transaction count, ecosystem, DeFi rewards around NFT assets, and other characteristics.
@@ -212,8 +212,14 @@ Why would you list your NFT on a third party? Simple, more people will find your
 
 ## Final thoughts
 
+The image below recapitulates each blockchain's characteristic and its advantages compared to each other (green means "best at", yellow means "good but not the best at")
+
+![Smart contract blockchain comparison](/images/choosing-the-right-blockchain/blockchain-comparison.png)
+
+
 If you have read so far, you would have more understanding on the different NFT platforms and the characteristics of the most interesting blockchains to build them.
 
-In the end, the chosen blockchain will mostly depend on your NFT platform requirements. Creating a sucessfull NFT project requires being up to date with ecosystems, how NFT projects works and its tokenomics. If you lack an experienced team or still feel lost in designing NFT platforms or how to leverage blockchain technology, please contact us and we gladly help you!
+In the end, the chosen blockchain will mostly depend on your NFT platform requirements. Creating a sucessfull NFT project requires being up to date with ecosystems, how your NFT projects works and its tokenomics. If you lack an experienced team or still feel lost in designing NFT platforms or how to leverage blockchain technology, please contact us and we gladly help you!
 
 If you already have experience building NFT platforms and you think is worth adding any missing blockchain to the post, let us know by writting down below in the comment section.
+
