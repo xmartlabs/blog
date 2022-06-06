@@ -201,7 +201,7 @@ Also, EVM-compatible blockchains typically have better interoperability with Eth
 
 NFT marketplaces are the place where people trade NFTs. You can list an NFT collection in your own developed marketplace, you can use a third-party marketplace such as OpenSea, or even list in your own and in multiple third-party marketplaces.
 
-OpenSea is the biggest NFTs marketplace but it only supports Polygon, Ethereum, and Solana NFTs for now.  Also, almost every blockchain has its own marketplace supporting its own ecosystem projects. 
+OpenSea is the biggest NFTs marketplace but it only supports Polygon, Ethereum, and Solana NFTs for now.  Also, almost every blockchain has its marketplace supporting its own ecosystem projects. 
 
 Why would you list your NFT on a third party? Simple, more people will find your NFT. And some crazy people still trust more on a third-party marketplace than on a real dApp. It’s important to do some research and explore candidate marketplaces for listing your NFT. 
 
