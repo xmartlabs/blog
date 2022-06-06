@@ -18,13 +18,14 @@ In the early development stage of an NFT project choosing the right blockchain i
 
 In the following blog post, we’ll assess the different alternatives of blockchain ecosystems and pair them with the best NFT platform alternative depending on their category. The latter has been growing in trading volume and transaction and incorporating creative economics (tokenomics) mechanisms that support their long-run and long-term sustainability. 
 
-## Why choosing the right blockchain for your NFT project is important?
+## What to consider when choosing the right blockchain:
 
 - It should support functionality for the time to come. You should make sure it can develop every use case and that your team will never get stuck with technical limitations.
 - Make sure the ecosystem and community around the blockchain are thriving. It's not all about good tech and solid fundamentals; the ecosystem and what it builds around it matter too.
 - A marketplace of their own is not a requirement for some NFT solutions. There are third-party marketplaces where NFTs can be bought and traded, such as [Open Sea](https://opensea.io/), which supports a few blockchains.
 
 ## What Blockchain platforms to consider
+The following section will list different blockchain platforms according to smart contract functionality and market capitalization. Later we’ll dive into some of them in further detail.
 
 
 There are thousands of blockchains, but only a small percentage of them has smart contract which is needed to develop dApps (NFTs and their marketplaces). Bitcoin, XRP, and Dogecoin are blockchains that don't support smart contracts whereas Ethereum, Polygon, Avalanche have smart contract functionality. 
@@ -78,7 +79,9 @@ There are also many other thrilling ecosystems I haven’t listed here but deser
 
 ## **What type of NFT marketplace is better**
 
-NFT platforms have evolved quickly from nice digital art piece marketplaces to sophisticated play-to-earn games. Next, I covered three different NFT platform categories and the most suitable blockchain technologies for each one. Creatively around NFT platforms will continue to expand, there are many use cases to uncover yet. Soulbound Tokens, which are essentially non-transferable NFTs, will open plenty of innovation opportunities in the ecosystem. 
+NFT platforms have quickly evolved from nice digital art marketplaces to sophisticated play-to-earn (P2E) games. In this next section, I’ll cover three different NFT platform categories and the most suitable blockchain technology for each one.
+
+Creativity around NFT platforms will continue to expand, leaving many use cases yet to be uncovered. For instance, Soulbound Tokens, which are essentially non-transferable NFTs, will open plenty of innovation opportunities in the ecosystem. 
 
 ### **Marketplaces with very low transactions count**
 
