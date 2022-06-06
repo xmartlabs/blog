@@ -16,7 +16,7 @@ featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCH
 In the early development stage of an NFT project choosing the right blockchain is key. Because the blockchain ecosystems are evolving so quickly there are plenty of options, but the right one will depend on several factors surrounding your projects, such as industry, transaction count, ecosystem, DeFi rewards around NFT assets, and any other specific requirements.
 
 
-In this blog post, I'll evaluate the most interesting blockchains and give my thoughts on which one fits better with each category of the NFT platform (I will also categorize them, more on this later). For each of these NFT marketplace categories, I'll share successful projects so we can visualize the reason for their blockchain selection. I hope it helps your team make informed decisions on blockchain technologies and gives you ideas of NFT marketplace user cases you can incorporate into your platform.
+In the following blog post, we’ll assess the different alternatives of blockchain ecosystems and pair them with the best NFT platform alternative depending on their category. The latter has been growing in trading volume and transaction and incorporating creative economics (tokenomics) mechanisms that support their long-run and long-term sustainability. 
 
 ## Why choosing the right blockchain for your NFT project is important?
 
