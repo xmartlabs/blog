@@ -30,7 +30,6 @@ In the following blog post, we’ll assess the different alternatives of blockch
 There are thousands of blockchains, but only a small percentage of them has smart contract which is needed to develop dApps (NFTs and their marketplaces). Bitcoin, XRP, and Dogecoin are blockchains that don't support smart contracts whereas Ethereum, Polygon, Avalanche have smart contract functionality. 
 
 [Coinmarketcap](https://coinmarketcap.com/) lists all blockchains by market capitalization, so let's see the most popular ones. Notice that ranking in the list evolves and changes quickly according to industry innovations. Unfortunately, many of the [top 10 cryptocurrencies in 2017](https://coinmarketcap.com/historical/20171217/) disappear or are no longer in the top 10.  
-
 Here is [Coinmarketcap’s](https://coinmarketcap.com/) list of blockchains by market capitalization; Ethereum, Cardano, Solana, Polkadot, Avalanche, and Polygon are the most popular blockchains with smart contracts support within the top 20 (at the moment of writing this blogpost).
 
 ![Coinmarketcap top 20 blockchains with smart contract support](/images/choosing-the-right-blockchain/coinmarketcap.png)
@@ -39,7 +38,7 @@ Coinmarketcap top 20 blockchains with smart contract support
 
 Beyond the top 20, the market cap and volume are pretty low, and so is the community. It can be risky to use anything that’s not in the top 20. 
 
-However, if you are the first in an ecosystem to launch some NFT solution, they could help you with initial sales, promotion, gain traction, and hype momentum.
+However, the advantage of you being the first in an ecosystem to launch some NFT solution is the initial help you could get with initial sales and promotion. Furthermore, you’d gain traction and momentum.
 ## Popular blockchain platforms
 
 ### **Ethereum**
