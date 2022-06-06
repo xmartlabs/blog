@@ -28,7 +28,6 @@ In the following blog post, we’ll assess the different alternatives of blockch
 
 
 There are thousands of blockchains, but only a small percentage of them has smart contract which is needed to develop dApps (NFTs and their marketplaces). Bitcoin, XRP, and Dogecoin are blockchains that don't support smart contracts whereas Ethereum, Polygon, Avalanche have smart contract functionality. 
-
 [Coinmarketcap](https://coinmarketcap.com/) lists all blockchains by market capitalization, so let's see the most popular ones. Notice that ranking in the list evolves and changes quickly according to industry innovations. Unfortunately, many of the [top 10 cryptocurrencies in 2017](https://coinmarketcap.com/historical/20171217/) disappear or are no longer in the top 10.  
 Here is [Coinmarketcap’s](https://coinmarketcap.com/) list of blockchains by market capitalization; Ethereum, Cardano, Solana, Polkadot, Avalanche, and Polygon are the most popular blockchains with smart contracts support within the top 20 (at the moment of writing this blogpost).
 
@@ -49,7 +48,6 @@ It's the mother of DApps and the first blockchain ever with smart contract capab
 Looking at the most popular Ethereum NFT collections at [dappradar](https://dappradar.com/nft/collections/protocol/ethereum),  we observe a huge volume. This volume means a strong community, a lot of users in the ecosystem, and many successful projects. Ethereum network and its consensus mechanism are super reliable, which makes them ideal for expensive NFTs, making trading volume even higher.
 
 ### **Cardano**
-
 Smart contract capability was added recently (mid-2021 approx.), and the dApp ecosystem and NFT community are not fully developed yet. As of today, I wouldn't recommend it for an NFT project. Cardano has a great team but was late to the smart contracts game.
 
 ### **Solana**
@@ -76,7 +74,7 @@ Polygon is a popular Ethereum Layer 2 blockchain solution. It handles transactio
 ### **Other ecosystems**
 There are also many other thrilling ecosystems I haven’t listed here and deservesw some attention such as [tron](https://tron.network/),  [algorand](https://www.algorand.com/), [flow](https://www.onflow.org/) and many many others. I recommend you take a look at them too, some of them could be a good fit for your needs. 
 
-## **Types of NFT Marketplaces**
+## **What type of NFT marketplace is better**
 
 NFT platforms have evolved quickly from nice digital art piece marketplaces to sophisticated play-to-earn games. Next, I covered three different NFT platform categories and the most suitable blockchain technologies for each one. Creatively around NFT platforms will continue to expand, there are many use cases to uncover yet. Soulbound Tokens, which are essentially non-transferable NFTs, will open plenty of innovation opportunities in the ecosystem. 
 
