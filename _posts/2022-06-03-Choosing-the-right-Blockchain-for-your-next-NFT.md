@@ -175,12 +175,11 @@ Finality guarantees that no one can alter, reverse or cancel crypto transactions
 | Polygon | Finality achieve once L1 Ethereum achieve it.  |
 | Avalanche | ~2 sec |
 
-It's impressive how Avalanche can process up to 4500 tps with 2 sec finality time and scale even more using subnets. It could be a great alternative if you need scalability, reliability, and a low gas fee. 
+It's impressive how Avalanche can process up to 4500 transactions per second, with 2 sec. finality time and scale, even more, using subnets. It could be a great alternative if you need scalability, reliability, and a low gas fee. 
 
 Transaction finality is vital to provide a great user experience in some apps. Imagine a DeFi app that needs to notify the user the transaction was confirmed and irreversible in the network. Avax can accomplish that in less than 2 seconds, thanks to its [consensus mechanism](https://docs.avax.network/overview/getting-started/avalanche-consensus/) and Snowball algorithm.
 
-### Finding DApp Engineers
-
+### By availability of DApp Engineers
 Most blockchain developers are experts in EVM because Ethereum was the first blockchain with smart contract functionality. At the same time, EVM compatible blockchains share most developer tools and developers can easily build dapps in any of them. So if your concern is getting the right team, EVM compatible blockchains such as Avalanche, Polygon, and of course, Ethereum are better.
 
 | **Blockchain** | **EVM compatible** |
