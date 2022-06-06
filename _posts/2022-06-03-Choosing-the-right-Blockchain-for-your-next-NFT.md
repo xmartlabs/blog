@@ -134,22 +134,20 @@ Another play-to-earn game, [God Unchained](https://godsunchained.com/), uses [I
 
 Besides these two, other interesting blockchains for play-to-earn games are Solana and Polygon. Here you can check what was built on [Solana](https://cryptodaily.io/best-solana-games/) and [Polygon](https://gamingnews.cyou/best-play-to-earn-games-at-polygon/) regarding P2E (play-to-earn) games.
 
-## Let's review each blockchain's ecosystem.
+## Reviewing each blockchain's ecosystem.
 
 ### Volume
-
 We have already shown the volume for each blockchain we covered, with Ethereum having the most significant volume. But Ethereum's dominance in the NFT space is slowly crumbling. 
 
 Solana and Polygon have similar trade volumes between each other, and although Avalanche has a lower volume, its ecosystem is growing fast.
 
 ![Avalanche’s NFT ecosystem keeps growing according to [https://avaxnftstats.com/](https://avaxnftstats.com/).](/images/choosing-the-right-blockchain/avalanche_nft_stats.png)
 
-Avalanche’s NFT ecosystem keeps growing according to [https://avaxnftstats.com/](https://avaxnftstats.com/).
+According to [AvaxNftStats](https://avaxnftstats.com/), Avalanche’s NFT ecosystem keeps growing.
 
 Is having more volume important? It depends. Higher volume indicates an interesting ecosystem and many users, something everyone is looking at when launching a DApp. At the same time, maybe some blockchains whose ecosystem is growing fast but still don't have your NFT innovation may be willing to promote your NFT platform and help in the marketing strategy. In the end, both are pushing forward a blockchain ecosystem.
 
 ### Transactions per second
-
 Is TPS important? It depends on the NFT platform you want to build. If your NFT platform does not fall into the first category we covered previously (Very low transactions count), I would say yes.
 
 | **Blockchain** | **Transactions per second** |
