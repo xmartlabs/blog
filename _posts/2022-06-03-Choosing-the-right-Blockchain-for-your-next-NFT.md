@@ -216,7 +216,7 @@ The image below recapitulates each blockchain's characteristic and its advantage
 ![Smart contract blockchain comparison](/images/choosing-the-right-blockchain/blockchain-comparison.png)
 
 
-If you have read so far, you would have more understanding on the different NFT platforms and the characteristics of the most interesting blockchains to build them.
+If you have read so far, you would have a more deep understanding of the different NFT platforms as well as the characteristics of the most interesting blockchains to build them on, which one serves your needs better, and what to look at when selecting the best platform to work with.
 
 In the end, the chosen blockchain will mostly depend on your NFT platform requirements. Creating a sucessfull NFT project requires being up to date with ecosystems, how your NFT projects works and its tokenomics. If you lack an experienced team or still feel lost in designing NFT platforms or how to leverage blockchain technology, please contact us and we gladly help you!
 
