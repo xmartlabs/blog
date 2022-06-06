@@ -40,14 +40,14 @@ Coinmarketcap top 20 blockchains with smart contract support
 Beyond the top 20, the market cap and volume are pretty low, and so is the community. It can be risky to use anything that’s not in the top 20. 
 
 However, if you are the first in an ecosystem to launch some NFT solution, they could help you with initial sales, promotion, gain traction, and hype momentum.
+## Popular blockchain platforms
 
 ### **Ethereum**
-
 It's the mother of DApps and the first blockchain ever with smart contract capabilities. There is a massive community and many apps, but it suffers from a big issue. The gas fee is costly, and it lacks scalability. [L2 blockchain solutions](https://ethereum.org/en/layer-2/) arose trying to solve these problems while still benefiting from the security and decentralization level provided by Ethereum (more on that later).
 
 ![Ethereum NFT volumen](/images/choosing-the-right-blockchain/ethereum_volumen.png)
 
-Looking at the most popular Ethereum NFT collections at [dappradar](https://dappradar.com/nft/collections/protocol/ethereum),  we can see huge volume, which means a strong community, many users in the ecosystem, and a lot of successful projects. Ethereum network and its consensus mechanism are super reliable, ideal for expensive NFTs which makes trading volume even higher.
+Looking at the most popular Ethereum NFT collections at [dappradar](https://dappradar.com/nft/collections/protocol/ethereum),  we observe a huge volume. This volume means a strong community, a lot of users in the ecosystem, and many successful projects. Ethereum network and its consensus mechanism are super reliable, which makes them ideal for expensive NFTs, making trading volume even higher.
 
 ### **Cardano**
 
