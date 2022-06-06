@@ -220,5 +220,5 @@ If you have read so far, you would have a more deep understanding of the differe
 
 In the end, the chosen blockchain will mostly depend on your NFT platform requirements. Creating a sucessfull NFT project requires being up to date with ecosystems, how your NFT projects works and its tokenomics. If you lack an experienced team or still feel lost in designing NFT platforms or how to leverage blockchain technology, please contact us and we gladly help you!
 
-If you already have experience building NFT platforms and you think is worth adding any missing blockchain to the post, let us know by writting down below in the comment section.
+We’re always on beta! Let us know if you already have experience and have some blockchain you think is worth adding to the post. 
 
