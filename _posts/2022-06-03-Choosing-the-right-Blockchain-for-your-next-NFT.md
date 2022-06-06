@@ -20,7 +20,7 @@ In the following blog post, we’ll assess the different alternatives of blockch
 
 ## Why choosing the right blockchain for your NFT project is important?
 
-- Blockchain should support functionality for the time to come. You should make sure it can develop every use case and that your team will never get stuck with technical limitations.
+- It should support functionality for the time to come. You should make sure it can develop every use case and that your team will never get stuck with technical limitations.
 - Make sure the ecosystem and community around the blockchain are thriving. It's not all about good tech and solid fundamentals; the ecosystem and what it builds around it matter too.
 - Some NFT solutions don't require having their own marketplace. There are third-party marketplaces where NFTs can be bought and traded, such as [Open Sea](https://opensea.io/), which supports a few blockchains. Also, each ecosystem has its individual marketplace, just in case.
 
