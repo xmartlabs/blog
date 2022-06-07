@@ -1,22 +1,23 @@
 ---
 title: "Choosing the right blockchain for your next NFT project"
 layout: post
-permalink: /blog/best-blockchain-for-nft-platform/ 
-date: '2022-06-02T10:00:00.000-03:00' 
+permalink: /blog/right-blockchain-for-nft-platform/ 
+date: '2022-06-08T10:00:00.000-03:00' 
 category: development
 tags:
   - Blockchain development
   - NFT Marketplace
+  - DApp Development
 author_id: mtnBarreto
 author: Martin Barreto
 show: true
 featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCHAIN.png
 ---
 
-In the early development stage of an NFT project choosing the right blockchain is key. Because the blockchain ecosystems are evolving so quickly there are plenty of options, but the right one will depend on several factors surrounding your projects, such as industry, transaction count, ecosystem, DeFi rewards around NFT assets, and any other specific requirements.
 
+Choosing the right blockchain is key during the early development stage of an NFT project. There are plenty of options that provides differents capabilities, each one having its own advantages and disadvantages. NFT DApps are getting more shopisticated and  requiring different capabilities. more and move blockchain features such as desentralization level and security, scalability, and low transaction gas fee. 
 
-In the following blog post, we’ll assess the different alternatives of blockchain ecosystems and pair them with the best NFT platform alternative depending on their category. The latter has been growing in trading volume and transaction and incorporating creative economics (tokenomics) mechanisms that support their long-run and long-term sustainability. 
+In this blog post we introduce three NFT platforms categories according to its application requirements and functionality. We also evaluate the most suitable blockchains for each one so probably any NFT project you have in mid would fall into one of these. 
 
 ## What to consider when choosing the right blockchain:
 
@@ -25,10 +26,10 @@ In the following blog post, we’ll assess the different alternatives of blockch
 - A marketplace of their own is not a requirement for some NFT solutions. There are third-party marketplaces where NFTs can be bought and traded, such as [Open Sea](https://opensea.io/), which supports a few blockchains.
 
 ## What Blockchain platforms to consider
-The following section will list different blockchain platforms according to smart contract functionality and market capitalization. Later we’ll dive into some of them in further detail. 
 
-Although there’s an abundance of blockchains, only a small percentage of them have smart contract integrations, a must-have for developing dApps (NFTs and their marketplaces). 
+The following section will list different blockchain platforms according to market capitalization. Later we’ll dive into some of them in further detail. 
 
+Although there’s an abundance of blockchains, only a small percentage of them have smart contract capabilities, a must-have for developing dApps (NFTs and their marketplaces).
 
 ### By market capitalization
 
@@ -36,12 +37,9 @@ The most popular blockchains according to market capitalization are changing con
 Here is [Coinmarketcap’s](https://coinmarketcap.com/) list of blockchains by market capitalization; Ethereum, Cardano, Solana, Polkadot, Avalanche, and Polygon are the most popular blockchains with smart contracts support within the top 20 (at the moment of writing this blogpost).
 
 ![Coinmarketcap top 20 blockchains with smart contract support](/images/choosing-the-right-blockchain/coinmarketcap.png)
-
-Coinmarketcap top 20 blockchains with smart contract support
+*Coinmarketcap top 20 blockchains with smart contract support.*
 
 Beyond the top 20, the market cap and volume are pretty low, and so is the community. It can be risky to use anything that’s not in the top 20. 
-
-However, the advantage of you being the first in an ecosystem to launch some NFT solution is the initial help you could get with initial sales and promotion. Furthermore, you’d gain traction and momentum.
 
 ## Popular blockchain platforms
 
@@ -76,9 +74,9 @@ Polygon is a popular Ethereum Layer 2 blockchain solution. It handles transactio
 ![Polygon Volumen](/images/choosing-the-right-blockchain/polygon_volumen.png)
 
 ### **Other ecosystems**
-There are also many other thrilling ecosystems I haven’t listed here but deserve attention nonetheless (such as [Tron](https://tron.network/),  [Algorand](https://www.algorand.com/), [flow](https://www.onflow.org/). I’d advise you to take a look at them as some might be a good fit for your needs.
+There are also many other thrilling ecosystems I haven’t listed here but deserve attention nonetheless (such as [Tron](https://tron.network/),  [Algorand](https://www.algorand.com/), [flow](https://www.onflow.org/)). I’d advise you to take a look at them as some might be a good fit for your needs.
 
-## **What type of NFT marketplace is better**
+## **Types of NFT marketplaces**
 
 NFT platforms have quickly evolved from nice digital art marketplaces to sophisticated play-to-earn (P2E) games. In this next section, I’ll cover three different NFT platform categories and the most suitable blockchain technology for each one.
 
@@ -98,10 +96,11 @@ L1 solutions like Ethereum could be a good choice.  For these NFT platforms, Eth
 
 [Crypto Punks](https://www.larvalabs.com/cryptopunks) and [Lazy Lions](https://www.lazylionsnft.com/) are other popular NFT marketplaces in this category deployed on Ethereum. 
 
-### **Few transactions count**
+### Few transactions count
+
 These marketplaces are pretty much the same as the former (in terms of mining and NFT trading) but with staking and breeding mechanisms. Here, the NFTs have some use besides their artistic aspects.
 
-**NFT staking** is a way to earn passive income in the crypto ecosystem. It lets NFT holders lock their assets in DeFi platforms to receive rewards, all without the need to sell their NFT collections. Often this kind of platform also launches its own ERC 20 token (or analog for non- EVM compatible blockchains) and uses them to reward NFT holders. 
+**NFT staking** is a way to earn passive income in the crypto ecosystem. It lets NFT holders lock their assets in DeFi platforms to receive rewards, all without the need to sell their NFT collections. Often this kind of platform also launches its own ERC 20 token (or analog for non-EVM compatible blockchains) and uses them to reward NFT holders. 
 
 A common use case is buying an NFT, then staking it to earn custom tokens (ERC 20), to either buy more NFTs, do something in the ecosystem, or trade these earned tokens.
 
@@ -116,6 +115,7 @@ One of the first projects to apply this mechanism was [CryptoKitties](https://w
 [Wizard & Dragons](https://wnd.game/) is another game that uses this kind of economic mechanism. It's a 100% on-chain, community-driven strategy game combining collectible utility-focused NFTs with DeFi mechanics. They initially used the Ethereum network but migrated to Polygon after some scalability issues and the expensive gas fee.
 
 ### Huge transaction volume
+
 Everything that the previous category provides, plus active gameplay (meaning the game requires player interaction as opposed to idle gameplay). These games have a blockchain connection, and players can buy, stake, and breed NFTs to use within the game. They can also spend coins (in the game) to gain some prizes or recognition.
 
 These platforms need a super scalable solution and the cheapest gas fee to support thousands of users playing the game simultaneously (which strongly depends on the blockchain, NFTs, and other tokens).
@@ -123,8 +123,6 @@ These platforms need a super scalable solution and the cheapest gas fee to suppo
 Besides sending transactions to the blockchain, it needs to store (off or on-chain) all the user-generated data created during the game.
 
 [Axeinfinity](https://axieinfinity.com/), for instance, has developed "his own blockchain," [Ronin Ethereum Sidechain](https://whitepaper.axieinfinity.com/technology/ronin-ethereum-sidechain), which is a proprietary blockchain, making it permissioned (developers cannot deploy dApps).
-
- 
 
 ![axie infinity](/images/choosing-the-right-blockchain/axie_infinity.png)
 
@@ -137,7 +135,7 @@ Another play-to-earn game, [God Unchained](https://godsunchained.com/), uses [I
 
 Besides these two, other interesting blockchains for play-to-earn games are [Solana](https://cryptodaily.io/best-solana-games/) and [Polygon](https://gamingnews.cyou/best-play-to-earn-games-at-polygon/). Here you can check what was built on Solana and Polygon regarding P2E games.
 
-## Reviewing each blockchain's ecosystem.
+## Reviewing each blockchain's ecosystem
 
 ### Volume
 We have already shown the volume for each blockchain we covered, with Ethereum having the most significant volume. But Ethereum's dominance in the NFT space is slowly crumbling. 
@@ -145,8 +143,7 @@ We have already shown the volume for each blockchain we covered, with Ethereum h
 Solana and Polygon have similar trade volumes between each other, and although Avalanche has a lower volume, its ecosystem is growing fast.
 
 ![Avalanche’s NFT ecosystem keeps growing according to [https://avaxnftstats.com/](https://avaxnftstats.com/).](/images/choosing-the-right-blockchain/avalanche_nft_stats.png)
-
-According to [AvaxNftStats](https://avaxnftstats.com/), Avalanche’s NFT ecosystem keeps growing.
+*According to [AvaxNftStats](https://avaxnftstats.com/), Avalanche’s NFT ecosystem keeps growing.*
 
 Is having more volume important? It depends. Higher volume indicates an interesting ecosystem and many users, something everyone is looking at when launching a DApp. At the same time, maybe some blockchains whose ecosystem is growing fast but still don't have your NFT innovation may be willing to promote your NFT platform and help in the marketing strategy. In the end, both are pushing forward a blockchain ecosystem.
 
@@ -161,7 +158,7 @@ Is TPS important? It depends on the NFT platform you want to build. If your NFT 
 | Polygon | theoretically ~65,000 |
 | Avalanche | 4500 tps  (can scale even more by using subnets) |
 
-Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability while refining security.
+Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability.
 
 ### Transaction finality
 Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. Avalanche is the king with a transaction finality of fewer than two seconds in this subject.
@@ -214,4 +211,3 @@ If you have read so far, you would have a more deep understanding of the differe
 In the end, the blockchain you choose will mostly depend on your NFT platform requirements. If you lack an experienced team or still feel lost or hesitating in which one fit best your requirements, please contact us and we gladly help you!
 
 We’re always on beta! Let us know if you already have experience and have some blockchain you think is worth adding to the post. 
-
