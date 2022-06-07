@@ -25,10 +25,11 @@ In the following blog post, we’ll assess the different alternatives of blockch
 - A marketplace of their own is not a requirement for some NFT solutions. There are third-party marketplaces where NFTs can be bought and traded, such as [Open Sea](https://opensea.io/), which supports a few blockchains.
 
 ## What Blockchain platforms to consider
-The following section will list different blockchain platforms according to smart contract functionality and market capitalization. Later we’ll dive into some of them in further detail.
+The following section will list different blockchain platforms according to smart contract functionality and market capitalization. Later we’ll dive into some of them in further detail. 
+
+Although there’s an abundance of blockchains, only a small percentage of them have smart contract integrations, a must-have for developing dApps (NFTs and their marketplaces). 
 
 
-There are thousands of blockchains, but only a small percentage of them has smart contract which is needed to develop dApps (NFTs and their marketplaces). Bitcoin, XRP, and Dogecoin are blockchains that don't support smart contracts whereas Ethereum, Polygon, Avalanche have smart contract functionality. 
 ### By market capitalization
 
 The most popular blockchains according to market capitalization are changing constantly, and the ranking is greatly affected by industry innovations. Just as an example of this, many of the [top 10 cryptocurrencies in 2017](https://coinmarketcap.com/historical/20171217/) have disappeared or are no longer in the top 10.
@@ -41,6 +42,7 @@ Coinmarketcap top 20 blockchains with smart contract support
 Beyond the top 20, the market cap and volume are pretty low, and so is the community. It can be risky to use anything that’s not in the top 20. 
 
 However, the advantage of you being the first in an ecosystem to launch some NFT solution is the initial help you could get with initial sales and promotion. Furthermore, you’d gain traction and momentum.
+
 ## Popular blockchain platforms
 
 ### **Ethereum**
@@ -57,8 +59,7 @@ Smart contract capability was added recently (mid-2021 approx.), and the dApp ec
 Solid [L1 blockchain](https://academy.binance.com/en/articles/what-is-layer-1-in-blockchain) with proprietary standards, smart contracts are written in C, C++, or Rust. It's super-fast, in theory, it supports up to 65k transactions per second and has a low-cost gas fee. Besides, it has an incredibly vibrant community and growing ecosystem.
 
 ![Solana NFT Volumen](/images/choosing-the-right-blockchain/solana_volumen.png)
-
-Solana volume is smaller than Ethereum. 
+*Solana volume is smaller than Ethereum.*
 
 ### **Avalanche**
 I really like the fundamentals of Avalanche. It's an eco-friendly, relatively fast, EVM-compatible blockchain, which means you can easily migrate an Ethereum dApp and run it on an Avalanche network.
@@ -210,7 +211,7 @@ The image below recapitulates each blockchain's characteristic and its advantage
 
 If you have read so far, you would have a more deep understanding of the different NFT platforms as well as the characteristics of the most interesting blockchains to build them on, which one serves your needs better, and what to look at when selecting the best platform to work with.
 
-In the end, the chosen blockchain will mostly depend on your NFT platform requirements. Creating a sucessfull NFT project requires being up to date with ecosystems, how your NFT projects works and its tokenomics. If you lack an experienced team or still feel lost in designing NFT platforms or how to leverage blockchain technology, please contact us and we gladly help you!
+In the end, the blockchain you choose will mostly depend on your NFT platform requirements. If you lack an experienced team or still feel lost or hesitating in which one fit best your requirements, please contact us and we gladly help you!
 
 We’re always on beta! Let us know if you already have experience and have some blockchain you think is worth adding to the post. 
 
