@@ -8,6 +8,7 @@ tags:
   - Blockchain development
   - NFT Marketplace
   - DApp Development
+  - Smart Contract Developmen
 author_id: mtnBarreto
 author: Martin Barreto
 show: true
@@ -15,9 +16,9 @@ featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCH
 ---
 
 
-Choosing the right blockchain is key during the early development stage of an NFT project. There are plenty of options that provides differents capabilities, each one having its own advantages and disadvantages. NFT DApps are getting more shopisticated and  requiring different capabilities. more and move blockchain features such as desentralization level and security, scalability, and low transaction gas fee. 
+Choosing the right blockchain is vital during the early development stage of an NFT platform. There are plenty of options that provide different capabilities, each having advantages and disadvantages. NFT DApps are getting more sophisticated as well as their requirements in terms of blockchain technology (mainly security, scalability, and low transaction gas fee).
 
-In this blog post we introduce three NFT platforms categories according to its application requirements and functionality. We also evaluate the most suitable blockchains for each one so probably any NFT project you have in mid would fall into one of these. 
+This blog post introduces three NFT platform caegories according to their functional and technology requirements. We also evaluate the most  suitable blockchains for each one and give examples of popular NFT DApps built on top of them. I hope thse cateories help you find the most suitable blockchains for the NFT idea you have in mind. 
 
 ## What to consider when choosing the right blockchain:
 
@@ -82,13 +83,13 @@ NFT platforms have quickly evolved from nice digital art marketplaces to sophist
 
 Creativity around NFT platforms will continue to expand, leaving many use cases yet to be uncovered. For instance, Soulbound Tokens, which are essentially non-transferable NFTs, will open plenty of innovation opportunities in the ecosystem. 
 
-### **Marketplaces with very low transactions count**
+### Just Collectible Art - Very low transactions count
 
 Typically these NFT projects are high-priced NFTs of collectible art. Buyers speculate about the NFT’s future value, expecting to sell at a higher price. The artist and the art itself are crucial for the success of the project as well as a good marketing and launch strategy.
 
 These NFT projects are relatively simple to develop. Mostly they just require a few smart contracts, if not only one. Minting and trading the NFTs are the only transactions. Mining is performed one time per NFT (to create it), while trading transactions are occasionally performed since the buyer is basically getting digital art.
 
-L1 solutions like Ethereum could be a good choice.  For these NFT platforms, Ethereum's gas fee is not a blocker, considering how sporadically users trade expensive NFT pieces. Also, Ethereum is super reliable due to its decentralization and proof of work consensus mechanism, making it ideal for "storing" valuable assets.
+L1 solutions like Ethereum could be a good choice. For these NFT platforms, Ethereum's gas fee is not a blocker, considering how sporadically users trade expensive NFT pieces. Also, Ethereum is super reliable due to its decentralization and proof of work consensus mechanism, making it ideal for "storing" valuable assets.
 
 [Border Ape](https://boredapeyachtclub.com/), for instance, uses the Ethereum blockchain. With the current Ether price, a simple transaction of buying a Border Ape NFT costs approximately 160 USD. Considering the floor price of these NFTs is 91 ETH (~182,000 USD when writing this blog post), the purchase fee doesn't look so bad.
 
@@ -96,7 +97,7 @@ L1 solutions like Ethereum could be a good choice.  For these NFT platforms, Eth
 
 [Crypto Punks](https://www.larvalabs.com/cryptopunks) and [Lazy Lions](https://www.lazylionsnft.com/) are other popular NFT marketplaces in this category deployed on Ethereum. 
 
-### Few transactions count
+### Staking + Brreeding mechanisms - Few transactions count
 
 These marketplaces are pretty much the same as the former (in terms of mining and NFT trading) but with staking and breeding mechanisms. Here, the NFTs have some use besides their artistic aspects.
 
@@ -114,7 +115,7 @@ One of the first projects to apply this mechanism was [CryptoKitties](https://w
 
 [Wizard & Dragons](https://wnd.game/) is another game that uses this kind of economic mechanism. It's a 100% on-chain, community-driven strategy game combining collectible utility-focused NFTs with DeFi mechanics. They initially used the Ethereum network but migrated to Polygon after some scalability issues and the expensive gas fee.
 
-### Huge transaction volume
+### Active gameplay - Huge transaction volume
 
 Everything that the previous category provides, plus active gameplay (meaning the game requires player interaction as opposed to idle gameplay). These games have a blockchain connection, and players can buy, stake, and breed NFTs to use within the game. They can also spend coins (in the game) to gain some prizes or recognition.
 
@@ -147,29 +148,23 @@ Solana and Polygon have similar trade volumes between each other, and although A
 
 Is having more volume important? It depends. Higher volume indicates an interesting ecosystem and many users, something everyone is looking at when launching a DApp. At the same time, maybe some blockchains whose ecosystem is growing fast but still don't have your NFT innovation may be willing to promote your NFT platform and help in the marketing strategy. In the end, both are pushing forward a blockchain ecosystem.
 
+
+![Avalanche’s NFT ecosystem keeps growing according to [https://avaxnftstats.com/](https://avaxnftstats.com/).](/images/choosing-the-right-blockchain/avalanche_nft_stats.png)
+
 ### Transactions per second
 Is TPS important? It depends on the NFT platform you want to build. If your NFT platform does not fall into the first category we covered previously (Very low transactions count), I would say yes.
 
-| **Blockchain** | **Transactions per second** |
-| --- | --- |
-| Ethereum | 15-20 tps |
-| Cardano | 250 tps |
-| Solana | 2000-3000 tps in practice (theoretically ~65000) |
-| Polygon | theoretically ~65,000 |
-| Avalanche | 4500 tps  (can scale even more by using subnets) |
+
+![Transactions per Second).](/images/choosing-the-right-blockchain/transations-per-second.png)
 
 Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability.
 
 ### Transaction finality
 Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. Avalanche is the king with a transaction finality of fewer than two seconds in this subject.
 
-| **Blockchain** | **Transaction finality** |
-| --- | --- |
-| Ethereum | ~6-14 min |
-| Cardano | ~ 10-60 min |
-| Solana | ~21-46 sec |
-| Polygon | Finality achieve once L1 Ethereum achieve it.  |
-| Avalanche | ~2 sec |
+
+![Transactions Finality).](/images/choosing-the-right-blockchain/transations-finality.png)
+
 
 It's impressive how Avalanche can process up to 4500 transactions per second, with 2 sec. finality time and scale, even more, using subnets. It could be a great alternative if you need scalability, reliability, and a low gas fee. 
 
@@ -178,13 +173,7 @@ Transaction finality is vital to provide a great user experience in some apps. I
 ### By availability of DApp Engineers
 Most blockchain developers are experts in EVM because Ethereum was the first blockchain with smart contract functionality. At the same time, EVM-compatible blockchains share most developer tools and developers can easily build dApps in any of them. So if your concern is getting the right team, EVM compatible blockchains such as Avalanche, Polygon, and Ethereum are better.
 
-| **Blockchain** | **EVM compatible** |
-| --- | --- |
-| Ethereum | :) |
-| Cardano | No |
-| Solana | No, but the community is big |
-| Polygon | Yes |
-| Avalanche | Yes |
+![EVM-compatible).](/images/choosing-the-right-blockchain/evm-compatible.png)
 
 Also, EVM-compatible blockchains typically have better interoperability with Ethereum. For example, $MATIC, the Polygon native cryptocurrency, is an [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token in the Ethereum network. The [Avalanche Bridge (AB)](https://bridge.avax.network/) can be used to transfer ERC20 tokens from Ethereum to Avalanche's C-Chain and vice versa and so on.
 
