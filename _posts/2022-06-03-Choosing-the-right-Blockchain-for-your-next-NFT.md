@@ -97,7 +97,7 @@ L1 solutions like Ethereum could be a good choice. For these NFT platforms, Ethe
 
 [Crypto Punks](https://www.larvalabs.com/cryptopunks) and [Lazy Lions](https://www.lazylionsnft.com/) are other popular NFT marketplaces in this category deployed on Ethereum. 
 
-### Staking + Brreeding mechanisms - Few transactions count
+### Staking + Breeding mechanisms - Few transactions count
 
 These marketplaces are pretty much the same as the former (in terms of mining and NFT trading) but with staking and breeding mechanisms. Here, the NFTs have some use besides their artistic aspects.
 
