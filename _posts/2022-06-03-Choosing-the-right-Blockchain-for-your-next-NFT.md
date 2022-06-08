@@ -18,7 +18,7 @@ featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCH
 
 Choosing the right blockchain is vital during the early development stage of an NFT platform. There are plenty of options that provide different capabilities, each having advantages and disadvantages. NFT DApps are getting more sophisticated as well as their requirements in terms of blockchain technology (mainly security, scalability, and low transaction gas fee).
 
-This blog post introduces three NFT platform caegories according to their functional and technology requirements. We also evaluate the most  suitable blockchains for each one and give examples of popular NFT DApps built on top of them. I hope thse cateories help you find the most suitable blockchains for the NFT idea you have in mind. 
+This blog post introduces three NFT platform categories according to their functional and technology requirements. We also evaluate the most  suitable blockchains for each one and give examples of popular NFT DApps built on top of them. I hope thse cateories help you find the most suitable blockchains for the NFT idea you have in mind. 
 
 ## What to consider when choosing the right blockchain:
 
