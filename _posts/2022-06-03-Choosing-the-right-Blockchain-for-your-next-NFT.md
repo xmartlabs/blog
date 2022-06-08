@@ -163,7 +163,7 @@ Ethereum is not an option if you need high throughput, as the table above indica
 Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. Avalanche is the king with a transaction finality of fewer than two seconds in this subject.
 
 
-![Transactions Finality).](/images/choosing-the-right-blockchain/transations-finality.png)
+![Transactions Finality).](/images/choosing-the-right-blockchain/transactions-finality.png)
 
 
 It's impressive how Avalanche can process up to 4500 transactions per second, with 2 sec. finality time and scale, even more, using subnets. It could be a great alternative if you need scalability, reliability, and a low gas fee. 
