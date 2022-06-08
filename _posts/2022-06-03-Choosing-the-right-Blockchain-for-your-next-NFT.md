@@ -154,8 +154,7 @@ Is having more volume important? It depends. Higher volume indicates an interest
 ### Transactions per second
 Is TPS important? It depends on the NFT platform you want to build. If your NFT platform does not fall into the first category we covered previously (Very low transactions count), I would say yes.
 
-
-![Transactions per Second).](/images/choosing-the-right-blockchain/transations-per-second.png)
+<img src="/images/choosing-the-right-blockchain/transactions-per-second.png" width="400" /> 
 
 Ethereum is not an option if you need high throughput, as the table above indicates. Notice that Ethereum is being [upgraded](https://ethereum.org/en/upgrades/) to improve scalability.
 
@@ -163,7 +162,7 @@ Ethereum is not an option if you need high throughput, as the table above indica
 Finality guarantees that no one can alter, reverse or cancel crypto transactions once completed. Avalanche is the king with a transaction finality of fewer than two seconds in this subject.
 
 
-![Transactions Finality).](/images/choosing-the-right-blockchain/transactions-finality.png)
+<img src="/images/choosing-the-right-blockchain/transactions-finality.png" width="400" /> 
 
 
 It's impressive how Avalanche can process up to 4500 transactions per second, with 2 sec. finality time and scale, even more, using subnets. It could be a great alternative if you need scalability, reliability, and a low gas fee. 
@@ -171,9 +170,10 @@ It's impressive how Avalanche can process up to 4500 transactions per second, wi
 Transaction finality is vital to provide a great user experience in some apps. Imagine a DeFi app that needs to notify the user the transaction was confirmed and irreversible in the network. Avax can accomplish that in less than 2 seconds, thanks to its [consensus mechanism](https://docs.avax.network/overview/getting-started/avalanche-consensus/) and Snowball algorithm.
 
 ### By availability of DApp Engineers
+
 Most blockchain developers are experts in EVM because Ethereum was the first blockchain with smart contract functionality. At the same time, EVM-compatible blockchains share most developer tools and developers can easily build dApps in any of them. So if your concern is getting the right team, EVM compatible blockchains such as Avalanche, Polygon, and Ethereum are better.
 
-![EVM-compatible).](/images/choosing-the-right-blockchain/evm-compatible.png)
+<img src="/images/choosing-the-right-blockchain/evm-compatible.png" width="400" /> 
 
 Also, EVM-compatible blockchains typically have better interoperability with Ethereum. For example, $MATIC, the Polygon native cryptocurrency, is an [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token in the Ethereum network. The [Avalanche Bridge (AB)](https://bridge.avax.network/) can be used to transfer ERC20 tokens from Ethereum to Avalanche's C-Chain and vice versa and so on.
 
@@ -192,7 +192,7 @@ Why would you list your NFT on a third party? Simple, more people will find your
 
 The image below recapitulates each blockchain's characteristic and its advantages compared to each other (green means "best at", yellow means "good but not the best at")
 
-![Smart contract blockchain comparison](/images/choosing-the-right-blockchain/blockchain-comparison.png)
+<img src="/images/choosing-the-right-blockchain/blockchain-comparison.png" width="650" /> 
 
 
 If you have read so far, you would have a more deep understanding of the different NFT platforms as well as the characteristics of the most interesting blockchains to build them on, which one serves your needs better, and what to look at when selecting the best platform to work with.
