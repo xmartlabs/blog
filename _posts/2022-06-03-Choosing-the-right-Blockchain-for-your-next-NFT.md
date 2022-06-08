@@ -5,10 +5,10 @@ permalink: /blog/right-blockchain-for-nft-platform/
 date: '2022-06-08T10:00:00.000-03:00' 
 category: development
 tags:
-  - Blockchain development
-  - NFT Marketplace
+  - NFT Development
+  - Blockchain Development
   - DApp Development
-  - Smart Contract Developmen
+  - Smart Contract Development
 author_id: mtnBarreto
 author: Martin Barreto
 show: true
@@ -16,9 +16,9 @@ featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCH
 ---
 
 
-Choosing the right blockchain is vital during the early development stage of an NFT platform. There are plenty of options that provide different capabilities, each having advantages and disadvantages. NFT DApps are getting more sophisticated as well as their requirements in terms of blockchain technology (mainly security, scalability, and low transaction gas fee).
+Choosing the right blockchain is vital during the early development stage of an NFT platform. There are plenty of options that provide different capabilities, each having advantages and disadvantages. NFT DApps and their requirements are getting more sophisticated in terms of blockchain technology (mainly security, scalability, and low transaction gas fee).
 
-This blog post introduces three NFT platform categories according to their functional and technology requirements. We also evaluate the most  suitable blockchains for each one and give examples of popular NFT DApps built on top of them. I hope thse cateories help you find the most suitable blockchains for the NFT idea you have in mind. 
+This blog post introduces three NFT platform categories according to their functional and technology requirements. We also evaluate the most suitable blockchains for each one and exemplify with popular NFT DApps built on top of them. I hope these categories help you find the most suitable blockchains for the NFT idea you have in mind.
 
 ## What to consider when choosing the right blockchain:
 
@@ -139,6 +139,7 @@ Besides these two, other interesting blockchains for play-to-earn games are [Sol
 ## Reviewing each blockchain's ecosystem
 
 ### Volume
+
 We have already shown the volume for each blockchain we covered, with Ethereum having the most significant volume. But Ethereum's dominance in the NFT space is slowly crumbling. 
 
 Solana and Polygon have similar trade volumes between each other, and although Avalanche has a lower volume, its ecosystem is growing fast.
