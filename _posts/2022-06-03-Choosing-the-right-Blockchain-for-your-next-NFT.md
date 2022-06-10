@@ -149,9 +149,6 @@ Solana and Polygon have similar trade volumes between each other, and although A
 
 Is having more volume important? It depends. Higher volume indicates an interesting ecosystem and many users, something everyone is looking at when launching a DApp. At the same time, maybe some blockchains whose ecosystem is growing fast but still don't have your NFT innovation may be willing to promote your NFT platform and help in the marketing strategy. In the end, both are pushing forward a blockchain ecosystem.
 
-
-![Avalanche’s NFT ecosystem keeps growing according to [https://avaxnftstats.com/](https://avaxnftstats.com/).](/images/choosing-the-right-blockchain/avalanche_nft_stats.png)
-
 ### Transactions per second
 Is TPS important? It depends on the NFT platform you want to build. If your NFT platform does not fall into the first category we covered previously (Very low transactions count), I would say yes.
 
