@@ -24,6 +24,7 @@ This blog post introduces three NFT platform categories according to their funct
 
 - It should support functionality for the time to come. You should make sure it can develop every use case and that your team will never get stuck with technical limitations.
 - Make sure the ecosystem and community around the blockchain are thriving. It's not all about good tech and solid fundamentals; the ecosystem and what it builds around it matter too.
+- Interoperation with other smart contracts services. Your dApp could need to call other smart contracts, if so make sure the chosen ecosystem and its deployed dApps provide that.
 - A marketplace of their own is not a requirement for some NFT solutions. There are third-party marketplaces where NFTs can be bought and traded, such as [Open Sea](https://opensea.io/), which supports a few blockchains.
 
 ## What Blockchain platforms to consider
