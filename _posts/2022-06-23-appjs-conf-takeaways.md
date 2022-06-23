@@ -5,12 +5,12 @@ permalink: /a-bright-future-ahead-react-native-appjs-conf/
 date: '2022-06-23T10:00:00:000-03:00'
 category: development
 tags: 
-  - Mobile, 
+  - Mobile
   - Cross-Platform 
   - React Native
 author_id: nicoh
 author: Nicolas Hernandez
-category: react-native
+category: development
 show: true
 featured_image: /images/rn-future/app.js-takeaways-react-native.png
 ---
@@ -35,7 +35,7 @@ The current timeline presented by @cortinico in his talk displays the future of 
 
 Another important aspect regarding the new architecture discussion and when to adopt it is discussed in the next slide.
 
-![react-next-versions](/images/rn-future/react-next-versions)
+![react-next-versions](/images/rn-future/react-next-versions.png)
 
 As we can see in the image, as soon as we reach RN 69.X things are gonna be different. For the first time, the new and the old architecture are gonna have different tools for us developers.
 Even with RN 69.X, the old architecture is gonna support React 18 in some kind of legacy mode instead of supporting it fully. The new architecture, on the other hand, is gonna have full support for React 18 and all his new toolset for things like a concurrent mode (such as startTransition), new hooks, and lots of tools that could improve our solutions.
