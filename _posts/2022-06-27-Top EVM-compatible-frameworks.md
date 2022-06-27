@@ -2,7 +2,7 @@
 title: "Top EVM-compatible frameworks to build dApps - Truffle vs Hardhat"
 layout: post
 permalink: /blog/best-blockchain-development-framework/ 
-date: '2022-06-24T10:00:00.000-03:00' 
+date: '2022-06-27T10:00:00.000-03:00' 
 category: development
 tags:
   - DApp Frameworks
@@ -13,8 +13,6 @@ author: Martin Barreto
 show: true
 featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCHAIN.png
 ---
-
-# Top EVM-compatible frameworks to build dApps - Truffle vs Hardhat
 
 Web3.0 space is exploding right now. There's an unprecedented demand for blockchain developers to build the next revolutionary dApp. But for those giving their first steps in the field, choosing a framework from all those available can be overwhelming.
 
@@ -49,7 +47,7 @@ If you want to save time and have fun, you should use a framework.
 - It’s challenging to manage and fix problems in decentralized systems once they're deployed.
 - The lack of proper development and testing tools increases programming errors significantly.
 - Security risks: There's real money involved, smart contracts code mints, trades and burns tokens, and your app is exposed to hacks and attacks.
-- Manage multiple environments, upgrade dApp and blockchain forks.****
+- Manage multiple environments, upgrade dApp and blockchain forks.
 
 # Frameworks to build EVM dApps
 
@@ -105,30 +103,28 @@ You can execute `migrate —reset` to deploy de contracts on the connected netwo
 
 ![migrate -reset.png](/images/evm-compatible-frameworks/migrate_-reset.png)
 
-Using an interactive console is super helpful to debug the app accordingly in different environments. For instance, you can quickly get the transaction hash and receipt to look up the transaction log in the real distributed blockchain (you can see the log for Avalanche and Binance Smart Chain at [https://testnet.snowtrace.io/](https://testnet.snowtrace.io/) and [https://testnet.bscscan.com/](https://testnet.bscscan.com/) respectively).
+Using an interactive console is super helpful to debug the app accordingly in different environments. For instance, you can quickly get the transaction hash and receipt to look up the transaction log in the real distributed blockchain (you can see the log for Avalanche and Binance Smart Chain at [https://testnet.snowtrace.io/](https://testnet.snowtrace.io/) and [https://testnet.bscscan.com/](https://testnet.bscscan.com/) respectively).
 
 This section aims to give you a sense of how simple it is to create and interact with smart contracts using a framework like Truffle. You can visit the [official Truffle documentation](https://trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console/) for more information on how to interact with contracts.
 
 > Suppose your dApp needs third-party services (other dApps). In that case, you can set up the configuration to fork the necessary blockchain chain and have those services available on the local development node.
-> 
 
 ### Most **essential** tools in truffle
 
-[Ganache](https://trufflesuite.com/ganache/): An open-source personal blockchain to develop, test, and debug your dApp without spending actual gas fees. Ganache UI is super helpful to test dApp for confidence before deployment. 
+[Ganache:](https://trufflesuite.com/ganache/) An open-source personal blockchain to develop, test, and debug your dApp without spending actual gas fees. Ganache UI is super helpful to test dApp for confidence before deployment. 
 
 ![Gatache UI](/images/evm-compatible-frameworks/ganache-window.png)
-
 Gatache UI
 
 Using Ganache, you can track blockchain account status such as transactions, addresses, keys, balance, etc. Ganache provides many other helpers, simulating mining, blockchain activity log output, and a rich UI to explore blockchain blocks.
 
-**[Truffle Boxes](https://trufflesuite.com/boxes/):**
+**[Truffle Boxes:](https://trufflesuite.com/boxes/)**
 
 Boxes are just helpful boilerplates. Some of them are project scaffolds (templates), so you can quickly start your project using the best tooling and practices and focus on your dApp functionality. All boxes created by the community are listed [on their website](https://trufflesuite.com/boxes/). 
 
 `truffle unbox <box_name>` download a box to the current directory.
 
-**[Truffle drizzle](https://trufflesuite.com/drizzle/):**
+**[Truffle drizzle:](https://trufflesuite.com/drizzle/)**
 
 A collection of libraries to quickly develop dApp user interfaces. It will feel familiar if you have developed frontends with react and redux. Drizzle provides a redux state for contracts, addresses, transactions, and events, so it’s easy to interact and sync the UI components according to the dApp state.
 
@@ -152,7 +148,7 @@ Weekly download for truffle is pretty stable and in a downtrend.
 
 ![weekly download for hardhat is growing since its release. ](/images/evm-compatible-frameworks/hardhat-adoption.png)
 
-weekly download for hardhat is growing since its release. 
+Weekly download for hardhat is growing since its release. 
 
 **Does this mean something?** Well, it shows some developer preference for HardHat over Truffle. Something important to consider because once you develop a dApp using one framework it’s hard to migrate to another. Also, the Hardhat downloads uptrend looks like it will continue.
 
@@ -160,7 +156,7 @@ weekly download for hardhat is growing since its release.
 
 **Testing capabilities and local development blockchain**
 
-Like Truffle, Hardhat also provides a local development blockchain for testing, which is its default network called [**Hardhat Network](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network).** Unlike Truffle, Hardhat does not provide a UI for the local development network that comes out of the box. We just have a CLI (command-line interface) version of a [local development blockchain](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network) to develop, test, and debug the dAdd before deploying it to the mainnet.
+Like Truffle, Hardhat also provides a local development blockchain for testing, which is its default network called [Hardhat Network](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network). Unlike Truffle, Hardhat does not provide a UI for the local development network that comes out of the box. We just have a CLI (command-line interface) version of a [local development blockchain](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network) to develop, test, and debug the dAdd before deploying it to the mainnet.
 
 **Is it better to have the UI?** Again, it depends on the developer's preferences. Some developers feel more comfortable having a UI that shows blockchain information like accounts, transactions, and so on in real-time; instead of having to execute CLI commands to get this information.
 
@@ -190,7 +186,6 @@ contract Token  {
 }
 ```
 
- 
 
 The login information is shown when tests are executed. Nice right?
 
