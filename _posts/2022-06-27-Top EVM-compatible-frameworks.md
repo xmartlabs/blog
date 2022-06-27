@@ -140,11 +140,22 @@ Hardhat, like Truffle, is written in javascript, so you only need to have a node
 
 Truffle was the first framework for smart contracts development, but Hardhat has gained broad popularity (check out npm weekly installation chart in the images below).
 
-![Weekly download for truffle is pretty stable and in a downtrend.](/images/evm-compatible-frameworks/truffle-adoption.png)
-*Weekly download for truffle is pretty stable and in a downtrend.*
-
-![weekly download for hardhat is growing since its release. ](/images/evm-compatible-frameworks/hardhat-adoption.png)
-*Weekly download for hardhat is growing since its release.*
+<table>
+ <tr>
+    <td>
+      <figure>
+        <img src="/images/evm-compatible-frameworks/truffle-adoption.png" /> 
+        <figcaption>Weekly download for truffle is pretty stable and in a downtrend.</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="/images/evm-compatible-frameworks/hardhat-adoption.png" /> 
+        <figcaption>Weekly download for hardhat is growing since its release.</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 **Does this mean something?** Well, it shows some developer preference for HardHat over Truffle. Something important to consider because once you develop a dApp using one framework it’s hard to migrate to another. Also, the Hardhat downloads uptrend looks like it will continue.
 
@@ -254,7 +265,7 @@ Figment’s development platform, DataHub, allows developers to use the most pow
 With DataHub, developers now have access to Web 3 protocols through the **[enterprise-grade infrastructure](https://learn.datahub.figment.io/guides/datahub-infrastructure)**.  They provide reliable access to the RPC and REST APIs of supported protocols for both the latest mainnets and testnets so developers can test and implement their products safely.
 
 ![datahub.png](/images/evm-compatible-frameworks/datahub.png)
-*Datahubs hi-level architecture wrapping popular EVM-compatible protocols.*
+ *Datahubs hi-level architecture wrapping popular EVM-compatible protocols.*
 
 ### [Alchemy](https://www.alchemy.com/)
 
