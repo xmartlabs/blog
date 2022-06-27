@@ -65,8 +65,7 @@ Once you install Truffle, you can create a new Ethereum project by running `tru
 > 
 
 ![Truffle project’s folder structure](/images/evm-compatible-frameworks/poject-structure.png)
-
-Truffle project’s folder structure
+*Truffle project’s folder structure*
 
 - **contracts:** directory for smart contract files.
 - **migrations:** directory for deployment scripts.
@@ -86,8 +85,7 @@ Truffle provides a local development blockchain for testing and debugging propos
 `truffle develop` lets you work with smart contracts interactively. It runs a [ganache](https://trufflesuite.com/ganache/) instance and attaches the console to the environment.
 
 ![`truffle develop` terminal output](/images/evm-compatible-frameworks/truffle-develop.png)
-
-`truffle develop` terminal output
+*`truffle develop` terminal output*
 
 As seen in the image above, it automatically provides ten blockchain accounts and their corresponding private keys so you can play interactively with the blockchain network.
 
@@ -114,7 +112,7 @@ This section aims to give you a sense of how simple it is to create and interact
 [Ganache:](https://trufflesuite.com/ganache/) An open-source personal blockchain to develop, test, and debug your dApp without spending actual gas fees. Ganache UI is super helpful to test dApp for confidence before deployment. 
 
 ![Gatache UI](/images/evm-compatible-frameworks/ganache-window.png)
-Gatache UI
+*Gatache UI*
 
 Using Ganache, you can track blockchain account status such as transactions, addresses, keys, balance, etc. Ganache provides many other helpers, simulating mining, blockchain activity log output, and a rich UI to explore blockchain blocks.
 
@@ -143,16 +141,14 @@ Hardhat, like Truffle, is written in javascript, so you only need to have a node
 Truffle was the first framework for smart contracts development, but Hardhat has gained broad popularity (check out npm weekly installation chart in the images below).
 
 ![Weekly download for truffle is pretty stable and in a downtrend.](/images/evm-compatible-frameworks/truffle-adoption.png)
-
-Weekly download for truffle is pretty stable and in a downtrend.
+*Weekly download for truffle is pretty stable and in a downtrend.*
 
 ![weekly download for hardhat is growing since its release. ](/images/evm-compatible-frameworks/hardhat-adoption.png)
-
-Weekly download for hardhat is growing since its release. 
+*Weekly download for hardhat is growing since its release.*
 
 **Does this mean something?** Well, it shows some developer preference for HardHat over Truffle. Something important to consider because once you develop a dApp using one framework it’s hard to migrate to another. Also, the Hardhat downloads uptrend looks like it will continue.
 
-### **The biggest difference between Hardhat and Truffle.**
+### The biggest difference between Hardhat and Truffle.
 
 **Testing capabilities and local development blockchain**
 
@@ -258,8 +254,7 @@ Figment’s development platform, DataHub, allows developers to use the most pow
 With DataHub, developers now have access to Web 3 protocols through the **[enterprise-grade infrastructure](https://learn.datahub.figment.io/guides/datahub-infrastructure)**.  They provide reliable access to the RPC and REST APIs of supported protocols for both the latest mainnets and testnets so developers can test and implement their products safely.
 
 ![datahub.png](/images/evm-compatible-frameworks/datahub.png)
-
-Datahubs hi-level architecture wrapping popular EVM-compatible protocols. 
+*Datahubs hi-level architecture wrapping popular EVM-compatible protocols.*
 
 ### [Alchemy](https://www.alchemy.com/)
 
