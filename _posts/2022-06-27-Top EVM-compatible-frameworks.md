@@ -11,7 +11,7 @@ tags:
 author_id: mtnBarreto
 author: Martin Barreto
 show: true
-featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCHAIN.png
+featured_image: /images/evm-compatible-frameworks/TopEVM-compatible-frameworks-to-build-dApps-Truffle-vs-Hardhat.png
 ---
 
 Web3.0 space is exploding right now. There's an unprecedented demand for blockchain developers to build the next revolutionary dApp. But for those giving their first steps in the field, choosing a framework from all those available can be overwhelming.
