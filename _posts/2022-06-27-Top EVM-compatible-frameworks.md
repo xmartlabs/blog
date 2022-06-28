@@ -157,7 +157,7 @@ Truffle was the first framework for smart contracts development, but Hardhat has
   </tr>
 </table>
 
-**Does this mean something?** Well, it shows some developer preference for HardHat over Truffle. Something important to consider because once you develop a dApp using one framework it’s hard to migrate to another. Also, the Hardhat downloads uptrend looks like it will continue.
+**Does this mean something?** Well, it shows some developer preference for Hardhat over Truffle. Something important to consider because once you develop a dApp using one framework it’s hard to migrate to another. Also, the Hardhat downloads uptrend looks like it will continue.
 
 ### The biggest difference between Hardhat and Truffle.
 
