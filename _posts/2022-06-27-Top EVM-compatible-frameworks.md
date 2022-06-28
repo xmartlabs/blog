@@ -289,6 +289,6 @@ Do you prefer opinionated or unopinionated frameworks? Does Hardhat's growth tre
 
 I feel comfortable with Truffle; it was the first framework I learned. Still, I have been progressively switching over to Hardhat to get comfortable, feel its developer experience and be able to compare both. I think I will continue using Hardhat for the dApps to come. Although I use the out-of-the-box configuration, I like to have the ability to tweak things according to app requirements and my personal developer preferences. Also, the market trend of Hardhat means something to me; somehow, Hardhat adoption is growing faster than Truffle, at least according to npm installation metrics.
 
-I would say you'll do well with any of them. Both do their job, both are solid frameworks and provide almost the same capabilities to develop dApps, and both are getting a lot better over time. Just some things are more easily on Truffle while others are on HardHat. So, if you have time, play with both and decide for yourself.
+I would say you'll do well with any of them. Both do their job, both are solid frameworks and provide almost the same capabilities to develop dApps, and both are getting a lot better over time. Just some things are more easily on Truffle while others are on Hardhat. So, if you have time, play with both and decide for yourself.
 
 That being said, sometimes the project you jump into is already using Truffle or Hardhat (because you are a freelancer or you are running an agency), and choosing one is not an option. If this is the case, invest time learning both.
