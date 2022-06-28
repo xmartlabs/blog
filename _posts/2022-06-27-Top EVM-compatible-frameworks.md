@@ -163,7 +163,7 @@ Truffle was the first framework for smart contracts development, but Hardhat has
 
 **Testing capabilities and local development blockchain**
 
-Like Truffle, Hardhat also provides a local development blockchain for testing, which is its default network called [Hardhat Network](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network). Unlike Truffle, Hardhat does not provide a UI for the local development network that comes out of the box. We just have a CLI (command-line interface) version of a [local development blockchain](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network) to develop, test, and debug the dAdd before deploying it to the mainnet.
+Like Truffle, Hardhat also provides a local development blockchain for testing, which is its default network called [Hardhat Network](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network). Unlike Truffle, Hardhat does not provide a UI for the local development network that comes out of the box. We just have a CLI (command-line interface) version of a [local development blockchain](https://hardhat.org/getting-started#connecting-a-wallet-or-dapp-to-hardhat-network) to develop, test, and debug the dApp before deploying it to the mainnet.
 
 **Is it better to have the UI?** Again, it depends on the developer's preferences. Some developers feel more comfortable having a UI that shows blockchain information like accounts, transactions, and so on in real-time; instead of having to execute CLI commands to get this information.
 
