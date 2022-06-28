@@ -28,7 +28,7 @@ Smart contract frameworks are software development platforms to develop, compile
 
 ## What dApp Frameworks have to offer
 
-- The ability to run a local blockchain node for testing and development purposes.
+- The ability to run a local blockchain node for testing and development proposes.
 - Tools to compile your solidity code to bytecode.
 - A testing framework.
 - Multiple environments. Connection to local development, Testnet, and Mainnet networks to deploy, test, and debug smart contracts.
