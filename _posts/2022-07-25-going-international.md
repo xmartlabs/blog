@@ -44,7 +44,6 @@ Before the pandemic, Xmartlabs was known to be an “office first” company, wh
 Being “office first” meant job interviews, training, meetings, briefings, talks, launches, recreational activities, EVERYTHING was in-person. Likewise, face-to-face was a key part of our company’s culture: being together, sharing time and space, learning together, and sharing knowledge. It seems that being physically together was critical to doing all of this. 
 
 In 2020, along with the lockdown due to the COVID-19 pandemic, we faced the need to become a “remote first” company until the health measures demanded. 
-
 Although this brought many challenges, it also opened some doors that had remained closed until then. 
 
 That’s how we began hiring people based outside Montevideo! First, we allowed people from Montevideo to work in other cities within Uruguay (it didn’t matter if they returned to the city once the pandemic ended). Then, we hired people that were already living in other parts of the country. 
