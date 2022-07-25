@@ -37,7 +37,7 @@ Once the pandemic started, 97% of IT companies adopted the work-from-home method
 
 However, a distributed workforce brought about new challenges. The main challenges companies are currently facing ([according to themselves](https://observatorioti.cuti.org.uy/wp-content/uploads/2022/01/Informe-Monitor_julio-setiembre.pdf)) are talent acquisition, retention, training, and keeping the organizational culture alive and well. Furthermore, the main worry regarding culture is avoiding losing it in a remote work context. 
 
-## ¿Office first or Remote first?
+## Office first or Remote first?
 
 Before the pandemic, Xmartlabs was known to be an “office first” company, which means the team was centralized in the office. Xmartlabs has been headquartered in Montevideo since its beginnings in 2012, and although we’ve moved around a few times, we’ve remained in this city. 
 
