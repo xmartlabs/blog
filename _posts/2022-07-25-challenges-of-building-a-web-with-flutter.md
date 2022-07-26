@@ -35,11 +35,7 @@ Widgets allow us to do plenty of UI work, but what happens if we want to do more
 
 Having said that, we must ensure to **correctly use those elements** without getting a weird user experience.
 
-<<<<<<< Updated upstream
-- **HTML elements are not like Flutter. When changing states, they can behave weirdly:** From size changes to nonworking HTML code, elements don't interact well when updated constantly. For example, a camera element that's being updated all the time without need can result in the image blinking continuously.
-=======
 - **HTML elements are not like Flutter. When changing states, they can behave weirdly**: From size changes to nonworking HTML code, elements don't interact well when updated constantly. For example, a camera element that's being updated all the time without need can result in the image blinking continuously.
->>>>>>> Stashed changes
 - **HTML and Flutter lifecycle are separated:**
 We must be especially careful with this point since not correctly managing web elements can be linked to dead dart code, making the app crash by accessing variables or components that are no longer available.
 
