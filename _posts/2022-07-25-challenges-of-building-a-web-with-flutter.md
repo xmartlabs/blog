@@ -1,7 +1,7 @@
 ---
 title: "Challenges of building a web with Flutter"
 layout: post
-permalink: /blog/challenges-of-building-a-web-with-flutter
+permalink: /blog/challenges-of-building-a-web-with-flutter/
 date: '2022-07-24T10:00:00.000-03:00' 
 category: development
 tags:
@@ -27,15 +27,19 @@ Flutter has two compilers for the web, one that supports debugging and hot reloa
 
 ## Challenge 3: Accessing hardware from Flutter
 
-All platforms have different ways to access their hardware capabilities, and the web is not the exception to this rule, there are standards defined in MDN for [MediaDevices](https://developer.mozilla.org/es/docs/Web/API/MediaDevices). T**he `universal_html` package comes to the rescue here** and allows us to use some of these capabilities for the web in Flutter, but it makes the code platform oriented.
+All platforms have different ways to access their hardware capabilities, and the web is not the exception to this rule, there are standards defined in MDN for [MediaDevices](https://developer.mozilla.org/es/docs/Web/API/MediaDevices). **The `universal_html` package comes to the rescue here** and allows us to use some of these capabilities for the web in Flutter, but it makes the code platform oriented.
 
 ## Challenge 4: Using Html components with Flutter
 
-Widgets allow us to do plenty of UI work, but what happens if we want to do more specific things, like draw something on a custom canvas in the DOM or play a live feed of the camera? Once again, **the `HTML` package** comes to the rescue helping us use platform-specific capabilities like placing a canvas or a div element on the screen.
+Widgets allow us to do plenty of UI work, but what happens if we want to do more specific things, like draw something on a custom canvas in the DOM or play a live feed of the camera? Once again, **the `html` package** comes to the rescue helping us use platform-specific capabilities like placing a canvas or a div element on the screen.
 
 Having said that, we must ensure to **correctly use those elements** without getting a weird user experience.
 
+<<<<<<< Updated upstream
 - **HTML elements are not like Flutter. When changing states, they can behave weirdly:** From size changes to nonworking HTML code, elements don't interact well when updated constantly. For example, a camera element that's being updated all the time without need can result in the image blinking continuously.
+=======
+- **HTML elements are not like Flutter. When changing states, they can behave weirdly**: From size changes to nonworking HTML code, elements don't interact well when updated constantly. For example, a camera element that's being updated all the time without need can result in the image blinking continuously.
+>>>>>>> Stashed changes
 - **HTML and Flutter lifecycle are separated:**
 We must be especially careful with this point since not correctly managing web elements can be linked to dead dart code, making the app crash by accessing variables or components that are no longer available.
 
