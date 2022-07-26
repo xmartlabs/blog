@@ -15,7 +15,7 @@ featured_image: /images/building-a-web-with-flutter/featured.png
 ---
 ## Lessons learned from a nonconventional approach to flutter web development
 
-Recently a client approached Xmartlabs with the idea of making a platform that achieved excellent results by combining camera usage with [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet), an ML pose detection model. The challenge was to do it fast to ship an MVP that most users could try while we didn't have to throw the code away if we wanted to continue development on other platforms. Flutter appeared as an excellent option to accomplish these needs, so we took on the challenge and started working on a web page with a V1 in mind. However, we found some challenges along the way; this blog is about how we worked around them in case you also bump into them someday.
+Recently a client approached Xmartlabs with the idea of making a platform that achieved excellent results by combining camera usage with [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet), an ML pose detection model. The challenge was to do it fast to ship an MVP that most users could try while we wouldn't have to throw the code away if we wanted to continue development on other platforms. Flutter appeared as an excellent option to accomplish these needs, so we took on the challenge and started working on a web page with a V1 in mind. However, we found some challenges along the way; this blog is about how we worked around them in case you also bump into similar issues someday.
 
 ## Challenge 1: Where is the DOM?
 
@@ -35,7 +35,7 @@ Widgets allow us to do plenty of UI work, but what happens if we want to do more
 
 Having said that, we must ensure to **correctly use those elements** without getting a weird user experience.
 
-- HTML elements are not like Flutter. When changing states, they can behave weirdly: From size changes to nonworking HTML code, elements don't interact well when updated constantly. For example, a camera element that's being updated all the time without need can result in the image blinking continuously.
+- **HTML elements are not like Flutter. When changing states, they can behave weirdly:** From size changes to nonworking HTML code, elements don't interact well when updated constantly. For example, a camera element that's being updated all the time without need can result in the image blinking continuously.
 - **HTML and Flutter lifecycle are separated:**
 We must be especially careful with this point since not correctly managing web elements can be linked to dead dart code, making the app crash by accessing variables or components that are no longer available.
 
@@ -57,7 +57,7 @@ Testing in different browsers has become a problem since sometimes the widgets a
 
 ## Conclusions
 
-So far so good Flutter has successfully allowed us to develop an app that is not your most conventional use case, but as with all great things, there are some downsides, and Flutter web is no exception to the rule. It does great with simple and basic apps, but when complexity arises, there are some things we have to be conscious about.
+So far, so good. Flutter has successfully allowed us to develop an app that is not your most conventional use case, but as with all great things, there are some downsides, and Flutter web is no exception to the rule. It does great with simple and basic apps, but when complexity arises, there are some things we have to be conscious about.
 
 The `html` package comes in handy, but it makes code platform-specific. Moving this code into plugins could be helpful to make cleaner code, but it will add a boilerplate, and you would have to maintain the plugins you need.
 
