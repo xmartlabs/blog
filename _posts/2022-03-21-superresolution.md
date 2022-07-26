@@ -38,7 +38,7 @@ The metrics used for measuring image quality are vital. Although there are sever
 
 **Structural similarity index (SSIM):** This metric compares the reference image's contrast, luminescence, and structural details with the reference image. This method is unstable in cases where the variance or luminescence of the reference image is low; therefore, in medical imaging, for example, this metric could have inconsistent results.
 
-![Untitled](/images/ml-superresolution//Untitled%201.png)
+![Untitled](/images/ml-superresolution/Untitled%201.png)
 
 ## **Structures and description of SR algorithms**
 
