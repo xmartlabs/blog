@@ -233,6 +233,6 @@ Need help with ML tasks like converting models to CoreML? We're glad to help!
 Get in touch at hi@xmartlabs.com
 
 We have also written other posts about ML topics.
-Is your CoreML or TFlite model not fast enough on iOS? Check out our post about [speeding up performance on iOS with MPS and Bender](https://blog.xmartlabs.com/2021/08/30/Bender-the-best).
+Is your CoreML or TFlite model not fast enough on iOS? Check out our post about [speeding up performance on iOS with MPS and Bender](/blog/how-to-get-the-best-performance-for-ml-models-on-ios/).
 
 And if you'd like to know `5 Practical Ways to Speed Up your Deep Learning Model` check it out [here](/2020/06/01/how-to-speed-up-inference-in-your-deep-learning-model/).

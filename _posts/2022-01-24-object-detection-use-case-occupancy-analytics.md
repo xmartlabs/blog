@@ -171,7 +171,7 @@ Another comparison between the models we can highlight is regarding the accuracy
 
 This table shows the calculated number for the in/out metric put up against the real numbers (manually counted) for five videos clips of 1h duration. Similar to the performance table, we show the results for Lanthorn object detection models and one pose estimation (in *italics*).
 
-![Object Detection table.png](/images/object-detection//Object_Detection_table.png)
+![Object Detection table.png](/images/object-detection/Object_Detection_table.png)
 
 Well, let's analyze that table for a bit. The main thing that we can find is that the model with higher accuracy is openpipaf. We could expect this for several reasons. First of all, this model is pose estimation, which tends to be more accurate than the object detection models. Moreover, the resolution of that model is higher than the others, making it more precise. If we compare yolo and Mobilenet, we'll notice that yolo performs better. However, this is not a fair comparison because the resolution of both models is not the same.
 

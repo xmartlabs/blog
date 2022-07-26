@@ -26,7 +26,7 @@ The IT industry plays a major role in generating a greener and more sustainable 
 
 ## The (un)usual suspects of technology’s impact on the environment
 
-![Untitled](/images/only-one-earth//Untitled.png)
+![Untitled](/images/only-one-earth/Untitled.png)
 
 Did you know Data Centers consume more energy than entire countries? For those of you who, like me, are non-technical, and need a little bit more info to actually get what we are talking about, Data Centers are huge facilities that store computing infrastructure. Kind of what you’d imagine in a Matrix movie, but uglier. 
 
