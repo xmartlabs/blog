@@ -219,28 +219,28 @@ Some considerations that you need to keep in mind when you are configuring these
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/Store-scret.mp4" type="video/mp4">
 </video>    
     
-    ## 7 - Review what you did
-    
-    Now that everything is configured, you can check the “plan” that Terraform will apply. In the plan, you’ll see all the resources that will be created, modified, and destroyed in your AWS account. If it’s the first deployment of the infra, you’ll only see new resources, and maybe this command won’t look useful for you. However, when you are editing existing infrastructure, it will help you to review the changes before applying them. The command to display the plan is:
-    
-    ```bash
-    terraform plan --var-file=environments/<environment>.tfvars
-    ```
+## 7 - Review what you did
+
+Now that everything is configured, you can check the “plan” that Terraform will apply. In the plan, you’ll see all the resources that will be created, modified, and destroyed in your AWS account. If it’s the first deployment of the infra, you’ll only see new resources, and maybe this command won’t look useful for you. However, when you are editing existing infrastructure, it will help you to review the changes before applying them. The command to display the plan is:
+
+```bash
+terraform plan --var-file=environments/<environment>.tfvars
+```
 
 <video width="100%" preload autoplay loop muted>
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/terraform-plan.mp4" type="video/mp4">
 </video>   
      
     
-    Make sure you’re pointing to the correct environment.
-    
-    ## 8 - Apply
-    
-    Once you have checked that everything fits your needs, you are ready to apply the plan and impact those changes in the AWS account. That can be easily done with the command:
-    
-    ```bash
-    terraform apply --var-file=environments/<environment>.tfvars
-    ```
+Make sure you’re pointing to the correct environment.
+
+## 8 - Apply
+
+Once you have checked that everything fits your needs, you are ready to apply the plan and impact those changes in the AWS account. That can be easily done with the command:
+
+```bash
+terraform apply --var-file=environments/<environment>.tfvars
+```
     
 
 <video width="100%" preload autoplay loop muted>
@@ -248,27 +248,27 @@ Some considerations that you need to keep in mind when you are configuring these
 </video>   
      
     
-    After executing this command, you can go to the AWS console dashboard and see how all the resources were created.
-    
-    ## 9 - Destroy
-    
-    If for some reason, you want to destroy the created environment, you can do it by executing the command.
-    
-    ```bash
-    terraform destroy --var-file=environments/<environment>.tfvars
-    ```
-    
-    # Considerations
-    
-    Some considerations that you need to take care of:
-    
-    - Check the cost of the resources you’re creating. If you are not careful, you can get substantial billing at the end of the month related to your AWS infrastructure. Most of the resources used in this script belong to the free tier, so it should be free during the first year. However, if you’re using big machines, customs AMIs or large discs, your infrastructure may not comply with the free tier requirements, and you will be billed for some of the resources.
-    - Don’t manage any Terraform-created resources from the AWS console dashboard. If you do it, these changes will not be reflected in the state file, generating conflict when you apply a new change with Terraform. If you need to change something in any of the resources, you can only apply the change with Terraform and in the tfvars file.
-    
-    # What’s next
-    
-    After following this tutorial, you’ll have all the resources required to deploy your basic app in AWS without needing complex manual configuration in the AWS dashboard. You’ll have the possibility of accessing the EC2 instance with SSH and deploying your code there. Suppose you need to modify some environment attribute (for example, increase the storage of the disc attached to the EC2 instance). In that case, you only have to edit the corresponding variable in the var file and run the plan and apply commands again. In that case, you will see only the required changes in the terminal. You can also replicate an environment if required to create a new workspace and a var file.
-    
-    If you learn a bit more about terraform, you can also edit the current modules, create new ones to create resources that are not covered by this basic module or even create more complex solutions (such as ECS clusters).
-    
-    We hope this blog and the code in the repository help you easily create AWS infrastructure and avoid some of the common issues that our team has faced in the past. Any contribution to the repository is welcome.
+After executing this command, you can go to the AWS console dashboard and see how all the resources were created.
+
+## 9 - Destroy
+
+If for some reason, you want to destroy the created environment, you can do it by executing the command.
+
+```bash
+terraform destroy --var-file=environments/<environment>.tfvars
+```
+
+# Considerations
+
+Some considerations that you need to take care of:
+
+- Check the cost of the resources you’re creating. If you are not careful, you can get substantial billing at the end of the month related to your AWS infrastructure. Most of the resources used in this script belong to the free tier, so it should be free during the first year. However, if you’re using big machines, customs AMIs or large discs, your infrastructure may not comply with the free tier requirements, and you will be billed for some of the resources.
+- Don’t manage any Terraform-created resources from the AWS console dashboard. If you do it, these changes will not be reflected in the state file, generating conflict when you apply a new change with Terraform. If you need to change something in any of the resources, you can only apply the change with Terraform and in the tfvars file.
+
+# What’s next
+
+After following this tutorial, you’ll have all the resources required to deploy your basic app in AWS without needing complex manual configuration in the AWS dashboard. You’ll have the possibility of accessing the EC2 instance with SSH and deploying your code there. Suppose you need to modify some environment attribute (for example, increase the storage of the disc attached to the EC2 instance). In that case, you only have to edit the corresponding variable in the var file and run the plan and apply commands again. In that case, you will see only the required changes in the terminal. You can also replicate an environment if required to create a new workspace and a var file.
+
+If you learn a bit more about terraform, you can also edit the current modules, create new ones to create resources that are not covered by this basic module or even create more complex solutions (such as ECS clusters).
+
+We hope this blog and the code in the repository help you easily create AWS infrastructure and avoid some of the common issues that our team has faced in the past. Any contribution to the repository is welcome.
