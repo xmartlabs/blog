@@ -19,7 +19,7 @@ Recently a client approached Xmartlabs with the idea of making a platform that a
 
 ## Challenge 1: Where is the DOM?
 
-In conventional web development, we always have a tree with nodes representing the elements of our website called DOM. With Flutter, we don't have exactly what's called a pure DOM. Instead, we have the flutter widgets tree, but all the widgets are drawn into a unique canvas element. This has some inconveniences since you are not able to inspect elements that are not present in the DOM, and debugging gets complicated. A **tool that helped us overcome this was the Flutter [DevTools](https://docs.flutter.dev/development/tools/devtools).** But we could not directly fix some issues, like how bad this impacts SEO or the inability to select text.
+In conventional web development, we always have a tree with nodes representing the elements of our website called **[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM)**. With Flutter, we don't have exactly what's called a pure DOM. Instead, we have the flutter widgets tree, but all the widgets are drawn into a unique canvas element. This has some inconveniences since you are not able to inspect elements that are not present in the DOM, and debugging gets complicated. A **tool that helped us overcome this was the Flutter [DevTools](https://docs.flutter.dev/development/tools/devtools).** But we could not directly fix some issues, like how bad this impacts SEO.
 
 ## Challenge 2: Works in debug, but does it in prod?
 
@@ -27,7 +27,7 @@ Flutter has two compilers for the web, one that supports debugging and hot reloa
 
 ## Challenge 3: Accessing hardware from Flutter
 
-All platforms have different ways to access their hardware capabilities, and the web is not the exception to this rule, there are standards defined in MDN for [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices). **The `universal_html` package comes to the rescue here** and allows us to use some of these capabilities for the web in Flutter, but it makes the code platform oriented.
+All platforms have different ways to access their hardware capabilities, and the web is not the exception to this rule, there are standards defined in MDN for [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices). **The [`html`](https://api.dart.dev/stable/2.17.6/dart-html/dart-html-library.html) package comes to the rescue here** and allows us to use some of these capabilities for the web in Flutter, but it makes the code platform oriented.
 
 ## Challenge 4: Using Html components with Flutter
 
@@ -39,7 +39,7 @@ Having said that, we must ensure to **correctly use those elements** without g
 - **HTML and Flutter lifecycle are separated:**
 We must be especially careful with this point since not correctly managing web elements can be linked to dead dart code, making the app crash by accessing variables or components that are no longer available.
 
-To avoid this kind of behavior, HTML elements should be declared at the top of your widget trees or register its `viewFactory` with a unique random key each time you want to recreate the widget.****
+To avoid this kind of behavior, HTML elements should be declared at the top of your widget trees or register its **`viewFactory` with a unique random key each time you want to recreate the widget.**
 
 ![camera-example.gif](/images/building-a-web-with-flutter/camera-example.gif)
 
@@ -47,13 +47,13 @@ To avoid this kind of behavior, HTML elements should be declared at the top of y
 
 While there are plenty of packages that port js libraries to Dart, sometimes you need more custom functionalities. Making use of js code from Flutter has been an easy task for the most part, but there are some considerations to have:
 
-- If you need to wait for a promise in js to end, you will have to **wrap it as a dart** future using the **[js_util](https://api.flutter.dev/flutter/dart-js_util/dart-js_util-library.html) package.**
+- If you need to wait for a promise in js to end, you will have to **wrap it as a dart** future using the **[`js_util`](https://api.flutter.dev/flutter/dart-js_util/dart-js_util-library.html) package.**
 - If you need to send a callback to something implemented on js, you will need to **wrap all your callbacks in the `allowInterop` function.**
 - One common thing in js is to call methods with fewer attributes than they have. This is impossible when we combine js with Dart since all parameters must be stated. In some cases, this can lead to changes you must make on the js side.
 
 ## Challenge 6: Browser support
 
-Testing in different browsers has become a problem since sometimes the widgets are drawn differently depending on the browser, fonts are not displayed properly or images are just displayed with notable decrease in their quality. If to this we add that you can debug only in Chrome, it can become a real headache. You can also find an issue in web developments here; not all browsers implement conventions the same, and you have to consider this when using the `html` package. You could end up writing down specific browser code.****
+Testing in different browsers has become a problem since sometimes the widgets are drawn differently depending on the browser, fonts are not displayed properly or images are just displayed with notable decrease in their quality. If to this we add that you can debug only in Chrome, it can become a real headache. You can also find an issue in web developments here; not all browsers implement conventions the same, and you have to consider this when using the `html` package.**You could end up writing down specific browser code.**
 
 ## Conclusions
 
