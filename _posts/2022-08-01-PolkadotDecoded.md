@@ -120,6 +120,6 @@ If you missed this year’s Polkadot event, here are some of the highlights:
 - The v3 of XCM will enable simple, secure, and reliable communication and asset exchange in the ecosystem and within different consensus mechanisms.
 - Gov v2 was presented. The protocol's objective is to be a mechanism that makes collective decisions on how and when a protocol should evolve. Gov v2 is safer and easier, and changes are cheaper to propose, discuss, and implement.
 
-That’s all, folks! All talks are listed on Polkadot Decoded´s [YouTube channel](https://www.notion.so/XL-Communications-d9d4f45da4f74770add02931e4f796df). If you missed the event and want to get into the ecosystem updates, I strongly recommend you watch them. 
+That’s all, folks! All talks are listed on Polkadot Decoded´s [YouTube channel](https://www.youtube.com/c/PolkadotNetwork). If you missed the event and want to get into the ecosystem updates, I strongly recommend you watch them. 
 
 See you at the next Polkadot Decoded! And thanks again to everyone involved in the organization.
