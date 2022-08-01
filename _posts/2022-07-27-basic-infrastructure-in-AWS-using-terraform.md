@@ -7,7 +7,7 @@ tags: []
 author_id: pablog
 show: true
 category: data-engineering
-featured_image: /images/object-detection/ObjectDetecion_Blog.jpg
+featured_image: /images/basic-infrastructure-in-AWS-using-terraform/Basic-Infrastructure-in-AWS-using-Terraform.png
 permalink: /blog/basic-infrastructure-in-AWS-using-terraform/
 ---
 
