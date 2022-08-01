@@ -23,7 +23,7 @@ In conventional web development, we always have a tree with nodes representing t
 
 ## Challenge 2: Works in debug, but does it in prod?
 
-Flutter has two compilers for the web, one that supports debugging and hot reloading called `dev_compiler`, and other `dart2js` that focuses on code optimization. Their uses are obvious, one for development and one for release code. But in our experience, some things that work in one don’t necessarily work in the other, so **running the app in release mode** has become a must in the development cycle to test the app.
+Dart has two compilers for the web, one that supports debugging and hot reloading called `dev_compiler`, and other `dart2js` that focuses on code optimization. Their uses are obvious, one for development and one for release code. But in our experience, some things that work in one don’t necessarily work in the other, so **running the app in release mode** has become a must in the development cycle to test the app.
 
 ## Challenge 3: Accessing hardware from Flutter
 
