@@ -15,19 +15,19 @@ featured_image: /images/building-a-web-with-flutter/featured.png
 ---
 ## Lessons learned from a nonconventional approach to flutter web development
 
-Recently a client approached Xmartlabs with the idea of making a platform that achieved excellent results by combining camera usage with [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet), an ML pose detection model. The challenge was to do it fast to ship an MVP that most users could try while we wouldn't have to throw the code away if we wanted to continue development on other platforms. Flutter appeared as an excellent option to accomplish these needs, so we took on the challenge and started working on a web page with a V1 in mind. However, we found some challenges along the way; this blog is about how we worked around them in case you also bump into similar issues someday.
+Recently a client approached Xmartlabs with the idea of making a platform that achieved excellent results by combining camera usage with [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet), an ML pose detection model. The challenge was to do it fast to ship an MVP that most users could try but make it so that we could reuse the code if we wanted to continue development on other platforms. Flutter appeared as an excellent option to accomplish these needs, so we took on the challenge and started working on a web page with a V1 in mind. However, we found some challenges along the way; this blog is about how we worked around them in case you also bump into similar issues someday.
 
 ## Challenge 1: Where is the DOM?
 
-In conventional web development, we always have a tree with nodes representing the elements of our website called DOM. With Flutter, we don't have exactly what's called a pure DOM. Instead, we have the flutter widgets tree, but all the widgets are drawn into a unique canvas element. This has some inconveniences since you are not able to inspect elements that are not present in the DOM, and debugging gets complicated. A **tool that helped us overcome this could be the Flutter [DevTools](https://docs.flutter.dev/development/tools/devtools).** But we cannot directly fix some issues, like how bad this impacts SEO or the inability to select text.
+In conventional web development, we always have a tree with nodes representing the elements of our website called DOM. With Flutter, we don't have exactly what's called a pure DOM. Instead, we have the flutter widgets tree, but all the widgets are drawn into a unique canvas element. This has some inconveniences since you are not able to inspect elements that are not present in the DOM, and debugging gets complicated. A **tool that helped us overcome this was the Flutter [DevTools](https://docs.flutter.dev/development/tools/devtools).** But we could not directly fix some issues, like how bad this impacts SEO or the inability to select text.
 
 ## Challenge 2: Works in debug, but does it in prod?
 
-Flutter has two compilers for the web, one that supports debugging and hot reloading called `dev_compiler`, and other `dart2js` that focus on code optimization. Their uses are obvious, one for development and one for release code. But in our experience, some things that work in one don’t necessarily work in the other, so **running the app in release mode** has become a must in the development cycle to test the app.
+Flutter has two compilers for the web, one that supports debugging and hot reloading called `dev_compiler`, and other `dart2js` that focuses on code optimization. Their uses are obvious, one for development and one for release code. But in our experience, some things that work in one don’t necessarily work in the other, so **running the app in release mode** has become a must in the development cycle to test the app.
 
 ## Challenge 3: Accessing hardware from Flutter
 
-All platforms have different ways to access their hardware capabilities, and the web is not the exception to this rule, there are standards defined in MDN for [MediaDevices](https://developer.mozilla.org/es/docs/Web/API/MediaDevices). **The `universal_html` package comes to the rescue here** and allows us to use some of these capabilities for the web in Flutter, but it makes the code platform oriented.
+All platforms have different ways to access their hardware capabilities, and the web is not the exception to this rule, there are standards defined in MDN for [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices). **The `universal_html` package comes to the rescue here** and allows us to use some of these capabilities for the web in Flutter, but it makes the code platform oriented.
 
 ## Challenge 4: Using Html components with Flutter
 
@@ -47,13 +47,13 @@ To avoid this kind of behavior, HTML elements should be declared at the top of y
 
 While there are plenty of packages that port js libraries to Dart, sometimes you need more custom functionalities. Making use of js code from Flutter has been an easy task for the most part, but there are some considerations to have:
 
-- If you need to wait for a promise in js to end, you will have to **wrap it as a dart** future using the [**js_uril](https://api.flutter.dev/flutter/dart-js_util/dart-js_util-library.html) package.**
+- If you need to wait for a promise in js to end, you will have to **wrap it as a dart** future using the **[js_util](https://api.flutter.dev/flutter/dart-js_util/dart-js_util-library.html) package.**
 - If you need to send a callback to something implemented on js, you will need to **wrap all your callbacks in the `allowInterop` function.**
 - One common thing in js is to call methods with fewer attributes than they have. This is impossible when we combine js with Dart since all parameters must be stated. In some cases, this can lead to changes you must make on the js side.
 
 ## Challenge 6: Browser support
 
-Testing in different browsers has become a problem since sometimes the widgets are drowned differently depending on the browser, fonts are not displayed properly or images are just displayed with a decrease in their quality. If to this we add that you can debug only in Chrome, it could become a real headache. You can also find an issue in web developments here; not all browsers implement conventions the same, and you have to consider this when using the `html` package. You could end up writing down specific browser code.****
+Testing in different browsers has become a problem since sometimes the widgets are drawn differently depending on the browser, fonts are not displayed properly or images are just displayed with notable decrease in their quality. If to this we add that you can debug only in Chrome, it can become a real headache. You can also find an issue in web developments here; not all browsers implement conventions the same, and you have to consider this when using the `html` package. You could end up writing down specific browser code.****
 
 ## Conclusions
 
@@ -61,6 +61,6 @@ So far, so good. Flutter has successfully allowed us to develop an app that is n
 
 The `html` package comes in handy, but it makes code platform-specific. Moving this code into plugins could be helpful to make cleaner code, but it will add a boilerplate, and you would have to maintain the plugins you need.
 
-Each browser implements with its own philosophy/time the development features for the web; even though this is not an issue with Flutter directly, it carries on to flutter sometimes having to do browser-specific code.
+Slight differences (or even outright completely different) in implementations of features by the browsers can be a pain; even though this is not an issue with Flutter directly, it carries on to Flutter sometimes having to do browser-specific code.
 
-Other than that Flutter achieves its purpose and allows us to reuse the majority of the developed code between platforms and with the level of complexity that we intended to build we are very satisfied with the decision we have taken.
+Other than that, Flutter achieves its purpose and allows us to reuse the majority of the developed code between platforms and with the level of complexity that we intended to build we are very satisfied with the decision we made.
