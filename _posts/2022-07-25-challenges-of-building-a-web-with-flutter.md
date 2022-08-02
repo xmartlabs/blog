@@ -21,61 +21,63 @@ Recently a client approached Xmartlabs with the idea of making a platform that a
 
 In conventional web development, we always have a tree with nodes representing the elements of our website called **[DOM](https://developer.mozilla.org/en-US/docs/Glossary/DOM)**. With Flutter, we don't have exactly what's called a pure DOM. Instead, we have the flutter widgets tree, but all the widgets are drawn into a unique canvas element. This has some inconveniences since you are not able to inspect elements that are not present in the DOM, and debugging gets complicated. A **tool that helped us overcome this was the Flutter [DevTools](https://docs.flutter.dev/development/tools/devtools).** But we could not directly fix some issues, like how bad this impacts SEO.
 
->```html
-><html>
->    <head>...</head>
->    <body flt-renderer="canvaskit (auto-selected)" flt-build-mode="release" spellcheck="false" style="...">
->        <flt-glass-pane style="position: absolute; inset: 0px; cursor: default;">
->            <flt-scene-host aria-hidden="true" style="pointer-events: none;">
->                <flt-scene>
->                    <flt-canvas-container>
->                        <canvas width="2400" height="1912" style="..."></canvas>
->                    </flt-canvas-container>
->                </flt-scene>
->            </flt-scene-host>
->        </flt-glass-pane>
->    </body>
-></html>
->```
->
-> An example of whats the result of inspecting a web in Flutter. As you can see there is only a canvas and thats it.
+```html
+<html>
+    <head>...</head>
+    <body flt-renderer="canvaskit (auto-selected)" flt-build-mode="release" spellcheck="false" style="...">
+        <flt-glass-pane style="position: absolute; inset: 0px; cursor: default;">
+            <flt-scene-host aria-hidden="true" style="pointer-events: none;">
+                <flt-scene>
+                    <flt-canvas-container>
+                        <canvas width="2400" height="1912" style="..."></canvas>
+                    </flt-canvas-container>
+                </flt-scene>
+            </flt-scene-host>
+        </flt-glass-pane>
+    </body>
+</html>
+```
+
+<p style="color:gray; font-size:80%; font-style: italic;" align="center">
+The result of inspecting a web made in Flutter, as you can see there is only a canvas and thats it.
+</p>
 
 ## Challenge 2: Works in debug, but does it in prod?
 
 Dart has two compilers for the web, one that supports debugging and hot reloading called `dev_compiler`, and other `dart2js` that focuses on code optimization. Their uses are obvious, one for development and one for release code. But in our experience, some things that work in one don’t necessarily work in the other, so **running the app in release mode** has become a must in the development cycle to test the app.
 
-> ```dart
->  @override
->  Widget build(BuildContext context) => Column(
->        children: [
->          Positioned(
->            child: Text('This text is positioned'),
->          )
->        ],
->      );
->```
->
-> This should never work but it does in debug not in release.
+ ```dart
+  @override
+  Widget build(BuildContext context) => Column(
+        children: [
+          Positioned(
+            child: Text('This text is positioned'),
+          )
+        ],
+      );
+```
+
+<p style="color:gray; font-size:80%; font-style: italic;" align="center">This should never work but it does in debug not in release.</p>
 
 ## Challenge 3: Accessing hardware from Flutter
 
 All platforms have different ways to access their hardware capabilities, and the web is not the exception to this rule, there are standards defined in MDN for [MediaDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices). **The [`html`](https://api.dart.dev/stable/2.17.6/dart-html/dart-html-library.html) package comes to the rescue here** and allows us to use some of these capabilities for the web in Flutter, but it makes the code platform oriented.
 
-> ```dart
-> var videoConfig = {
->    'audio': false,
->    'video': {
->      'facingMode': 'user',
->      'frameRate': {
->        'ideal': 60,
->      }
->    }
->  };
->
->await window.navigator.mediaDevices?.getUserMedia(videoConfig);
->```
->
->This code can be used only on the web.
+```dart
+ var videoConfig = {
+    'audio': false,
+    'video': {
+      'facingMode': 'user',
+      'frameRate': {
+        'ideal': 60,
+      }
+    }
+  };
+
+await window.navigator.mediaDevices?.getUserMedia(videoConfig);
+```
+
+<p style="color:gray; font-size:80%; font-style: italic;" align="center">This code can be used only on the web and would make the app crash on mobile.</p>
 
 ## Challenge 4: Using Html components with Flutter
 
@@ -90,25 +92,25 @@ We must be especially careful with this point since not correctly managing web e
 
 To avoid this kind of behavior, HTML elements should be declared at the top of your widget trees or register its **`viewFactory` with a unique random key each time you want to recreate the widget.**
 
->```dart
->  // HTML Video element example 
->  // This id denomination can led to unexpected behavior:
->  var videoElementId = 'video_element';
->  // this cannot
->  var videoElementId = 'video_element_${DateTime.now().millisecondsSinceEpoch}'; 
->
->  // ignore: undefined_prefixed_name
->  ui.platformViewRegistry.registerViewFactory(videoElementId, (int viewId) {
->    eventListener = (event) {
->     // Do stuff with the camera stream
->     webcamVideoElement.removeEventListener('loadeddata', eventListener);
->    };
->    _webcamVideoElement.addEventListener('loadeddata', eventListener);
->    return _webcamVideoElement;
->  });
->```
->
->An example of a view factory registration for a video element
+```dart
+  // HTML Video element example 
+  // This id denomination can led to unexpected behavior:
+  var videoElementId = 'video_element';
+  // this cannot since the id will be different each time its recreated
+  var videoElementId = 'video_element_${DateTime.now().millisecondsSinceEpoch}'; 
+
+  // ignore: undefined_prefixed_name
+  ui.platformViewRegistry.registerViewFactory(videoElementId, (int viewId) {
+    eventListener = (event) {
+     // Do stuff with the camera stream
+     webcamVideoElement.removeEventListener('loadeddata', eventListener);
+    };
+    _webcamVideoElement.addEventListener('loadeddata', eventListener);
+    return _webcamVideoElement;
+  });
+```
+
+<p style="color:gray; font-size:80%; font-style: italic;" align="center">An example of a view factory registration for a video element.</p>
 
 ## Challenge 5: Using js code in Dart
 
@@ -122,15 +124,15 @@ While there are plenty of packages that port js libraries to Dart, sometimes you
 
 Testing in different browsers has become a problem since sometimes the widgets are drawn differently depending on the browser, fonts are not displayed properly or images are just displayed with notable decrease in their quality. If to this we add that you can debug only in Chrome, it can become a real headache. You can also find an issue in web developments here; not all browsers implement conventions the same, and you have to consider this when using the `html` package.**You could end up writing down specific browser code.**
 
->```dart
->// Works on Chrome not in safari
->await window.navigator.getUserMedia(videoConfig);
->
->// Works for every browser
->await window.navigator.mediaDevices?.getUserMedia(videoConfig);
->```
->
-> An example of the issue.
+```dart
+// Works on Chrome not in safari
+await window.navigator.getUserMedia(videoConfig);
+
+// Works for every browser
+await window.navigator.mediaDevices?.getUserMedia(videoConfig);
+```
+
+<p style="color:gray; font-size:80%; font-style: italic;" align="center"> An example of the issue.</p>
 
 ## Conclusions
 
