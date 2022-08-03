@@ -2,7 +2,7 @@
 title: "Polkadot Decoded - What’s it like?"
 layout: post
 permalink: /blog/polkadot-decoded/ 
-date: '2022-08-01T10:00:00.000-03:00' 
+date: '2022-08-05T10:00:00.000-03:00' 
 category: development
 tags:
   - Blockchain
@@ -11,7 +11,7 @@ tags:
 author_id: mtnBarreto
 author: Martin Barreto
 show: true
-featured_image: /images/evm-compatible-frameworks/TopEVM-compatible-frameworks-to-build-dApps-Truffle-vs-Hardhat.png
+featured_image: /images/polkadot-decoded/polkadot-decoded.png
 ---
 
 
