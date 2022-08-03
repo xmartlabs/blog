@@ -124,16 +124,6 @@ While there are plenty of packages that port js libraries to Dart, sometimes you
 
 Testing in different browsers has become a problem since sometimes the widgets are drawn differently depending on the browser, fonts are not displayed properly or images are just displayed with notable decrease in their quality. If to this we add that you can debug only in Chrome, it can become a real headache. You can also find an issue in web developments here; not all browsers implement conventions the same, and you have to consider this when using the `html` package.**You could end up writing down specific browser code.**
 
-```dart
-// Works on Chrome not in safari
-await window.navigator.getUserMedia(videoConfig);
-
-// Works for every browser
-await window.navigator.mediaDevices?.getUserMedia(videoConfig);
-```
-
-<p style="color:gray; font-size:80%; font-style: italic;" align="center"> An example of the issue.</p>
-
 ## Conclusions
 
 So far, so good. Flutter has successfully allowed us to develop an app that is not your most conventional use case, but as with all great things, there are some downsides, and Flutter web is no exception to the rule. It does great with simple and basic apps, but when complexity arises, there are some things we have to be conscious about.
