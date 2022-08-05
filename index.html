@@ -23,7 +23,7 @@ layout: default
         </h1>
         <section>
           <ul class="post-list">
-            {% assign displayPosts = site.posts | where: 'show', true %}
+            {% assign displayPosts = site.posts %}
             {% for post in displayPosts offset:3 %}
               <li>
                 {% include post.html post=post %}

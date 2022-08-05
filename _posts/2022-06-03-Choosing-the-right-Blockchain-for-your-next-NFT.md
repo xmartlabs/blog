@@ -11,7 +11,7 @@ tags:
   - Smart Contract Development
 author_id: mtnBarreto
 author: Martin Barreto
-show: true
+
 featured_image: /images/choosing-the-right-blockchain/CHOOSING_THE_RIGHT_BLOCKCHAIN.png
 ---
 

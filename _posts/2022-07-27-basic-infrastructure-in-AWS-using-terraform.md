@@ -5,7 +5,6 @@ date: '2022-08-01T10:00:00.000-03:00'
 author: Pablo Grill
 tags: [aws, terraform, aws infraestructure]
 author_id: pablog
-show: true
 category: data-engineering
 featured_image: /images/basic-infrastructure-in-AWS-using-terraform/Basic-Infrastructure-in-AWS-using-Terraform.png
 permalink: /blog/basic-infrastructure-in-AWS-using-terraform/

@@ -6,7 +6,6 @@ author: Mathias Claassen
 tags: [Xmartlabs, Swift, iOS, Eureka]
 author_id: mathias
 markdown: redcarpet
-show: true
 category: ios-development
 permalink: /:year/:month/:day/:title/
 ---

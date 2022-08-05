@@ -8,7 +8,7 @@ tags: [React Native Line, React Native, LineSDK, Xmartlabs]
 category: development
 author_id: emi
 featured_image: /images/react-native-line/banner2.png
-show: true
+
 permalink: /blog/:title/
 ---
 

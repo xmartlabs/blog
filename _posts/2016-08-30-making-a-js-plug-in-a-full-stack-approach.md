@@ -6,7 +6,6 @@ author: Miguel Revetria
 tags: [Xmartlabs, JavaScript, Plugin, Widget, CORS, Ruby, Rails, CSS]
 author_id: remer
 markdown: redcarpet
-show: true
 category: development
 permalink: /:year/:month/:day/:title/
 ---

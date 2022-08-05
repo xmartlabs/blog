@@ -8,7 +8,7 @@ tags: [Xmartlabs, QA, Testing]
 category: business-agile
 author_id: tabu
 featured_image: /images/automate-manual-testing/featured2.png
-show: true
+
 permalink: /:year/:month/:day/:title/
 ---
 

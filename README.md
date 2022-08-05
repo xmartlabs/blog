@@ -42,24 +42,6 @@ If you want to exclude it, you can add the label 'not-deploy' in your pull reque
 If you want to deploy a new version of your pull request, you can add a new commit or add a label, in both cases the deploy trigger will be executed.
 
 
-### Make blogpost accessible but not listed in blog.xmatlabs.com allow
-
-Make sure `show: true` is not present if you want to hide your from main blog post list.
-
-```markdown
----
-layout: post
-title: "Agile iOS development workflow using Fastlane & Bitrise"
-date: 2020-04-01 10:00:00
-author: Martin Barreto
-tags: [Xmartlabs, CI, fastlane, bitrise, iOS]
-author_id: mtnBarreto
-featured_image: /images/ios-fastlane-ci/featured.png
-show: true
-permalink: /blog/:title/
----
-```
-
 **IMPORTANT:**
 
 Newest blogposts will be shown on the featured section.

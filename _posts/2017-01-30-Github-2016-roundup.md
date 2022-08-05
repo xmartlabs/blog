@@ -6,7 +6,6 @@ author: XL Team
 tags: [Xmartlabs, GitHub, Data Analysis]
 author_id: xl
 markdown: redcarpet
-show: true
 category: business-agile
 permalink: /:year/:month/:day/:title/
 ---

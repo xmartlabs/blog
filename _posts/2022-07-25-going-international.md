@@ -7,7 +7,7 @@ tags: [Xmartlabs]
 category: people-events
 author_id: fer-barrios
 featured_image: /images/going-international/going-international.png
-show: true
+
 permalink: /blog/going-international/
 ---
 

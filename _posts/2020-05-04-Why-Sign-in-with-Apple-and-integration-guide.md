@@ -8,7 +8,7 @@ tags: [Xmartlabs, iOS, Apple, Swift, Sign in with Apple]
 category: ios-development
 author_id: ceci
 featured_image: /images/apple-sign-in/signInWithApple.jpg
-show: true
+
 permalink: /:year/:month/:day/:title/
 ---
 

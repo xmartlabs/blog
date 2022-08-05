@@ -8,7 +8,7 @@ tags: [digital product development, product metrics, Analytics, A/B testing, Xma
 category: development
 author_id: robert
 featured_image: /images/key-metrics-for-growing-digital-startups/featured.png
-show: true
+
 permalink: /blog/:title/
 ---
 

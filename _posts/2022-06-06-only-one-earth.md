@@ -10,7 +10,7 @@ tags:
   - E-waste
 author_id: coti
 author: Costanza Besozzi
-show: true
+
 featured_image: /images/only-one-earth/OnlyOneEarth.png
 ---
 

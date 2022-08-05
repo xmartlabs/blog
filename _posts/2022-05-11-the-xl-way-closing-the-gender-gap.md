@@ -8,7 +8,7 @@ tags:
   - 8M
 author_id: vale
 author: Valentina Bianco
-show: true
+
 featured_image: /images/the-xl-way-closing-the-gender-gap/8m_cover.jpg
 ---
 

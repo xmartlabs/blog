@@ -6,7 +6,6 @@ author: Diego Ernst
 tags: [Xmartlabs, Swift, iOS, Eureka]
 author_id: dernst
 markdown: redcarpet
-show: true
 category: ios-development
 permalink: /:year/:month/:day/:title/
 ---

@@ -10,7 +10,7 @@ tags:
   - Hardhat
 author_id: mtnBarreto
 author: Martin Barreto
-show: true
+
 featured_image: /images/evm-compatible-frameworks/TopEVM-compatible-frameworks-to-build-dApps-Truffle-vs-Hardhat.png
 ---
 

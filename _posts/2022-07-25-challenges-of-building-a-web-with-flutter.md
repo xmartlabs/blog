@@ -2,7 +2,7 @@
 title: "Challenges of building a web with Flutter"
 layout: post
 permalink: /blog/challenges-of-building-a-web-with-flutter/
-date: '2022-08-01T10:00:00.000-03:00' 
+date: '2022-08-12T10:00:00.000-03:00' 
 category: development
 tags:
   - Flutter
@@ -10,7 +10,7 @@ tags:
   - Web
 author_id: felipe
 author: Felipe de León
-show: true
+
 featured_image: /images/building-a-web-with-flutter/featured.png
 ---
 ## Lessons learned from a nonconventional approach to flutter web development
