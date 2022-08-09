@@ -7,7 +7,6 @@ tags: [Xmartlabs, hackathon, team, xmartlabs]
 category: Announcement
 author_id: bruno
 featured_image: /images/xmartlabs-first-hackathon/general_view_bbq.jpg
-show: true
 category: people-events
 permalink: /:year/:month/:day/:title/
 ---

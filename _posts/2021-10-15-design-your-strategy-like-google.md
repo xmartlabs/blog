@@ -5,7 +5,6 @@ date: '2021-10-15T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [OKR framework, Company Strategy]
 author_id: vale
-show: true
 category: business-agile
 featured_image: /images/okrs/image.png
 permalink: /blog/okr-framework/

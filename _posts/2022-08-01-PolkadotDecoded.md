@@ -10,7 +10,7 @@ tags:
   - PolkadotDecoded
 author_id: mtnBarreto
 author: Martin Barreto
-show: true
+
 featured_image: /images/polkadot-decoded/polkadot-decoded.png
 ---
 

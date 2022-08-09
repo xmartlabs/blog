@@ -6,7 +6,6 @@ author: Mauricio Cousillas
 author_id: mcousillas
 tags: [Xmartlabs, React Native, JavaScript, Android, iOS, Tutorial]
 markdown: redcarpet
-show: true
 category: development
 permalink: /:year/:month/:day/:title/
 ---

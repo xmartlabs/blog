@@ -5,7 +5,6 @@ date: '2022-03-07T10:00:00.000-03:00'
 author: Xmartlabs Team
 tags: [Xmartlabs, 10 years Xmartlabs, 10 lessons learned in tech industry, 10 years in tech industry]
 author_id: xl
-show: true
 category: people-events
 featured_image: /images/10-lessons-in-tech-industry/10_things_cover.jpg
 permalink: /blog/10-years-in-the-tech-industry/

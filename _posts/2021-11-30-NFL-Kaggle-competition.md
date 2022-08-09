@@ -5,7 +5,6 @@ date: '2021-11-30T10:00:00.000-03:00'
 author: Andrés Herrera
 tags: [Kaggle Competition 2021, Computer Vision, NFL, Video Tracking, Machine Learning]
 author_id: andresh
-show: true
 category: machine-learning
 featured_image: /images/nfl-kaggle-competition/nfl_cover.jpg
 permalink: /blog/kaggle-competition-2021/

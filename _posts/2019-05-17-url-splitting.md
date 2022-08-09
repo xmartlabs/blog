@@ -6,7 +6,6 @@ author: Matías Lorenzo
 tags: [Xmartlabs, React, URL splitting]
 author_id: mlorenzo
 featured_image: /images/url-splitting/banner.jpg
-show: true
 category: development
 permalink: /:year/:month/:day/:title/
 ---

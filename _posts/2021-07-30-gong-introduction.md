@@ -5,7 +5,7 @@ date: 2021-08-04 10:00:00
 tags: [Android App Template, Android Base project, Android Compose Base Project, Xmartlabs Android App, Jetpack Compose App Template, Jetpack Compose Base Project, Android Development, Kotlin Development, Jetpack Compose, Android, Kotlin]
 category: android-development
 author_id: sante
-show: true
+
 featured_image: /images/gong-introduction/banner.png
 social_image: /images/gong-introduction/bannerSocial.png
 twitter_image: /images/gong-introduction/bannerTwitter.png

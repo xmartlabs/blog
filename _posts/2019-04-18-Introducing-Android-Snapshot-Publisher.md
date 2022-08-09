@@ -5,7 +5,6 @@ date: 2019-04-18 12:00:00
 author: Matías Irland
 tags: [Xmartlabs, Android, Gradle Plugin, Snapshot, Google Play, Fabric Beta]
 author_id: mirland
-show: true
 category: android-development
 permalink: /:year/:month/:day/:title/
 ---

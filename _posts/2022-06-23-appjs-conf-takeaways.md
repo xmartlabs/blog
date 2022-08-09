@@ -11,7 +11,7 @@ tags:
 author_id: nicoh
 author: Nicolas Hernandez
 category: development
-show: true
+
 featured_image: /images/rn-future/app.js-takeaways-react-native.png
 ---
 

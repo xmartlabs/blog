@@ -6,7 +6,6 @@ author: XL Team
 author_id: xl
 tags: [Xmartlabs, Swift, iOS, Tutorial, network]
 markdown: redcarpet
-show: true
 category: ios-development
 permalink: /:year/:month/:day/:title/
 ---

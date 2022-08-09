@@ -5,7 +5,6 @@ date: '2022-03-29T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [applied Machine Learning, Machine Learning in Agriculture, deep learning for agriculture, production costs]
 author_id: vale
-show: true
 category: machine-learning
 featured_image: /images/farming-ml/MLAgriculture.jpg
 permalink: /blog/precision-agriculture-and-the-future-of-farming-with-machine-learning/

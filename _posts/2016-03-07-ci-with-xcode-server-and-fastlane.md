@@ -5,7 +5,6 @@ date:   2016-03-07 10:00:00
 author: Miguel Revetria
 tags: [Xmartlabs, Server, CI, Fastlane]
 author_id: remer
-show: true
 category: ios-development
 permalink: /:year/:month/:day/:title/
 ---

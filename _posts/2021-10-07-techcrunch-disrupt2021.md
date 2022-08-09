@@ -5,7 +5,6 @@ date: '2021-10-11T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [TechCrunch Disrupt 2021, Startups, Venture Capital, TC Disrupt Recap]
 author_id: vale
-show: true
 category: people-events
 featured_image: /images/tcd21-startup-landscape/disrupt2021.jpg
 permalink: /blog/techcrunch-disrupt-2021-takeaways-for-entrepreneurs-and-founders/

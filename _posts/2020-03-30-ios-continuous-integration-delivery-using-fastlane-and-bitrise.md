@@ -8,7 +8,7 @@ tags: [Xmartlabs, CI, fastlane, bitrise, iOS]
 category: ios-development
 author_id: mtnBarreto
 featured_image: /images/ios-fastlane-ci/featured.png
-show: true
+
 permalink: /:year/:month/:day/:title/
 ---
 

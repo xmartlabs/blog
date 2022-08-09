@@ -8,7 +8,7 @@ tags: [Xmartlabs, iOS Conference]
 category: people-events
 author_id: arsu
 featured_image: /images/recap-appbuilders/featured.jpg
-show: true
+
 permalink: /:year/:month/:day/:title/
 ---
 

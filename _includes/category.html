@@ -1,5 +1,5 @@
 {% assign category = site.data.categories[include.categoryText] %}
-{% assign displayPosts = site.posts | where: 'show', true | where: 'category', include.categoryText  %}
+{% assign displayPosts = site.posts | where: 'category', include.categoryText  %}
 {{category}}
 <div class="list-container">
     <div class="header">
@@ -111,7 +111,7 @@
         </h1>
         <section>
           <ul class="post-list">
-            {% assign displayPosts = site.posts | where: 'show', true | where: 'category', include.categoryText %}
+            {% assign displayPosts = site.posts | where: 'category', include.categoryText %}
             {% for post in displayPosts offset:3 %}
               <li>
                 {% include post.html post=post %}
