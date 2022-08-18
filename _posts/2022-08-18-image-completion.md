@@ -18,7 +18,7 @@ Image completion or Image inpainting is a research area in computer vision. Its 
 
 Image inpainting can be used in many cases, for example, restoring old damaged pictures or removing undesired objects or people in photos. Some online models allow you to input an image and mark which area to inpaint. See an example from a model available by NVIDIA ([link](https://www.nvidia.com/research/inpainting/)) below.
 
-![Original Image.](/images/image-completion/image-completion/index.png)
+![Original Image.](/images/image-completion/index.png)
 
 Original Image.
 
