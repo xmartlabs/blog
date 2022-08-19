@@ -6,7 +6,7 @@ author: Andrés Herrera
 tags: [Image Completion, Computer Vision]
 author_id: andresh
 category: machine-learning
-featured_image: /images/image-completion.png
+featured_image: /images/image-completion/image-completion.png
 permalink: /blog/image-completion-computer-vision/
 ---
 
