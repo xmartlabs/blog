@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Image Completion
-date: '2022-08-17T10:00:00.000-03:00'
+date: '2022-08-19T10:00:00.000-03:00'
 author: Andrés Herrera
 tags: [Image Completion, Computer Vision]
 author_id: andresh
