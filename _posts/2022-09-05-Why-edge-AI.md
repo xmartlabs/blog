@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When and why should you go for AI on the edge?
-date: '2022-09-05T10:00:00.000-03:00'
+date: '2022-09-06T10:00:00.000-03:00'
 author: Mathias Claassen
 tags: [Machine Learning, Edge, Mobile]
 author_id: mathias
