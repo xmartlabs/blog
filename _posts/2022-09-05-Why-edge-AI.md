@@ -27,8 +27,8 @@ So we can say that most edge devices can deliver good performances on certain mo
 While there are different use cases for each of these alternatives, the reasons why you should go for any of them are similar.
 However, they are not suited to all use cases. So if you want to know if this applies to your situation, keep reading!
 
-<figure>
-<img src="/images/why-edge-ai/jetson_nano.jpeg" alt="Nvidia Jetson Nano" width="60%">
+<figure width="50%">
+<img src="/images/why-edge-ai/jetson_nano.jpeg" alt="Nvidia Jetson Nano">
 <figcaption align = "center"><b>Nvidia Jetson Nano</b></figcaption>
 </figure>
 <!-- ![Nvidia Jetson Nano](/images/why-edge-ai/jetson_nano.jpeg) -->
