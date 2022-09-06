@@ -10,8 +10,6 @@ featured_image: /images/why-edge-ai/AI_on_the_edge.png
 permalink: /blog/why-edge-ai/
 ---
 
-# When and why should you go for AI on the edge?
-
 AI on the Edge, or Edge AI, is a concept that people often disregard in their projects without an idea of how powerful it can be.
 In this blog, I'll explain what edge AI is, its advantages and weaknesses (and how to work around them), its role compared to cloud AI, and when you should definitely go for it.
 
@@ -85,14 +83,14 @@ If you need help with this process, don't hesitate to [drop us a line](mailto:h
 
 ### Comparing Edge AI vs Cloud AI
 
-|  | Edge AI | Cloud AI |
+|  | **Edge AI** | **Cloud AI** |
 | --- | --- | --- |
-| Deployment cost | Free / One-time payment | It depends (but GPUs on the cloud are expensive if they need to run for a long time) |
-| Works offline | Yes | No |
-| Latency | Just inference time of the model | Inference time of the model + time to send data to server and back + queue wait time (depending on user base) |
-| Privacy | Sensitive data doesn’t leave the client’s device or infrastructure | All data is sent to a cloud provider. You can still choose not to store any sensitive data, but the user does not know what you do with it. |
-| Model size  | Small (for mobile and web, you might want to stay < 100MB) | Large |
-| Compute power | Limited | Can scale up |
+| **Deployment cost** | Free / One-time payment | It depends (but GPUs on the cloud are expensive if they need to run for a long time) |
+| **Works offline** | Yes | No |
+| **Latency** | Just inference time of the model | Inference time of the model + time to send data to server and back + queue wait time (depending on user base) |
+| **Privacy** | Sensitive data doesn’t leave the client’s device or infrastructure | All data is sent to a cloud provider. You can still choose not to store any sensitive data, but the user does not know what you do with it. |
+| **Model size**  | Small (for mobile and web, you might want to stay < 100MB) | Large |
+| **Compute power** | Limited | Can scale up |
 
 ## Use cases: When should you consider Edge AI?
 
