@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flutter Supabase offline support with Stock
+title: Get Flutter's offline support in Supabase
 date: '2022-08-19T10:00:00.000-03:00'
 author: Matías Irland
 tags: [stock, supabase, fluter, firebase, firebase real-time database]
@@ -11,41 +11,43 @@ permalink: /blog/supabase-offline-support-with-stock/
 ---
 
 [Supabase] is one of the most well-known open-source [Firebase] alternatives.
-Although a lot of Firebase features are implemented by it, there's one that I miss a lot, **the offline support for the real-time database**.
+Although Supabase implements many Firebase features, one that I constantly crave is Flutter's **offline support for the real-time database**. 
 
-In this post, we will cover how can we can use a local database for catching [Supabase] data using [Stock], a dart package used to combine multiple data sources and get one data `Stream`.
-However, these concepts and ideas can be applied to multiple/different situations, such as adding offline support when you are using a Rest API.
+In this blog post, we’ll cover how you can use a local database as a [Supabase] cache using [Stock], a dart package that combines multiple data sources and gets one data `Stream`.
+However, you can apply these concepts and ideas to diverse situations, such as adding offline support when using a Rest API.
 
-To show how we can achieve that, in this blog post we will create a simple app, which lists all open-source Xmartlabs' projects, showing how [Stock] helps us to get excellent results.
+To show how we can achieve that, we'll create a simple app that lists all of Xmartlabs' open-source projects, demonstrating how [Stock] helps us get excellent results.
 
-# Arch Overview
+# Architecture Overview
 
-Despite we want to build a simple app, we'll use the repository pattern, one of the most used patterns in Flutter nowadays.
-If you don't know it, I recommend you check [this blog][repository_blog].
+Although we want to build a simple app, we'll use the repository pattern, one of the most used patterns in Flutter nowadays.
+If you don't know about it, I suggest checking out [this blog][repository_blog].
 
-We will have 2 data sources, a remote and a local data source that will be combined by [Stock] in the repository.
+We will have two data sources, a remote and a local data source, which [Stock] will combine in the repository.
 
-As we want to use the real-time database, we'll use the [Supabase fluter package].
-Although the package provides a lot of features, Supabase also can be used as a REST API.
+Because we want to use the real-time database, we'll use the [Supabase fluter package].
+Although the package provides many features, you can use Supabase as a REST API.
 
-This data will be cached in a local database, in our case, we'll use [Floor] because it's simple and it has a lot of features. If you prefer to use another one, there are a bunch of alternatives such as [Drift] or [Realm] that you can use.
+Your local database will store this data.
+In our case, we'll use [Floor] because it's simple and has many features.
+If you'd prefer to use another one, there are a bunch of alternatives, such as [Drift] or [Realm], you can use.
 
 
 METER IMAGEN DE COMO QUEDA LA
 
-To make this project simpler, we will use just a `StatefulWidget` to display the data.
-However, in a real project, you should use a state management package, like [Bloc] or [Provider].
+We will use a `StatefulWidget` to display the data to simplify this Project. 
+However, in an actual project, you should use a state management package, like [Bloc] or [Provider].
 
-# Build Xmartlabs OSS Project sample app
+# Sample app: listing our company's OSS projects
 
-As we mentioned, we want to build an app to display some of Xmartlabs' Open Source projects.
+As mentioned, we want to build an app that displays Xmartlabs' Open Source projects.
 
-Here is how it will look:
+Here's how it will look:
 
 
 ADD GIF
 
-At the beginning, we have to create a new Flutter project and create the Project entity.
+First, we have to create a new Flutter project and the Project's entity.
 
 
 ```dart
@@ -61,17 +63,18 @@ class Project extends Equatable {
 }
 ```
 
-Full implementation [here][ref_project_entity].
+See the full implementation [here][ref_project_entity].
 
-## Remote Source - Supabase setup
+## Step 1: Remote Source - Supabase setup
 
-Subabase setup is not hard, it has [good tutorials][supabase_tutorial] which shows how you can do this process. 
-In our case, I created a Supabase free project which contains only one table, `projects`.
-This table is used to store the open-source Xmartlabs' project metadata.
+Supabase setup is not complex, and there are [good tutorials][supabase_tutorial] showing how you can do this process.
+In this case, I created a Supabase free project which contains only one table, `projects`.
+This table is where the metadata for Xmartlabs' open-source projects will be stored.
 
 AGREGAR IMAGEN DE LA TABLA
 
-Then I included the `supabase_flutter` package in the flutter project, I initialized the Supabase client and I created the `ProjectSupabaseRemoteSource` with only one method, a method to get a `Stream` of projects using the Real Time Database.
+Then I included the `supabase_flutter` package in the Flutter project.
+I initialized the Supabase client and created the `ProjectSupabaseRemoteSource` with only one method that gets a `Stream` of projects using the Real Time Database.
 
 
 ```dart
@@ -95,18 +98,19 @@ class ProjectSupabaseRemoteSource {
 }
 ```
 
-The full Supabase integration could be seen [in this commit][ref_supabase_implementation].
+You can see the full Supabase integration [in this commit][ref_supabase_implementation].
 
-## Local Source - Local Database setup
+## Step 2: Local Source - Local Database setup
 
-On Flutter, we have a bunch of database alternatives, in this app we will use [Floor].
+On Flutter, we have a bunch of database alternatives, for this app, we'll use [Floor].
 
-An important comment is in this case we will use the same [Project][ref_project_entity] entity instead use different entities for database and service.
-We usually use different entities, but it depends on your project's complexity.
+Usually, we use separate entities for database and service, depending on your Project's complexity.
+In this case, we'll use the same [Project][ref_project_entity] entity instead of different ones. 
 
-After the setup, you will have two important classes:
+After the setup, you will have two main classes:
 - The `Project` entity will be mapped to a table.
-- The DAO, which in this case will be our local source. This class will have methods for getting and updating the database projects.
+- The DAO, which, in this case, will be our local source.
+This class will have methods for getting and updating the database projects.
 
 ```dart
 @Entity(tableName: 'projects')
@@ -137,20 +141,21 @@ abstract class ProjectLocalSource {
 
 You can check the full database integration [here][ref_db_implementation].
 
-## Repository - Stock Integration
+## Step 3: Repository - Stock Integration
 
-The previous steps were not hard, we have created one entity and a couple of data sources.
-However, now is the most interesting part, the part where we have to combine different data sources to get only one stream, a stream that contains the OSS projects.
+The previous steps were not difficult.
+We created one entity and a couple of data sources.
+However, this is the most exciting part, where we have to combine different data sources to get only one stream that contains the OSS projects.
 
-To combine these sources **we will use [Stock]**, a dart package that is its main function.
-We need to provide stock two important classes:
-- A `Fetcher`, a class to fetch the network data.
-Stock provides two types of fetchers: a fetcher from a `Stream` (ideal for this case that we are using the Real Time Database) or from a `Future` (used for example if you are consuming a REST API). 
-- A `SourceOfTruth`, a class that can store the fetched data in a local cache, in our case the local cache is our [Floor] database.
+**We will use [Stock]**, a dart package whose primary function is to combine these sources.
+We need to provide stock two essential classes:
+- `Fetcher`: a class to fetch the network data. Stock provides two types of fetchers.
+- - - `Stream`, ideal for this case, in which we use the Real Time Database.
+- - - `Future`, used, for example, if you are consuming a REST API.
+- `SourceOfTruth`: a class that can store the fetched data in a local cache. In our case, the local cache is our [Floor] database.
 
-These classes are defined by two types:
-- The `Key`, a type used to get de data. That key can have important information like an `id`, or the current page number if you are fetching a list.
-In our example. we will not use it because we will fetch all data just using one endpoint.
+Two types define these classes:
+- The `Key`, a type commonly used to get de data. That key can have important information like an `id` or the current page number if you are fetching a list. In our example, we won't use it because we will bring all data just using one endpoint.
 - The entity class, in our example a `List<Project>`. The `Fetcher` and the `SourceOfTruth` could use different types, but they should be mapped to the same type using a [StockTypeMapper].
 
 
@@ -176,14 +181,14 @@ class ProjectRepository {
 }
 ```
 
-`Stock` provides a `Stream` of `StockResponse`, which has 3 possible values: `StockResponseLoading`, `StockResponseData` or `StockResponseError`. 
-With that `Stream` we are ready to display the data and the state in the UI.
+`Stock` provides a `Stream` of `StockResponse`, which has three possible values: `StockResponseLoading`, `StockResponseData`, or `StockResponseError`. 
+With that `Stream`, we are ready to display the data and status in the UI.
 
-The full implementation could be checked [in this commit][ref_stock_implementation].
+Inspect the full implementation [in this commit][ref_stock_implementation].
 
-### Handle stock responses
+### Part 4: Handle stock responses
 
-This is the last part, where we handle the 3 different response types, the error, the data and the loading state.
+In this last part, we'll handle the three different response types: the error, the data, and the loading state. 
 To do that we will handle the responses in a `StatefulWidget`
 
 The widget state will contain the list of projects and a bool that indicates if the data is loading or not.
@@ -256,21 +261,21 @@ class _OssProjectsPageState extends State<OssProjectsPage> {
 }
 ```
 
-You can check the full example on [GitHub](https://github.com/mirland/supabase-offline-support-with-stock/).
+The complete example is on [GitHub](https://github.com/mirland/supabase-offline-support-with-stock/), so go ahead and check it out!
 
 # Conclusion
 
-In this blog, we analyzed how we can integrate offline support easily to Supabase.
-Furthermore, if we replace [Supababse] with another provider, or use just a rest API the code will be the same.
-So that is one of the most important things about this architecture, the Data layer could change, and you don't have to do any changes to your presentation layer.
+This blog analyzed how we can integrate offline support easily to Supabase.
+Furthermore, if we replace [Supababse] with another provider or simply use a rest API, the code will be the same. 
+So if your data layer changes, you don't have to make any changes to your presentation layer, which is one of the essential aspects of this architecture.
 
-In my experience, offline support moves the app experience to the next level.
-You can remove ugly spinners, and give feedback to the user instantaneously.
+In my experience, offline support moves app experience to the next level.
+You can remove ugly spinners and give feedback to the user instantaneously. So making an effort to achieve it is worth it. 
 
-On the other hand, we saw how [Stock] helped us to achieve this feature.
-The hardest work such as synchronizations, state reporting, store the data, was done by the package, so it allows app to move very fast.
+We also had a glimpse of how [Stock] helped us to achieve this feature.
+The package did the most challenging tasks, such as synchronizations, state reporting, and data storing, allowing the app to run extremely fast.
 
-I invite you to try it and do not forget to share your feedback!
+I encourage you to try it out and share your feedback!
 
 [Bloc]: https://pub.dev/packages/bloc
 [Drift]: https://pub.dev/packages/drift
@@ -280,7 +285,7 @@ I invite you to try it and do not forget to share your feedback!
 [Provider]: https://pub.dev/packages/provider
 [Realm]: https://pub.dev/packages/realm
 [ref_db_implementation]: https://github.com/mirland/supabase-offline-support-with-stock/commit/b46cb20f22453448718b85fcd63b811ad51afd11
-[ref_stock_implementation]: hhttps://github.com/mirland/supabase-offline-support-with-stock/commit/0492f2d257e93333bd343e303cd597eb9d80554a#diff-f3374e5f8e848d41b528d205b7a44d6d2642049a5f7a5c78d51b74f0116596f2R6
+[ref_stock_implementation]: https://github.com/mirland/supabase-offline-support-with-stock/commit/0492f2d257e93333bd343e303cd597eb9d80554a#diff-f3374e5f8e848d41b528d205b7a44d6d2642049a5f7a5c78d51b74f0116596f2R6
 [ref_project_entity]: https://github.com/mirland/supabase-offline-support-with-stock/commit/baccd9463d6703cb10df69e6cb13e21950e028f6#diff-fc21a29884a4f9313eb6bd5bc24aad30604d0de4d096488d739035aa2356850aR3
 [ref_supabase_implementation]: https://github.com/mirland/supabase-offline-support-with-stock/commit/f4fcea6036e82dbfa4b53afd28378ed63098f1d4
 [repository_blog]: https://davidserrano.io/data-layer-in-flutter-use-the-repository-pattern-to-keep-a-local-copy-of-your-api-data
