@@ -6,9 +6,10 @@ author: Matías Irland
 tags: [stock, supabase, fluter, firebase, firebase real-time database]
 author_id: mirland
 category: development
-featured_image: /images/image-completion/image-completion.png
+featured_image: /images/supabase-offline-suport/banner.png
 permalink: /blog/supabase-offline-support-with-stock/
 ---
+<!-- TODO: change banner -->
 
 [Supabase] is one of the most well-known open-source [Firebase] alternatives.
 Although Supabase implements many Firebase features, one that I constantly crave is Flutter's **offline support for the real-time database**. 
@@ -33,7 +34,7 @@ In our case, we'll use [Floor] because it's simple and has many features.
 If you'd prefer to use another one, there are a bunch of alternatives, such as [Drift] or [Realm], you can use.
 
 
-METER IMAGEN DE COMO QUEDA LA
+<img width="100%" src="/images/supabase-offline-suport/arch_overview.png" />
 
 We will use a `StatefulWidget` to display the data to simplify this Project. 
 However, in an actual project, you should use a state management package, like [Bloc] or [Provider].
@@ -45,7 +46,12 @@ As mentioned, we want to build an app that displays Xmartlabs' Open Source proje
 Here's how it will look:
 
 
-ADD GIF
+
+<!-- TODO: change video -->
+<div style="text-align: center">
+    <img  height="500px" width="auto" src="/images/supabase-offline-suport/sample_app.gif" />
+</div>
+
 
 First, we have to create a new Flutter project and the Project's entity.
 
@@ -59,7 +65,7 @@ class Project extends Equatable {
   final String imageUrl;
   final String language;
 
-  // TODO: Add constuctor, define props for equals and hascode and add `fromJson` method
+  // TODO: Add constuctor, define props for equals and hashcode and add `fromJson` method
 }
 ```
 
@@ -71,7 +77,7 @@ Supabase setup is not complex, and there are [good tutorials][supabase_tutorial]
 In this case, I created a Supabase free project which contains only one table, `projects`.
 This table is where the metadata for Xmartlabs' open-source projects will be stored.
 
-AGREGAR IMAGEN DE LA TABLA
+<img width="100%" src="/images/supabase-offline-suport/supabase_table.png" />
 
 Then I included the `supabase_flutter` package in the Flutter project.
 I initialized the Supabase client and created the `ProjectSupabaseRemoteSource` with only one method that gets a `Stream` of projects using the Real Time Database.
@@ -150,8 +156,8 @@ However, this is the most exciting part, where we have to combine different data
 **We will use [Stock]**, a dart package whose primary function is to combine these sources.
 We need to provide stock two essential classes:
 - `Fetcher`: a class to fetch the network data. Stock provides two types of fetchers.
-- - - `Stream`, ideal for this case, in which we use the Real Time Database.
-- - - `Future`, used, for example, if you are consuming a REST API.
+  - `Stream`, ideal for this case, in which we use the Real Time Database.
+  - `Future`, used, for example, if you are consuming a REST API.
 - `SourceOfTruth`: a class that can store the fetched data in a local cache. In our case, the local cache is our [Floor] database.
 
 Two types define these classes:
@@ -260,6 +266,16 @@ class _OssProjectsPageState extends State<OssProjectsPage> {
   }
 }
 ```
+
+And this is the end result!
+
+<!-- TODO: change video -->
+<div style="text-align: center">
+    <img  height="500px" width="auto" src="/images/supabase-offline-suport/final_sample_app.gif" />
+</div>
+
+As you can see, the OSS projects are displayed fast, and there's no difference between online and offline.
+
 
 The complete example is on [GitHub](https://github.com/mirland/supabase-offline-support-with-stock/), so go ahead and check it out!
 
