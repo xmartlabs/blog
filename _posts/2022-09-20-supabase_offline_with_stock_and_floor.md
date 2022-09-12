@@ -14,7 +14,7 @@ permalink: /blog/supabase-offline-support-with-stock/
 [Supabase] is one of the most well-known open-source [Firebase] alternatives.
 Although Supabase implements many Firebase features, one that I constantly crave is Flutter's **offline support for the real-time database**. 
 
-In this blog post, we’ll cover how you can use a local database as a [Supabase] cache using [Stock], a dart package that combines multiple data sources and gets one data `Stream`.
+In this blog post, we’ll cover how you can use a local database as a [Supabase] as a cache using [Stock], a dart package that combines multiple data sources and gets one data `Stream`.
 However, you can apply these concepts and ideas to diverse situations, such as adding offline support when using a Rest API.
 
 To show how we can achieve that, we'll create a simple app that lists all of Xmartlabs' open-source projects, demonstrating how [Stock] helps us get excellent results.
@@ -65,7 +65,7 @@ class Project extends Equatable {
   final String imageUrl;
   final String language;
 
-  // TODO: Add constuctor, define props for equals and hashcode and add `fromJson` method
+  // Ommited: Add constuctor, define props for equals and hashcode and add `fromJson` method
 }
 ```
 
@@ -192,7 +192,7 @@ With that `Stream`, we are ready to display the data and status in the UI.
 
 Inspect the full implementation [in this commit][ref_stock_implementation].
 
-### Part 4: Handle stock responses
+## Step 4: Handle stock responses
 
 In this last part, we'll handle the three different response types: the error, the data, and the loading state. 
 To do that we will handle the responses in a `StatefulWidget`
