@@ -16,16 +16,16 @@ Although Supabase implements many Firebase features, one that I constantly crave
 In this blog post, we’ll cover how you can use a local database as a [Supabase] cache through [Stock], a dart package that combines multiple data sources and gets one data `Stream`.
 However, you can apply these concepts and ideas to diverse situations, such as adding offline support when using a Rest API.
 
-To show how we can achieve that, we'll create a simple app that lists all of Xmartlabs' open-source projects, demonstrating how [Stock] helps us get excellent results.
+To show how we can achieve that, we'll create a simple app that lists all of Xmartlabs' open-source projects, demonstrating how [Stock] helps us achieve excellent results.
 
 # Architecture Overview
 
 Although we want to build a simple app, we'll use the repository pattern, one of the most used patterns in Flutter nowadays.
 If you don't know about it, I suggest checking out [this blog][repository_blog].
 
-We will have two data sources, a remote and a local data source, which [Stock] will combine in the repository.
+We'll have two data sources, a remote and a local data source, which [Stock] will combine in the repository.
 
-Because we want to use the real-time database, we'll use the [Supabase fluter package].
+Because we want to use the real-time database, we'll use the [Supabase Flutter package].
 Although the package provides many features, you can use Supabase as a REST API.
 
 Your local database will store this data.
@@ -51,7 +51,7 @@ Here's how it will look:
 </div>
 
 
-First, we have to create a new Flutter project and the Project's entity.
+First, we have to create a new Flutter project and the project's entity.
 
 
 ```dart
@@ -152,7 +152,7 @@ We created one entity and a couple of data sources.
 However, this is the most exciting part, where we have to combine different data sources to get only one stream that contains the OSS projects.
 
 **We will use [Stock]**, a dart package whose primary function is to combine these sources.
-We need to provide stock two essential classes:
+We need to provide Stock with two essential classes:
 - `Fetcher`: a class to fetch the network data. Stock provides two types of fetchers.
   - `Stream`, ideal for this case, in which we use the Real Time Database.
   - `Future`, used, for example, if you are consuming a REST API.
@@ -279,13 +279,13 @@ The complete example is on [GitHub](https://github.com/mirland/supabase-offline-
 # Conclusion
 
 This blog analyzed how we can integrate offline support easily to Supabase.
-Furthermore, if we replace [Supababse] with another provider or simply use a rest API, the code will be the same. 
+Furthermore, if we replace [Supabase] with another provider or simply use a rest API, the code will be the same. 
 So if your data layer changes, you don't have to make any changes to your presentation layer, which is one of the essential aspects of this architecture.
 
 In my experience, offline support moves app experience to the next level.
-You can remove ugly spinners and give feedback to the user instantaneously. So making an effort to achieve it is worth it. 
+You can remove ugly spinners and give feedback to the user instantly. So making an effort to achieve it is worth it. 
 
-We also had a glimpse of how [Stock] helped us to achieve this feature.
+We also had a glimpse of how [Stock] helped us to get this feature.
 The package did the most challenging tasks, such as synchronizations, state reporting, and data storing, allowing the app to run extremely fast.
 
 I encourage you to try it out and share your feedback and contributions!
