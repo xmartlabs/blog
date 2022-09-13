@@ -267,7 +267,6 @@ class _OssProjectsPageState extends State<OssProjectsPage> {
 
 And this is the end result!
 
-<!-- TODO: change video -->
 <div style="text-align: center; margin-bottom: 15px;">
     <img height="500px" width="auto" src="/images/supabase-offline-suport/final_sample_app.gif" />
 </div>
