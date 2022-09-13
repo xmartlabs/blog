@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Get Flutter's offline support in Supabase
-date: '2022-08-19T10:00:00.000-03:00'
+date: '2022-09-13T10:00:00.000-03:00'
 author: Matías Irland
-tags: [stock, supabase, flutter, firebase, firebase real-time database]
+tags: [stock, supabase, flutter, firebase, firebase real-time database, dart, pub, package, plugin, stream, database, drift, realm, floor]
 author_id: mirland
 category: development
 featured_image: /images/supabase-offline-suport/banner.png
-permalink: /blog/supabase-offline-support-with-stock/
+permalink: /blog/get-flutter-offline-support-in-supabase/
 ---
-<!-- TODO: change banner -->
 
 [Supabase] is one of the most well-known open-source alternatives to [Firebase].
 Although Supabase implements many Firebase features, one that I constantly crave is **offline support for the real-time database**. 
@@ -47,8 +46,7 @@ Here's how it will look:
 
 
 
-<!-- TODO: change video -->
-<div style="text-align: center">
+<div style="text-align: center; margin-bottom: 15px;">
     <img  height="500px" width="auto" src="/images/supabase-offline-suport/sample_app.gif" />
 </div>
 
@@ -270,8 +268,8 @@ class _OssProjectsPageState extends State<OssProjectsPage> {
 And this is the end result!
 
 <!-- TODO: change video -->
-<div style="text-align: center">
-    <img  height="500px" width="auto" src="/images/supabase-offline-suport/final_sample_app.gif" />
+<div style="text-align: center; margin-bottom: 15px;">
+    <img height="500px" width="auto" src="/images/supabase-offline-suport/final_sample_app.gif" />
 </div>
 
 As you can see, the OSS projects are displayed fast, and there's no difference between online and offline.
