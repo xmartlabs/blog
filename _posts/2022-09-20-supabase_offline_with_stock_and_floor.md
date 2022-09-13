@@ -3,7 +3,7 @@ layout: post
 title: Get Flutter's offline support in Supabase
 date: '2022-08-19T10:00:00.000-03:00'
 author: Matías Irland
-tags: [stock, supabase, fluter, firebase, firebase real-time database]
+tags: [stock, supabase, flutter, firebase, firebase real-time database]
 author_id: mirland
 category: development
 featured_image: /images/supabase-offline-suport/banner.png
@@ -11,10 +11,10 @@ permalink: /blog/supabase-offline-support-with-stock/
 ---
 <!-- TODO: change banner -->
 
-[Supabase] is one of the most well-known open-source [Firebase] alternatives.
-Although Supabase implements many Firebase features, one that I constantly crave is Flutter's **offline support for the real-time database**. 
+[Supabase] is one of the most well-known open-source alternatives to [Firebase].
+Although Supabase implements many Firebase features, one that I constantly crave is **offline support for the real-time database**. 
 
-In this blog post, we’ll cover how you can use a local database as a [Supabase] as a cache using [Stock], a dart package that combines multiple data sources and gets one data `Stream`.
+In this blog post, we’ll cover how you can use a local database as a [Supabase] cache through [Stock], a dart package that combines multiple data sources and gets one data `Stream`.
 However, you can apply these concepts and ideas to diverse situations, such as adding offline support when using a Rest API.
 
 To show how we can achieve that, we'll create a simple app that lists all of Xmartlabs' open-source projects, demonstrating how [Stock] helps us get excellent results.
