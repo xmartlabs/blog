@@ -291,7 +291,7 @@ You can remove ugly spinners and give feedback to the user instantaneously. So m
 We also had a glimpse of how [Stock] helped us to achieve this feature.
 The package did the most challenging tasks, such as synchronizations, state reporting, and data storing, allowing the app to run extremely fast.
 
-I encourage you to try it out and share your feedback!
+I encourage you to try it out and share your feedback, and of course, you are welcome to contribute to it!
 
 [Bloc]: https://pub.dev/packages/bloc
 [Drift]: https://pub.dev/packages/drift
