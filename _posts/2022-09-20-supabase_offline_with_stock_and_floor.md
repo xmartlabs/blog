@@ -108,7 +108,7 @@ You can see the full Supabase integration [in this commit][ref_supabase_implemen
 
 ## Step 2: Local Source - Local Database setup
 
-On Flutter, we have a bunch of database alternatives, for this app, we'll use [Floor].
+In this example, we'll use [Floor], a simple and powerful Data Base in Flutter.
 
 Usually, we use separate entities for database and service, depending on your Project's complexity.
 In this case, we'll use the same [Project][ref_project_entity] entity instead of different ones. 
