@@ -211,6 +211,7 @@ div.header {
     }
     .featured-post {
       height: 200px;
+      background-position-x: 0;
       @include media-query($on-palm) {
         height: 200px;
       }
