@@ -5,17 +5,30 @@ $pink: #d91965;
 $light-grey: #a0a0a0;
 $lighter-grey: #ececec;
 $grey: #525252;
-$body: 'Graphik', sans-serif;
-$title-font-family: 'Libre Baskerville', sans-serif;
+$body-font-family: 'Work Sans', sans-serif;
+$body-font-weight: 300;
+$title-font-family: 'Girloy', sans-serif;
 
 header {
   .container{
     &:before, &:after {
       display: none;
     }
+    text-align: left;
   }
 }
 
+.header {
+  .container {
+    text-align: left;
+  }
+  padding-top: 165px;
+}
+
+body {
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+}
 
 a {
   color: $black;
@@ -47,14 +60,14 @@ a {
 }
 
 div.header {
-  font-family: $body;
+  font-family: $body-font-family;
   background-color: $white;
   text-align: center;
   color: $black;
   background-size: cover;
   .header-title {
 
-    font-family: $body;
+    font-family: $body-font-family;
     font-size: 48px;
     font-weight: bold;
     font-stretch: normal;
@@ -65,7 +78,7 @@ div.header {
   }
   .header-subtitle {
 
-    font-family: $body;
+    font-family: $body-font-family;
     font-size: 32px;
     font-weight: normal;
     font-stretch: normal;
@@ -73,6 +86,7 @@ div.header {
     line-height: normal;
     letter-spacing: 0.61px;
     color: $black;
+    padding-bottom: 30px;
     @include media-query($on-palm) {
       font-size: 20px;
     }
@@ -178,14 +192,14 @@ div.header {
   position: relative;
   z-index: 1;
   background-color: #FFFFFF;
-  margin-top: 100px;
+  // margin-top: 100px;
 }
 
 .featured-container {
   max-width: $content-width;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 15px;
+  padding: 0 0px;
   flex-direction: column;
   .bottom-row {
     margin-top: 10px;
@@ -272,14 +286,14 @@ div.header {
 
 a.blog-category {
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
   display: block;
-  margin-bottom: 10px;
-  font-family: $body;
+  margin-bottom: 3px;
+  font-family: $body-font-family;
   @include media-query($on-palm) {
     font-size: 13px;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
 }
 
@@ -290,12 +304,10 @@ a.blog-category {
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.34;
   letter-spacing: normal;
-  margin-top: 10px;
+  margin-top: 0px;
   @include media-query($on-palm) {
     font-size: 23px;
-    letter-spacing: 2px;
     margin-top: 0;
   }
 }
@@ -305,9 +317,9 @@ article.post-item {
     color: $black;
   }
   .author {
-    font-family: $body;
-    font-size: 14px;
-    font-weight: normal;
+    font-family: $body-font-family;
+    font-size: 13px;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -317,13 +329,14 @@ article.post-item {
   padding: 30px 50px 30px 30px;
   .post-time-info {
     text-align: left;
-    font-family: $body;
-    margin-bottom: 10px;
-    font-size: 14px;
+    font-family: $body-font-family;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: normal;
     @include media-query(767px) {
       font-size: 1.1em;
       text-align: left;
-      margin-bottom: 6px;
+      margin-bottom: 0px;
     }
   }
   .post-info {
@@ -333,12 +346,10 @@ article.post-item {
       font-size: 1.2em;
     }
     p {
-      font-family: $body;
+      font-family: $body-font-family;
       font-size: 18px;
-      font-weight: normal;
       font-stretch: normal;
       font-style: normal;
-      line-height: 1.5;
       letter-spacing: 0.34px;
       margin-bottom: 20px;
       @include media-query($on-palm) {
@@ -351,7 +362,7 @@ article.post-item {
   }
   .read-more {
     color: $blue;
-    font-family: $body;
+    font-family: $body-font-family;
     font-size: 1.4em;
     font-weight: 300;
     letter-spacing: .02em;
@@ -374,12 +385,13 @@ article.post-item {
 }
 
 .page-content {
-  margin-top: 10px;
+  // margin-top: 150px;
   position: relative;
   z-index: 1;
   background-color: #FFFFFF;
   padding: 0;
   padding-bottom: 70px;
+  padding-top: 150px;
 }
 
 .page-heading {
@@ -411,7 +423,7 @@ article.post-item {
     background-color: $pink;
     color: white;
     border-radius: 5px;
-    font-family: $body;
+    font-family: $body-font-family;
     font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
@@ -463,7 +475,7 @@ article.post-item {
   .post-author-info {
     float: left;
     width: 50%;
-    font-family: $body;
+    font-family: $body-font-family;
     font-size: 16px;
     .post-author-image {
       width: 90px;
@@ -476,7 +488,7 @@ article.post-item {
     }
     .post-author {
       margin-top: 20px;
-      font-family: $body;
+      font-family: $body-font-family;
       font-size: 14px;
       font-weight: normal;
       font-stretch: normal;
@@ -504,10 +516,10 @@ article.post-item {
       margin-left: 20px;
       width: 280px;
       color: $black;
-      font-family: $body;
+      font-family: $body-font-family;
       padding: 40px 30px 70px 30px;
       .lets-talk-text {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
       }
       p {
@@ -522,7 +534,7 @@ article.post-item {
         background-color: $pink;
         color: white;
         border-radius: 5px;
-        font-family: $body;
+        font-family: $body-font-family;
         font-size: 1.5em;
         font-weight: bold;
         text-transform: uppercase;
@@ -553,7 +565,7 @@ article.post-item {
     width: 70%;
     .post-footer {
       .dots {
-        font-family: $body;
+        font-family: $body-font-family;
         color: $black;
         letter-spacing: 15px;
       }
@@ -582,10 +594,10 @@ article.post-item {
   color: $black;
   font-size: $text-size;
   line-height: $line-height;
-  font-family: $body;
+  font-family: $body-font-family;
   letter-spacing: 0.34px;
   p {
-    font-family: $body;
+    font-family: $body-font-family;
     margin-bottom: 1.4em;
     font-size: 16px;
     line-height: 1.7;
@@ -698,7 +710,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: $white;
-  font-family: $body;
+  font-family: $body-font-family;
   font-size: 2em;
 
   span {
@@ -730,16 +742,4 @@ footer {
 .column-image {
   flex: 50%;
   padding: 5px;
-}
-
-.h1 {
-  text-transform: uppercase;
-}
-
-.h2 {
-  text-transform: uppercase;
-}
-
-.h3 {
-  text-transform: uppercase;
 }

@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="featured-container">
+    <div class="featured-container container">
       {% for post in displayPosts limit:1 offset:0 %}
       {% assign category = site.data.categories[post.category] %}
       {% assign author = site.data.authors[post.author_id] %}
