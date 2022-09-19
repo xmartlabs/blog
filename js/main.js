@@ -54,4 +54,14 @@ $(document).ready(function() {
         dropdown_list.css('display', 'flex');
     }
   });
+
+  $(window).on('scroll', function() {
+    if ($(window).scrollTop() >=  $('.disqus-section').first().offset().top - window.innerHeight) {
+      $('.lets-talk').fadeOut();
+    }
+    else {
+      $('.lets-talk').fadeIn();
+    }
+  });
+
 });
