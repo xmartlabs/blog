@@ -141,10 +141,10 @@ div.header {
           line-height: 26px;
           margin-top: 2px;
         }
-         padding: 30px 20px 30px 10px;
-         @include media-query($on-palm) {
-           padding: 15px 0px 30px 0px;
-         }
+        padding: 30px 20px 30px 10px;
+        @include media-query($on-palm) {
+          padding: 15px 0px 30px 0px;
+        }
       }
     }
     .featured-column:last-of-type {
@@ -311,6 +311,7 @@ a.blog-category {
   margin-top: 0px;
   @include media-query($on-palm) {
     font-size: 23px;
+    line-height: 33px;
     margin-top: 0;
   }
 }
@@ -374,7 +375,7 @@ article.post-item {
     }
   }
   @include media-query($on-palm) {
-    padding: 20px;
+    padding: 20px 0px;
   }
 }
 
@@ -395,6 +396,9 @@ article.post-item {
   padding: 0;
   padding-bottom: 70px;
   padding-top: 150px;
+  @include media-query($on-palm) {
+    padding-top: 100px;
+  }
 }
 
 .padding-top-10 {
