@@ -55,13 +55,16 @@ $(document).ready(function() {
     }
   });
 
-  $(window).on('scroll', function() {
-    if ($(window).scrollTop() >=  $('.disqus-section').first().offset().top - window.innerHeight) {
-      $('.lets-talk').fadeOut();
-    }
-    else {
-      $('.lets-talk').fadeIn();
-    }
-  });
+  var disqusDiv = $('.disqus-section');
+  if (disqusDiv.length){
+    $(window).on('scroll', function() {
+      if ($(window).scrollTop() >=  disqusDiv.first().offset().top - window.innerHeight) {
+        $('.lets-talk').fadeOut();
+      }
+      else {
+        $('.lets-talk').fadeIn();
+      }
+    });
+  }
 
 });

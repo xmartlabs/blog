@@ -120,7 +120,4 @@ Smart Spraying works similarly to the solution described throughout the post. By
 
 More custom solutions sometimes adapt better to systems you already have in place. Furthermore, tagging images from your field itself would be convenient because the types of plants and weeds vary in each case. A custom image library that was verified by people working the fields could be even more accurate than a ready-made solution.
 
-<aside>
 👉 Improve your overall performance: save costs and materials by integrating AI technology into your process. Contact us [here](https://form.typeform.com/to/D1PhDJIR).
-
-</aside>
