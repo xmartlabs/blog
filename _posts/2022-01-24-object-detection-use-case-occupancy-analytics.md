@@ -143,7 +143,7 @@ Although this is an object detection blog, you can use any pose estimation model
 
 We won't go too deep into the topic in this post, but to sum it up, most pose estimation models tend to be slower than object detection. That's because the pose estimation problem is more complex and requires higher resolution work.
 
-In Lanthorn, the pose estimation models supported are openpipaf ([https://github.com/openpifpaf/openpifpaf](https://github.com/openpifpaf/openpifpaf))  and posenet ([https://github.com/tensorflow/tfjs-models/tree/master/posenet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)). 
+In Lanthorn, the pose estimation models supported are [openpifpaf](https://github.com/openpifpaf/openpifpaf) and [posenet](https://github.com/tensorflow/tfjs-models/tree/master/posenet). 
 
 ## Model comparison in Lanthorn
 
