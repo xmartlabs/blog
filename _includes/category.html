@@ -3,7 +3,7 @@
 {{category}}
 <div class="list-container">
     <div class="header">
-      <div class="scrim-layer">
+      <div class="featured-container container">
         <h1 class="header-title">Xmartlabs Blog </h1>
         <h4 class="subtitle header-subtitle">
           {{ category.title }}
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="featured-container">
+    <div class="featured-container container">
       {% for post in displayPosts limit:1 offset:0 %}
       {% assign category = site.data.categories[post.category] %}
       {% assign author = site.data.authors[post.author_id] %}
@@ -104,7 +104,7 @@
 
   <!-- {% include featured.html %} -->
 
-  <div class="page-content">
+  <div class="page-content padding-top-10">
     <div class="container">
       <div class="home">
         <h1 class="page-heading">
