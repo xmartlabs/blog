@@ -138,8 +138,10 @@ div.header {
       .post-item {
         .post-title  {
           font-size: 20px;
+          line-height: 26px;
+          margin-top: 2px;
         }
-         padding: 30px 20px 30px 20px;
+         padding: 30px 20px 30px 10px;
          @include media-query($on-palm) {
            padding: 15px 0px 30px 0px;
          }
@@ -210,7 +212,7 @@ div.header {
     .featured-column {
       flex: 50%;
       .post-item {
-         padding: 30px 20px 30px 20px;
+         padding: 30px 20px 30px 10px;
          @include media-query($on-palm) {
            padding: 15px 0px 30px 0px;
          }
@@ -301,6 +303,7 @@ a.blog-category {
   color: $black;
   font-family: $title-font-family;
   font-size: 32px;
+  line-height: 40px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -326,7 +329,7 @@ article.post-item {
     letter-spacing: normal;
   }
   display: block;
-  padding: 30px 50px 30px 30px;
+  padding: 30px 20px 30px 10px;
   .post-time-info {
     text-align: left;
     font-family: $body-font-family;
@@ -392,6 +395,10 @@ article.post-item {
   padding: 0;
   padding-bottom: 70px;
   padding-top: 150px;
+}
+
+.padding-top-10 {
+  padding-top: 10px;
 }
 
 .page-heading {
@@ -605,6 +612,7 @@ article.post-item {
   h1 {
     font-family: $title-font-family;
     font-size: 30px;
+    line-height: 40px;
     margin-top: 35px;
     margin-bottom: 23px;
     @include media-query($on-laptop) {
@@ -619,7 +627,8 @@ article.post-item {
   }
   h2 {
     font-family: $title-font-family;
-    font-size: 29px;
+    font-size: 28px;
+    line-height: 38px;
     margin-top: 30px;
     margin-bottom: 20px;
     @include media-query($on-laptop) {
@@ -631,6 +640,7 @@ article.post-item {
     font-size: 22px;
     margin-top: 25px;
     margin-bottom: 16px;
+    line-height: 32px;
     @include media-query($on-laptop) {
       font-size: 22px;
     }
