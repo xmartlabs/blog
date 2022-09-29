@@ -6,7 +6,6 @@ author: Ezequiel Santiago Sanchez
 tags: [Xmartlabs, Swift, iOS, Eureka, Form]
 author_id: esanchez
 markdown: redcarpet
-show: true
 category: people-events
 permalink: /:year/:month/:day/:title/
 ---

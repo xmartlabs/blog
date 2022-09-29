@@ -6,7 +6,6 @@ author: XL Team
 tags: [Xmartlabs, AR]
 author_id: xl
 banner_message: Interested in how AR can help your company?
-show: true
 category: development
 permalink: /:year/:month/:day/:title/
 ---

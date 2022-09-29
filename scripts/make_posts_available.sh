@@ -9,7 +9,4 @@ for file in _posts/*.md ; do
 	if [ $post_date -ge $now_date ]; then
 		sed -i 's/date: .*/date: '"$(date '+%Y-%m-%d')"' 00:00:00/g' "$file"
 	fi
-
-	# Display hidden posts
-	sed -i 's/show: false/show: true/g' "$file"
 done

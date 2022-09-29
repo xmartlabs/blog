@@ -6,7 +6,6 @@ author: Rodrigo Baya
 tags: [Xmartlabs, Data analysis, Data warehouse]
 author_id: pbt
 featured_image: /images/redshift-snowflake/data_center_cloud.jpg
-show: true
 category: development
 permalink: /:year/:month/:day/:title/
 ---

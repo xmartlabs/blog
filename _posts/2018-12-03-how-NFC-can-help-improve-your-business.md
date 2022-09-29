@@ -5,7 +5,6 @@ date: 2018-12-03 09:00:00
 author: Felipe de León
 tags: [Xmartlabs, NFC]
 author_id: felipe
-show: true
 category: development
 permalink: /:year/:month/:day/:title/
 ---

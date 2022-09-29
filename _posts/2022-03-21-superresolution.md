@@ -4,7 +4,6 @@ title: From Low to High-Quality Image — Practical Application of Super-Resolut
 date: '2022-03-22T10:00:00.000-03:00'
 tags: [Xmartlabs, 10 years Xmartlabs, 10 lessons learned in tech industry, 10 years in tech industry]
 author_id: lazaro
-show: true
 category: machine-learning
 featured_image: /images/ml-superresolution/Superresolution-blog.jpg
 permalink: /blog/machine-learning-super-resolution-algorithms/
@@ -38,7 +37,7 @@ The metrics used for measuring image quality are vital. Although there are sever
 
 **Structural similarity index (SSIM):** This metric compares the reference image's contrast, luminescence, and structural details with the reference image. This method is unstable in cases where the variance or luminescence of the reference image is low; therefore, in medical imaging, for example, this metric could have inconsistent results.
 
-![Untitled](/images/ml-superresolution//Untitled%201.png)
+![Untitled](/images/ml-superresolution/Untitled%201.png)
 
 ## **Structures and description of SR algorithms**
 

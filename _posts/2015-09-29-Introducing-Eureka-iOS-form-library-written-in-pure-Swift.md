@@ -5,7 +5,6 @@ date: '2015-09-29T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [Xmartlabs, Eureka, Forms]
 author_id: mtnBarreto
-show: true
 category: ios-development
 permalink: /:year/:month/:day/:title/
 ---

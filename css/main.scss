@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 
-$font-family: 'Graphik', sans-serif;
+$font-family: 'Work Sans', sans-serif;
 $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
@@ -29,7 +29,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    950px;
+$content-width:    1000px;
 $md-content-width: 728px;
 
 $on-device:        620px;

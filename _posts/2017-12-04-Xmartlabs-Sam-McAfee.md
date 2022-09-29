@@ -6,7 +6,6 @@ author: XL Team
 author_id: xl
 tags: [Xmartlabs, Design, Product, Sprint]
 markdown: redcarpet
-show: true
 category: product-design
 permalink: /:year/:month/:day/:title/
 ---

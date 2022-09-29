@@ -5,13 +5,6 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} | Xmartlabs Blog{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 320 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{{ page.tags | join: ', '  }}">
-  {% if page.show %}
-  {% else %}
-    {% if page.dir != "/" %}
-    <meta name="robots" content="noindex">
-    {% endif %}
-  {% endif %}
-
   <!-- Social Images -->
   <!-- Ratio 2:1 -->
   {% if page.twitter_image %}
@@ -44,7 +37,7 @@
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 320 }}{% else %}{{ site.description }}{% endif %}">
 
 
-  <link rel="stylesheet" href="{{ "/css/main.css?id=12345678" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css?id=12345" | relative_url }}">
   <link rel="stylesheet" href="{{ "/css/xl4.webflow.0b1398f65.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url_blog }}">
   <meta name="Copyright" content="&copy; 2021 Xmartlabs" />
@@ -64,7 +57,4 @@
     });
   </script>
   {% endif %}
-  <!-- Gumo fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  
 </head>

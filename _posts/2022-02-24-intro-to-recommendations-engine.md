@@ -5,7 +5,6 @@ date: '2022-02-25T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [Recommendation Engine, Recommendation Systems, Recommendation engine challenges, How Recommendation system works]
 author_id: mtnBarreto
-show: true
 category: machine-learning
 featured_image: /images/recommendation-engines/RecEngine.jpg
 permalink: /blog/recommendations-engines-what-they-do-and-why-they-are-useful/
@@ -26,7 +25,7 @@ A product recommendation engine is the software component that analyzes data abo
 Modern Recommendation engines use AI and Deep Learning to infer personalized and contextual recommendations and constantly evaluate and improve their model results.
 
 
-## Why your platform needs a recommendation engine?
+## Why does my platform need a recommendation engine?
 
 Many businesses quickly understood the value and importance of solid recommendation systems. The number of clients coming to our Machine Learning team looking for one has made this shift clear. No matter your industry, in a time when online presence is everything, recommendation systems might be a game-changer for your business's platforms.
 
@@ -37,9 +36,9 @@ The main reason to adopt a recommendation engine is simple: **increasing your re
 
 
 
-<!-- ![Don't take our word for it, trust the numbers.](/images/recommendation-engines/REC-SYSTEMS.png) -->
+<!-- ![Trust the numbers.](/images/recommendation-engines/REC-SYSTEMS.png) -->
 
-> Is it worth investing in a recommendation system for my business? How much time or money will it take? Will I be able to see results quickly? Our experts can answer these and many other questions for you. [Schedule a free consultation call](https://xmartlabs.com/) to learn more opportunities you might be missing.
+> Is it worth investing in a recommendation system for my business? How much time or money will it take? Will I be able to see results quickly? [Schedule a free consultation call](https://xmartlabs.com/) with our team to answer these and many other questions.
 
 
 <figure>
@@ -146,6 +145,9 @@ There are no hard-coded rules in the most typical design; the deep learning mode
 
 [TensorFlow recommenders](https://www.tensorflow.org/recommenders) is a pretty popular ML framework in the industry that's worth checking out.
 
+> Discover the technology best suited for your use case. [Our team can help you](https://xmartlabs.com/) catch growth opportunities. 
+
+
 ## Challenges of building a Recommendation Engine (and how to address them)
 
 ### Choosing the right strategy
@@ -184,7 +186,7 @@ Certain platforms have a long list of items. eBay and Amazon, for instance, have
 
 This makes it difficult for the model to determine which items to recommend. A possible solution could be categorizing the items in families of products, reducing the possible items to recommend. The model suggests a product family to then choose an item within the family.
 
-### First-time users
+### It's a first-time user
 
 Making recommendations for first-time users involves extra complexity. Not having their personal preferences or tracked activity yet, makes show trending items and most purchased items the natural solution. Another possibility is to recommend products that other **new** users have interacted with first in the past. For instance, an online IoT store could recommend a Raspberry Pi and others edge devices as the system infers new users are primarily looking for them, but for older users, it could recommend gadgets to the Pi the user already has.
 
@@ -198,7 +200,7 @@ Deep Learning-based recommendation systems can learn these patterns by themselve
 
 The engineering team can tweak input or output data to generate better results or filter undesired items accordingly. 
 
-### Not able to measure outcomes
+### Not being able to measure outcomes
 
 If you can't measure it, you can't improve it. As simple as that!
 Recommendation systems must be measured with specific metrics to evaluate ROI, its success, and update the engine from time to time. 
@@ -207,20 +209,16 @@ Evaluating the business value of a recommendation system depends mainly on the c
 
 The most common metrics can be categorized as:
 
-**Click-throught rate**
-
+- **Click-throught rate**
 When an item is recommended and viewed... Was it clicked? How often? This strongly depends on where the recommended items are displayed, if there are more recommended items around, etc.
 
-**User behavior and engagement**
-
+- **User behavior and engagement**
 For a streaming platform, these metrics should show if the recommendation engine makes the audience spend more time watching series or movies or if there's an increase in the "Save to watch later" list? etc. 
 
-**Revenue Indicators**
-
+- **Revenue Indicators**
 Recommendations make users spend more money? Are users adding more items to the cart? Revenue indicators are great to measure overall RE performance. 
 
-**Adoption and conversion Rates**
-
+- **Adoption and conversion Rates**
 Click-through rates are okay, but we are also interested to know if these suggested items were purchased, added to the cart, or watched. This indicator reflects whether the recommendation engine is useful to the end-user or not. Otherwise, they can be interested in navigating to the recommendation item but never consume it, which is a waste of time for the user.
  
 

@@ -8,7 +8,7 @@ tags: [Xmartlabs, COVID-19, Mental Health, Physical Health]
 category: people-events
 author_id: fer-barrios
 featured_image: /images/dealing-with-covid/dealing-with-covid.jpg
-show: true
+
 permalink: /:year/:month/:day/:title/
 ---
 

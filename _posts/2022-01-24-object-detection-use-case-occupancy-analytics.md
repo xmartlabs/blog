@@ -5,7 +5,6 @@ date: '2022-01-26T10:00:00.000-03:00'
 author: Pablo Grill
 tags: [Object Detection, Computer Vision, Video Tracking, Machine Learning]
 author_id: pablog
-show: true
 category: machine-learning
 featured_image: /images/object-detection/ObjectDetecion_Blog.jpg
 permalink: /blog/computer-vision-and-object-detection-use-case/
@@ -28,9 +27,11 @@ To pivot the product, we included new metrics such as room occupancy, counter fo
 
 With these new metrics, Lanthorn managed to extend its original use case of space safety to others such as cost-saving, queue management improving, tailgating, and crowding detection. More importantly, all that was built using the original foundations: state-of-the-art object detection models.
 
+> Interested in this or any other use cases? [Schedule a call] (https://xmartlabs.com/) with our team and unveil more possibilities for your business. 
+
 # Video analytic’s privacy issue
 
-One of Lanthorn's main concerns was to protect users' privacy since, to gather analytics, Lanthorn consumes data from security cameras. With the privacy issue in mind, we built the solution using a hybrid approach, with a cloud server responsible for generating and distributing the metrics and multiple **local nodes** of processors (OSS software available in https://github.com/neuralet/smart-social-distancing) devices responsible for the video processing.
+One of Lanthorn's main concerns was to protect users' privacy since, to gather analytics, Lanthorn consumes data from security cameras. With the privacy issue in mind, we built the solution using a hybrid approach, with a cloud server responsible for generating and distributing the metrics and multiple **local nodes** of processors (OSS software available in [https://github.com/neuralet/smart-social-distancing](https://github.com/neuralet/smart-social-distancing)) devices responsible for the video processing.
 
 ![Screenshot from 2021-11-26 09-42-41.png](/images/object-detection/Screenshot_from_2021-11-26_09-42-41.png)
 
@@ -112,7 +113,7 @@ Bearing in mind the characteristics of the SSD neural networks and the Mobilenet
 
 In addition to the previous comment, Mobilenet SSD has the advantage of possessing multiple implementations already built for most of the Lanthorn-supported devices. Many of these implementations are optimized for the device and support several sizes, allowing different configurations. For example, the coral suite has a [public repository](https://coral.ai/models/) where you can download and easily use optimized models for those edge devices. In the Object Detection section, you can find the Mobilenet SDD and other object detection ones. There's also a repository with [openvino pre-trained models](https://docs.openvino.ai/latest/omz_models_group_public.html#) with some versions ([v1](https://docs.openvino.ai/latest/omz_models_model_ssd_mobilenet_v1_coco.html), [v2](https://docs.openvino.ai/latest/omz_models_model_ssd_mobilenet_v2_coco.html)) of Mobilenet SSD. If you have an X86 pc or a server with GPU, you'll probably use some of the already-built TensorFlow models that are available [here](https://www.tensorflow.org/lite/examples/object_detection/overview).
 
-With Lanthorn, some of the models used were created by the [Neuralet](https://neuralet.com/) team and are available in their public repository https://github.com/neuralet/models. These models are good for Lanthorn because each is optimized for the main devices supported by the product (jetson, coral, x86, gpus) as well as having different versions of Mobilenet SSD (v1, v2, pedestrian, and lite). You can choose the model that best fits your use case. For example:
+With Lanthorn, some of the models used were created by the [Neuralet](https://neuralet.com/) team and are available in their public repository [https://github.com/neuralet/models](https://github.com/neuralet/models). These models are good for Lanthorn because each is optimized for the main devices supported by the product (jetson, coral, x86, gpus) as well as having different versions of Mobilenet SSD (v1, v2, pedestrian, and lite). You can choose the model that best fits your use case. For example:
 
 - mobilenet_ssd_v2 with a high resolution can be used when high accuracy is desired.
 - A lighter model can be chosen if you don’t have much computing power but still need high performance.
@@ -142,7 +143,7 @@ Although this is an object detection blog, you can use any pose estimation model
 
 We won't go too deep into the topic in this post, but to sum it up, most pose estimation models tend to be slower than object detection. That's because the pose estimation problem is more complex and requires higher resolution work.
 
-In Lanthorn, the pose estimation models supported are openpipaf (https://github.com/openpifpaf/openpifpaf) and posenet ([https://github.com/tensorflow/tfjs-models/tree/master/posenet](https://github.com/tensorflow/tfjs-models/tree/master/posenet)). 
+In Lanthorn, the pose estimation models supported are [openpifpaf](https://github.com/openpifpaf/openpifpaf) and [posenet](https://github.com/tensorflow/tfjs-models/tree/master/posenet). 
 
 ## Model comparison in Lanthorn
 
@@ -171,7 +172,7 @@ Another comparison between the models we can highlight is regarding the accuracy
 
 This table shows the calculated number for the in/out metric put up against the real numbers (manually counted) for five videos clips of 1h duration. Similar to the performance table, we show the results for Lanthorn object detection models and one pose estimation (in *italics*).
 
-![Object Detection table.png](/images/object-detection//Object_Detection_table.png)
+![Object Detection table.png](/images/object-detection/Object_Detection_table.png)
 
 Well, let's analyze that table for a bit. The main thing that we can find is that the model with higher accuracy is openpipaf. We could expect this for several reasons. First of all, this model is pose estimation, which tends to be more accurate than the object detection models. Moreover, the resolution of that model is higher than the others, making it more precise. If we compare yolo and Mobilenet, we'll notice that yolo performs better. However, this is not a fair comparison because the resolution of both models is not the same.
 

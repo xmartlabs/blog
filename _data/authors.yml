@@ -79,7 +79,7 @@ xl:
   profile_url: https://github.com/xmartlabs
 felipe:
   display_name: Felipe de León
-  image: members/felipe.jpg
+  image: members/felipe.png
   github: f7deleon
   profile_url: https://github.com/f7deleon
 mlorenzo:
@@ -104,7 +104,7 @@ bruno:
   profile_url: https://github.com/FerrariBruno
 nicoh:
   display_name: Nicolas Hernandez
-  image: members/nicoh.png
+  image: members/nicoher.png
   github: nicoache1
   profile_url: https://github.com/nicoache1
 ceci:
@@ -130,7 +130,7 @@ renzo:
 fer-barrios:
   display_name: Fernanda Barrios
   image: members/fer-barrios.png
-  profile_url: https://www.linkedin.com/in/maría-fernanda-barrios-sánchez-560a08b1/
+  profile_url: https://www.linkedin.com/in/fernanda-barrios-560a08b1
 nicolantean:
   display_name: Nicolás Lantean
   image: members/nicolantean.jpg
@@ -181,3 +181,7 @@ alemachado:
   image: members/alemachado.jpeg
   github: mralejandro
   profile_url: https://www.linkedin.com/in/mralejandro/
+coti:
+  display_name: Coti Besozzi
+  image: members/coti.png
+  profile_url: https://www.linkedin.com/in/costanza-besozzi/

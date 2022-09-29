@@ -8,7 +8,7 @@ tags: [Xmartlabs, Deep Learning, Optimization]
 category: machine-learning
 author_id: renzo
 featured_image: /images/how-to-speed-up-inference-in-your-deep-learning-model/speed-up.jpg
-show: true
+
 permalink: /:year/:month/:day/:title/
 ---
 

@@ -5,7 +5,6 @@ date: '2022-03-29T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [applied Machine Learning, Machine Learning in Agriculture, deep learning for agriculture, production costs]
 author_id: vale
-show: true
 category: machine-learning
 featured_image: /images/farming-ml/MLAgriculture.jpg
 permalink: /blog/precision-agriculture-and-the-future-of-farming-with-machine-learning/
@@ -121,7 +120,4 @@ Smart Spraying works similarly to the solution described throughout the post. By
 
 More custom solutions sometimes adapt better to systems you already have in place. Furthermore, tagging images from your field itself would be convenient because the types of plants and weeds vary in each case. A custom image library that was verified by people working the fields could be even more accurate than a ready-made solution.
 
-<aside>
 👉 Improve your overall performance: save costs and materials by integrating AI technology into your process. Contact us [here](https://form.typeform.com/to/D1PhDJIR).
-
-</aside>

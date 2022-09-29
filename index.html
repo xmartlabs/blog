@@ -5,7 +5,7 @@ layout: default
 <div class="list-container">
   {% if page.dir == "/" %}
     <div class="header">
-      <div class="scrim-layer">
+      <div class="container">
         <h1 class="header-title">Xmartlabs Blog</h1>
         <h4 class="subtitle header-subtitle">
           Design. Engineering. Lessons learned on our journey.
@@ -16,14 +16,14 @@ layout: default
 
   {% include featured.html %}
 
-  <div class="page-content">
+  <div class="page-content padding-top-10">
     <div class="container">
       <div class="home">
         <h1 class="page-heading">
         </h1>
         <section>
           <ul class="post-list">
-            {% assign displayPosts = site.posts | where: 'show', true %}
+            {% assign displayPosts = site.posts %}
             {% for post in displayPosts offset:3 %}
               <li>
                 {% include post.html post=post %}

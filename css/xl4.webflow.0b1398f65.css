@@ -28,7 +28,6 @@ body {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  font-family: Gilroy, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
@@ -38,9 +37,7 @@ h1 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 64px;
-  line-height: 68px;
-  font-weight: 900;
-  text-transform: uppercase;
+  font-weight: 800;
 }
 
 h2 {
@@ -94,7 +91,7 @@ strong {
 
 .container {
   position: relative;
-  width: 85%;
+  width: 55%;
   max-width: 1300px;
 }
 
@@ -3321,7 +3318,6 @@ strong {
 .summary_title {
   color: #b1b1b1;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .summary_item {
@@ -3837,23 +3833,18 @@ strong {
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 48px;
-    line-height: 50px;
   }
   h2 {
     font-size: 38px;
-    line-height: 42px;
   }
   h3 {
     font-size: 26px;
-    line-height: 30px;
   }
   h4 {
     font-size: 16px;
-    line-height: 22px;
   }
   p {
     font-size: 14px;
-    line-height: 22px;
   }
   .container.is-flex {
     -webkit-box-orient: horizontal;
