@@ -42,7 +42,7 @@ The cache allows you to leverage the app experience, removing ugly loading indic
 On the other hand, having a stream that emits the data changes helps us improve our code, avoid issues, and have consistency in our app.
 
 Some services, like Supabase, provide a data stream.
-However, creating this stream might not be that straightforward if we use a remote srervice, like a Rest API.
+However, creating this stream might not be that straightforward if we use a remote service, like a Rest API.
 We can do it, but it could become a headache.
 With [Sock], getting a data stream is trivial, that's why you should consider adding it to your project.
 
