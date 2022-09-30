@@ -30,7 +30,7 @@ Furthermore, if you only use a remote source, Stock can be used as a local cache
 
 ## Should I consider caching the network data? 
 
-[Stock] exists because of the need to add a cache. It could be a memory or disk cache, but that's the point.
+[Stock] exists because of the need to add a cache. It could be a memory or disk cache, but it doesn't really matter which type are you using, instead it only matters the need of one.
 You may ask, do I need a cache in my app?
 
 From my perspective, that's an excellent question, and one that should be asked.
@@ -44,7 +44,7 @@ On the other hand, having a stream that emits the data changes helps us improve 
 Some services, like Supabase, provide a data stream.
 However, creating this stream might not be that straightforward if we use a remote service, like a Rest API.
 We can do it, but it could become a headache.
-With [Sock], getting a data stream is trivial, that's why you should consider adding it to your project.
+With [Stock], getting a data stream is trivial, that's why you should consider adding it to your project.
 
 
 ## How does it work?
