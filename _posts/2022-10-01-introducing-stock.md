@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Introducing stock
-date: '2022-09-01T10:00:00.000-03:00'
+date: '2022-10-05T10:00:00.000-03:00'
 author: Matías Irland
 tags: [stock, flutter, dart, pub, package, plugin, hacktoberfest]
 author_id: mirland
 category: development
-featured_image: /images/supabase-offline-suport/banner.png
+featured_image: /images/introducing-stock/banner.png
 permalink: /blog/introducing-stock/
 ---
 
@@ -26,7 +26,8 @@ A repository uses different data sources, we usually use a remote and a local da
 We created [Stock] to make this process smoother. It allows you to combine these data sources and get one data `Stream` containing its states.
 Furthermore, if you only use a remote source, Stock can be used as a local cache, improving your app experience in just a few lines of code.
 
-[IMAGEN ISA]
+<img width="100%" src="/images/introducing-stock/repository-pattern.jpg" />
+
 
 ## Should I consider caching the network data? 
 
