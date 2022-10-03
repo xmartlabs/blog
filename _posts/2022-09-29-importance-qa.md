@@ -6,7 +6,7 @@ author: Sofía Techera
 tags: [QA, quality assurance, Testing, Software Test]
 author_id: sofitechera
 category: development
-featured_image: /images/supabase-offline-suport/banner.png
+featured_image: /images/importance-qa/cover.png
 permalink: /blog/quality-assurance-development-process/
 ---
 
@@ -112,6 +112,10 @@ Having a "QA-driven philosophy" and efficient quality assurance methods in pla
 
 When it comes to quality, cutting corners won't do.
 Innovative digital products that want to make a difference shouldn't take any risks just for the sake of saving a bit of money now.
+
+Trust is also a central component of quality assurance.
+Without trust in the proper functioning of an app, customers probably won’t want to work with a software company again and definitely won’t refer it to others.
+Meanwhile, if users have no trust in an app's proper functioning and security, they will lose confidence and stop using or recommending it.
 
 At Xmartlabs, we are committed to the quality of all our products.
 We always recommend including a QA specialist in all projects to ensure we generate excellent and reliable results.
