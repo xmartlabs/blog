@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing stock
-date: '2022-10-05T10:00:00.000-03:00'
+date: '2022-10-05T09:00:00.000-03:00'
 author: Matías Irland
 tags: [stock, flutter, dart, pub, package, plugin, hacktoberfest]
 author_id: mirland
@@ -91,14 +91,12 @@ This state has 3 possible values:
   stock
       .stream(userId, refresh: true)
       .listen((StockResponse<List<Tweet>> stockResponse) {
-    if (stockResponse is StockResponseLoading) {
-      _displayLoadingIndicator();
-    } else if (stockResponse is StockResponseData) {
-      _displayTweetsInUI((stockResponse is StockResponseData).data);
-    } else {
-      _displayErrorInUi((stockResponse as StockResponseError).error);
-    }
-  });
+        stockResponse.when(
+          onLoading: (origin) => _displayLoadingIndicator(),
+          onData: (origin, data) => _displayTweetsInUI(data),
+          onError: (origin, error, stacktrace) => _displayErrorInUi(error),
+        );
+      });
 ```
 
 ## What's next?
