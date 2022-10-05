@@ -116,4 +116,4 @@ So go check it out, we welcome any feedback you have. If you like it, don't forg
 [stock_gh]: https://github.com/xmartlabs/stock
 [firebase_rtd]: https://firebase.google.com/docs/database
 [supabase]: https://supabase.com/
-[suppabase_blog]: https://lxmartlabs.com/blog/get-flutter-offline-support-in-supabase/
+[suppabase_blog]: https://blog.xmartlabs.com/blog/get-flutter-offline-support-in-supabase/
