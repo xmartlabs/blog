@@ -79,7 +79,7 @@ Then we can proceed to create the `Stock`, which will be used in the repository:
 ```
 
 Now that we've done the hardest work, how should you use it?
-Stock provides some methods to get the data, but the most important one is `steam()`. 
+Stock provides some methods to get the data, but the most important one is `stream()`. 
 It returns a `Stream` of data containing the data state. 
 
 This state has 3 possible values:
