@@ -36,7 +36,6 @@
   <meta name="twitter:title" content="{{ page.title }} | Xmartlabs Blog">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 320 }}{% else %}{{ site.description }}{% endif %}">
 
-
   <link rel="stylesheet" href="{{ "/css/main.css?id=12345" | relative_url }}">
   <link rel="stylesheet" href="{{ "/css/xl4.webflow.0b1398f65.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url_blog }}">
@@ -45,6 +44,7 @@
   {% include GTM_head.html %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/js/main.js"></script>
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1015680a3007c259370b6f4e9/d1d99830b33d13826f947dbb1.js");</script>
   {% if page.permalink == "/blog/machine-learning-super-resolution-algorithms/" %}
   <script src="/twentytwenty/js/jquery.event.move.js"></script>
   <script src="/twentytwenty/js/jquery.twentytwenty.js"></script>
@@ -52,8 +52,6 @@
   <script>
     $(window).on('load', function(){
       $(".twentytwenty-container").twentytwenty();
-        // $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
-        // $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
     });
   </script>
   {% endif %}
