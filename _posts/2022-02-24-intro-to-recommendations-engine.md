@@ -275,7 +275,7 @@ In the upcoming blog posts, we'll be going into details on how to implement them
 If you are considering leveraging recommendation engines...Don’t hesitate, get in touch to get a free consultation with our specialists. 
 
 <div>
-<a data-mode="popup" data-hide-footer="true" target="_blank" href="https://form.typeform.com/to/D1PhDJIR" class="button is-nav ipad-hidden typeform-share w-inline-block header-getintouch" style="opacity: 1;">
+<a data-mode="popup" data-hide-footer="true" target="_blank" href="https://form.typeform.com/to/c7G2RUWm" class="button is-nav ipad-hidden typeform-share w-inline-block header-getintouch" style="opacity: 1;">
   <div class="button-text no-pointer">Let's talk</div>
 </a>
 </div>
