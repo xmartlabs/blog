@@ -30,3 +30,7 @@ android-development:
   title: Android lessons learned on our journey.
   display_name: Android Development
   url: /category/android-development
+blockchain-development:
+  title: Web3.0 & blockchain lessons learned on our journey.
+  display_name: Web3.0 Development
+  url: /category/blockchain-development

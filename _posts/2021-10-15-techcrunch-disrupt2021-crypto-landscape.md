@@ -5,7 +5,7 @@ date: '2021-10-21T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [TechCrunch Disrupt 2021, Crypto Landscape, Crypto 2021, TC Disrupt Recap]
 author_id: mtnBarreto
-category: people-events
+category: blockchain-development
 featured_image: /images/tcd21-crypto-landscape/disrupt2021.png
 permalink: /blog/crypto-landscape-2021/
 ---
