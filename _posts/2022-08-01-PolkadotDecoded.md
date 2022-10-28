@@ -3,7 +3,7 @@ title: "Polkadot Decoded - What’s it like?"
 layout: post
 permalink: /blog/polkadot-decoded/ 
 date: '2022-08-05T10:00:00.000-03:00' 
-category: development
+category: blockchain-development
 tags:
   - Blockchain
   - Dotsama
