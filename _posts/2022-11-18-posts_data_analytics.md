@@ -6,7 +6,7 @@ author: Joaquín Sanchez
 tags: [big data, data analytics, business intelligence, data services]
 author_id: jsanchez
 category: development
-featured_image: /images/introducing-stock/banner.png
+featured_image: /images/data-analytics/data-analytics-cover.png
 permalink: /blog/data-analytics/
 ---
 
@@ -134,4 +134,4 @@ That's why we've developed three different lines of engagement within our data c
 
 Stop working for your data so the data can work for you!
 
-> 👉 **When can I start using big data in my business?** Contact us for more information about data analytics consultancy or big data consultancy possibilities.
+> 👉 **When can I start using big data in my business?** [Contact us](https://www.xmartlabs.com) for more information about data analytics consultancy or big data consultancy possibilities.
