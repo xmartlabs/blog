@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How your business can take advantage of Big Data
-date: '2022-13-14T09:00:00.000-03:00'
+date: '2022-11-18T09:00:00.000-03:00'
 author: Joaquín Sanchez
 tags: [big data, data analytics, business intelligence, data services]
 author_id: jsanchez
@@ -30,7 +30,9 @@ To take advantage of it, Big Data Analytics comes to play.
 It is the process to examine large amounts of data to uncover hidden patterns, trends, correlations, customer preferences, and more insights.
 After obtaining and cleaning the data, business analysts can work together with data analysts to use visualization tools and find these insights, leading to a more informed decision-making process.
 
-<imagen>
+
+<img width="100%" src="/images/data-analytics/Data-analytics1.png" />
+
 
 ## The Benefits of Using Big Data and Analytics 
 
@@ -40,7 +42,7 @@ Most of these cases involve some degree of business intelligence, data science, 
 Famously there are four types of data analytics: descriptive, diagnostic, predictive, and prescriptive.
 We will focus not on the specific types but on the results you might get from them.
 
-<imagen2>
+<img width="100%" src="/images/data-analytics/Data-analytics2.png" />
 
 ### Cutting Costs
 
@@ -53,6 +55,8 @@ A case study made by Jared Dean for the book **Big Data, Data Mining and Machine
 In this case study, the company used big data to process the information collected.
 They quickly found the source of the problem, enabling them to fix it as soon as possible and avoid more economic loss.
 
+<img width="100%" src="/images/data-analytics/Data-analytics3.png" />
+
 ### Create customer-centric experiences and retain clients
 
 Tracking clients’ behavior can help businesses focus on their customers, understand their wants and needs, and make business decisions based on facts instead of being focused on competitors.
@@ -62,7 +66,7 @@ Furthermore, they could find customers that have driven more revenue to send pro
 
 An example of this is Amazon, whose mission is to be “Earth's most customer-centric company” which has been one of the keys to its success.
 
-<imagen3>
+<img width="100%" src="/images/data-analytics/Data-analytics4.png" />
 
 ### Targeted Promotion
 
@@ -79,7 +83,7 @@ This gives you a chance to make updates based on each user interaction and make 
 This is market validation supported by Big Data. 
 If feedback collection is automated, a data pipeline could be set up to analyze customer reactions to each iteration and improve the product or service based on the information provided.
 
-<Imagen4>
+<img width="100%" src="/images/data-analytics/Data-analytics5.png" />
 
 ### Future Forecasts
 
@@ -111,7 +115,7 @@ They need to be aware of any budget, legal, or technical restrictions to comply 
 After that, an iterative process begins in which data engineers set up the infrastructure to run the required software while the data management process is developed.
 Business IT resources need to be ready to provide access to data sources or generate new ones.
 
-<imagen5>
+<img width="100%" src="/images/data-analytics/Data-analytics6.png" />
 
 ## How Big Data can create business opportunities
 
@@ -130,4 +134,4 @@ That's why we've developed three different lines of engagement within our data c
 
 Stop working for your data so the data can work for you!
 
-> 	:point_right: **When can I start using big data in my business?** Contact us for more information about data analytics consultancy or big data consultancy possibilities.
+> 👉 **When can I start using big data in my business?** Contact us for more information about data analytics consultancy or big data consultancy possibilities.
