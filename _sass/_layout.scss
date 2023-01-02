@@ -5,8 +5,10 @@ $pink: #d91965;
 $light-grey: #a0a0a0;
 $lighter-grey: #ececec;
 $grey: #525252;
+$selected-filter-color: #EE1a64;
 $body-font-family: 'Work Sans', sans-serif;
 $body-font-weight: 300;
+$bold-font-weight: 500;
 $title-font-family: 'Girloy', sans-serif;
 
 header {
@@ -188,6 +190,26 @@ div.header {
   @include media-query($on-palm) {
     flex-direction: column;
   }
+}
+
+.filters-container {
+  position: relative;
+  font-family: $body-font-family;
+  display: flex;
+  justify-content: space-between;
+  font-weight: $bold-font-weight;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.selected-filter {
+  box-sizing: border-box;
+  border: 1.5px solid $selected-filter-color;
+  border-radius: 20px
+}
+
+.filter {
+  padding: 5px 15px;
 }
 
 .list-container {

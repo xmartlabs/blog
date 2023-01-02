@@ -1,19 +1,25 @@
 ---
 layout: default
 ---
-
 <div class="list-container">
-  {% if page.dir == "/" %}
-    <div class="header">
-      <div class="container">
-        <h1 class="header-title">Xmartlabs Blog</h1>
-        <h4 class="subtitle header-subtitle">
-          Design. Engineering. Lessons learned on our journey.
-        </h4>
+  <div class="header">
+    <div class="container">
+      <div class="filters-container">
+        <a class="selected-filter filter">ALL</a>
+        <a class="filter" href="/mobile">MOBILE </a>
+        <a class="filter">WEB </a>
+        <a class="filter">DESIGN</a>
+        <a class="filter">BLOCKCHAIN </a>
+        <a class="filter">ML/AI</a>
       </div>
+      <h1 class="header-title">Xmartlabs Blog</h1>
+      <h4 class="subtitle header-subtitle">
+        Design. Engineering. Lessons learned on our journey.
+      </h4>
     </div>
-  {% endif %}
+  </div>
 
+  {% assign displayPosts = site.posts %}
   {% include featured.html %}
 
   <div class="page-content padding-top-10">
@@ -23,7 +29,6 @@ layout: default
         </h1>
         <section>
           <ul class="post-list">
-            {% assign displayPosts = site.posts %}
             {% for post in displayPosts offset:3 %}
               <li>
                 {% include post.html post=post %}
@@ -35,3 +40,14 @@ layout: default
     </div>
   </div>
 </div>
+
+<script>
+  $('.filters-container').on( 'click', 'a', function() {
+    var filterValue = $(this).attr('data-filter');
+   });
+   $('.filter').on('click', function(){
+      console.log('aber esto')
+      $('.filter').removeClass('selected-filter');
+      $(this).addClass('selected-filter');
+   });
+</script>
