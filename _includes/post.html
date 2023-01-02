@@ -1,4 +1,4 @@
-{% assign category = site.data.categories[post.category] %}
+{% assign category = site.data.categories[post.category.first] %}
 {% assign author = site.data.authors[post.author_id] %}
 <article class="post-item">
   <a href="{{ category.url | prepend: site.baseurl }}" class="blog-category"># {{ category.display_name}}</a>

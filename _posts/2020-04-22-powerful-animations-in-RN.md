@@ -5,7 +5,7 @@ excerpt: "Powerful animations with Reanimated. We will learn how to make powerfu
 date: 2020-04-27 10:00:00
 author: Nicolas Hernandez
 tags: [Xmartlabs, ReactNative, Animations, Javascript]
-category: development
+category: [mobile-development]
 author_id: nicoh
 featured_image: /images/powerful-animations-rn/featured.jpg
 

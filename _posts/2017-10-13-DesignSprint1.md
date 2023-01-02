@@ -5,7 +5,7 @@ date: 2017-10-11 09:00:00
 author: Joaquin Rocco
 tags: [Xmartlabs, Design, Product, Sprint]
 author_id: xl
-category: product-design
+category: [product-design]
 permalink: /:year/:month/:day/:title/
 ---
 

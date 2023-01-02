@@ -5,7 +5,7 @@ date: '2022-08-01T10:00:00.000-03:00'
 author: Pablo Grill
 tags: [aws, terraform, aws infraestructure]
 author_id: pablog
-category: data-engineering
+category: [data-engineering]
 featured_image: /images/basic-infrastructure-in-AWS-using-terraform/Basic-Infrastructure-in-AWS-using-Terraform.png
 permalink: /blog/basic-infrastructure-in-AWS-using-terraform/
 ---
@@ -49,7 +49,7 @@ AWS provides several ways of creating infrastructure for this kind of applicatio
 
 ![basic-infra-diagram.jpg](/images/basic-infrastructure-in-AWS-using-terraform/basic-infra-diagram.jpg)
 
- 
+
 One of the reasons why we chose these resources against others is that they give you multiple alternatives to deploy your code. You can dockerize your application if you want, but it isn’t mandatory. Moreover, most of the resources managed in this module are included in the AWS free tier, allowing you to deploy your solution without spending much money.
 
 # Project Structure
@@ -99,20 +99,20 @@ Before starting to type terraform commands in a terminal, some resources inside 
 </video>
 
 - **S3 bucket for state file storage:** One of the most important concepts related to Terraform is the state file. As documented in the [official documentation](https://www.terraform.io/language/state), the “state file” is used to store the state of your managed infrastructure and configuration. This state is used by Terraform to map real-world resources to your configuration, keep track of metadata, and improve performance for large infrastructures. By default, the state file is stored locally in a file called `terraform.tfstate`, but it can also be stored remotely, which works better in a team environment. We’ll use an S3 bucket to store the state file. Considering that the bucket’s names are globally unique, we recommend naming this bucket as `{account-id}-tfstate` because it’s rarely occupied, has contents of your account’s id, and the fact that there is where tfstate is allocated makes it intuitive.
-    
+
 
 <video width="100%" preload autoplay loop muted>
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/I-Am-User.mp4" type="video/mp4">
 </video>
-    
-   
-    
+
+
+
 
 - **EC2 Key Pair:** to have ssh access to the EC2 instance created (to deploy your code, for example), you’ll need an RSA key pair. If you want, you can import an already created pair (for example, your personal ones) into AWS and configure the access to the EC2. We recommend **creating a new pair instead of using an existing one.** You can easily do it from the AWS console in this [link](https://console.aws.amazon.com/ec2/v2/home#KeyPairs). Make sure to **create this key in the same region as the rest of your infrastructure** (otherwise, you won’t be able to use it) and **store the .pem file in a secure place**.
-    
+
 <video width="100%" preload autoplay loop muted>
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/Create-Key.mp4" type="video/mp4">
-</video>    
+</video>
 
 ## 3 - Cloning the repository
 
@@ -163,7 +163,7 @@ If everything is configured correctly, you should be able to run the init comman
 ```bash
 terraform init
 ```
-   
+
 <video width="100%" preload autoplay loop muted>
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/terraform-init.mp4" type="video/mp4">
 </video>
@@ -216,8 +216,8 @@ Some considerations that you need to keep in mind when you are configuring these
 
 <video width="100%" preload autoplay loop muted>
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/Store-scret.mp4" type="video/mp4">
-</video>    
-    
+</video>
+
 ## 7 - Review what you did
 
 Now that everything is configured, you can check the “plan” that Terraform will apply. In the plan, you’ll see all the resources that will be created, modified, and destroyed in your AWS account. If it’s the first deployment of the infra, you’ll only see new resources, and maybe this command won’t look useful for you. However, when you are editing existing infrastructure, it will help you to review the changes before applying them. The command to display the plan is:
@@ -228,9 +228,9 @@ terraform plan --var-file=environments/<environment>.tfvars
 
 <video width="100%" preload autoplay loop muted>
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/terraform-plan.mp4" type="video/mp4">
-</video>   
-     
-    
+</video>
+
+
 Make sure you’re pointing to the correct environment.
 
 ## 8 - Apply
@@ -240,13 +240,13 @@ Once you have checked that everything fits your needs, you are ready to apply th
 ```bash
 terraform apply --var-file=environments/<environment>.tfvars
 ```
-    
+
 
 <video width="100%" preload autoplay loop muted>
   <source src="/images/basic-infrastructure-in-AWS-using-terraform/terraform-apply.mp4" type="video/mp4">
-</video>   
-     
-    
+</video>
+
+
 After executing this command, you can go to the AWS console dashboard and see how all the resources were created.
 
 ## 9 - Destroy

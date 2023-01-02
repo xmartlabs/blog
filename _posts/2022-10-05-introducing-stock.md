@@ -5,7 +5,7 @@ date: '2022-10-05T09:00:00.000-03:00'
 author: Matías Irland
 tags: [stock, flutter, dart, pub, package, plugin, hacktoberfest]
 author_id: mirland
-category: development
+category: [mobile-development]
 featured_image: /images/introducing-stock/banner.png
 permalink: /blog/introducing-stock/
 ---
@@ -14,10 +14,10 @@ permalink: /blog/introducing-stock/
 October is a special month for Open Source contributors thanks to [Hacktoberfest] taking place.
 In this wonderful month, we are thrilled to announce [**Stock**][stock], Xmartlabs' latest Flutter Open Source Project.
 
-## What is [Stock]? 
+## What is [Stock]?
 
 [Stock] is a dart package whose main feature is combining different data sources on Flutter.
-Most mobile projects need the same thing, to share data with a cloud service. 
+Most mobile projects need the same thing, to share data with a cloud service.
 For instance, it could be a Rest API or a real-time service like [Firebase Database][firebase_rtd] or [Supabase].
 If this is your case, this blog may be helpful for you.
 
@@ -29,7 +29,7 @@ Furthermore, if you only use a remote source, Stock can be used as a local cache
 <img width="100%" src="/images/introducing-stock/repository-pattern.jpg" />
 
 
-## Should I consider caching the network data? 
+## Should I consider caching the network data?
 
 [Stock] exists because of the need to add a cache. It could be a memory or disk cache, but it doesn't really matter which type are you using, instead it only matters the need of one.
 You may ask, do I need a cache in my app?
@@ -61,7 +61,7 @@ In this case, we can create our `Fetcher` and `SourceOfThruth` in the following 
   final fetcher = Fetcher.ofFuture<String, List<Tweet>>(
     (userId) => _api.getUserTweets(userId),
   );
-  
+
   final sourceOfTruth = SourceOfTruth<String, List<Tweet>>(
     reader: (userId) => _database.getUserTweets(userId),
     writer: (userId, tweets) => _database.writeUserTweets(userId, tweets),
@@ -79,11 +79,11 @@ Then we can proceed to create the `Stock`, which will be used in the repository:
 ```
 
 Now that we've done the hardest work, how should you use it?
-Stock provides some methods to get the data, but the most important one is `stream()`. 
-It returns a `Stream` of data containing the data state. 
+Stock provides some methods to get the data, but the most important one is `stream()`.
+It returns a `Stream` of data containing the data state.
 
 This state has 3 possible values:
-- Data: New data arrived 
+- Data: New data arrived
 - Error: Something went wrong
 - Loading: The data is loading
 

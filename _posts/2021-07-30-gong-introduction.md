@@ -3,7 +3,7 @@ layout: post
 title: Kickstart your Android Project with Gong Base Project
 date: 2021-08-04 10:00:00
 tags: [Android App Template, Android Base project, Android Compose Base Project, Xmartlabs Android App, Jetpack Compose App Template, Jetpack Compose Base Project, Android Development, Kotlin Development, Jetpack Compose, Android, Kotlin]
-category: android-development
+category: [android-development, mobile-development]
 author_id: sante
 
 featured_image: /images/gong-introduction/banner.png
@@ -41,7 +41,7 @@ Creating your app base code using Gong is super simple. You just have to run one
 
 The command is available on [Gong's Github readme page][setup], along with instructions to do the setup manually if you prefer to do so.
 
-Once you provide the project's information, Gong automatically renames and refactors the package and class names containing `Gong` replacing it for your project name (you don't need to do any manual refactoring).  
+Once you provide the project's information, Gong automatically renames and refactors the package and class names containing `Gong` replacing it for your project name (you don't need to do any manual refactoring).
 You can even provide your Git remote URL to set up your project pointing to your remote repository.
 
 Let's see how easy it's below:

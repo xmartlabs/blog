@@ -5,13 +5,13 @@ date: '2022-09-13T10:00:00.000-03:00'
 author: Matías Irland
 tags: [stock, supabase, flutter, firebase, firebase real-time database, dart, pub, package, plugin, stream, database, drift, realm, floor]
 author_id: mirland
-category: development
+category: [development]
 featured_image: /images/supabase-offline-suport/banner.png
 permalink: /blog/get-flutter-offline-support-in-supabase/
 ---
 
 [Supabase] is one of the most well-known open-source alternatives to [Firebase].
-Although Supabase implements many Firebase features, one that I constantly crave is **offline support for the real-time database**. 
+Although Supabase implements many Firebase features, one that I constantly crave is **offline support for the real-time database**.
 
 In this blog post, we’ll cover how you can use a local database as a [Supabase] cache through [Stock], a dart package that combines multiple data sources and gets one data `Stream`.
 However, you can apply these concepts and ideas to diverse situations, such as adding offline support when using a Rest API.
@@ -35,7 +35,7 @@ If you'd prefer to use another one, there are a bunch of alternatives, such as [
 
 <img width="100%" src="/images/supabase-offline-suport/arch_overview.png" />
 
-We will use a `StatefulWidget` to display the data to simplify this Project. 
+We will use a `StatefulWidget` to display the data to simplify this Project.
 However, in an actual project, you should use a state management package, like [Bloc] or [Provider].
 
 # Sample app: listing our company's OSS projects
@@ -109,7 +109,7 @@ You can see the full Supabase integration [in this commit][ref_supabase_implemen
 In this example, we'll use [Floor], a simple and powerful Data Base in Flutter.
 
 Usually, we use separate entities for database and service, depending on your Project's complexity.
-In this case, we'll use the same [Project][ref_project_entity] entity instead of different ones. 
+In this case, we'll use the same [Project][ref_project_entity] entity instead of different ones.
 
 After the setup, you will have two main classes:
 - The `Project` entity will be mapped to a table.
@@ -185,14 +185,14 @@ class ProjectRepository {
 }
 ```
 
-`Stock` provides a `Stream` of `StockResponse`, which has three possible values: `StockResponseLoading`, `StockResponseData`, or `StockResponseError`. 
+`Stock` provides a `Stream` of `StockResponse`, which has three possible values: `StockResponseLoading`, `StockResponseData`, or `StockResponseError`.
 With that `Stream`, we are ready to display the data and status in the UI.
 
 Inspect the full implementation [in this commit][ref_stock_implementation].
 
 ## Step 4: Handle stock responses
 
-In this last part, we'll handle the three different response types: the error, the data, and the loading state. 
+In this last part, we'll handle the three different response types: the error, the data, and the loading state.
 To do that we will handle the responses in a `StatefulWidget`
 
 The widget state will contain the list of projects and a bool that indicates if the data is loading or not.
@@ -243,7 +243,7 @@ So the last thing is using the state to display the data:
 ```dart
 class _OssProjectsPageState extends State<OssProjectsPage> {
   //.... previous code
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -279,11 +279,11 @@ The complete example is on [GitHub](https://github.com/mirland/supabase-offline-
 # Conclusion
 
 This blog analyzed how we can integrate offline support easily to Supabase.
-Furthermore, if we replace [Supabase] with another provider or simply use a rest API, the code will be the same. 
+Furthermore, if we replace [Supabase] with another provider or simply use a rest API, the code will be the same.
 So if your data layer changes, you don't have to make any changes to your presentation layer, which is one of the essential aspects of this architecture.
 
 In my experience, offline support moves app experience to the next level.
-You can remove ugly spinners and give feedback to the user instantly. So making an effort to achieve it is worth it. 
+You can remove ugly spinners and give feedback to the user instantly. So making an effort to achieve it is worth it.
 
 We also had a glimpse of how [Stock] helped us to get this feature.
 The package did the most challenging tasks, such as synchronizations, state reporting, and data storing, allowing the app to run extremely fast.

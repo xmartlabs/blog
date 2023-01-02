@@ -4,12 +4,12 @@ title: From Low to High-Quality Image — Practical Application of Super-Resolut
 date: '2022-03-22T10:00:00.000-03:00'
 tags: [Xmartlabs, 10 years Xmartlabs, 10 lessons learned in tech industry, 10 years in tech industry]
 author_id: lazaro
-category: machine-learning
+category: [machine-learning, mlai]
 featured_image: /images/ml-superresolution/Superresolution-blog.jpg
 permalink: /blog/machine-learning-super-resolution-algorithms/
 ---
 
-Nowadays, everyone is exposed to artificial intelligence (AI) in one way or another. [Computer vision](https://blog.xmartlabs.com/blog/computer-vision-techniques-for-body-detection/) is a popular application of AI through cellphones, video conference platforms, and video vigilance cameras, among other [use cases](https://blog.xmartlabs.com/blog/computer-vision-and-object-detection-use-case/). One fascinating problem to solve within the computer vision field is super-resolution (SR). 
+Nowadays, everyone is exposed to artificial intelligence (AI) in one way or another. [Computer vision](https://blog.xmartlabs.com/blog/computer-vision-techniques-for-body-detection/) is a popular application of AI through cellphones, video conference platforms, and video vigilance cameras, among other [use cases](https://blog.xmartlabs.com/blog/computer-vision-and-object-detection-use-case/). One fascinating problem to solve within the computer vision field is super-resolution (SR).
 
 There are two different approaches: the academic and the "practical" approach. The difference between them is time frames. Because academic work involves a lot of validation and later publishing of the algorithms, it can take several years. However, the industry can't wait that much time due to the constant change in its landscape. Practical applications of SR problems, need to make sense of academic data, pipelines and features transformation.
 
@@ -17,7 +17,7 @@ This blog aims to compare different state-of-the-art algorithms for SR and their
 
 ## What is Super-Resolution and how does it work?
 
-Super-resolution aims to extract a High-Resolution (HR) image from its respective Low-Resolution (LR) one. Another idea behind SR is to find patterns and tendencies from the HR images and reconstruct the image in LR, something like an inverse solution. 
+Super-resolution aims to extract a High-Resolution (HR) image from its respective Low-Resolution (LR) one. Another idea behind SR is to find patterns and tendencies from the HR images and reconstruct the image in LR, something like an inverse solution.
 
 There are two approaches to solve the super-resolution problem:
 
@@ -185,4 +185,3 @@ Having run both SwinIR and RCAN on diverse images with different qualities and c
 Furthermore, it's not always easy to reproduce the academic results we saw in the papers, but the numbers when we applied them to specific images from our computers, weren't bad either.
 
 You should also consider the result's predicted time because, if you're looking for real-time results, these algorithms are not the answer.
-

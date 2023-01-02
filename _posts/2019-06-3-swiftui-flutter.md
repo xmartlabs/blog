@@ -6,7 +6,7 @@ author: Joaquín Rocco
 tags: [Xmartlabs, UI, Swift, Flutter]
 author_id: jrocco
 featured_image: /images/swiftui-flutter/featured.jpg
-category: development
+category: [development]
 permalink: /:year/:month/:day/:title/
 ---
 

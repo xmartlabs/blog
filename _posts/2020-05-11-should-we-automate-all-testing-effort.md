@@ -5,7 +5,7 @@ excerpt: "Have you ever found yourself wanting full automation testing? Have you
 date: 2020-05-11 10:00:00
 author: Jorge Gonzalez
 tags: [Xmartlabs, QA, Testing]
-category: business-agile
+category: [business-agile]
 author_id: tabu
 featured_image: /images/automate-manual-testing/featured2.png
 

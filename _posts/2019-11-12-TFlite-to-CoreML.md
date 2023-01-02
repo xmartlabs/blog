@@ -7,7 +7,7 @@ tags: [Xmartlabs, machine learning, tflite, coreml, xmartlabs]
 category: Machine Learning
 author_id: mathias
 featured_image: /images/tflite_coreml/featured.png
-category: machine-learning
+category: [machine-learning, mlai]
 permalink: /:year/:month/:day/:title/
 ---
 

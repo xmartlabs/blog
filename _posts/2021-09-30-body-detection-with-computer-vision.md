@@ -5,7 +5,7 @@ date: '2021-10-19T10:00:00.000-03:00'
 author: Valentina Bianco
 tags: [Pose Estimation, Body Segmentation, Human Detection, Machine Learning, Computer Vision]
 author_id: vale
-category: machine-learning
+category: [machine-learning, mlai]
 featured_image: /images/body-detection-with-computer-vision/body-detection-with-computer-vision.jpg
 permalink: /blog/computer-vision-techniques-for-body-detection/
 ---

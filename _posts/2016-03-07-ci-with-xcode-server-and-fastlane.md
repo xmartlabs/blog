@@ -5,7 +5,7 @@ date:   2016-03-07 10:00:00
 author: Miguel Revetria
 tags: [Xmartlabs, Server, CI, Fastlane]
 author_id: remer
-category: ios-development
+category: [ios-development, mobile-development]
 permalink: /:year/:month/:day/:title/
 ---
 
@@ -16,7 +16,7 @@ There are a lot of blogs that explain how to set up Xcode Server, create an inte
 
 #### Why did we have our own CI server?
 
-Well, almost everybody knows the benefits of having a CI server; it can automatically analyze code, run unit and UI tests, build your project among some other valuable task. If something goes wrong, it will notify the results to people that may have introduced the issue. Xcode bot tracks all new issues of each integration as well as solved ones. For new issues, the bot will display a range of commits where the issue may have introduced. Moreover, we no longer need to deal with deployment provisioning profiles and certificates allowing anyone on the team to easily release a new version of the app.    
+Well, almost everybody knows the benefits of having a CI server; it can automatically analyze code, run unit and UI tests, build your project among some other valuable task. If something goes wrong, it will notify the results to people that may have introduced the issue. Xcode bot tracks all new issues of each integration as well as solved ones. For new issues, the bot will display a range of commits where the issue may have introduced. Moreover, we no longer need to deal with deployment provisioning profiles and certificates allowing anyone on the team to easily release a new version of the app.
 
 In short, this allows the programmer to spend more time on app development and less on app integration and deployment. Meanwhile it ensures the code has certain minimum quality level.
 
@@ -296,7 +296,7 @@ fastlane_version '1.63.1'
 
 default_platform :ios
 
-platform :ios do  
+platform :ios do
   before_all do
     ENV["SLACK_URL"] ||= "https://hooks.slack.com/services/#####/#####/#########"
   end

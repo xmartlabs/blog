@@ -6,7 +6,7 @@ author: XL Team
 author_id: xl
 tags: [Xmartlabs, Swift, iOS, Onboarding, Tutorial]
 markdown: redcarpet
-category: development
+category: [development]
 permalink: /:year/:month/:day/:title/
 ---
 

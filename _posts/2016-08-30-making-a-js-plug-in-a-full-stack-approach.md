@@ -6,7 +6,7 @@ author: Miguel Revetria
 tags: [Xmartlabs, JavaScript, Plugin, Widget, CORS, Ruby, Rails, CSS]
 author_id: remer
 markdown: redcarpet
-category: development
+category: [development]
 permalink: /:year/:month/:day/:title/
 ---
 
@@ -294,7 +294,7 @@ Now that we've created the code base for applying the plug-in and we introduced 
         'last_name': me().doc.getElementById('myapp-widget-last-name').value
       }
     };
-    xhttp.send(JSON.stringify(params));    
+    xhttp.send(JSON.stringify(params));
   }
 
   /******* DIY: straightforward functions *******/
