@@ -4,14 +4,7 @@ layout: default
 <div class="list-container">
   <div class="header">
     <div class="container">
-      <div class="filters-container">
-        <a class="selected-filter filter">ALL</a>
-        <a class="filter" href="/mobile">MOBILE </a>
-        <a class="filter">WEB </a>
-        <a class="filter">DESIGN</a>
-        <a class="filter">BLOCKCHAIN </a>
-        <a class="filter">ML/AI</a>
-      </div>
+      {% include filters.html %}
       <h1 class="header-title">Xmartlabs Blog</h1>
       <h4 class="subtitle header-subtitle">
         Design. Engineering. Lessons learned on our journey.
@@ -40,14 +33,3 @@ layout: default
     </div>
   </div>
 </div>
-
-<script>
-  $('.filters-container').on( 'click', 'a', function() {
-    var filterValue = $(this).attr('data-filter');
-   });
-   $('.filter').on('click', function(){
-      console.log('aber esto')
-      $('.filter').removeClass('selected-filter');
-      $(this).addClass('selected-filter');
-   });
-</script>

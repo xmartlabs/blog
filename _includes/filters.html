@@ -1,0 +1,24 @@
+<div class="filters-container">
+  <a class="filter" id='all' href='/'>ALL</a>
+  <a class="filter" id='mobile' href='/mobile'>MOBILE </a>
+  <a class="filter" id='web'  href='/web'>WEB </a>
+  <a class="filter" id='design' href='/design'>DESIGN</a>
+  <a class="filter" id='blockchain' href='/blockchain'>BLOCKCHAIN </a>
+  <a class="filter" id='mlai' href='/mlai'>ML/AI</a>
+</div>
+
+<script>
+  if(location.pathname == '/mobile/') {
+    document.getElementById('mobile').classList.add('selected-filter')
+  } else if(location.pathname == '/web/') {
+    document.getElementById('web').classList.add('selected-filter')
+  } else if(location.pathname == '/design/') {
+    document.getElementById('design').classList.add('selected-filter')
+  } else if(location.pathname == '/blockchain/') {
+    document.getElementById('blockchain').classList.add('selected-filter')
+  } else if(location.pathname == '/mlai/') {
+    document.getElementById('mlai').classList.add('selected-filter')
+  } else {
+    document.getElementById('all').classList.add('selected-filter')
+  }
+</script>
