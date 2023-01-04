@@ -33,12 +33,12 @@ android-development:
 blockchain-development:
   title: Web3.0 & blockchain lessons learned on our journey.
   display_name: Web3.0 Development
-  url: /category/blockchain-development
+  url: /blockchain
 mobile-development:
   title: Mobile lessons learned on our journey.
   display_name: Mobile Development
-  url: /category/mobile-development
+  url: /mobile
 mlai:
   title: Machine Learning lessons learned on our journey.
   display_name: Machine Learning & IA
-  url: /category/mlai
+  url: /mlai
