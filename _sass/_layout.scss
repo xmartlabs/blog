@@ -199,7 +199,14 @@ div.header {
   justify-content: space-between;
   font-weight: $bold-font-weight;
   font-size: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  padding-bottom: 15px;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
 }
 
 .selected-filter {
