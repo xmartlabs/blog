@@ -5,18 +5,18 @@ date: '2022-11-18T09:00:00.000-03:00'
 author: Joaquín Sanchez
 tags: [big data, data analytics, business intelligence, data services]
 author_id: jsanchez
-category: development
+category: [development]
 featured_image: /images/data-analytics/data-analytics-cover.png
 permalink: /blog/data-analytics/
 ---
 
 
-Businesses and startups are constantly increasing in quantity, so the search for distinguishing from competitors and looking for competitive advantage is more critical than ever. 
+Businesses and startups are constantly increasing in quantity, so the search for distinguishing from competitors and looking for competitive advantage is more critical than ever.
 Big Data and Analytics have presented themselves as one of the most effective ways to stand apart from competitors and lead and grow your business as smartly as possible.
 
 In this blog, we’ll discuss Big Data: what it is and how it can help big companies and startups take advantage of this fantastic technology that reduces uncertainty, increases data-driven decisions, and simultaneously analyzes thousands of variables and scenarios.
 
-## What is Big Data? 
+## What is Big Data?
 
 Big Data refers to large and complex sets of information being generated constantly in different formats.
 Extracting value from this kind of data using traditional data processing software is impossible due to technical limitations.
@@ -34,7 +34,7 @@ After obtaining and cleaning the data, business analysts can work together with 
 <img width="100%" src="/images/data-analytics/Data-analytics1.png" />
 
 
-## The Benefits of Using Big Data and Analytics 
+## The Benefits of Using Big Data and Analytics
 
 The following are example use cases where Big Data and Analytics can be useful for managers looking to improve their business analytics.
 Most of these cases involve some degree of business intelligence, data science, real-time data analysis, statistical analysis, and the use of specific programming languages.
@@ -80,7 +80,7 @@ If this information is analyzed together with customer behavior, it could improv
 It is possible to talk about shortening go-to-market times. Although you arrive with an MVP, thanks to the data collection, you can improve your product based on user feedback.
 This gives you a chance to make updates based on each user interaction and make changes according to market changes.
 
-This is market validation supported by Big Data. 
+This is market validation supported by Big Data.
 If feedback collection is automated, a data pipeline could be set up to analyze customer reactions to each iteration and improve the product or service based on the information provided.
 
 <img width="100%" src="/images/data-analytics/Data-analytics5.png" />
