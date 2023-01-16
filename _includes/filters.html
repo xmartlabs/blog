@@ -1,22 +1,22 @@
 <div class="filters-container">
   <a class="filter" id='all' href='/'>ALL</a>
-  <a class="filter" id='mobile' href='/mobile'>MOBILE </a>
-  <a class="filter" id='web'  href='/web'>WEB </a>
-  <a class="filter" id='design' href='/design'>DESIGN</a>
-  <a class="filter" id='blockchain' href='/blockchain'>BLOCKCHAIN </a>
-  <a class="filter" id='mlai' href='/mlai'>ML/AI</a>
+  <a class="filter" id='mobile' href='/category/mobile-development/'>MOBILE </a>
+  <a class="filter pepito" id='web'  href='/category/development/'>WEB </a>
+  <a class="filter" id='design' href='/category/product-design/'>DESIGN</a>
+  <a class="filter" id='blockchain' href='/category/blockchain-development/'>BLOCKCHAIN </a>
+  <a class="filter" id='mlai' href='/category/mlai/'>ML/AI</a>
 </div>
 
 <script>
-  if(location.pathname == '/mobile/') {
+  if(location.pathname == '/category/mobile-development/') {
     document.getElementById('mobile').classList.add('selected-filter')
-  } else if(location.pathname == '/web/') {
+  } else if(location.pathname == '/category/development/') {
     document.getElementById('web').classList.add('selected-filter')
-  } else if(location.pathname == '/design/') {
+  } else if(location.pathname == '/category/product-design/') {
     document.getElementById('design').classList.add('selected-filter')
-  } else if(location.pathname == '/blockchain/') {
+  } else if(location.pathname == '/category/blockchain-development/') {
     document.getElementById('blockchain').classList.add('selected-filter')
-  } else if(location.pathname == '/mlai/') {
+  } else if(location.pathname == '/category/mlai/') {
     document.getElementById('mlai').classList.add('selected-filter')
   } else {
     document.getElementById('all').classList.add('selected-filter')
