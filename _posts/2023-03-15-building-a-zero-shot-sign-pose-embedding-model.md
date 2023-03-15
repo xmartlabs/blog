@@ -6,7 +6,7 @@ tags: []
 author_id: mathias
 category: machine-learning
 featured_image: /images/building-a-zero-shot-sign-pose-embedding-model/LSU.png
-permalink: /blog/building-a-zero-shot-sign-pose-embedding-model
+permalink: /blog/building-a-zero-shot-sign-pose-embedding-model/
 ---
  
  <img width="100%" src="/images/building-a-zero-shot-sign-pose-embedding-model/LSU.png" />
