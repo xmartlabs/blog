@@ -16,8 +16,7 @@ Initiatives are a big part of our work life here at Xmartlabs. From time to time
 In this blog, we want to share with you the process of one of our latest initiatives: developing a tool to practice and train the Uruguayan Sign Language (or LSU, which stands for *Lengua de Señas Uruguaya*). Specifically, we’ll dive into the Research and Product Definition processes that the Design team carried out, and some of the challenges we faced along the way.
 
 <aside>
-🙂 If you are also interested in the tech aspect of this project, you should check out [this blog](https://blog.xmartlbs.com/blog/machine-learning-sign-language-recognition/) by our machine learning team. In it, they delve deeper into the technical requirements and applications of developing a Machine Learning model for sign language practice.
-
+ If you are also interested in the tech aspect of this project, you should check out <a href="https://blog.xmartlbs.com/blog/machine-learning-sign-language-recognition/">this blog</a> by our machine learning team. In it, they delve deeper into the technical requirements and applications of developing a Machine Learning model for sign language practice.
 </aside>
 
 ## The beginning
@@ -84,7 +83,6 @@ During the first stage of our project, we verified the Deaf community faces many
 
 Some of our main outcomes were:
 
-**About LSU**
 
 ![Assets_03a DR Results - LSU.png](/images/from-idea-to-mvp/Assets_03a_DR_Results_-_LSU.png)
 
@@ -94,15 +92,11 @@ Some of our main outcomes were:
 - Sign language involves the use of hand gestures, head movements, facial expressions, and eye contact. Each word is represented by a single gesture.
 - Interpretation of the LSU is not a direct word-for-word translation, as the interpreter reinterprets the message's concept to be transmitted.
 
-**About the Deaf community**
-
 ![Assets_03b DR Results - Community.png](/images/from-idea-to-mvp/Assets_03b_DR_Results_-_Community.png)
 
 - In Uruguay, there are approximately 120,000 people with hearing problems and over 30,000 with severe or total deafness[¹](https://www.gub.uy/ministerio-salud-publica/comunicacion/noticias/personas-sordas-hipoacusia-primera-vez-ministerio-salud-publica#:~:text=Seg%C3%BAn%20el%20%C3%BAltimo%20censo%20de%20poblaci%C3%B3n%2C%20en%20Uruguay%20existen%20aproximadamente%20120.000%20personas%20con%20problemas%20auditivos%20y%20m%C3%A1s%20de%2030.000%20con%20sordera%20severa%20o%20total.). Despite its size, the Deaf community in Uruguay is relatively closed due to factors such as communication barriers and discrimination issues.
 - There is a large difference in the level of knowledge of LSU among generations, even within small age differences. For example, someone in their 30s may be highly proficient in LSU, while someone in their 50s may not.
 - People who are deaf and interpreters connect and exchange information through online forums and Facebook groups, where they also reach consensus on new signs.
-
-**About LSU interpreters**
 
 ![Assets_03c DR Results - Interpreters.png](/images/from-idea-to-mvp/Assets_03c_DR_Results_-_Interpreters.png)
 
@@ -194,6 +188,5 @@ Finally, we can confirm that Design is a powerful tool for change: it's not just
 At the end of the day, Design is about putting users first in everything we do. It's about making them feel heard, understood, and valued. By prioritizing user-centered design in any business strategy, we're not just creating better products - we're making a real difference in people's lives.
 
 <aside>
-🙂 Ready to demystify your product definition process? Don't let uncertainty hold you back - [contact us today](https://form.typeform.com/to/c7G2RUWm) to see how our product definition services can help your product thrive and empower your team to innovate like never before.
-
+Ready to demystify your product definition process? Don't let uncertainty hold you back - <a href="https://form.typeform.com/to/c7G2RUWm">contact us today</a> to see how our product definition services can help your product thrive and empower your team to innovate like never before.
 </aside>
