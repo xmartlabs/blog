@@ -6,12 +6,12 @@ tags: []
 author_id: mathias
 category: machine-learning
 featured_image: /images/building-a-zero-shot-sign-pose-embedding-model/LSU.png
-permalink: /blog/building-a-zero-shot-sign-pose-embedding-model/
+permalink: /blog/machine-learning-sign-language-recognition/
 ---
  
- <img width="100%" src="/images/building-a-zero-shot-sign-pose-embedding-model/LSU.png" />
+<img width="100%" src="/images/building-a-zero-shot-sign-pose-embedding-model/LSU.png" />
 
-At Xmartlabs, our machine learning team set out to develop an innovative ML product last year. After careful consideration and collaboration with our Design team, we decided to focus on building **a sign language practice assist system** instead of a full-fledged sign language translator. Read more about our thought process (including the product definition and market research) in this blog post [link] by our design team.
+At Xmartlabs, our machine learning team set out to develop an innovative ML product last year. After careful consideration and collaboration with our Design team, we decided to focus on building **a sign language practice assist system** instead of a full-fledged sign language translator. Read more about our thought process (including the product definition and market research) in this [blog post](https://blog.xmartlabs.com/blog/from-idea-to-MVP-the-lean-inception-process/) by our design team.
 
 Our goal was to create a real-time model that could run on a client's device, in the cloud or a combination of both. This blog post will explore our efforts to develop an embedding model for sign language practice, trained on the large WLASL dataset (a US sign language dataset). The key feature of our model is its ability to be applied to other sign languages and datasets without the need for fine-tuning. We will also showcase its versatility by highlighting various use cases and future works.
 
@@ -135,7 +135,7 @@ On the other hand, we could train the model on a bigger subset of WLASL (which c
 
 In this blog post, we demonstrated how the SPOTER model can be modified to handle a broader range of use cases, including Sign Language related tasks where there is no available dataset for training. By expanding the capabilities of the SPOTER model, we hope to inspire further research in this area and enable the creation of new end-user applications.
 
-If you found our work interesting, we encourage you to read our other  [blog post](link) about the product analysis we conducted to apply this technology to the Uruguayan Sign Language. We believe that our research has the potential to make a significant impact in the field of Sign Language recognition and enable more inclusive and accessible technology.
+If you found our work interesting, we encourage you to read our other [blog post](https://blog.xmartlabs.com/blog/from-idea-to-MVP-the-lean-inception-process/) about the product analysis we conducted to apply this technology to the Uruguayan Sign Language. We believe that our research has the potential to make a significant impact in the field of Sign Language recognition and enable more inclusive and accessible technology.
 
 Finally, don't hesitate to [contact us](https://form.typeform.com/to/c7G2RUWm) if you need help with any machine learning project. Our team is passionate about applying cutting-edge ML techniques to solve real-world problems, and we would be happy to assist you with your project. Thank you for reading!
 
@@ -147,22 +147,3 @@ Finally, don't hesitate to [contact us](https://form.typeform.com/to/c7G2RUWm) i
 
 [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset]: [https://arxiv.org/pdf/1705.07750.pdf](https://arxiv.org/pdf/1705.07750.pdf)
 
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
