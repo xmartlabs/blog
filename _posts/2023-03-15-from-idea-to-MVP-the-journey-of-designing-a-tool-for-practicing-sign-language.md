@@ -1,8 +1,8 @@
 ---
 layout: post
 title: From Idea to MVP - The Journey of Designing a Tool for Practicing Sign Language
-date: '2023-03-14T09:00:00.000-03:00'
-tags: []
+date: '2023-03-15T09:00:00.000-03:00'
+tags: [lean inception, product design, mvp]
 author_id: andres-zunini
 category: product-design
 featured_image: /images/from-idea-to-mvp/LSU_Design.png
