@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Idea to MVP - The Journey of Designing a Tool for Practicing Sign Language
-date: '2023-03-15T09:00:00.000-03:00'
+date: '2023-03-16T09:00:00.000-03:00'
 tags: [lean inception, product design, mvp]
 author_id: andres-zunini
 category: product-design
@@ -16,7 +16,7 @@ Initiatives are a big part of our work life here at Xmartlabs. From time to time
 In this blog, we want to share with you the process of one of our latest initiatives: developing a tool to practice and train the Uruguayan Sign Language (or LSU, which stands for *Lengua de Señas Uruguaya*). Specifically, we’ll dive into the Research and Product Definition processes that the Design team carried out, and some of the challenges we faced along the way.
 
 <aside>
- If you are also interested in the tech aspect of this project, you should check out <a href="https://blog.xmartlbs.com/blog/machine-learning-sign-language-recognition/">this blog</a> by our machine learning team. In it, they delve deeper into the technical requirements and applications of developing a Machine Learning model for sign language practice.
+ If you are also interested in the tech aspect of this project, you should check out <a href="/blog/machine-learning-sign-language-recognition/">this blog</a> by our machine learning team. In it, they delve deeper into the technical requirements and applications of developing a Machine Learning model for sign language practice.
 </aside>
 
 ## The beginning
@@ -143,7 +143,7 @@ In terms of the product, we ended up with a consistent definition of what our MV
 
 As important as this sounds, I wouldn’t say that this was our most crucial outcome. For me, the Lean Inception proved to be an excellent team-building exercise. At the end of it, the team was fully aligned, motivated, and eager to continue its efforts to make this product a reality.
 
-So what were the next steps? Well, in a nutshell, we decided it was important for the Machine Learning team to go back and further investigate the technical viability of such a product. It was paramount that before we engaged with any more potential users, we had at least some certainty that what we were proposing was feasible. You can learn about this particular process in this [blog post](https://blog.xmartlbs.com/blog/machine-learning-sign-language-recognition/) by the Machine Learning team.
+So what were the next steps? Well, in a nutshell, we decided it was important for the Machine Learning team to go back and further investigate the technical viability of such a product. It was paramount that before we engaged with any more potential users, we had at least some certainty that what we were proposing was feasible. You can learn about this particular process in this [blog post](/blog/machine-learning-sign-language-recognition/) by the Machine Learning team.
 
 In the meantime, it was decided that the Design team would delve deeper into the competitors more thoroughly. We had no idea what we were about to uncover…
 
