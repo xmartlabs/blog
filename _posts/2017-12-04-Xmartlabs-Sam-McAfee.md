@@ -8,6 +8,7 @@ tags: [Xmartlabs, Design, Product, Sprint]
 markdown: redcarpet
 category: product-design
 permalink: /:year/:month/:day/:title/
+featured_image: /images/sam-mc-afee/Sam-Mc-Afee.jpg
 ---
 
 <img src="/images/sam-mc-afee/Sam-Mc-Afee.jpg"/>
