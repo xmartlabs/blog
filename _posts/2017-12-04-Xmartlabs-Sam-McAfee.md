@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sam McAfee - how to develop a game changer business idea in just 12 weeks?
-date: 2017-12-04 10:30:00
+date: '2017-12-04T09:00:00.000-03:00'
 author: XL Team
 author_id: xl
 tags: [Xmartlabs, Design, Product, Sprint]
