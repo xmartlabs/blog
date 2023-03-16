@@ -43,7 +43,7 @@ This led us to use SPOTER, which has the following advantages over models based 
 
 - Smaller size → Better to deploy on edge devices
 - Fewer parameters to train → Easier and quicker to train
-- Much lower inference time (11x slower on average [[reference](https://arxiv.org/abs/2210.00893)])
+- Much lower inference time (11x slower on average [reference](https://arxiv.org/abs/2210.00893))
 
 By separating the pose estimation and sign classification into two parts, we were able to adopt a hybrid approach. The pose estimation part can be run on mobile devices or browsers. In contrast, the sign classification part can be run on a server, resulting in improved privacy, reduced network bandwidth usage, and lower server load.
 
@@ -79,7 +79,7 @@ In this section, we will present the results we obtained with our model.
 
 ### Silhouette score
 
-We used the [silhouette score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html) to measure how well the clusters are defined during the training step. Silhouette score will be high (close to 1) when all clusters of different classes are well separated from each other, and it will be low (close to -1) for the opposite. Our best model reached 0.7 on the train set and 0.1 on validation. 
+We used the [silhouette score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html) to measure how well the clusters are defined during the training step. Silhouette's score will be high (close to 1) when all clusters of different classes are well separated from each other, and it will be low (close to -1) for the opposite. Our best model reached 0.7 on the train set and 0.1 on validation. 
 
 Here is a scatter plot that shows how the classes are well separated into clusters. 
 
@@ -113,7 +113,7 @@ Users can practice sign language skills in front of a camera and have their perf
 
 ### Search Sign Language Databases
 
-Users can search a sign language database for signs similar to the one they performed. This could help find similar signs with subtle differences that might lead to misinterpretations. It could also be useful for finding a sign the user saw somewhere but didn’t know the meaning of.
+Users can search a sign language database for signs similar to the one they performed. This could help find similar signs with subtle differences that might lead to misinterpretations. It could also be useful for finding a sign the user saw somewhere but didn’t know its meaning.
 
 ### Sign Classification
 
@@ -127,7 +127,7 @@ Embedding vectors are very powerful and can be used for many use cases. We are s
 
 Future improvements to this model may include additional work.
 
-On one hand, further analyzing the training dataset for class imbalances, outliers, etc. makes sense if we set to do some additional data preprocessing eventually.
+On the one hand, further analyzing the training dataset for class imbalances, outliers, etc. makes sense if we set to do some additional data preprocessing eventually.
 
 On the other hand, we could train the model on a bigger subset of WLASL (which contains 2000 classes but we only used 100). This could improve the zero-shot performance on other datasets considerably.
 
@@ -139,11 +139,11 @@ If you found our work interesting, we encourage you to read our other [blog post
 
 Finally, don't hesitate to [contact us](https://form.typeform.com/to/c7G2RUWm) if you need help with any machine learning project. Our team is passionate about applying cutting-edge ML techniques to solve real-world problems, and we would be happy to assist you with your project. Thank you for reading!
 
-## References
+### References
 
-[SPOTER]: [https://github.com/matyasbohacek/spoter](https://github.com/matyasbohacek/spoter)
+SPOTER: [https://github.com/matyasbohacek/spoter](https://github.com/matyasbohacek/spoter)
 
-[SPOTER using MediaPipe]: [https://arxiv.org/abs/2210.00893](https://arxiv.org/abs/2210.00893)
+SPOTER using MediaPipe: [https://arxiv.org/abs/2210.00893](https://arxiv.org/abs/2210.00893)
 
-[Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset]: [https://arxiv.org/pdf/1705.07750.pdf](https://arxiv.org/pdf/1705.07750.pdf)
+Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset: [https://arxiv.org/pdf/1705.07750.pdf](https://arxiv.org/pdf/1705.07750.pdf)
 
