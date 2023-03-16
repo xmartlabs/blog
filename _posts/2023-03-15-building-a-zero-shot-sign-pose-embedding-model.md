@@ -142,8 +142,6 @@ Finally, don't hesitate to [contact us](https://form.typeform.com/to/c7G2RUWm) i
 ### References
 
 SPOTER: [https://github.com/matyasbohacek/spoter](https://github.com/matyasbohacek/spoter)
-
 SPOTER using MediaPipe: [https://arxiv.org/abs/2210.00893](https://arxiv.org/abs/2210.00893)
-
 Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset: [https://arxiv.org/pdf/1705.07750.pdf](https://arxiv.org/pdf/1705.07750.pdf)
 

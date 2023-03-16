@@ -57,7 +57,7 @@ Moving along with our roadmap, it was time for the user interviews.
 
 In UX design user interviews are a qualitative research method where designers or researchers interact with users to gather insights and feedback on their experiences and needs related to a product or service. They aim to gain a deeper understanding of the user's perspectives, motivations, pain points, and behaviors.
 
-Knowing that to interview deaf users ourselves, we’d need to overcome the communicational barrier and have someone interpret for us. We decided first to interview people who were somehow related to the LSU, but who weren't deaf.
+Knowing that to interview deaf users ourselves we'd need to overcome the communicational barrier and have someone interpret for us, we decided first to interview people who were somehow related to the LSU, but who weren't deaf.
 
 We scheduled two interviews: one with Sara, a recently-graduated LSU interpreter, and daughter of deaf parents, and another with Mauricio, who has a psychology degree and works as an academic investigator about the LSU. 
 
@@ -181,7 +181,7 @@ Overall, the benefits of UX Research have been clearly highlighted: thanks to it
 
 We tend to think engaging in UX Research is an expensive, resource-consuming process, but that’s not always true. We can still take full advantage of its benefits by picking the right tools and techniques for our project. Take for example our very own Lean Inception: while it's always preferable to prioritize running the full, original version of this framework, we found that you can still achieve great results by running a shorter, adapted version of it - if you can’t do the whole thing, it's still better to do at least some parts of it, rather than nothing at all.
 
-In addition, we proved once again the advantages of working with diverse, multidisciplinary teams. It was an excellent opportunity to share knowledge and experiences with the team*,* while **introducing some of our design practices to other areas of the company that may not have been familiar with them previously.
+In addition, we proved once again the advantages of working with diverse, multidisciplinary teams. It was an excellent opportunity to share knowledge and experiences with the team, while introducing some of our design practices to other areas of the company that may not have been familiar with them previously.
 
 Finally, we can confirm that Design is a powerful tool for change: it's not just about creating a beautiful product, but about deeply understanding our users' needs and creating experiences that truly resonate with them. 
 
