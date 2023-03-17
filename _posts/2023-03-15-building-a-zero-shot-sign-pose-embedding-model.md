@@ -138,10 +138,3 @@ In this blog post, we demonstrated how the SPOTER model can be modified to handl
 If you found our work interesting, we encourage you to read our other [blog post](/blog/from-idea-to-MVP-the-lean-inception-process/) about the product analysis we conducted to apply this technology to the Uruguayan Sign Language. We believe that our research has the potential to make a significant impact in the field of Sign Language recognition and enable more inclusive and accessible technology.
 
 Finally, don't hesitate to [contact us](https://form.typeform.com/to/c7G2RUWm) if you need help with any machine learning project. Our team is passionate about applying cutting-edge ML techniques to solve real-world problems, and we would be happy to assist you with your project. Thank you for reading!
-
-### References
-
-SPOTER: [https://github.com/matyasbohacek/spoter](https://github.com/matyasbohacek/spoter)
-SPOTER using MediaPipe: [https://arxiv.org/abs/2210.00893](https://arxiv.org/abs/2210.00893)
-Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset: [https://arxiv.org/pdf/1705.07750.pdf](https://arxiv.org/pdf/1705.07750.pdf)
-
