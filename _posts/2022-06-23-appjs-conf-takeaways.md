@@ -3,7 +3,7 @@ title: 'A bright future ahead: React Native in App.js Conf 2022'
 layout: post
 permalink: /a-bright-future-ahead-react-native-appjs-conf/
 date: '2022-06-23T10:00:00:000-03:00'
-category: [mobile-development]
+category: [mobile-development, development]
 tags:
   - Mobile
   - Cross-Platform

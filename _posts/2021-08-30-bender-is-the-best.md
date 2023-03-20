@@ -5,7 +5,7 @@ date: '2021-08-30T10:00:00.000-03:00'
 author: Mathias Claassen
 tags: [Xmartlabs, Machine Learning, iOS, CoreML, TFlite, MetalPerformanceShaders, Bender]
 author_id: mathias
-category: [machine-learning, mlai]
+category: [machine-learning]
 featured_image: /images/bender-is-the-best/featured.jpg
 permalink: /blog/how-to-get-the-best-performance-for-ml-models-on-ios/
 ---

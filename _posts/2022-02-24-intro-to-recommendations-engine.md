@@ -5,7 +5,7 @@ date: '2022-02-25T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [Recommendation Engine, Recommendation Systems, Recommendation engine challenges, How Recommendation system works]
 author_id: mtnBarreto
-category: [machine-learning, mlai]
+category: [machine-learning]
 featured_image: /images/recommendation-engines/RecEngine.jpg
 permalink: /blog/recommendations-engines-what-they-do-and-why-they-are-useful/
 ---

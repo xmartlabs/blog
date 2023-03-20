@@ -5,7 +5,7 @@ date: '2022-01-26T10:00:00.000-03:00'
 author: Pablo Grill
 tags: [Object Detection, Computer Vision, Video Tracking, Machine Learning]
 author_id: pablog
-category: [machine-learning, mlai]
+category: [machine-learning]
 featured_image: /images/object-detection/ObjectDetecion_Blog.jpg
 permalink: /blog/computer-vision-and-object-detection-use-case/
 ---

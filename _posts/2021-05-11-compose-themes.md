@@ -3,7 +3,7 @@ layout: post
 title: Extending Material theme in Jetpack Compose
 date: 2021-05-11 10:00:00
 tags: [Material, Themes, Material theme, Custom material theme, theming compose, customizing themes, Jetpack Compose]
-category: [android-development, mobile-development]
+category: [development, mobile-development, android-development]
 author_id: mirland
 
 featured_image: /images/extending-material-theme-in-jetpack-compose/banner.jpeg

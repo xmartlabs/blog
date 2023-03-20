@@ -5,7 +5,7 @@ date: '2022-02-22T10:00:00.000-03:00'
 author: Miguel Revetria
 tags: [ETL, Airflow, Taskflow]
 author_id: remer
-category: [data-engineering]
+category: [development, data-engineering]
 featured_image: /images/taskflow/taskflow-blogpost.jpg
 permalink: /blog/taskflow-the-airflow-new-feature-you-should-know/
 ---

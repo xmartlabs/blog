@@ -5,7 +5,7 @@ date: 2020-10-30 10:00:00
 author: Emiliano Botti
 excerpt: "Connecting to Line SDK from a React Native app? We're super excited to announce a new React Native Line version. In this blog we introduce every new functionality and share all technical decisions we made."
 tags: [React Native Line, React Native, LineSDK, Xmartlabs]
-category: [mobile-development]
+category: [development, mobile-development]
 author_id: emi
 featured_image: /images/react-native-line/banner2.png
 

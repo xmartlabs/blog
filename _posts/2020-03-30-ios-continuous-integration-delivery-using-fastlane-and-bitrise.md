@@ -5,7 +5,7 @@ excerpt: "CI and CD set up used by Xmartlabs iOS team. We show how to configure 
 date: 2020-04-17 10:00:00
 author: Martin Barreto
 tags: [Xmartlabs, CI, fastlane, bitrise, iOS]
-category: [ios-development, mobile-development]
+category: [development, mobile-development, ios-development]
 author_id: mtnBarreto
 featured_image: /images/ios-fastlane-ci/featured.png
 

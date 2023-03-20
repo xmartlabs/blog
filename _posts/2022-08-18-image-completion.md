@@ -5,7 +5,7 @@ date: '2022-08-19T10:00:00.000-03:00'
 author: Andrés Herrera
 tags: [Image Completion, Computer Vision]
 author_id: andresh
-category: [machine-learning, mlai]
+category: [machine-learning]
 featured_image: /images/image-completion/image-completion.png
 permalink: /blog/image-completion-computer-vision/
 ---

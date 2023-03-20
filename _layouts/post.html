@@ -1,7 +1,7 @@
 ---
 layout: default_post
 ---
-{% assign category = site.data.categories[page.category] %}
+{% assign category = site.data.categories[page.category.first] %}
 {% assign author = site.data.authors[page.author_id] %}
 <article class="page-content">
   <div class="post-wrapper container">

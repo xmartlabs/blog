@@ -5,7 +5,7 @@ date:   2015-07-09 15:53:14
 author: Santiago Castro
 tags: [Xmartlabs, Android, Logging, Timber, Crashlytics]
 author_id: santiago
-category: [android-development, mobile-development]
+category: [development, mobile-development, android-development]
 permalink: /:year/:month/:day/:title/
 ---
 

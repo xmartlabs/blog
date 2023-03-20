@@ -4,7 +4,7 @@ title: From Low to High-Quality Image — Practical Application of Super-Resolut
 date: '2022-03-22T10:00:00.000-03:00'
 tags: [Xmartlabs, 10 years Xmartlabs, 10 lessons learned in tech industry, 10 years in tech industry]
 author_id: lazaro
-category: [machine-learning, mlai]
+category: [machine-learning]
 featured_image: /images/ml-superresolution/Superresolution-blog.jpg
 permalink: /blog/machine-learning-super-resolution-algorithms/
 ---

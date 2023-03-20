@@ -5,7 +5,7 @@ date: '2022-10-05T09:00:00.000-03:00'
 author: Matías Irland
 tags: [stock, flutter, dart, pub, package, plugin, hacktoberfest]
 author_id: mirland
-category: [mobile-development]
+category: [mobile-development, development]
 featured_image: /images/introducing-stock/banner.png
 permalink: /blog/introducing-stock/
 ---
