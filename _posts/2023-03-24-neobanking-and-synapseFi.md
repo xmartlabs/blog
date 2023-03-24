@@ -1,13 +1,15 @@
+---
+layout: post
+title: Unleash the Power of Neobanking with SynapseFi - Your Guide to the Future of Finance
+date: '2023-03-24T09:00:00.000-03:00'
+tags: [frontend-development, alpaca API, javascript development]
+author_id: christian-casaran
+category: development
+permalink: /blog/the-power-of-neobanking-with-synapseFi/
+featured_image: /images/neobanking-and-synapseFi/Neobanking-1.png
+---
 
-
-
-# Post Neobanking and SynapseFi 
-
-![Neobanking-1.png](Post%20Neobanking%20and%20SynapseFi%203bd7afc61c5d42ebb74a32770138227e/Neobanking-1.png)
-
-# Unleash the Power of Neobanking with SynapseFi: Your Guide to the Future of Finance
-
-## Introduction
+![Neobanking-1.png](/images/neobanking-and-synapseFi/Neobanking-1.png)
 
 During the last couple of years and as a result of the digital transformation, Neobanks have grown and expanded rapidly. Their low-cost, seamless, and user-friendly digital experiences have secured its adoption throughout the world, and increasingly more business and traditional banks are riding the neobaniking wave. Providing a digital layer on top of traditional banking, they promise a streamlined and hassle-free experience.
 
@@ -68,17 +70,14 @@ In this blog section, we'll explore the pros and cons of neobanking to help you 
 | Multiple cash withdrawal options. | Impersonal customer service. |
 | Portability. | Lack of trust and reliability. |
 
-![Frame 7918.png](Post%20Neobanking%20and%20SynapseFi%203bd7afc61c5d42ebb74a32770138227e/Frame_7918.png)
-
 ## Some successful neo-banks around the world
 
-| https://nu.com.co/ | It was founded in Brazil in 2013, it offers a range of financial products and services, including no-fee credit cards, savings accounts, personal loans, insurance, and investment products. It has over 70 million customers and is valued at over $45 billion. |
+| [NuBank](https://nu.com.co/) | It was founded in Brazil in 2013, it offers a range of financial products and services, including no-fee credit cards, savings accounts, personal loans, insurance, and investment products. It has over 70 million customers and is valued at over $45 billion. |
 | --- | --- |
-| https://www.revolut.com/ | Revolut is a UK-based neobank that was founded in 2015, it offers banking services in multiple currencies. It has over 16 million customers and is valued at over $33 billion. |
-| https://n26.com/ | It’s a German neobank that was founded in 2013, it offers banking services across Europe and the US. It has over 7 million customers and is valued at over $3.5 billion. |
-| https://monzo.com/ | This UK-based neobank was founded in 2015, it offers fee-free banking services and a user-friendly app. It has over 5 million customers and is valued at over $2 billion. |
+| [Revolut](https://www.revolut.com/) | Revolut is a UK-based neobank that was founded in 2015, it offers banking services in multiple currencies. It has over 16 million customers and is valued at over $33 billion. |
+| [N26](https://n26.com/) | It’s a German neobank that was founded in 2013, it offers banking services across Europe and the US. It has over 7 million customers and is valued at over $3.5 billion. |
+| [Manzo](https://monzo.com/) | This UK-based neobank was founded in 2015, it offers fee-free banking services and a user-friendly app. It has over 5 million customers and is valued at over $2 billion. |
 
-![Frame 2608144.png](Post%20Neobanking%20and%20SynapseFi%203bd7afc61c5d42ebb74a32770138227e/Frame_2608144.png)
 
 ## Introducing SynapseFi
 
@@ -94,43 +93,18 @@ Overall, SynapseFi's BaaS platform is a powerful tool for companies seeking to l
 
 Synapse has enabled numerous clients to offer services through the implementation of neobanks, which provide a range of financial products to users. Some notable customers include: 
 
-| https://www.chime.com/ | It is a U.S. neobank, which offers various services such as debit cards, checking accounts, transfers and electronic payments. One of its main qualities is that it does not require its users to maintain a minimum balance, nor does it have a monthly fee. |
+| [Chime](https://www.chime.com/) | It is a U.S. neobank, which offers various services such as debit cards, checking accounts, transfers and electronic payments. One of its main qualities is that it does not require its users to maintain a minimum balance, nor does it have a monthly fee. |
 | --- | --- |
-| https://dave.com/ | This neobank offers debit card issuance services, loans or payroll advances, automatic savings, and budgets. It also helps its users to avoid overdrafts and extra charges. |
-| https://www.varomoney.com/ | It is a mobile-only neobank in the United States, offering traditional banking services such as debit cards, transfers, checking, and savings accounts. This platform offers very competitive rates and fees and is primarily targeted at the millennial population. |
-| https://current.com/ | It is a neobank that differs from the other options for its various features, one of the most relevant is that it offers current accounts that use artificial intelligence. It also provides budgeting tools and parental controls for accounts aimed at teenagers. |
-| https://mercury.com/ | This neobank allows the creation of accounts in a simple way, even if you are not a US resident. Among its features, it has a low and simple fee structure, the creation of multiple physical and up to 50 virtual debit cards, savings accounts, and sub-accounts, and a very user-friendly interface. |
-
-![Frame 2608143.png](Post%20Neobanking%20and%20SynapseFi%203bd7afc61c5d42ebb74a32770138227e/Frame_2608143.png)
+| [Dave](https://dave.com/) | This neobank offers debit card issuance services, loans or payroll advances, automatic savings, and budgets. It also helps its users to avoid overdrafts and extra charges. |
+| [Varo](https://www.varomoney.com/) | It is a mobile-only neobank in the United States, offering traditional banking services such as debit cards, transfers, checking, and savings accounts. This platform offers very competitive rates and fees and is primarily targeted at the millennial population. |
+| [Current](https://current.com/) | It is a neobank that differs from the other options for its various features, one of the most relevant is that it offers current accounts that use artificial intelligence. It also provides budgeting tools and parental controls for accounts aimed at teenagers. |
+| [Mercury](https://mercury.com/) | This neobank allows the creation of accounts in a simple way, even if you are not a US resident. Among its features, it has a low and simple fee structure, the creation of multiple physical and up to 50 virtual debit cards, savings accounts, and sub-accounts, and a very user-friendly interface. |
 
 ## Alternatives to SynapseFi
 
 While SynapseFi offers a range of benefits for companies looking to create and launch financial products quickly, it's not the only option on the market. There are several other BaaS platforms that offer similar services and features. Here are some alternatives:
 
-|  | SynapseFi | Plaid | Galileo | Figo | Yodlee |
-| --- | --- | --- | --- | --- | --- |
-| Founded in | 2014 | 2012 | 2000 | 2012 | 1999 |
-| HQs | US | US | US | GER | US |
-| Provide API | Yes | Yes | Yes | Yes | Yes |
-| Regulated by | - https://www.federalreserve.gov/
-- https://www.fdic.gov/espanol/index.html
-- https://www.fincen.gov/
-- https://www.occ.treas.gov/
-- https://ncua.gov/ | - https://www.federalreserve.gov/
-- https://www.fdic.gov/espanol/index.html
-- https://www.occ.treas.gov/
--https://www.cftc.gov/
-- https://www.fincen.gov/ | - https://www.dfs.ny.gov/
-- https://www.fincen.gov/
-- https://www.occ.treas.gov/
-- https://www.fdic.gov/espanol/index.html | - https://www.bafin.de/EN/Homepage/homepage_node.html | - https://www.fincen.gov/ |
-| Main services | - Account management
-- Transfers
-- Debit and credit cards | - Bank account integration and tracking | - Payment processing
-- Debit and credit card issuance | - Bank account integration and tracking
-- Budget management | -Integration and follow-up of bank accounts |
-
-![Frame 2608145.png](Post%20Neobanking%20and%20SynapseFi%203bd7afc61c5d42ebb74a32770138227e/Frame_2608145.png)
+![Frame 2608145.png](/images/neobanking-and-synapseFi/Frame_2608145.png)
 
 ## Getting Started with SynapseFi
 
@@ -138,7 +112,7 @@ To get started with exploring the SynapseFi API and integrating the services to 
 
 ### Create and integrate a SynapseFi account
 
-![synapse account.gif](Post%20Neobanking%20and%20SynapseFi%203bd7afc61c5d42ebb74a32770138227e/synapse_account.gif)
+![synapse account.gif](/images/neobanking-and-synapseFi/synapse_account.gif)
 
 - The first step is to create a sandbox account, for that, you must navigate to the [website](https://uat-dashboard.synapsefi.com/on-boarding/auth/signup) provided by Synapsefi, and perform the respective signUp process.
 - The next step is to perform the onboarding process, here you can enter false or real information, which will facilitate the process of moving to production once everything is tested.
@@ -634,13 +608,13 @@ GET https://api.synapsefi.com/v3.1/subscriptions/logs
 ```
 
 <aside>
-⚙ **Practical Example:  API REST with NodeJs, Typescript y Express**
+⚙ Practical Example:  API REST with NodeJs, Typescript y Express
 
 As an example, a REST API was built in which the services described above were implemented.
 
 </aside>
 
-![[Example code](https://github.com/Kriz1618/synapsefi-rest-api)](Post%20Neobanking%20and%20SynapseFi%203bd7afc61c5d42ebb74a32770138227e/github.png)
+![[Example code](https://github.com/Kriz1618/synapsefi-rest-api)](/images/neobanking-and-synapseFi/github.png)
 
 [Example code](https://github.com/Kriz1618/synapsefi-rest-api)
 
@@ -690,7 +664,7 @@ In order to go into production using Synapse services, a series of phases must b
     Depending on the type of services offered, Synapse will provide differentiated support and verification.
     
 
-## **Conclusion**
+## Conclusion
 
 In conclusion, neobanking is a rapidly growing industry that's changing the way people interact with financial services. As the demand for digital financial products and services continues to increase, more and more companies are turning to banking-as-a-service (BaaS) platforms like SynapseFi to create and launch their own innovative solutions.
 
