@@ -73,7 +73,6 @@ In this blog section, we'll explore the pros and cons of neobanking to help you 
 ## Some successful neo-banks around the world
 
 | [NuBank](https://nu.com.co/) | It was founded in Brazil in 2013, it offers a range of financial products and services, including no-fee credit cards, savings accounts, personal loans, insurance, and investment products. It has over 70 million customers and is valued at over $45 billion. |
-| --- | --- |
 | [Revolut](https://www.revolut.com/) | Revolut is a UK-based neobank that was founded in 2015, it offers banking services in multiple currencies. It has over 16 million customers and is valued at over $33 billion. |
 | [N26](https://n26.com/) | It’s a German neobank that was founded in 2013, it offers banking services across Europe and the US. It has over 7 million customers and is valued at over $3.5 billion. |
 | [Manzo](https://monzo.com/) | This UK-based neobank was founded in 2015, it offers fee-free banking services and a user-friendly app. It has over 5 million customers and is valued at over $2 billion. |
@@ -94,7 +93,6 @@ Overall, SynapseFi's BaaS platform is a powerful tool for companies seeking to l
 Synapse has enabled numerous clients to offer services through the implementation of neobanks, which provide a range of financial products to users. Some notable customers include: 
 
 | [Chime](https://www.chime.com/) | It is a U.S. neobank, which offers various services such as debit cards, checking accounts, transfers and electronic payments. One of its main qualities is that it does not require its users to maintain a minimum balance, nor does it have a monthly fee. |
-| --- | --- |
 | [Dave](https://dave.com/) | This neobank offers debit card issuance services, loans or payroll advances, automatic savings, and budgets. It also helps its users to avoid overdrafts and extra charges. |
 | [Varo](https://www.varomoney.com/) | It is a mobile-only neobank in the United States, offering traditional banking services such as debit cards, transfers, checking, and savings accounts. This platform offers very competitive rates and fees and is primarily targeted at the millennial population. |
 | [Current](https://current.com/) | It is a neobank that differs from the other options for its various features, one of the most relevant is that it offers current accounts that use artificial intelligence. It also provides budgeting tools and parental controls for accounts aimed at teenagers. |
@@ -104,7 +102,9 @@ Synapse has enabled numerous clients to offer services through the implementatio
 
 While SynapseFi offers a range of benefits for companies looking to create and launch financial products quickly, it's not the only option on the market. There are several other BaaS platforms that offer similar services and features. Here are some alternatives:
 
-![Frame 2608145.png](/images/neobanking-and-synapseFi/Frame_2608145.png)
+![Alternatives 1](/images/neobanking-and-synapseFi/Frame_2608155.png)
+
+![Alternatives 2](/images/neobanking-and-synapseFi/Frame_2608156.png)
 
 ## Getting Started with SynapseFi
 
