@@ -32,9 +32,15 @@ table {
   border-spacing: 0;
 }
 
-caption, th, td {
+caption, th {
   text-align: left;
   font-weight: normal;
+  vertical-align: middle;
+}
+
+td {
+  text-align: left;
+  font-weight: lighter;
   vertical-align: middle;
 }
 
