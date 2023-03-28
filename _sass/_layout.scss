@@ -206,10 +206,16 @@ div.header {
   &::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
   }
+
+  @include media-query($on-device) {
+    display: inline-block !important;
+    overflow-y: unset;
+  }
 }
 
 .filter-divider {
   margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 .selected-filter {
@@ -225,6 +231,10 @@ div.header {
   align-self: center;
   &:hover {
     color: $hover-filter-color;
+  }
+
+  @include media-query($on-device) {
+    display: inline-block !important;
   }
 }
 
