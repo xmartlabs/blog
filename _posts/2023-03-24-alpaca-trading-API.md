@@ -4,7 +4,7 @@ title: Unlocking the Potential of Alpaca Trading API - A Comprehensive Guide
 date: '2023-03-28T09:00:00.000-03:00'
 tags: [frontend-development, alpaca API, javascript development]
 author_id: christian-casaran
-category: development
+category: [development]
 permalink: /blog/a-comprehensive-guide-to-alpaca-trading-api/
 featured_image: /images/alpaca-trading-API/Alpaca_trading.png
 ---
