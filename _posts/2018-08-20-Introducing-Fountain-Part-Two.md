@@ -5,7 +5,7 @@ date: 2018-08-20 09:00:00
 author: Matías Irland
 tags: [Xmartlabs, Android, Android Jetpack, Android Paging Library, Live Data, Android Architecture Components, RxJava, Retrofit, Fountain]
 author_id: mirland
-category: android-development
+category: [development, mobile-development, android-development]
 
 permalink: /:year/:month/:day/:title/
 ---
@@ -149,7 +149,7 @@ The `dropEntities` method will require one or two methods depending on what we w
 - The first option can be to have a method to delete all `User` entities and all `UserSearch` entities associated to a `search` query.
 - The second one can be to have only one method to delete the `UserSearch` entities associated to a `search` query and keep the `User` entities in the database.
 This is very helpful when you have multiple services that return the same entities and we have to keep the database consistent.
-In our example, the same user could be included in multiple `search` queries' responses, so to remove some complexity, we will use this solution.  
+In our example, the same user could be included in multiple `search` queries' responses, so to remove some complexity, we will use this solution.
 
 Note that the `runInTransaction` operation will not require any method in the `UserDao`, we will just use the `runInTransaction` method that Room provides.
 

@@ -6,13 +6,13 @@ author: Diego Ernst
 tags: [Xmartlabs, Swift, iOS]
 author_id: dernst
 markdown: redcarpet
-category: development
+category: [development]
 permalink: /:year/:month/:day/:title/
 ---
 
 [Ecno]:        https://github.com/xmartlabs/Ecno
 
-Have you ever been using `UserDefaults` to store something that the user did in the past and then check whether or not he did it? Maybe you wanted to display certain tutorial or prompt the user to subscribe just oncE? (the capital E ;)  
+Have you ever been using `UserDefaults` to store something that the user did in the past and then check whether or not he did it? Maybe you wanted to display certain tutorial or prompt the user to subscribe just oncE? (the capital E ;)
 
 If you feel familiar with those situations, you will discover a new friend, [Ecno].
 
@@ -64,7 +64,7 @@ if !Ecno.beenDone("sync operation", scope: .since(3.hours)) {
 }
 ```
 
-> meaning "If there's been at least 3 hours since the last sync operation, then perform another sync".  
+> meaning "If there's been at least 3 hours since the last sync operation, then perform another sync".
 
 
 If you want to show a tutorial every time your app gets updated:

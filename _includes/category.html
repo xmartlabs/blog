@@ -1,9 +1,9 @@
 {% assign category = site.data.categories[include.categoryText] %}
 {% assign displayPosts = site.posts | where: 'category', include.categoryText  %}
-{{category}}
 <div class="list-container">
     <div class="header">
       <div class="featured-container container">
+        {% include filters.html%}
         <h1 class="header-title">Xmartlabs Blog </h1>
         <h4 class="subtitle header-subtitle">
           {{ category.title }}
@@ -13,7 +13,7 @@
 
     <div class="featured-container container">
       {% for post in displayPosts limit:1 offset:0 %}
-      {% assign category = site.data.categories[post.category] %}
+      {% assign category = site.data.categories[post.category.first] %}
       {% assign author = site.data.authors[post.author_id] %}
         <div class="featured-column">
           <div class="featured-post" style="background-image: url('{{ post.featured_image}}');">
@@ -42,7 +42,7 @@
       {% endfor %}
       <div class="bottom-row">
         {% for post in displayPosts limit:1 offset:1 %}
-        {% assign category = site.data.categories[post.category] %}
+        {% assign category = site.data.categories[post.category.first] %}
         {% assign author = site.data.authors[post.author_id] %}
           <div class="featured-column">
             <div class="featured-post" style="background-image: url('{{ post.featured_image}}');">
@@ -71,7 +71,7 @@
           </div>
         {% endfor %}
         {% for post in displayPosts limit:1 offset:2 %}
-        {% assign category = site.data.categories[post.category] %}
+        {% assign category = site.data.categories[post.category.first] %}
         {% assign author = site.data.authors[post.author_id] %}
           <div class="featured-column">
             <div class="featured-post" style="background-image: url('{{ post.featured_image}}');">

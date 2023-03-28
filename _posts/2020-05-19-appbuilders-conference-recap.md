@@ -5,7 +5,7 @@ excerpt: "My thoughts about the knowledge shared at the conference!"
 date: 2020-05-19 10:00:00
 author: Rodrigo Arsuaga
 tags: [Xmartlabs, iOS Conference]
-category: people-events
+category: [people-events]
 author_id: arsu
 featured_image: /images/recap-appbuilders/featured.jpg
 
@@ -60,7 +60,7 @@ Finally, he shared a bunch of tips! For example how to speed up testing by speed
 </div>
 
 Property wrappers were a very required swift language feature.
-Combine and SwiftUI make use of it. In this talk, Vincent Pradeilles introduced the subject, explaining why it is useful and where. He also showed several PropertyWrappers applications from simple to complex, from how to encapsulate repetitive NSUserDefault getters and setters to how to implement property value caching.  
+Combine and SwiftUI make use of it. In this talk, Vincent Pradeilles introduced the subject, explaining why it is useful and where. He also showed several PropertyWrappers applications from simple to complex, from how to encapsulate repetitive NSUserDefault getters and setters to how to implement property value caching.
 
 If you know nothing about property wrappers yet, this is a very comprehensive introduction.
 
@@ -71,7 +71,7 @@ If you know nothing about property wrappers yet, this is a very comprehensive in
 </div>
 
 In this talk Shai Mishali introduced the Combine framework.
-It went from reactive programming fundamentals to some async programming problems where reactive programming makes sense to combine main components and its integration with Foundation and SwiftUI. Even if you know nothing about reactive programming or you have been using RxSwift this talk is for you.  
+It went from reactive programming fundamentals to some async programming problems where reactive programming makes sense to combine main components and its integration with Foundation and SwiftUI. Even if you know nothing about reactive programming or you have been using RxSwift this talk is for you.
 
 
 ### Going Quantum
@@ -113,7 +113,7 @@ Inspiring words by Erica Sadun on how we should constantly engage with the Swift
 
 In this talk presented by Paris Buttfield-Addison, we learned how easy can it be to incorporate AI into your iOS app. You don't need to be an AI expert as Apple has enough tools for you. You only need a dataset to get started and then with CoreML you can train a model for your specific use case. You can do all of this using Swift and a GUI.
 
-If you prefer using Python then there is [Turi Create](https://github.com/apple/turicreate), which lets you train your own models with more flexibility. It can be used for a variety of tasks like image classification, object detection, recommender systems, sound classification and many more.  
+If you prefer using Python then there is [Turi Create](https://github.com/apple/turicreate), which lets you train your own models with more flexibility. It can be used for a variety of tasks like image classification, object detection, recommender systems, sound classification and many more.
 
 With these tools, you can create CoreML models which come pre-packaged with handy functions that make models very easy to integrate with your app.
 

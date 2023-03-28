@@ -5,7 +5,7 @@ date: '2021-10-21T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [TechCrunch Disrupt 2021, Crypto Landscape, Crypto 2021, TC Disrupt Recap]
 author_id: mtnBarreto
-category: blockchain-development
+category: [blockchain-development]
 featured_image: /images/tcd21-crypto-landscape/disrupt2021.png
 permalink: /blog/crypto-landscape-2021/
 ---
@@ -38,7 +38,7 @@ Using Flow, Dapper Labs launched [NBA Top Shot](https://nbatopshot.com/) earlier
 
 ### What's coming for NFT
 
-The digital collectible craze is real; in a world where crypto is regulated and under so much speculation, we still have to wait and see if NFTs are here for good. Flow is doing great work in accelerating NFT adoption by lowering the barriers through reduced [gas prices](https://ethereum.org/en/developers/docs/gas/) and user-friendliness.  
+The digital collectible craze is real; in a world where crypto is regulated and under so much speculation, we still have to wait and see if NFTs are here for good. Flow is doing great work in accelerating NFT adoption by lowering the barriers through reduced [gas prices](https://ethereum.org/en/developers/docs/gas/) and user-friendliness.
 
 We have to wait until mass adoption occurs or it draws down. What's genuine is the current interest in the industry and the considerable capital liquidity that allows the space to push forward, test new ideas, learn from failure until delivering valuable apps around NFT to the mass.
 
@@ -83,7 +83,7 @@ We can understand a DAO as an **internet native organization** that is controlle
 
 ### Types of DAOs
 
-Manasi Vora and [David Pakman](https://twitter.com/pakman) shared different types of DAOs that are successfully operating so far.  
+Manasi Vora and [David Pakman](https://twitter.com/pakman) shared different types of DAOs that are successfully operating so far.
 
 **Governance Style**
 

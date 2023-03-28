@@ -5,7 +5,7 @@ excerpt: "See how AppBuilders handle the quarantine and join us online!"
 date: 2020-05-07 10:00:00
 author: Rodrigo Arsuaga
 tags: [Xmartlabs, iOS Conference]
-category: people-events
+category: [people-events]
 author_id: arsu
 featured_image: /images/appbuilders2020/featured.png
 

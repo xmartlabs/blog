@@ -2,8 +2,8 @@
 title: "Challenges of building a web with Flutter"
 layout: post
 permalink: /blog/challenges-of-building-a-web-with-flutter/
-date: '2022-08-10T10:00:00.000-03:00' 
-category: development
+date: '2022-08-10T10:00:00.000-03:00'
+category: [development]
 tags:
   - Flutter
   - Flutter web
@@ -93,11 +93,11 @@ We must be especially careful with this point since not correctly managing web e
 To avoid this kind of behavior, HTML elements should be declared at the top of your widget trees or register its **`viewFactory` with a unique random key each time you want to recreate the widget.**
 
 ```dart
-  // HTML Video element example 
+  // HTML Video element example
   // This id denomination can led to unexpected behavior:
   var videoElementId = 'video_element';
   // this cannot since the id will be different each time its recreated
-  var videoElementId = 'video_element_${DateTime.now().millisecondsSinceEpoch}'; 
+  var videoElementId = 'video_element_${DateTime.now().millisecondsSinceEpoch}';
 
   // ignore: undefined_prefixed_name
   ui.platformViewRegistry.registerViewFactory(videoElementId, (int viewId) {

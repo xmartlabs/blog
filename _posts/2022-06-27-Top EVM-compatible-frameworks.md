@@ -1,9 +1,9 @@
 ---
 title: "Top EVM-compatible frameworks to build dApps - Truffle vs Hardhat"
 layout: post
-permalink: /blog/best-blockchain-development-framework/ 
-date: '2022-06-28T10:00:00.000-03:00' 
-category: blockchain-development
+permalink: /blog/best-blockchain-development-framework/
+date: '2022-06-28T10:00:00.000-03:00'
+category: [blockchain-development]
 tags:
   - DApp Frameworks
   - Truffle
@@ -62,7 +62,7 @@ Truffle provides a suite of tools and solves every major dApp development challe
 Once you install Truffle, you can create a new Ethereum project by running `truffle init`. It will make the project structure and base project files within the current folder, but it won't contain any smart contracts.
 
 > Alternatively, you can use `truffle unbox <box-name>`  to initialize the base template that contains actual dApp functionality (more on that later). As you can see, Truffle offers many command-line commands to perform tasks. For instance, `truffle compile` compiles your smart contracts into their bytecode.
-> 
+>
 
 ![Truffle project’s folder structure](/images/evm-compatible-frameworks/poject-structure.png)
 *Truffle project’s folder structure*
@@ -97,7 +97,7 @@ truffle(development)>
 
 `truffle console -network <name>` it’s pretty much the same as the last command but with some significant differences. It won't run the local development node nor provide specific accounts and private keys. But it allows connecting to any other network such as testnet and mainnet. 
 
-You can execute `migrate —reset` to deploy de contracts on the connected network. 
+You can execute `migrate —reset` to deploy de contracts on the connected network.
 
 ![migrate -reset.png](/images/evm-compatible-frameworks/migrate_-reset.png)
 
@@ -118,7 +118,7 @@ Using Ganache, you can track blockchain account status such as transactions, add
 
 **[Truffle Boxes:](https://trufflesuite.com/boxes/)**
 
-Boxes are just helpful boilerplates. Some of them are project scaffolds (templates), so you can quickly start your project using the best tooling and practices and focus on your dApp functionality. All boxes created by the community are listed [on their website](https://trufflesuite.com/boxes/). 
+Boxes are just helpful boilerplates. Some of them are project scaffolds (templates), so you can quickly start your project using the best tooling and practices and focus on your dApp functionality. All boxes created by the community are listed [on their website](https://trufflesuite.com/boxes/).
 
 `truffle unbox <box_name>` download a box to the current directory.
 
@@ -144,13 +144,13 @@ Truffle was the first framework for smart contracts development, but Hardhat has
  <tr>
     <td>
       <figure>
-        <img src="/images/evm-compatible-frameworks/truffle-adoption.png" /> 
+        <img src="/images/evm-compatible-frameworks/truffle-adoption.png" />
         <figcaption>Weekly download for truffle is pretty stable and in a downtrend.</figcaption>
       </figure>
     </td>
     <td>
       <figure>
-        <img src="/images/evm-compatible-frameworks/hardhat-adoption.png" /> 
+        <img src="/images/evm-compatible-frameworks/hardhat-adoption.png" />
         <figcaption>Weekly download for hardhat is growing since its release.</figcaption>
       </figure>
     </td>
@@ -183,9 +183,9 @@ contract Token  {
 	function transfer(address to, uint256 amount) external {
 	    console.log("Sender balance is %s tokens", balances[msg.sender]);
 	    console.log("Trying to send %s tokens to %s", amount, to);
-	
+
 	    require(balances[msg.sender] >= amount, "Not enough tokens");
-	
+
 	    balances[msg.sender] -= amount;
 	    balances[to] += amount;
 	}
@@ -241,7 +241,7 @@ To deploy a smart contract in Truffle, we must add a migration file to the migra
 
 Is this flexibility good or bad? It depends on the developer's preference. Personally, I leave the configuration as it comes out of the box, but at the same time, I like some level of flexibility to tweak things (when the requirements force me to do so).
 
- 
+
 
 ## **Additional tools typically used along with dApp frameworks**
 
@@ -252,7 +252,7 @@ OpenZeppelin provides a set of tools and smart contracts to security build, auto
 As I have already mentioned, it’s super hard to fix security and functional issues after deployment. Using audited, well-written base code minimizes those risks and speeds up development time. OpenZepplin provides modular, reusable, and secure smart contract implementations for ERC standards. It also includes helper libraries such as [Math](https://docs.openzeppelin.com/contracts/2.x/api/math) to wrap Solidity arithmetic operations which makes your code more secure (avoiding overflows and so on).
 
 > Just in case, there are some tricks to upgrade a dApp by using a smart contract proxy and delegating implementation to another smart contract. This way, we can change the contract code while preserving the state, balance, and address of the dApp.
-> 
+>
 
 OpenZeppelin Defender (another product) is an automated tool to ship and manage smart contracts after deployment. Read more on their [site](https://www.openzeppelin.com/defender).
 
@@ -269,11 +269,11 @@ With DataHub, developers now have access to Web 3 protocols through the **[enter
 
 ### [Alchemy](https://www.alchemy.com/)
 
-Alchemy platform has some similarities with Figment in regards with infrastructure provided and services to develop complex dApps like analytics, performance monitoring and webhooks to get notified about on-chain events. 
+Alchemy platform has some similarities with Figment in regards with infrastructure provided and services to develop complex dApps like analytics, performance monitoring and webhooks to get notified about on-chain events.
 
 ### [Remix](https://remix-project.org/)
 
-A "no-setup" browser and desktop app to develop and learn Ethereum smart contracts. They provide an online IDE super interesting to learn and play with EVM-compatible smart contracts. 
+A "no-setup" browser and desktop app to develop and learn Ethereum smart contracts. They provide an online IDE super interesting to learn and play with EVM-compatible smart contracts.
 
 ## Final Thoughts
 
@@ -281,7 +281,7 @@ We have seen two of the most popular frameworks for building dApps. Are there mo
 
 [For sure](https://ethereum.org/en/developers/docs/frameworks/). But I don't recommend anything other than Truffle or Hardhat, especially if you take EVM-compatible dApp development seriously. You would have to learn Javascript, Solidity, and several other tools, but it's well worth it. As I said, framework selection is critical, and you must evaluate both.
 
-**So the question is Truffle or Hardhat? Which one is definitely the best framework?** 
+**So the question is Truffle or Hardhat? Which one is definitely the best framework?**
 
 That's hard to answer. It depends on your personal preferences, what you value the most, and how you like to do things.
 

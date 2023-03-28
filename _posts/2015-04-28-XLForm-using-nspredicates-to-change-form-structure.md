@@ -5,7 +5,7 @@ date:   2015-04-28 15:38:56
 author: Mathias Claassen
 tags: [Xmartlabs, XLForm, iOS]
 author_id: mathias
-category: development
+category: [development]
 permalink: /:year/:month/:day/:title/
 ---
 

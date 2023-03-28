@@ -7,7 +7,7 @@ tags: [Xmartlabs, ML Kit, Core ML, iOS]
 author_id: mathias
 markdown: redcarpet
 featured_image: /images/mlkit/featured.png
-category: machine-learning
+category: [machine-learning]
 permalink: /:year/:month/:day/:title/
 ---
 

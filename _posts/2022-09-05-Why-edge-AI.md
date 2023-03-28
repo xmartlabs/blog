@@ -5,7 +5,7 @@ date: '2022-09-05T10:00:00.000-03:00'
 author: Mathias Claassen
 tags: [Machine Learning, Edge, Mobile]
 author_id: mathias
-category: machine-learning
+category: [machine-learning]
 featured_image: /images/why-edge-ai/AI_on_the_edge.png
 permalink: /blog/why-edge-ai/
 ---

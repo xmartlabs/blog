@@ -5,8 +5,11 @@ $pink: #d91965;
 $light-grey: #a0a0a0;
 $lighter-grey: #ececec;
 $grey: #525252;
+$selected-filter-color: #EE1a64;
+$hover-filter-color: #8F8F8F;
 $body-font-family: 'Work Sans', sans-serif;
 $body-font-weight: 300;
+$bold-font-weight: 500;
 $title-font-family: 'Girloy', sans-serif;
 
 header {
@@ -22,7 +25,7 @@ header {
   .container {
     text-align: left;
   }
-  padding-top: 165px;
+  padding-top: 155px;
 }
 
 body {
@@ -187,6 +190,51 @@ div.header {
   }
   @include media-query($on-palm) {
     flex-direction: column;
+  }
+}
+
+.filters-container {
+  position: relative;
+  font-family: $body-font-family;
+  display: flex;
+  justify-content: space-between;
+  font-weight: $bold-font-weight;
+  font-size: 16px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  @include media-query($on-device) {
+    display: inline-block !important;
+    overflow-y: unset;
+  }
+}
+
+.filter-divider {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.selected-filter {
+  box-sizing: border-box;
+  border: 1.5px solid $selected-filter-color;
+  color: $selected-filter-color !important;
+  border-radius: 20px;
+}
+
+.filter {
+  padding: 5px 15px;
+  cursor: pointer;
+  align-self: center;
+  &:hover {
+    color: $hover-filter-color;
+  }
+
+  @include media-query($on-device) {
+    display: inline-block !important;
   }
 }
 

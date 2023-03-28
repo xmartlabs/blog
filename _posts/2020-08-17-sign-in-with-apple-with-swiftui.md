@@ -5,7 +5,7 @@ date: 2020-08-17 10:00:00
 author: Cecilia Pirotto
 excerpt: "In this blog post we talk about the benefits of providing Sign in with Apple in your app. We also provide a step by step integration guide!"
 tags: [Sign in with Apple, SwiftUI, Apple, Xmartlabs]
-category: ios-development
+category: [development, mobile-development, ios-development]
 author_id: ceci
 featured_image: /images/apple-sign-in/signInWithApple.jpg
 
@@ -101,9 +101,9 @@ Unlike UIKit implementation, there is no need to conform to protocols to handle 
 Once the app user taps the button, authorization flow starts displaying the request dialog which is completely handled by Apple, we just need to configure the request in `onRequest` closure.
 
 ```swift
-onRequest: { (request) in  //2           
+onRequest: { (request) in  //2
     request.requestedScopes = [.fullName, .email]
-    request.nonce = myNonceString()               
+    request.nonce = myNonceString()
     request.state = myStateString()
  },
 ```
@@ -134,7 +134,7 @@ We only receive *state* value if it was sent in the request.
 App invokes `onCompletion` closure with the result of the authorization request. If successful we receive the authorization credential mentioned before.
 
 ```swift
-onCompletion: { (result) in    
+onCompletion: { (result) in
 	switch result {
 	case .success(let authorization):
 	    //Handle autorization

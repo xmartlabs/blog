@@ -5,7 +5,7 @@ excerpt: "In this blogpost I share some useful behaviour tips to overcame physic
 date: 2020-06-08 10:00:00
 author: Fernanda Barrios
 tags: [Xmartlabs, COVID-19, Mental Health, Physical Health]
-category: people-events
+category: [people-events]
 author_id: fer-barrios
 featured_image: /images/dealing-with-covid/dealing-with-covid.jpg
 

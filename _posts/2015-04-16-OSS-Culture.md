@@ -5,7 +5,7 @@ date: '2015-04-16T17:00:00.000-03:00'
 author: Martin Barreto
 tags: [Xmartlabs, OSS]
 author_id: mtnBarreto
-category: people-events
+category: [people-events]
 permalink: /:year/:month/:day/:title/
 ---
 

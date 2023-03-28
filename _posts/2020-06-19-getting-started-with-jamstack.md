@@ -4,7 +4,7 @@ title: "New to Jamstack? Everything you need to know to get started"
 date: 2020-06-22 10:00:00
 tags: [Jamstack, Markup, Static Site Generator, Static Website, web stack, Xmartlabs]
 excerpt: "In this blogpost, we cover all you need to get started with Jamstack. From its meaning and best practices to what caused Jamstack's rapid adoption as a web stack alternative."
-category: development
+category: [development]
 author_id: mtnBarreto
 
 featured_image: /images/jamstack-intro/featured.jpeg
@@ -48,17 +48,17 @@ The main point behind Jamstack is leveraging the browser and JS capabilities by 
 
 Jamstack aims to deliver better performance, higher security, lower cost of scaling, and a better developer experience compared with the well-know monolithic web architecture.
 
-**Better Performance**  
+**Better Performance**
 When it comes to minimizing the time to first byte (TTFB), nothing beats pre-built files served over a CDN.
 The Jamstack is faster because the browser does tasks that the back-end traditionally executed (e.g. rendering documents on the fly on a server).
 
-**Higher Security**  
+**Higher Security**
 With server-side processes abstracted into microservice APIs and the lack of a monolithic server, the surface area for attacks is reduced. Jamstack also leverages the security domain expertise of specialist third-party services.
 
-**Cheaper, Easier Scaling**  
+**Cheaper, Easier Scaling**
 There is no need for a managed monolithic server, DevOps or costly infrastructure to be developed and maintained. When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, static content can be placed on a CDN making it easier to dynamically scale.
 
-**Better Developer Experience**  
+**Better Developer Experience**
 Jamstack also changes how developers work. They can focus on value-added features since they leverage microservices functionality.
 Jamstack encourage a git centric workflow where developers create branches, pull requests and merge these changes into a production branch and a continuous delivery process automatically runs, pre-building the front-end static content and deploying the site to a CDN. So any changes in git will automatically be reflected and distributed to the CDN all over the world.
 Developers just need to rely on the git versioning system since deployments are automatically performed saving a lot of time.
@@ -131,7 +131,7 @@ Ideally, we can also take advantage of modern build tools. By using tools like B
 Git is fundamental to the Jamstack because it holds all the site’s components, the entire site should be pushed to a git repository. There are publishing platforms that offer CI & CD, and app distribution to CDN services so the site is automatically pre-build and deploy whenever a git remote branch changes. This workflow embodies the modern software development life cycle practice of Continuous Integration and Deployment (CI/CD).
 Having the entire site code centralized in git reduces the contribution friction since anyone is able to clone it and execute a command (e.g. npm install) to set up dependencies and run the website locally. There are no databases to clone, no complex installations. This extremely simplifies staging and testing workflows.
 
-**Automated builds**  
+**Automated builds**
 
 Because Jamstack markup is prebuilt, content changes won’t go live until you run another build. Automating this process will save you lots of frustration. You can do this yourself with webhooks, or use a publishing platform that automatically includes this service.
 
@@ -152,10 +152,10 @@ At this point you should have enough information on Jamstack to define if it wou
 [Netlify](https://www.netlify.com/) It's a publishing platform for Jamstack apps. It offers CI & CD and app distribution to CDN.
 [Vercel](https://vercel.com/) is an alternative to Netlify.
 
-[staticgen.com](https://www.staticgen.com) lists all SSG alternatives including the frameworks to build a static site with react or vue.js web frameworks.  
+[staticgen.com](https://www.staticgen.com) lists all SSG alternatives including the frameworks to build a static site with react or vue.js web frameworks.
 [Hugo](https://gohugo.io/) and [Eleventy](https://www.11ty.dev/) seems to me the most interesting SSG. Hugo because is super fast pre-building the entire website markup and Eleventy because is easy to use and flexible in terms of template system language.
 
-[nextjs](https://nextjs.org/) and [gatsbyjs](https://www.gatsbyjs.org/) are popular static site generators for react.js.  
+[nextjs](https://nextjs.org/) and [gatsbyjs](https://www.gatsbyjs.org/) are popular static site generators for react.js.
 [nuxtjs](https://nuxtjs.org/) and [gridsome](https://gridsome.org/) allows us to generate a static site using vue.js.
 
 In many cases a Jamstack site needs to run code, there are microservices that allows us to do so without provisioning or managing servers.
@@ -164,11 +164,11 @@ In many cases a Jamstack site needs to run code, there are microservices that al
 
 There are also many microservices providing content management system solutions (CMS), each one with its pros and cons. [sanity.io](https://www.sanity.io/), [storyblok](https://www.storyblok.com/), [prismic.io](https://prismic.io/), [contentful](https://www.contentful.com/), [ghost](https://ghost.org/), [netlifycms](https://www.netlifycms.org/) are some of them.
 
-In terms of DB solutions, there are also a big list of them. [faunaDB](https://fauna.com/), [firebase](https://firebase.com/), [Amazon DynamoDB](https://aws.amazon.com/dynamodb/), [Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/), [Amazon Aurora Serverless](https://aws.amazon.com/rds/aurora/serverless/), [Amazon Relational Database Service](https://aws.amazon.com/rds/), [Cloud SQL](https://cloud.google.com/sql/docs/) are some alternatives. By the way, we have collaborated with fauna team to create a swift language client for its DB.  
+In terms of DB solutions, there are also a big list of them. [faunaDB](https://fauna.com/), [firebase](https://firebase.com/), [Amazon DynamoDB](https://aws.amazon.com/dynamodb/), [Azure Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/), [Amazon Aurora Serverless](https://aws.amazon.com/rds/aurora/serverless/), [Amazon Relational Database Service](https://aws.amazon.com/rds/), [Cloud SQL](https://cloud.google.com/sql/docs/) are some alternatives. By the way, we have collaborated with fauna team to create a swift language client for its DB.
 
 Services like [Auth0](https://auth0.com/), [Okta](https://www.okta.com/), and [Netlify Identity](https://docs.netlify.com/visitor-access/identity/) offer a cloud-based identity management service.
 
-The microservices list above is not intended to be exhaustive by any means, it's just to give a picture of how mature the microservices industry is.  
+The microservices list above is not intended to be exhaustive by any means, it's just to give a picture of how mature the microservices industry is.
 
 ## Final thoughts
 

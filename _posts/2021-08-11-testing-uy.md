@@ -5,7 +5,7 @@ date: '2021-08-12T09:00:00.000-03:00'
 author: Martin Barreto
 tags: [Xmartlabs, TestingUY, QA, Testing Event]
 author_id: edu
-category: people-events
+category: [people-events]
 featured_image: /images/our-take-on-testinguy/blogpost3.png
 social_image: /images/our-take-on-testinguy/testing-uy-twitter.png
 twitter_image: /images/our-take-on-testinguy/testing-uy-twitter.png

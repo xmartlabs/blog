@@ -5,7 +5,7 @@ date: 2020-12-15 10:00:00
 author: Roberto Sosa
 excerpt: "Still not using data and analytics to make informed decisions and make your startup grow? Check out this blog post to get some indication on how to get started, understand the most critical metrics, and take advantage of many free solutions out there!"
 tags: [digital product development, product metrics, Analytics, A/B testing, Xmartlabs]
-category: development
+category: [development]
 author_id: robert
 featured_image: /images/key-metrics-for-growing-digital-startups/featured.png
 

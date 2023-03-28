@@ -6,7 +6,7 @@ author: Agustion Hernandez
 tags: [Xmartlabs, Swift, iOS, Opera, UITableView, With the Best]
 author_id: agustin
 markdown: redcarpet
-category: people-events
+category: [people-events]
 permalink: /:year/:month/:day/:title/
 ---
 

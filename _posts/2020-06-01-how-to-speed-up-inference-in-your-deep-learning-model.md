@@ -5,7 +5,7 @@ excerpt: "Did you obtain good accuracy with your deep learning model only to fin
 date: 2020-06-01 10:00:00
 author: Renzo Gambone
 tags: [Xmartlabs, Deep Learning, Optimization]
-category: machine-learning
+category: [machine-learning]
 author_id: renzo
 featured_image: /images/how-to-speed-up-inference-in-your-deep-learning-model/speed-up.jpg
 permalink: /:year/:month/:day/:title/

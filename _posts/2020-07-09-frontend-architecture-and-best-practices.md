@@ -7,7 +7,7 @@ excerpt: "Having headache when integrating with apis? The architecture and good 
 tags: [Frontend architecture, Frontend best practices, How to consume APIs, Frontend architecture patterns, Frontend, Js]
 author_id: mlorenzo
 featured_image: /images/2020-07-08/frontend-architecture-and-best-practices.jpg
-category: development
+category: [development]
 permalink: /:year/:month/:day/:title/
 ---
 

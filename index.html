@@ -1,19 +1,18 @@
 ---
 layout: default
 ---
-
 <div class="list-container">
-  {% if page.dir == "/" %}
-    <div class="header">
-      <div class="container">
-        <h1 class="header-title">Xmartlabs Blog</h1>
-        <h4 class="subtitle header-subtitle">
-          Design. Engineering. Lessons learned on our journey.
-        </h4>
-      </div>
+  <div class="header">
+    <div class="container">
+      {% include filters.html %}
+      <h1 class="header-title">Xmartlabs Blog</h1>
+      <h4 class="subtitle header-subtitle">
+        Design. Engineering. Lessons learned on our journey.
+      </h4>
     </div>
-  {% endif %}
+  </div>
 
+  {% assign displayPosts = site.posts %}
   {% include featured.html %}
 
   <div class="page-content padding-top-10">
@@ -23,7 +22,6 @@ layout: default
         </h1>
         <section>
           <ul class="post-list">
-            {% assign displayPosts = site.posts %}
             {% for post in displayPosts offset:3 %}
               <li>
                 {% include post.html post=post %}

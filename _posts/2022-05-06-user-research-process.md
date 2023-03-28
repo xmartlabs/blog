@@ -1,12 +1,12 @@
 ---
 title: "Spoiler alert: User research is like a movie"
 layout: post
-permalink: /blog/user-research-process/ 
+permalink: /blog/user-research-process/
 excerpt: I have two types of friends, the ones who don’t care for or even enjoy
   spoilers, and the ones (like me) who hate them. Read on to discover how this also adapts to the user research that goes into building a digital product.
   goes into building a digital product.
-date: '2022-05-06T10:00:00.000-03:00' 
-category: product-design
+date: '2022-05-06T10:00:00.000-03:00'
+category: [product-design]
 tags:
   - UX/UI
 author_id: alemachado
@@ -93,7 +93,7 @@ In discovery activities, time and focus are key, that’s why some of the more s
 
 ### Do not bias your users.
 
-If we were to learn one thing about a skilled interviewer, like Kara Swisher, is how she treats heated topics. She always refers back, quotes, and mentions topics with little to no paraphrasing. She’s also clever enough to ask the interviewee to “talk a little bit more about” a topic. Learn to ask without any connotation of previous research, giving away details, or even your opinion. Keep your cool and remember that [you are not the user™](https://www.nngroup.com/articles/false-consensus/).  
+If we were to learn one thing about a skilled interviewer, like Kara Swisher, is how she treats heated topics. She always refers back, quotes, and mentions topics with little to no paraphrasing. She’s also clever enough to ask the interviewee to “talk a little bit more about” a topic. Learn to ask without any connotation of previous research, giving away details, or even your opinion. Keep your cool and remember that [you are not the user™](https://www.nngroup.com/articles/false-consensus/).
 
 ## In a nutshell...
 

@@ -80,5 +80,5 @@ To force GitHub to load the new CSS you can edit [this line at `head.html`](_inc
 ```
 So far [adding](https://github.com/xmartlabs/blog/pull/74/commits/99ebef6dd332c80f3e63527cf9c1f8c8c468ef2d) (or removing, [when it was already there](https://github.com/xmartlabs/blog/pull/84/commits/6b1d2086e00e90ef3ed07dd8705e8b89c18ffa60)) an `id` parameter to the `/css/main.css` url has worked.
 ```html
-<link rel="stylesheet" href="{{ "/css/main.css?id=12345678" | relative_url }}">
+<link rel="stylesheet" href="{{ "/css/main.css?id=2" | relative_url }}">
 ```

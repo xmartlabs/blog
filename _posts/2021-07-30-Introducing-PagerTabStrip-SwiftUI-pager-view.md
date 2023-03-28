@@ -5,7 +5,7 @@ date: '2021-08-06T10:00:00.000-03:00'
 author: Martin Barreto
 tags: [Xmartlabs, PagerTabStripView, SwiftUI PagerView, XLPagertabStrip]
 author_id: mtnBarreto
-category: ios-development
+category: [development, mobile-development, ios-development]
 featured_image: /images/pager-swiftui/Twitter-1.png
 social_image: /images/pager-swiftui/Twitter-1.png
 twitter_image: /images/pager-swiftui/Twitter-1.png

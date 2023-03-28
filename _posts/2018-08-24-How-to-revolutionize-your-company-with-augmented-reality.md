@@ -5,7 +5,7 @@ date: 2018-08-20 09:00:00
 author: XL Team
 tags: [Xmartlabs, AR]
 author_id: xl
-category: development
+category: [development]
 permalink: /:year/:month/:day/:title/
 ---
 

@@ -5,19 +5,19 @@ date: '2022-09-29T10:00:00.000-03:00'
 author: Sofía Techera
 tags: [QA, quality assurance, Testing, Software Test]
 author_id: sofitechera
-category: development
+category: [development]
 featured_image: /images/importance-qa/cover.png
 permalink: /blog/quality-assurance-development-process/
 ---
 
-Would you deliver an untested product to a customer? That's a question every single company should be asking. 
-When developing a software product, we must ensure we meet the quality a client expects as well as the established criteria in the project's requirements. 
+Would you deliver an untested product to a customer? That's a question every single company should be asking.
+When developing a software product, we must ensure we meet the quality a client expects as well as the established criteria in the project's requirements.
 Here is where quality assurance (QA) comes in.
 
 # What is QA?
 
-The QA team within a company is responsible for ensuring that the quality of the project satisfies the client. 
-They are not only in charge of detecting failures in the system but also of analyzing behaviors and anticipating defects, among other things. 
+The QA team within a company is responsible for ensuring that the quality of the project satisfies the client.
+They are not only in charge of detecting failures in the system but also of analyzing behaviors and anticipating defects, among other things.
 This makes their role vital in the development process.
 
 The concept of QA arises from the commitment to quality.
@@ -25,7 +25,7 @@ Every development team should have at least one person in charge of ensuring the
 
 # Why is Quality Assurance so important?
 
-There are several reasons to hire a QA specialist when developing a digital product. 
+There are several reasons to hire a QA specialist when developing a digital product.
 Some of the main ones are:
 
 ## Quality assurance saves time and money.
@@ -44,7 +44,7 @@ Paying to prevent problems is cheaper than paying to fix them.
 
 ## QA boosts customer confidence.
 
-Companies known for quality and consistency always do better with customers. 
+Companies known for quality and consistency always do better with customers.
 People only want to spend money on products and services if they believe they're getting something worth the price.
 When businesses use quality assurance processes, they are letting customers know they care about them and their priorities.
 In many industries, QA is an essential part of the process no one would dream of skipping.
@@ -92,14 +92,14 @@ In 2009, this happened to Swedish people because a dot was missing in a single l
 People couldn't access any websites hosted on Sweden's domain (.se) because the naming service thought they didn't exist.
 It caused a failure that lasted hours, even days, for some providers.
 
-## Infidelity website: customer data 'leaked.' 
+## Infidelity website: customer data 'leaked.'
 
 Ashley Madison is a dating website for married people who wish to have an affair.
 In 2015, some hackers broke into the system and published a list of clients, totaling 32 million users.
 
 The hackers, who called themselves the Impact Team, said they had managed to steal the real names and addresses of the site's users, including those who had previously paid to "delete" their accounts.
 It appears that the Ashley Madison team didn't understand the flaws in their security system until after the hack, though the methods the hackers used are still unknown.
- 
+
  As a business, to minimize your own risk, you should take action now to double-check your security systems.
  Make security a priority, and get involved with your security team to understand how it works and how you can better secure your systems.
  Hiring an outside firm to test your security measure via Penetration Testing and Vulnerability assessments would be a good idea.
