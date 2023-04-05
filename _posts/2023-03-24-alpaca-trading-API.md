@@ -703,9 +703,10 @@ export const getTradeEvents: Handler = async (req, res) => {
 ```
 
 <aside>
-**👉 Practical Example: building an API REST with NodeJs, Typescript and Express**
+<b>👉 Practical Example: building an API REST with NodeJs, Typescript and Express</b>
+<div></div>
 
-As an example, we built a REST API with NodeJs, Typescript, and Express, in which the services described above were implemented. The code is available on [GitHub](https://github.com/Kriz1618/alpaca-rest-api).
+As an example, we built a REST API with NodeJs, Typescript, and Express, in which the services described above were implemented. The code is available on <a href="https://github.com/Kriz1618/alpaca-rest-api">GitHub</a>.
 
 </aside>
 
@@ -723,8 +724,6 @@ To deploy any application, different steps may be required, depending on the tec
 ## Conclusion
 
 Alpaca API provides a tremendous amount of options to implement cryptocurrency trading applications. To go deeper into this world, you can check out the official documentation and the Alpaca community [forums](https://forum.alpaca.markets/). 
-
-Alpaca ha tenido un gran crecimiento en los últimos años gracias a diferentes factores, entre los que podemos mencionar los siguientes puntos.
 
 Alpaca has had impressive growth during the last couple of years thanks to various factors, including:
 
