@@ -63,9 +63,9 @@ Of course, when choosing a messaging system for your streaming data pipeline, Ka
 
 |  | Application size | Hosting | Message delivery | Message order | Goal |
 | --- | --- | --- | --- | --- | --- |
-| Kafka | Big to Huge | Self-hosted | At least one delivery | Order may change | Scalability & Performance |
-| RabbitMQ | Medium to Big | Self-hosted | Guarantees only once delivery | Order may change | Scalability & Performance |
-| Amazon SQS | Small to Medium | Managed | Guarantees only once delivery | Maintained on FIFO queues | Simplicity |
+| **Kafka** | Big to Huge | Self-hosted | At least one delivery | Order may change | Scalability & Performance |
+| **RabbitMQ** | Medium to Big | Self-hosted | Guarantees only once delivery | Order may change | Scalability & Performance |
+| **Amazon SQS** | Small to Medium | Managed | Guarantees only once delivery | Maintained on FIFO queues | Simplicity |
 
 </div>
 
