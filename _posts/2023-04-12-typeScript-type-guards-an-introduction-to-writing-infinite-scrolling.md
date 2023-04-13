@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TypeScript Type Guards - An Introduction to Writing Safer Code
-date: '2023-04-12T09:00:00.000-03:00'
+date: '2023-04-13T09:00:00.000-03:00'
 tags: [Typescript]
 author_id: solo
 category: [development, web-development]
@@ -385,8 +385,11 @@ When conceiving what type of structures the information coming from outside will
 As we covered in this post, the most idiomatic approach is to avoid making assumptions and instead perform the necessary validations at the boundary. This enables us to take necessary actions in catastrophic scenarios where the received data does not comply with the expected format. By doing so, we can trigger alerts at an early stage and avoid potential errors that may be difficult to detect.
 
 <aside>
-👉 If you want safer code for your project or product, take advantage of our insights and expertise by scheduling a call or [contacting us here](https://xmartlabs.com/).
-
+👉 If you want safer code for your project or product, take advantage of our insights and expertise by 
+<a data-mode="popup" href="https://form.typeform.com/to/c7G2RUWm">
+  contacting us here</a>.
 </aside>
+
+<br/>
 
 Thanks for reading! 😊
