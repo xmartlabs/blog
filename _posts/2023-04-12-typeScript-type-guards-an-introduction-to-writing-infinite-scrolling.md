@@ -386,7 +386,7 @@ As we covered in this post, the most idiomatic approach is to avoid making assum
 
 <aside>
 👉 If you want safer code for your project or product, take advantage of our insights and expertise by 
-<a data-mode="popup" href="https://form.typeform.com/to/c7G2RUWm">
+<a data-mode="popup" class="typeform-share" href="https://form.typeform.com/to/c7G2RUWm">
   contacting us here</a>.
 </aside>
 
