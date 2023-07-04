@@ -209,3 +209,7 @@ solo:
   display_name: Juan Oliu
   image: members/solo.jpeg
   profile_url: https://github.com/jmoliugp
+mikaela:
+  display_name: Mikaela Márquez
+  image: members/mikaela.jpg
+  profile_url: https://github.com/jmoliugp
