@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Atomic Design Systems on Figma / + Figma community file!
+title: Atomic Design Systems on Figma (+ Figma community file!)
 date: '2023-07-04T09:00:00.000-03:00'
 tags: [Figma, UI, UX]
 author_id: mikaela
 category: [product-design]
 permalink: /blog/atomic-design-systems-on-figma/
-featured_image: /images/atomic-design-systems-on-figma/Infinite_scrolling.png
+featured_image: /images/atomic-design-systems-on-figma/Atomic_design.png
 ---
 
 ![Atomic design.png](/images/atomic-design-systems-on-figma/Atomic_design.png)
@@ -21,7 +21,7 @@ To make things even more easy and exciting, we’ve prepared a Figma community f
 
 ## Atomic design
 
-[**Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)** is a design methodology created by Brad Frost based on the idea that complex systems can be broken down into smaller, more manageable parts. 
+**[Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)** is a design methodology created by Brad Frost based on the idea that complex systems can be broken down into smaller, more manageable parts. 
 
 The name "Atomic Design" comes from the idea that just as atoms are the building blocks of matter, small components are the building blocks of design, and they can be combined to create something bigger and more complex, like building with LEGO blocks:
 
@@ -114,7 +114,7 @@ Using base components used to be the standard for building atomic components, so
 Last year Figma introduced component properties, aiming to reduce the amount of variants needed in component sets and making base components expendable in some cases.
 
 <aside>
-💡 [Component properties](https://help.figma.com/hc/en-us/articles/5579474826519/) are the changeable aspects of a component. You can define which parts of a component others can change by tying them to specific design properties. This allows you to control things like:
+💡 <a href="https://help.figma.com/hc/en-us/articles/5579474826519/">Component properties</a> are the changeable aspects of a component. You can define which parts of a component others can change by tying them to specific design properties. This allows you to control things like:
 
 - Layers you can hide or show
 - Whether an instance can be swapped
@@ -128,8 +128,6 @@ Component properties also have limitations: you can’t set padding or alignment
 In our experience, in cases like buttons, it’s worth sacrificing having fewer variants in exchange for a less glitchy user experience. But combining base components and properties is still useful in other cases, such as creating components for modals.
 
 ![XL modals.](/images/atomic-design-systems-on-figma/Screen_Shot_2023-06-15_at_13.07.19.png)
-
-XL modals.
 
 A common issue we faced when adding modals to our design system was the seemingly always growing amount of instances needed to cover all the different content that could possibly be shown in a modal and in all different screen sizes. 
 
@@ -174,6 +172,7 @@ Now we can return to our component properties, select the nested instance and cr
 
 </aside>
 
+
 All you need to remember when creating new content for your modals in the future is to set up your alignment and auto-layout correctly if you need the content to adjust to different modal sizes. 
 
 And that’s it! You have now successfully created a modal that can adapt to any type of content using both nested instances and component properties!
@@ -197,9 +196,3 @@ Our buttons & modals community file shows two examples of how to create atomic c
 These variables will inevitably impact and improve the way we build atomic components, probably replacing the need for styles and finally addressing the limitations of component properties, but for now, they’ve only been in open beta for a couple of weeks, and there’s not really a consensus on what’s the best way to integrate them into the design process. We can’t wait to explore them and come back with an updated version of this post!
 
 If you have any comments or feedback or would like to learn more about our design process and capabilities, don't hesitate to [reach out to our team](https://form.typeform.com/to/D1PhDJIR). Thanks for reading! 
-
----
-
-Archivo de figma, sin publicar:
-
-[](https://www.figma.com/file/4RnOwQTKGTDksMPQF1mQHn/Atomic-Modals-[Tourmaline-DS]?type=design&node-id=1-122&t=fcK9mrhSyX8Z03Jc-0)
