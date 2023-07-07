@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Atomic Design Systems on Figma (+ Figma community file!)
-date: '2023-07-04T09:00:00.000-03:00'
+date: '2023-07-07T09:00:00.000-03:00'
 tags: [Figma, UI, UX]
 author_id: mikaela
 category: [product-design]
