@@ -212,4 +212,8 @@ solo:
 mikaela:
   display_name: Mikaela Márquez
   image: members/mikaela.jpg
-  profile_url: https://github.com/jmoliugp
+  profile_url: https://www.linkedin.com/in/mikaelamarquez/
+belu:
+  display_name: Belen Carozo
+  image: members/belu.jpeg
+  profile_url: https://github.com/carozo
