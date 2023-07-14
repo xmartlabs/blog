@@ -23,7 +23,7 @@ Let's begin!
 
 ## The Usual Suspects of Low Performance
 
-A culprit of poor performance that is often pointed out is the **bridge**. In the previous architecture of React Native, the bridge acted as a communication channel between the JavaScript thread and the native thread. It was often considered a bottleneck because of the way it shared data between these threads. If you're interested in learning more about how the bridge used to work, you can find further details HERE.
+A culprit of poor performance that is often pointed out is the **bridge**. In the previous architecture of React Native, the bridge acted as a communication channel between the JavaScript thread and the native thread. It was often considered a bottleneck because of the way it shared data between these threads. If you're interested in learning more about how the bridge used to work, you can find further details [here](https://reactnative.dev/docs/next/the-new-architecture/why).
 
 However, with the introduction of the new architecture, the bridge has been eliminated, making way for a new communication mechanism called the **JavaScript Interface (JSI)**. This significant change is expected to enhance performance, but does it?
 
@@ -94,8 +94,6 @@ This means that the scrolling experience will see an improvement with the new ar
 ## Navigation transitions
 
 We tested the navigator transitions to see if there was a visual improvement caused by the separation of the threads and the bridge removal.
-
-raw:
 
 ![Fourth Comparison](/images/i-tested-react-native-new-architecture-improvements/comp_4.gif)
 
