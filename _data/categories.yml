@@ -13,7 +13,7 @@ product-design:
 development:
   title: Engineering lessons learned on our journey.
   display_name: Development
-  url: /category/product-development
+  url: /category/development
 machine-learning:
   title: Machine Learning lessons learned on our journey.
   display_name: Machine Learning
