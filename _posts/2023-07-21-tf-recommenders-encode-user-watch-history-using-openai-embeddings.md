@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TF Recommenders: Encode user watch history using OpenAI embeddings"
-date: "2023-07-20T09:00:00.000-03:00"
+date: "2023-07-21T09:00:00.000-03:00"
 tags:
   [
     Machine Learning,
