@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Deploying a Recommendation system using FastAPI, TF Serving and Feast"
-date: "2023-08-23T09:00:00.000-03:00"
+date: "2023-08-24T09:00:00.000-03:00"
 tags: [Recommendation Systems, FastAPI, TF Serving, Feast, Machine Learning]
 author_id: mathias
 category: [machine-learning]
 permalink: /blog/deploying-a-recommendation-system-using-fastapi-tf-serving-and-feast/
-featured_image: /images/deploying-a-recommendation-system-using-fastapi-tf-serving-and-feast/featured.png
+featured_image: /images/deploying-a-recommendation-system-using-fastapi-tf-serving-and-feast/featured_image.png
 ---
 
-![featured](/images/deploying-a-recommendation-system-using-fastapi-tf-serving-and-feast/featured.png)
+![featured](/images/deploying-a-recommendation-system-using-fastapi-tf-serving-and-feast/featured_image.png)
 
 ### Introduction
 
@@ -186,7 +186,7 @@ In this case, we went with Prometheus and Grafana as 2 very commonly used open-s
 endpoint in the FastAPI Controller at certain fixed intervals to read metrics
 that should be monitored. These metrics will then be aggregated by time ranges
 and displayed in several Grafana dashboards. We dive deeper into why we chose
-them and how we set up model monitoring in this [other blog post](/blog/model-monitoring-with-prometheus-and-grafana/).
+them and how we set up model monitoring in this [other blog post](/blog/ml-model-monitoring-boosting-performance-and-reliability/).
 
 ### Conclusions
 

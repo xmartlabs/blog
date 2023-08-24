@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Model monitoring with Prometheus and Grafana"
-date: "2023-08-23T09:00:00.000-03:00"
+title: "ML Model Monitoring: Boosting Performance & Reliability"
+date: "2023-08-24T09:00:00.000-03:00"
 tags:
   [
     Model Monitoring,
@@ -14,19 +14,19 @@ tags:
   ]
 author_id: maximol
 category: [machine-learning]
-permalink: /blog/model-monitoring-with-prometheus-and-grafana/
-featured_image: /images/model-monitoring-with-prometheus-and-grafana/featured.png
+permalink: /blog/ml-model-monitoring-boosting-performance-and-reliability/
+featured_image: /images/ml-model-monitoring-boosting-performance-and-reliability/featured.png
 ---
 
-![Frame 2608197.png](/images/model-monitoring-with-prometheus-and-grafana/featured.png)
+![Frame 2608197.png](/images/ml-model-monitoring-boosting-performance-and-reliability/featured.png)
 
-# ML Models Monitoring: Boosting Performance & Reliability
+# ML Model Monitoring: Boosting Performance & Reliability
 
 In the dynamic realm of recommendation systems, the spotlight often shines on the development and deployment of models. Yet, the vital importance of ongoing model monitoring can sometimes fade into the background. This blog aims to uncover the crucial role that effective monitoring plays in guaranteeing the efficacy of ML models driving recommendation systems. As user preferences continually evolve, the relevance and impact of these models are sustained by the meticulous attention devoted to ensuring they run flawlessly.
 
 In this blog post, our focus will center on the critical aspect of model monitoring. Using our own movie recommendation system as an example, we’ll delve into the intricacies of monitoring a model. Beyond mere implementation, the monitoring process constitutes an ongoing effort to ensure the system's performance, reliability, and relevance over time.
 
-![Frame 2608198.png](/images/model-monitoring-with-prometheus-and-grafana/Frame_2608198.png)
+![Frame 2608198.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Frame_2608198.png)
 
 ## Why model monitoring matters: The case of our movie RecSys
 
@@ -50,7 +50,7 @@ In summary, by monitoring a RecSys, we gain:
 
 ✅ **Adaptability to changing user behavior:** User preferences and behaviors change over time. Regularly monitoring recommendation system performance allows for quick adaptation to evolving user needs and preferences.
 
-![customer_satisfaction.png](/images/model-monitoring-with-prometheus-and-grafana/customer_satisfaction.png)
+![customer_satisfaction.png](/images/ml-model-monitoring-boosting-performance-and-reliability/customer_satisfaction.png)
 
 ## How to monitor a recommendation system
 
@@ -60,7 +60,7 @@ Selecting the right combination of tools and metrics is a critical step in effec
 
 Prometheus and Grafana worked seamlessly for us, allowing efficient data collection, in-depth analysis, proactive anomaly detection, and visual presentation of results. However, it's essential to consider your existing infrastructure, data availability, and the complexity of metrics required when making these decisions. Whether you opt for these tools or alternative solutions, a well-designed monitoring approach will ensure that your recommendation system remains reliable, effective, and capable of adapting to evolving user needs.
 
-![Frame 2608203.png](/images/model-monitoring-with-prometheus-and-grafana/Frame_2608203.png)
+![Frame 2608203.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Frame_2608203.png)
 
 **Why we chose Prometheus and Grafana**
 
@@ -84,7 +84,7 @@ In our movie recommender model, we aimed to gain a deep understanding of how wel
 - **Popular Recommender**: The "popular" recommender focused on recommending movies that were currently trending or widely popular among users. The average count of popular movies in the top 5 recommendations allowed us to gauge the balance between popular and niche movie recommendations.
 - **Base Recommender**: The "base" recommender is our two-tower retrieval model.
 
-![Frame 2608201.png](/images/model-monitoring-with-prometheus-and-grafana/Frame_2608201.png)
+![Frame 2608201.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Frame_2608201.png)
 
 ### Implementation
 
@@ -125,7 +125,7 @@ Prometheus supports four main types of metrics, each serving a specific purpose 
 
    **Main dashboard:** it’s the cornerstone of our monitoring strategy. Drawing inspiration from the RED method advocated by [Grafana’s documentation](https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/), this dashboard is designed to provide an instant overview of the user experience.
 
-   ![Group 47457.png](/images/model-monitoring-with-prometheus-and-grafana/Group_47457.png)
+   ![Group 47457.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Group_47457.png)
 
    Color-coded thresholds of red for critical, yellow for warnings, and green for optimal values intuitively guide our attention. This quick visual assessment informs us of potential symptoms or deviations from normalcy. Should any anomaly be detected, this dashboard acts as a launchpad, providing seamless navigation to more detailed metrics for deeper analysis.
 
@@ -156,15 +156,15 @@ Prometheus supports four main types of metrics, each serving a specific purpose 
 
    In the event of anomalies highlighted in the Main Dashboard, quick navigation to this dashboard allows us to pinpoint underlying system issues efficiently.
 
-   ![Group 47462.png](/images/model-monitoring-with-prometheus-and-grafana/Group_47462.png)
+   ![Group 47462.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Group_47462.png)
 
-   ![Group 47459.png](/images/model-monitoring-with-prometheus-and-grafana/Group_47459.png)
+   ![Group 47459.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Group_47459.png)
 
    **Model Metrics:** this dashboard goes deeper into the performance and user interaction aspects of the recommendation system. Alongside familiar model metrics from the Main Dashboard, we introduce additional insights such as Mean Reciprocal Rank (MRR), rating distribution, and different recommendation source distribution. MRR is a metric we used during model training and validation, and therefore it is helpful to compute on the production system to compare and detect model drifts.
 
-   ![Group 47460.png](/images/model-monitoring-with-prometheus-and-grafana/Group_47460.png)
+   ![Group 47460.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Group_47460.png)
 
-   ![Group 47458.png](/images/model-monitoring-with-prometheus-and-grafana/Group_47458.png)
+   ![Group 47458.png](/images/ml-model-monitoring-boosting-performance-and-reliability/Group_47458.png)
 
    Moreover, it becomes a ground for detecting potential model drift, allowing us to set thresholds on MRR and Conversion Rate metrics. Should deviations be detected, the dashboard serves as a call to action, signaling the need for model updates or retraining.
 
@@ -185,3 +185,5 @@ The case study of our movie recommender system exemplifies the importance of rob
 However, we also found some obstacles and concerns. Selecting appropriate thresholds and dealing with approximations for complex metrics demanded careful consideration. The interpretation of data required a deep understanding of system dynamics, and constructing precise PromQL queries demanded a familiarity with Prometheus Query Language.
 
 In conclusion, model monitoring requires continuous improvement and adaptation. As we developed our recommendation system, we recognized that **monitoring isn't just about tracking metrics – it's about refining user experiences, optimizing performance, and staying resilient in the face of change.**
+
+If you're interested in optimizing your own rec system, our team can help you elevate your performance and overall user experience. Don't hesitate to [reach out](https://form.typeform.com/to/D1PhDJIR)!
