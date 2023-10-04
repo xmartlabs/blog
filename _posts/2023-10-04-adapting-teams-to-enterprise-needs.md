@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adapting Teams to Enterprise Needs: The Key to Successful Collaborations"
-date: "2023-10-02T09:00:00.000-03:00"
+date: "2023-10-04T09:00:00.000-03:00"
 tags:
   [
     Flexible Development Teams,
@@ -22,7 +22,7 @@ tags:
   ]
 author_id: vale
 category: [product-design]
-permalink: /blog/2023-10-02-adapting-teams-to-enterprise-needs/
+permalink: /blog/2023-10-04-adapting-teams-to-enterprise-needs/
 featured_image: /images/adapting-teams-to-enterprise-needs/featured.png
 ---
 
