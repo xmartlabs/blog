@@ -48,8 +48,8 @@ When it comes to choosing the individual contributors who will partake in a new 
 
 Think beyond roles and responsibilities; ponder cultural compatibility. Not everyone possesses the skill set or the desire to work for a specific type of organization. A harmonious connection between clients and team members, not only in terms of their roles but also their cultural fit, is essential.
 
-As one of our operations team members aptly phrased it: 'You wouldn't assign a vegan to work in a slaughterhouse.'
-This highlights the crucial understanding that assigning individuals to projects they believe in is paramount. It's essential not to underestimate the impact of having people working on a project that resonates with them—something truly rewarding. 
+As one of our operations team members aptly phrased it: 'You wouldn't assign a vegan to work in a slaughterhouse.' <br />
+This highlights the crucial understanding that assigning individuals to projects they believe in is paramount. It's essential not to underestimate the impact of having people working on a project that resonates with them—something truly rewarding.<br />
 One team member eloquently expressed, 'I believe that through my work, I make a difference in the lives of those who truly need it. Being able to contribute to a project like this holds a unique significance for me.'
 By aligning the team's composition with the client's values, preferences, and work culture, we forge a foundation for success that transcends mere technical proficiency. It's about creating a team that shares the client's vision and ethos, ensuring not just project delivery but a harmonious collaboration.
 
@@ -131,11 +131,18 @@ In the spirit of strong partnerships, clients should be regarded as more than me
 A key aspect of having a flexible and adaptable team is ensuring that you will be able to cover any new roles that arise.
 Sometimes you will be able to do so with internal talent, with people you have on the bench or on other projects, but oftentimes, the role or technology is one you might not have the internal capabilities for.
 
-To avoid potential delays, it's advisable to proactively seek individuals with specialized skill sets that may be harder to find within the market. 
-Once identified, ensure internal approval for these niche roles, and inform the client about these potential candidates who could complement and enhance the team. 
-This proactive approach not only streamlines the recruitment process but also reinforces transparency and client collaboration.```
+To avoid potential delays, it's advisable to proactively seek individuals with specialized skill sets that may be harder to find within the market.
+Once identified, ensure internal approval for these niche roles, and inform the client about these potential candidates who could complement and enhance the team.
+This proactive approach not only streamlines the recruitment process but also reinforces transparency and client collaboration.
 
-At Xmartlabs, our recruiters are constantly on the lookout for possible candidates for those positions that are harder to fill and that usually take more time. Once a possible match is found, they undergo an interview process that includes instances with the team that's already working for the client and that they will potentially work with, and that culminates with a screening with the client so they can give the go-ahead.
+An effective way to operationalize this approach is by establishing a systematic process. <br />
+For instance, at Xmartlabs, our dedicated recruiters consistently identify potential candidates for specific positions. Upon identifying a prospective match, candidates undergo a thorough interview process, including a technical assessment to evaluate their skillset and a cultural interview aimed at gauging their alignment with Xmartlabs' team culture and ethos.
+
+Once candidates successfully navigate these assessments, they are introduced to the team collaborating with the client—the team they may potentially join. <br />
+If this introduction is well-received and everything aligns positively, the candidate, having already been internally validated, proceeds to a screening call with the client prior to onboarding.<br />
+This step allows the client to give their approval, ensuring a cohesive and well-matched collaboration from the outset.
+
+![Proactive Recruiting Process](/images/adapting-teams-to-enterprise-needs/proactive-recruiting-process.png)
 
 ## Conclusions
 
