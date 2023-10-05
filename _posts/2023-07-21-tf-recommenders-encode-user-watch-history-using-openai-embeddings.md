@@ -9,6 +9,8 @@ tags:
     TensorFlow Recommenders,
     OpenAI embeddings,
     Two Tower retrieval model,
+    LLM,
+    Large Language Model,
   ]
 author_id: mathias
 category: [machine-learning]
