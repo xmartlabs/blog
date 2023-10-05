@@ -9,6 +9,8 @@ tags:
     TensorFlow Recommenders,
     OpenAI embeddings,
     Two Tower retrieval model,
+    LLM,
+    Large Language Model,
   ]
 author_id: mathias
 category: [machine-learning]
@@ -24,7 +26,7 @@ In this digital age of endless possibilities and vast information, **recommendat
 
 Recommendation systems are normally composed of multiple models either by combining their outputs or chaining the models in a pipeline. It is common to have a **retrieval model** that selects a few hundred or thousands of candidates from the complete set and then run a **ranking model** on these candidates to rank them.
 
-In this blog, we will focus on the **retrieval model** part, with special emphasis on encoding the user watch history. For an introduction to recommendation engines and their importance, check out our [blog post](https://blog.xmartlabs.com/blog/recommendations-engines-what-they-do-and-why-they-are-useful/) on the matter.
+In this blog, we will focus on the **retrieval model** part, with special emphasis on encoding the user watch history with the help of LLMs. For an introduction to recommendation engines and their importance, check out our [blog post](https://blog.xmartlabs.com/blog/recommendations-engines-what-they-do-and-why-they-are-useful/) on the matter.
 
 ### Two tower retrieval models
 
@@ -53,7 +55,7 @@ As for the user ID, it is possible to let the model learn an embedding for each 
 
 We **split the dataset by users**, taking a random set of 20k users as our validation dataset. This way, we can measure how well the model generalizes to users that are not in the dataset.
 
-### Leveraging OpenAI API to get movie embeddings
+### Leveraging LLMs to get movie embeddings
 
 Using some of the columns of the movie metadata we can build a descriptive text for each movie like this:
 
