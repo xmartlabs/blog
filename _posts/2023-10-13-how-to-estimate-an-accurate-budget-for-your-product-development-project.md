@@ -2,7 +2,13 @@
 layout: post
 title: "How to Estimate an Accurate Budget for Your Product Development Project"
 date: "2023-10-11T09:00:00.000-03:00"
-tags: []
+tags:
+  [
+    Project Budgeting,
+    Accurate Budget Estimation,
+    Market Research,
+    Competitive Analysis,
+  ]
 author_id: vir-rivedieu
 category: [product-design]
 permalink: /blog/2023-10-13-how-to-estimate-an-accurate-budget-for-your-product-development-project/
