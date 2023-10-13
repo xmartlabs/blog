@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Estimate an Accurate Budget for Your Product Development Project"
-date: "2023-10-11T09:00:00.000-03:00"
+date: "2023-10-13T09:00:00.000-03:00"
 tags:
   [
     Project Budgeting,
